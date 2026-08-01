@@ -29,3 +29,10 @@
 - **Observed:** The stage has nine square acrylic panels installed, a stainless-steel frame and fixed-height support bar, integrated 100-240 V AC 50/60 Hz power, and is powered and detected by Windows through HID game-controller and USB-serial interfaces using the non-unique `VID_2341&PID_8037` identifier.
 - **Inferred:** The visible hardware matches the official Gen4 platform family specification: approximately 35 x 47 x 7 inches and about 200-220 lb. These dimensions and weight were not physically measured on this particular unit.
 - **Unknown:** The installed firmware revision, current sensitivity preset, and whether all four corner panels contain enabled pressure sensors are not exposed by the photos or standard Windows device properties.
+
+## 2026-08-01 GrooveStats configuration
+
+- **Owner-confirmed:** Enable GrooveStats for Kyle and mark Kyle as a pad player, using the existing profile API key.
+- **Observed:** With ITGMania closed, Simply Love was configured with `EnableGrooveStats=true` and Kyle's profile with `IsPadPlayer=1`.
+- **Observed:** Kyle's API key remained present and structurally valid, rollback copies of both edited INI files were created, and masked before/after comparisons showed no unrelated content changes.
+- **Observed:** With Kyle selected in ITGMania, the GrooveStats leaderboard loaded successfully and GrooveStats identified the account's self row. Kyle's API key is structurally valid and does not match the legacy keys stored in the `elemwarr` or `Crios` local profiles.

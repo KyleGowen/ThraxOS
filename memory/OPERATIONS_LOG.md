@@ -36,3 +36,12 @@
 - Used the owner-curated `Misc. Collected` pack as the strongest library signal and explicitly discounted DDR/ITG completeness packs and Eliza's `K-Pop Demon Hunters` pack as evidence of Kyle's taste.
 - Recorded owner-confirmed musical priorities, representative artists, audio/edit quality gates, chart-style preferences, individual difficulty ranges, content policy, and family-aware recommendation ranking in `docs/context/family-music-taste.md`.
 - Replaced duplicated broad taste rules with references to the canonical assessment document. No live songs, charts, profiles, or ITGMania configuration were changed.
+
+## 2026-08-01 — GrooveStats enabled for Kyle
+
+- Confirmed ITGMania was closed and the latest backup log recorded a successful run at 03:02 Pacific; scheduled-task inspection remained unavailable due to access permissions.
+- Created recoverable local copies of Kyle's `GrooveStats.ini` and the active `ThemePrefs.ini` without recording the profile identifier or API key.
+- Used the guarded project helper to set Kyle's `IsPadPlayer=1` and Simply Love's `EnableGrooveStats=true`; no other household profile was modified.
+- Re-read both files, confirmed the existing API key remained structurally valid, and verified through masked comparison that only the two approved fields changed.
+- The owner launched ITGMania, selected Kyle, and supplied a screenshot showing a successfully loaded GrooveStats leaderboard with GrooveStats' self row highlighted. No manufactured score was submitted.
+- Confirmed through secret-safe hashing that Kyle's structurally valid key is distinct from the legacy keys stored in the `elemwarr` and `Crios` local profiles.
