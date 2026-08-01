@@ -1,0 +1,28 @@
+# Credentials and host-local overrides
+.env
+.env.*
+!.env.example
+secrets/
+*.token
+*.key
+config/local.*
+config/*-secret.*
+
+# Download and extraction staging
+downloads/
+staging/
+quarantine/
+*.zip
+*.7z
+*.rar
+
+# Runtime and generated state
+*.log
+.codex-log/
+.tmp/
+tmp/
+out/
+
+# Windows noise
+Thumbs.db
+Desktop.ini

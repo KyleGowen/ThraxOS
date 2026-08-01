@@ -1,0 +1,9 @@
+# Future work
+
+This directory keeps one proposed or deferred feature/change per Markdown file. A proposal is not authorization to implement it. Update its status and evidence when work begins or a decision changes.
+
+- `upgrade-itgmania-1.3.md`
+- `reconcile-duplicate-80s-pack.md`
+- `identify-stepmaniax-stage.md`
+- `calorie-estimation.md`
+- `restrict-groovestats-to-kyle.md`

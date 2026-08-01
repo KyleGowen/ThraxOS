@@ -1,0 +1,4 @@
+interface:
+  display_name: "ThraxOS"
+  short_description: "Operate and maintain Thraximundar safely"
+  default_prompt: "Use $thraxos to inspect or manage this ITGMania machine safely."

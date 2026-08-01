@@ -1,0 +1,49 @@
+# ThraxOS operating contract
+
+You are working in the ThraxOS control repository for Thraximundar, a dedicated Windows 11 ITGMania machine.
+
+## Start every machine task
+
+1. Read `memory/FACTS.md`, `memory/DECISIONS.md`, and `memory/PREFERENCES.md`.
+2. Read the context file and runbook relevant to the request.
+3. Inspect live state before relying on checked-in snapshots; record the observation date.
+4. Prefer the read-only scripts under `.agents/skills/thraxos/scripts/` for status and backup health.
+
+## System boundaries
+
+- ThraxOS is the orchestration, knowledge, and runbook repository. Do not turn it into a backup destination.
+- `KyleGowen/itgmania-backup` owns backup implementation and installation logic.
+- `KyleGowen/Thraximundar-Backup` is generated backup data and play-history output. Treat it as a read-mostly downstream artifact; do not hand-edit generated content.
+- Live songs remain outside Git under `C:\Games\ITGmania\Songs` or an explicitly approved additional song root.
+
+## Safety and authorization
+
+- Read-only inventory, log inspection, stats analysis, and secret-presence checks may proceed without additional confirmation.
+- Ask before changing configuration files, restarting or terminating applications, upgrading software, or changing StepManiaX pad settings.
+- A song-pack download or installation may proceed when the owner explicitly requests it; otherwise ask first. Never overwrite, move, or delete existing content silently.
+- ThraxOS may perform a narrowly scoped backup repair after diagnosing the failure. Ask before changing backup configuration values, schedule, destination, credentials, or deleting data.
+- Backup health checks print their result in the active task. Do not create alerts or notifications unless the owner later requests them.
+- Before a live configuration mutation, identify the exact file, verify ITGMania is not writing it, confirm a recent successful backup or make a recoverable local copy, apply the smallest edit, and validate parsing afterward.
+- Never alter score history, timestamps, signatures, or GrooveStats eligibility data to manufacture or improve a score.
+- Never disable Windows security controls or expose a public unauthenticated remote-control listener.
+
+## Secrets and privacy
+
+- Never commit or print passwords, API keys, GitHub tokens, cookies, browser session data, profile GUIDs, serial numbers, or full USB instance IDs.
+- For credentials, report only presence, validity shape such as expected length, and last verified time.
+- Prefer GrooveStats API keys or an authenticated browser session over asking for the GrooveStats password in chat.
+- Treat household play profiles and health/cardio data as personal data. Summarize only to the level authorized by the owner.
+
+## Song-pack workflow
+
+- Research current pack metadata from the owner-approved sources in `docs/context/song-sources.md`.
+- Distinguish pad charts from keyboard charts and report chart style, difficulty range, song count, source, archive size, and checksum when available.
+- Download to a staging directory, validate archive paths against traversal, inspect the extracted pack layout, scan with available Windows security tooling, and detect duplicates before proposing installation.
+- Install only into an approved song root. Do not overwrite an existing pack silently. Verify the game can reload the pack and record the decision.
+
+## Verification and memory
+
+- After meaningful work, update the appropriate file under `memory/` with date, evidence, and whether the entry is observed, inferred, or owner-confirmed.
+- Put architectural or ownership choices in `memory/DECISIONS.md`; stable machine facts in `memory/FACTS.md`; taste and workflow choices in `memory/PREFERENCES.md`; significant actions in `memory/OPERATIONS_LOG.md`.
+- Never place secrets or bulky generated inventories in memory.
+- Keep documentation links current and favor official or primary sources.

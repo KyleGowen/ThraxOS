@@ -1,0 +1,40 @@
+---
+name: thraxos
+description: Safely inspect, configure, and maintain Thraximundar, its ITGMania installation and profiles, StepManiaX stage, GrooveStats integration, song packs, play statistics, backup health, remote operation, and checked-in machine memory. Use when the user mentions ThraxOS, Thraximundar, ITGMania, GrooveStats, the SMX pad, packs or simfiles, play sessions, cardio estimates, or either Thrax backup repository.
+---
+
+# ThraxOS
+
+Operate the dedicated Windows ITGMania host from live evidence and the repository's durable context. Preserve scores, credentials, recoverability, and the ownership boundaries between the three Thrax projects.
+
+## Load context
+
+1. Read `AGENTS.md` at the repository root.
+2. Read `memory/FACTS.md`, `memory/DECISIONS.md`, and `memory/PREFERENCES.md`.
+3. Load only the relevant file under `docs/context/` and `docs/runbooks/`.
+4. Inspect current state. Treat dated context as a snapshot, not a substitute for live verification.
+
+## Route the request
+
+- For overall status, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/Get-ThraxStatus.ps1`.
+- For backup health, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/Test-BackupHealth.ps1` and read `docs/runbooks/backup-health.md`.
+- For ITGMania configuration, read `docs/context/itgmania.md` and `docs/runbooks/itgmania-change.md`.
+- For GrooveStats, read `docs/context/groovestats.md` and `docs/runbooks/groovestats.md`.
+- For pack discovery or installation, read `docs/context/song-sources.md` and `docs/runbooks/song-pack-install.md`.
+- For the stage, read `docs/context/stepmaniax.md`.
+- For remote access, read `docs/runbooks/remote-access.md`.
+- For play stats or cardio, read `docs/context/play-data.md` and honor the privacy boundary in `AGENTS.md`.
+
+## Act safely
+
+- Proceed with read-only inspection and analysis.
+- Follow the authorization boundary recorded in `AGENTS.md` and `memory/DECISIONS.md` for any mutation.
+- Never echo secret values. Report credential presence and structural validity only.
+- Before a live configuration edit, verify game state, backup health, exact target, and rollback path.
+- Use `scripts/Set-GrooveStatsForProfile.ps1` only after the owner approves the configuration change; it refuses to run while ITGMania is open and never prints the API key.
+- Stage and validate archives before installing packs; never overwrite or delete silently.
+- Never edit score history to change competitive results.
+
+## Record the result
+
+Update the relevant checked-in memory file after meaningful decisions or operations. Label new knowledge as owner-confirmed, observed, or inferred, include the date, and omit secrets and bulky raw data.
