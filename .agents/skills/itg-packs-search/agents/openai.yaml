@@ -1,0 +1,4 @@
+interface:
+  display_name: "ITG Packs Search"
+  short_description: "Search the ITG pack index accurately"
+  default_prompt: "Use $itg-packs-search to find recent pad-friendly ITG packs that match my tastes and difficulty range."

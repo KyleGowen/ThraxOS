@@ -21,6 +21,7 @@ Operate the dedicated Windows ITGMania host from live evidence and the repositor
 - For ITGMania configuration, read `docs/context/itgmania.md` and `docs/runbooks/itgmania-change.md`.
 - For GrooveStats, read `docs/context/groovestats.md` and `docs/runbooks/groovestats.md`.
 - For pack discovery or installation, read `docs/context/song-sources.md` and `docs/runbooks/song-pack-install.md`.
+- For searches of the ITG Packs Release Spreadsheet, also use the project skill `itg-packs-search`.
 - For the stage, read `docs/context/stepmaniax.md`.
 - For remote access, read `docs/runbooks/remote-access.md`.
 - For play stats or cardio, read `docs/context/play-data.md` and honor the privacy boundary in `AGENTS.md`.

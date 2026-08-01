@@ -9,7 +9,7 @@ Owner-confirmed on 2026-07-31.
 5. `C:\Games\ITGmania` is canonical. The user-root `80s Greatest Hits Volume 1` is an unintended duplicate, but nothing should be deleted.
 6. Kyle's existing GrooveStats key is believed to be correct, and enabling the Kyle profile is approved.
 7. Only Kyle may use GrooveStats or appear in remote per-profile summaries.
-8. Favor American pop, Top 100 EDM, 1980s, alternative rock, and soundtracks; exclude dubstep and anime-focused music.
+8. The initial broad music answer was superseded by the 2026-08-01 family assessment in `docs/context/family-music-taste.md`; dubstep and anime-focused music are mild negatives rather than exclusions.
 9. Pack downloads require an explicit request or approval.
 10. The precise stage generation is unknown; use the supplied SMXConfig screenshot and local software evidence without guessing.
 11. Report estimated calories burned. Kyle is a 42-year-old man, 6 ft 5 in, 240 lb, and is willing to connect suitable data sources.

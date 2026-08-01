@@ -28,3 +28,8 @@
 - **Decision:** Configure GrooveStats only for Kyle. Do not remove or rewrite pre-existing keys belonging to other profiles without a separate approved change.
 - **Decision:** Keep health checks output-only: print the result in the task and do not add alerts or notifications.
 - **Decision:** The GitHub repository and the owner-provided non-secret preferences and personal inputs may be public. Secrets and identifiers prohibited by `AGENTS.md` remain excluded.
+
+## 2026-08-01 ITG pack search workflow
+
+- **Decision:** Use the checked-in `itg-packs-search` skill for queries against the ITG Packs Release Spreadsheet.
+- **Rationale:** A stable spreadsheet schema, minimal-call query plans, explicit range semantics, targeted hyperlink enrichment, alias handling, and deterministic installed-pack comparison improve accuracy while reducing repeated discovery work.

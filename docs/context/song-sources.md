@@ -16,9 +16,7 @@ Community guidance recommends the ITG Packs spreadsheet as a primary pack index 
 
 ## Owner-confirmed taste model
 
-Favor American pop, Top 100 EDM, 1980s music, alternative rock, and soundtracks. Exclude dubstep and anime-focused music. Recommendations should be suitable for real-pad play unless the owner says otherwise.
-
-Difficulty range, singles/doubles preference, and desired session intensity should be gathered when material to a recommendation. Clearly distinguish pad-oriented content from keyboard-oriented packs. Download only when explicitly requested or approved.
+Use the canonical family preference and chart model in [family-music-taste.md](family-music-taste.md). Clearly distinguish pad-oriented content from keyboard-oriented packs. Download only when explicitly requested or approved.
 
 ## Required metadata
 
