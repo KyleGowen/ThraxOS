@@ -15,6 +15,8 @@ Observed locally and researched on 2026-07-31; stage generation identified from 
 
 Owner-provided photos identify this as a **Generation 4 StepManiaX stage** with high confidence. The visible 25-LED matrices establish Gen4 or newer, while its Micro-USB/no-barrel-input connector arrangement matches the official Gen4 wiring diagram rather than Gen5's USB-C and external barrel-power input. The stage is labeled/configured as P2 and has all nine square acrylic panels installed. The factory serial label was visible but is intentionally not recorded.
 
+Sanitized copies of the three photographs are retained under [`docs/evidence/stepmaniax-stage`](../evidence/stepmaniax-stage/README.md). Phone metadata was removed, and the factory serial number in the model-label photograph was redacted before publication.
+
 The firmware revision, selected sensitivity, and enabled sensor mask remain unconfirmed. Illuminated corner panels prove lighting is installed but do not by themselves prove that pressure sensors are installed and enabled in those corners. Do not infer firmware or sensor enablement from the shared Arduino vendor/product identifier.
 
 ## Capabilities and maintenance

@@ -22,3 +22,4 @@
 - Compared the 25-LED panel matrices and connector layout with Step Revolution's official Gen4+ manual and identified the platform as Generation 4 with high confidence.
 - Recorded the observed nine-panel physical layout and official family-level dimensions, weight, power, sensor, lighting, and interface specifications, clearly separating measured observations from published specifications.
 - Made no sensitivity, calibration, firmware, lighting, application, or stage configuration changes.
+- Added metadata-free PNG copies of the three owner-provided stage photographs as checked-in evidence. Redacted the unique factory serial number from the label photograph; the original attachments remain outside Git.
