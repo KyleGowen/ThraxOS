@@ -13,5 +13,5 @@
 
 - Recorded the owner-confirmed authorization boundary, public-repository scope, music preferences, Kyle-only privacy policy, cardio inputs, backup-repair policy, and Codex Remote client.
 - Inspected the owner-provided SMXConfig screenshot and local SMXConfig 1.0.0.0 settings; recorded `Connected: P2`, the legacy build identifier, and the remaining hardware-identification unknowns.
-- Installed GitHub CLI 2.97.0. GitHub authentication remains pending and no repository push has occurred yet.
+- Installed GitHub CLI 2.97.0, created the root commit, and published `main` to the public `KyleGowen/ThraxOS` repository using the existing Windows Git credential flow.
 - Prepared a guarded GrooveStats configuration script, but did not run it because ITGMania was open. No live game or pad configuration was changed.
