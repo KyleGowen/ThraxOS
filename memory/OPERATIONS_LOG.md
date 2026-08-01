@@ -15,3 +15,10 @@
 - Inspected the owner-provided SMXConfig screenshot and local SMXConfig 1.0.0.0 settings; recorded `Connected: P2`, the legacy build identifier, and the remaining hardware-identification unknowns.
 - Installed GitHub CLI 2.97.0, created the root commit, and published `main` to the public `KyleGowen/ThraxOS` repository using the existing Windows Git credential flow.
 - Prepared a guarded GrooveStats configuration script, but did not run it because ITGMania was open. No live game or pad configuration was changed.
+
+## 2026-08-01 — StepManiaX stage identified
+
+- Inspected three owner-provided stage photos and the connected Windows USB interfaces without recording the visible factory serial number or full USB instance identifiers.
+- Compared the 25-LED panel matrices and connector layout with Step Revolution's official Gen4+ manual and identified the platform as Generation 4 with high confidence.
+- Recorded the observed nine-panel physical layout and official family-level dimensions, weight, power, sensor, lighting, and interface specifications, clearly separating measured observations from published specifications.
+- Made no sensitivity, calibration, firmware, lighting, application, or stage configuration changes.

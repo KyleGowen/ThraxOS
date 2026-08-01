@@ -1,6 +1,6 @@
 # StepManiaX stage context
 
-Observed locally and researched on 2026-07-31.
+Observed locally and researched on 2026-07-31; stage generation identified from new physical evidence on 2026-08-01.
 
 ## Connected hardware
 
@@ -13,13 +13,15 @@ Observed locally and researched on 2026-07-31.
 - The screen offers High, Medium, and Low panel sensitivity, calls Medium recommended, and shows a 3x3 panel-color layout. It does not visibly identify which sensitivity is active.
 - Local SMXConfig metadata reports application version 1.0.0.0, and its only discovered per-user setting is launch-on-startup enabled.
 
-The exact stage generation, firmware version, panel layout, and physical modifications are not yet confirmed. Do not infer generation solely from the shared Arduino vendor/product identifier.
+Owner-provided photos identify this as a **Generation 4 StepManiaX stage** with high confidence. The visible 25-LED matrices establish Gen4 or newer, while its Micro-USB/no-barrel-input connector arrangement matches the official Gen4 wiring diagram rather than Gen5's USB-C and external barrel-power input. The stage is labeled/configured as P2 and has all nine square acrylic panels installed. The factory serial label was visible but is intentionally not recorded.
+
+The firmware revision, selected sensitivity, and enabled sensor mask remain unconfirmed. Illuminated corner panels prove lighting is installed but do not by themselves prove that pressure sensors are installed and enabled in those corners. Do not infer firmware or sensor enablement from the shared Arduino vendor/product identifier.
 
 ## Capabilities and maintenance
 
 The official SDK supports regular HID input and direct platform access. It can query up to two controllers, read input state and configuration, control lights, and request test data. A platform may expose up to nine panels, with four sensors per panel. The official guidance recommends using SMXConfig for normal configuration.
 
-The current fifth-generation product uses FSR sensors, four per panel, software sensitivity adjustment, configurable lighting, five standard input panels, USB-C, and optional nine-panel expansion. Those specifications describe the current product and are not yet asserted for this particular stage.
+The photographed Gen4 platform uses the Gen4+ architecture documented by Step Revolution: software sensitivity adjustment, configurable lighting, up to nine panels, four sensors per input panel, Micro-USB data, integrated standalone AC power, dimensions of roughly 35 x 47 x 7 inches, and weight around 200-220 lb. Dimensions and weight are official family specifications rather than measurements of this unit. Gen5 differs visibly through USB-C data and an additional external barrel-power input.
 
 References:
 

@@ -22,3 +22,10 @@
 - **Observed:** The StepManiaX Platform app reports `Connected: P2` and identifies itself as `SMXConfig version 2020-04-03-01`. Its Settings view exposes High, Medium, and Low sensitivity choices, a 3x3 panel-color layout, Advanced, and Diagnostics tabs. The screenshot does not reveal the selected sensitivity, hardware generation, or firmware.
 - **Observed:** SMXConfig 1.0.0.0 is installed at `C:\Games\SMXConfig`; its per-user settings enable launch on startup. No generation identifier was found in that user configuration.
 - **Observed:** ITGMania and SMXConfig were running during the 2026-07-31 configuration pass, so no live ITGMania files were changed.
+
+## 2026-08-01 StepManiaX stage identification
+
+- **Observed (high confidence):** The connected platform is a StepManiaX Generation 4 stage configured/labeled as P2. Owner-provided photos show the Gen4+ 25-LED panel matrices and the Generation 4 connector arrangement (Micro-USB data and no Generation 5 external barrel-power input). The factory serial label was visible but is intentionally not recorded.
+- **Observed:** The stage has nine square acrylic panels installed, a stainless-steel frame and fixed-height support bar, integrated 100-240 V AC 50/60 Hz power, and is powered and detected by Windows through HID game-controller and USB-serial interfaces using the non-unique `VID_2341&PID_8037` identifier.
+- **Inferred:** The visible hardware matches the official Gen4 platform family specification: approximately 35 x 47 x 7 inches and about 200-220 lb. These dimensions and weight were not physically measured on this particular unit.
+- **Unknown:** The installed firmware revision, current sensitivity preset, and whether all four corner panels contain enabled pressure sensors are not exposed by the photos or standard Windows device properties.
