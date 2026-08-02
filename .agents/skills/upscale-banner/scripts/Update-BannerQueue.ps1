@@ -9,8 +9,9 @@ param(
     [string]$SongPath,
     [string]$Fingerprint,
     [string]$PreviewPath,
-    [ValidateSet('generation-failed', 'prompt-error', 'preview-rejected')][string]$AttemptOutcome,
-    [string]$AttemptNote
+    [ValidateSet('generation-failed', 'output-handling-error', 'prompt-error', 'preview-rejected')][string]$AttemptOutcome,
+    [string]$AttemptNote,
+    [string]$DecisionNote
 )
 
 $ErrorActionPreference = 'Stop'
@@ -139,6 +140,7 @@ function Get-Assessment([IO.DirectoryInfo]$Song, [string]$PackRoot, [string]$Now
         previewPath = $null
         previewSha256 = $null
         attemptHistory = @()
+        decisionHistory = @()
     }
 }
 
@@ -184,6 +186,7 @@ if ($SetStatus) {
     $record = $matches[0]
     if ($SetStatus -eq 'pending' -and $record.status -ne 'eligible' -and $record.status -ne 'pending') { throw "Cannot mark status '$($record.status)' as pending." }
     if ($SetStatus -in @('installed', 'denied') -and $record.status -ne 'pending') { throw "Only a pending exact fingerprint can be marked $SetStatus." }
+    if ($SetStatus -in @('installed', 'denied') -and [string]::IsNullOrWhiteSpace($DecisionNote)) { throw "Status '$SetStatus' requires a nonblank -DecisionNote that captures the owner's outcome and any reasoning provided." }
     if ($PreviewPath) {
         $resolvedPreview = (Resolve-Path -LiteralPath $PreviewPath).Path
         $record.previewPath = $resolvedPreview
@@ -199,6 +202,18 @@ if ($SetStatus) {
     }
     $record.pendingAction = if ($SetStatus -eq 'pending' -and $record.previewSha256) { 'awaiting-install-decision' } elseif ($SetStatus -eq 'pending') { 'generate-preview' } else { $null }
     if ($SetStatus -eq 'eligible') { $record.previewPath = $null; $record.previewSha256 = $null }
+    if ($SetStatus -in @('installed', 'denied')) {
+        $decisions = @($record.decisionHistory | Where-Object { $_ })
+        $decisions += [pscustomobject][ordered]@{
+            recordedAt = $record.processedAt
+            outcome = $SetStatus
+            note = $DecisionNote.Trim()
+            previewPath = $record.previewPath
+            previewSha256 = $record.previewSha256
+        }
+        if ($record.PSObject.Properties.Name -contains 'decisionHistory') { $record.decisionHistory = $decisions }
+        else { $record | Add-Member -NotePropertyName decisionHistory -NotePropertyValue $decisions }
+    }
     $existing.generatedAt = (Get-Date).ToUniversalTime().ToString('o')
     Write-QueueDocument $existing $queueFile
 }

@@ -178,3 +178,35 @@
 - Added an atomic return-to-queue transition that records timestamped attempt outcome and notes, preserves any discarded preview identity, clears active preview and processing fields, and restores eligibility with a null `processedAt`.
 - Updated the reusable banner skill to require future runs to read and honor attempt history before prompting. No live song, banner, simfile, audio, chart, score, profile, configuration, or process state was changed.
 - Extended selection to round-robin ordering using durable `lastAttemptedAt`: never-attempted candidates are exhausted first, then returned candidates rotate from least recently attempted. Ordinary declines rotate; only explicit permanent opt-outs become terminal denials.
+
+## 2026-08-02 - A Little Respect banner preview staged
+
+- **Observed:** Refreshed all 206 live `Misc. Collected` song directories and used the queue helper's round-robin selection, which chose the never-attempted `A Little Respect` fingerprint. ITGMania was closed during the observation.
+- The simfile references missing `banner.png`; the queue's decodable source fallback is the existing 512 x 160 `A Little Respect.png`. A single GPT Image 2 high-fidelity attempt preserved the visible `erasure` and `a little respect` text and original composition.
+- Staged and validated an 836 x 328 PNG outside the live song folder, then bound its SHA-256 `5E5BE36185314B3C9274E6FE6E4D9B88167271AEB30192B97666D1CA1359CDDB` to the exact pending fingerprint for owner review. No live song, banner, simfile, audio, chart, score, profile, configuration, or process state was changed.
+
+## 2026-08-02 - Round-robin banner automation test run
+
+- **Observed:** A live refresh selected `A Different Point of View`, confirming the returned `80s Fitness` fingerprint did not repeat. ITGMania was closed during the test.
+- The simfile's referenced `PoV.png` was missing; the queue-resolved 256 x 80 fallback `A Different Point of View.png` decoded and was used as the sole visual source. The visible title was verified as `A Different Point of View`; the simfile artist is Pet Shop Boys but is not printed on the source banner.
+- Both permitted GPT Image 2 high-fidelity restoration attempts returned no usable image payload. The helper atomically recorded the failure context, restored the fingerprint to eligible with null `processedAt`, retained `lastAttemptedAt`, and advanced the next selection to `About Damn Time (Purple Disco Machine Remix)`.
+- The active hourly automation began independently at 01:00 Pacific and reserved `A Little Respect`; that separate pending fingerprint was left untouched. No live song, banner, simfile, audio, chart, score, profile, configuration, or process state was changed.
+
+## 2026-08-02 - Banner result handling and comparison contract corrected
+
+- **Observed:** The two test runs classified blank rendered responses as incomplete image payloads because their wrappers inspected generic content blocks instead of forwarding the built-in image-generation result with the generated-image result handler. The underlying model outcome is therefore unknown; those observations do not establish repeated GPT Image 2 generation failure.
+- **Owner-confirmed:** Always show the source `Before`, including failure responses, and show every viable generated choice as a clearly labeled After option before asking for selection or installation.
+- Updated the skill, UI prompt, scheduled-task guide, and result-handling policy. Recoverable forwarding or staging errors no longer consume a generative attempt. No live song, banner, simfile, audio, chart, score, profile, configuration, or process state was changed.
+
+## 2026-08-02 - Banner post-run learning loop added
+
+- **Owner-confirmed:** After every banner run and install or denial response, inspect the conversation for useful lessons from successes, failures, selections, and stated rejection reasoning, and improve the reusable workflow when justified.
+- Added required outcome notes for terminal queue decisions, exact-fingerprint decision history, evidence-tiered retrospective rules, documentation synchronization, and validation requirements. A single aesthetic rejection remains banner-specific unless the owner generalizes it or repeated outcomes support a stable preference.
+- The learning loop may update checked-in skill guidance and memory but never live songs, exact-preview approval, application state, scores, profiles, or safety boundaries. No live ITGMania state was changed.
+
+## 2026-08-02 - A Little Respect banner installed
+
+- **Owner-confirmed:** Approved the exact staged `After` preview with SHA-256 `5E5BE36185314B3C9274E6FE6E4D9B88167271AEB30192B97666D1CA1359CDDB` for installation.
+- **Observed:** Backup evidence was degraded only because scheduled-task inspection was access-denied; the latest log recorded a successful commit and push at 03:02 Pacific on 2026-08-01.
+- Created the previously missing referenced `banner.png` as an 836 x 328 PNG and verified decoding, dimensions, the unchanged `#BANNER:banner.png;` reference, and unchanged simfile hash. The installed PNG SHA-256 is `8F52FEDB3D5560E08681B793DD802801D4177D106E732D037321F7A397D39BAF` after guarded PNG normalization.
+- Preserved the 512 x 160 fallback `A Little Respect.png` untouched and saved its exact bytes as `banner.png.pre-upscale-20260802-011310.bak`. Marked the approved queue fingerprint `installed`. ITGMania remained closed and was not restarted; no audio, charts, scores, profiles, or configuration were changed.

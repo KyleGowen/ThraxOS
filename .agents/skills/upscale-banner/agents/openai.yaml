@@ -1,4 +1,4 @@
 interface:
   display_name: "Upscale ITGMania Banner"
   short_description: "Restore and safely install song banners"
-  default_prompt: "Use $upscale-banner to resolve this song banner, show labeled Before and After images, and ask before installing the exact preview."
+  default_prompt: "Use $upscale-banner to resolve this song banner, render Before and every After option, require exact-preview approval, and learn safely from the run and the owner's reasoning."

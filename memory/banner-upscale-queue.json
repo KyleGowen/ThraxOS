@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-02T07:57:47.3154468Z",
+    "generatedAt":  "2026-08-02T08:13:28.4493847Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -32,7 +32,7 @@
                                              {
                                                  "recordedAt":  "2026-08-02T07:57:47.1730799Z",
                                                  "outcome":  "prompt-error",
-                                                 "note":  "Two permitted GPT Image 2 attempts returned no usable image payload. The prompt misidentified the artist as KENN YOUNG; the exact visible artist text is KOAN SOUND. Preserve 80\u0027S FITNESS and KOAN SOUND verbatim on a future attempt.",
+                                                 "note":  "The result wrapper failed to forward built-in image-generation results correctly, so the model outcome is unknown and no attempt should be inferred from the blank rendering. The prompt also misidentified the artist as KENN YOUNG; the exact visible artist text is KOAN SOUND. Preserve 80\u0027S FITNESS and KOAN SOUND verbatim on a future attempt.",
                                                  "priorProcessedAt":  "2026-08-02T07:48:44.4737021Z",
                                                  "discardedPreviewPath":  null,
                                                  "discardedPreviewSha256":  null
@@ -62,7 +62,18 @@
                       "processedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-02T08:03:22.3196226Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-02T08:03:22.3196226Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The result wrapper failed to forward built-in image-generation results correctly, so the model outcome is unknown and the blank rendering does not establish generation failure. Source fallback text was verified as A Different Point of View; simfile artist is Pet Shop Boys but is not visible and must not be added.",
+                                                 "priorProcessedAt":  "2026-08-02T08:01:07.8868918Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "A Little Respect",
@@ -83,11 +94,21 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "installed",
+                      "processedAt":  "2026-08-02T08:13:28.4358510Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D5AF3D37DD41552A6D891368022C8827CCEFACC26FCE3B3CDF53CFD4759B314A\\A Little Respect-after-836x328.png",
+                      "previewSha256":  "5E5BE36185314B3C9274E6FE6E4D9B88167271AEB30192B97666D1CA1359CDDB",
+                      "lastAttemptedAt":  "2026-08-02T08:05:52.4875177Z",
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-02T08:13:28.4358510Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the exact After preview by saying install it; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D5AF3D37DD41552A6D891368022C8827CCEFACC26FCE3B3CDF53CFD4759B314A\\A Little Respect-after-836x328.png",
+                                                  "previewSha256":  "5E5BE36185314B3C9274E6FE6E4D9B88167271AEB30192B97666D1CA1359CDDB"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "About Damn Time (Purple Disco Machine Remix)",

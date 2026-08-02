@@ -49,6 +49,9 @@
 - **Decision:** Use the project-local `upscale-banner` skill for ITGMania song-banner restoration. Generate and show a faithful staged preview first; require explicit approval of that exact preview before changing the live banner.
 - **Decision:** Use 836 x 328 PNG as the current host convention, prefer GPT Image 2 high-fidelity editing for semantic restoration, and use deterministic super-resolution when exact content preservation is required.
 - **Decision:** Every `upscale-banner` preview must show the current source and generated candidate as clearly labeled `Before` and `After` images before requesting installation approval.
+- **Decision:** Always render `Before`, including failure-only responses. Render every viable generated option as `After` or lettered After choices before requesting selection or installation approval.
+- **Decision:** Treat image generation and result forwarding as separate phases. Use the built-in tool's generated-image result handler; do not count a recoverable result-forwarding or staging error as a failed generative attempt.
+- **Decision:** End every banner run and install/deny follow-up with an evidence-based retrospective. Preserve exact-fingerprint reasoning in the queue, promote only stable owner-wide preferences or reusable workflow lessons, and validate every resulting skill edit. Never invent feedback or weaken safety boundaries in the name of self-improvement.
 - **Decision:** Attempt GPT Image 2 high-fidelity restoration at most twice. Offer deterministic exact-content upscaling only after both attempts fail, and require explicit approval before switching unless the owner already approved that fallback.
 - **Rationale:** This captures the successful Simply Love banner dimensions while separating creative generation from a minimal, reversible, validated live installation.
 
