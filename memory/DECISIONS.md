@@ -44,6 +44,13 @@
 - **Decision:** Use the checked-in `research-itg-community` skill for investigations across Reddit, forums, personal sites, public archives, GitHub discussions, and other unstructured rhythm-game sources.
 - **Rationale:** Layered discovery, original-source tracing, claim-level evidence grading, counterevidence searches, version and hardware applicability checks, and explicit uncertainty reporting improve obscure-source research without treating anecdotes as confirmed machine facts.
 
+## 2026-08-02 banner restoration workflow
+
+- **Decision:** Use the project-local `upscale-banner` skill for ITGMania song-banner restoration. Generate and show a faithful staged preview first; require explicit approval of that exact preview before changing the live banner.
+- **Decision:** Use 836 x 328 PNG as the current host convention, prefer GPT Image 2 high-fidelity editing for semantic restoration, and use deterministic super-resolution when exact content preservation is required.
+- **Decision:** Every `upscale-banner` preview must show the current source and generated candidate as clearly labeled `Before` and `After` images before requesting installation approval.
+- **Rationale:** This captures the successful Simply Love banner dimensions while separating creative generation from a minimal, reversible, validated live installation.
+
 ## 2026-08-01 community pack-source expansion
 
 - **Owner-confirmed:** Add r/StepMania, the ZIV Simulation Forums, GrooveStats event pages, International Timing Collective downloads, the ITG Wiki pack list, the StepMania Song Packs forum, and AlienSix's gameplay playlists to ThraxOS as approved pack and individual-song discovery or screening sources.

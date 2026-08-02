@@ -10,6 +10,17 @@ Let a friend or family member scan a QR code on Thraximundar and use a temporary
 
 The desired experience is appliance-like: walk up, scan, choose, and dance. This proposal is distinct from Codex Remote, which remains the authenticated owner administration channel.
 
+## Saved interface concepts
+
+The owner wants to retain all four preliminary single-player interface directions for later evaluation. The interactive phone-and-tablet mockups are saved in [`phone-controller-interface-mockups.html`](phone-controller-interface-mockups.html):
+
+1. **Arcade Deck:** album-forward selection with direct difficulty and Start controls.
+2. **Jukebox:** search-first browsing, recommendations, packs, and a lightweight queue.
+3. **Smart Remote:** minimal directional controls that keep the television as the primary interface.
+4. **Family First:** guided energy and music choices that hide chart jargon from new guests.
+
+Each concept includes a transient phone layout and a persistent small-tablet layout. Both assume one player and one pad; no two-player arbitration or player-side selector is required for Thraximundar.
+
 ## Community history and lineage
 
 This idea combines several older community patterns rather than beginning with the 2026 prototype:

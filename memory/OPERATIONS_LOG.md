@@ -94,3 +94,57 @@
 - Added owner-approved community discovery and screening sources to `docs/context/song-sources.md`, with explicit roles and cautions for keyboard-first catalogs, mixed chart styles, engine-specific content, previews, reuploads, and direct file-host links.
 - Updated the `research-itg-community` skill to distinguish catalog metadata, announcements, reputation evidence, gameplay previews, publisher provenance, and archive validation in future pack research.
 - Downloaded or installed no packs and changed no live ITGMania, GrooveStats, StepManiaX, profile, backup, or Windows state.
+
+## 2026-08-01 - The Starter Pack of Stamina 2 already installed
+
+- For the owner-authorized request to add `The Starter Pack of Stamina 2`, inspected the live canonical song root, current ITGMania process state, and backup health before taking any installation action.
+- Found the exact pack already installed beside `The Starter Pack of Stamina`; both packs' `Pack.ini` files assign `Series=The Starter Pack of Stamina`. The sequel has 100 song directories, 111 simfiles, and 100 audio files.
+- The live ITG Packs Release Spreadsheet INDEX identifies the sequel as a Stream pack and links its publisher-provided MEGA source. The prior archive was not staged locally, so no trustworthy historic archive checksum or scan result could be recovered.
+- Did not download, extract, install, overwrite, delete, restart, or reload anything. The guarded installer would refuse the existing exact destination, preserving the already-installed library content.
+
+## 2026-08-01 - Seven selected packs installed and grouped
+
+- Verified ITGMania was closed and the 2026-08-01 03:02 backup-log success before mutation; scheduled-task inspection remained access-denied. ITGMania was not launched, stopped, restarted, or reloaded.
+- Downloaded Albumix from its Zenius-I-vanisher category, Rebirth 2 and Cosmic Incarnate from the current ITGDb-linked StepMania Online records, Easy As Pie 6 from its current ITGDb-linked StepMania Online record, and all three dimocracy archives from the publisher's `omid.gg` download routes.
+- Recorded the seven downloaded sizes and SHA-256 fingerprints in `memory/FACTS.md`; rejected unsafe paths and executable/script payloads and completed Defender archive and extracted-tree scans with no threats.
+- Normalized Albumix's flat 20-song layout under `Albumix 3.V` and moved dimocracy 2021's harmless root credits text inside its pack folder. File-by-file SHA-256 manifests proved zero content differences across 47 Albumix files and 302 dimocracy 2021 files. A short staging path allowed the unmodified dimocracy 3 ZIP to pass the legacy Windows extraction-path limit.
+- Reviewed 29 live song-folder name collisions by artist metadata and audio SHA-256. Twenty-seven used different audio; Albumix `Hypnodancer` and dimocracy 3 `Worst Plan` shared audio with existing packs but had different simfile hashes. Used the reviewed-collision override only for those six affected packs; `dimocracy` needed no override. No existing pack or song was overwritten.
+- Installed all seven packs into `C:\Games\ITGmania\Songs` and verified song/simfile/audio counts of 20/20/20, 78/78/78, 24/24/24, 35/47/35, 55/64/55, 59/90/59, and 23/23/23, with zero malformed song directories.
+- Preserved the existing Rebirth and Cosmic lineage conventions, assigned all three new dimocracy packs to `Series=dimocracy`, and blanked Easy As Pie 6's singleton `Series` value. Re-read every affected `Pack.ini` and confirmed the requested lineages without altering songs, charts, scores, or profiles.
+- After final verification, deleted this task's downloaded archives, normalized copies, temporary short-path copy, and temporary Easy rollback copy: 3,094,143,232 staged bytes total. Both task-specific staging paths were confirmed absent.
+
+## 2026-08-01 - Final Fantasy IV Boss Theme banner repaired
+
+- **Owner-confirmed:** Replace the blurry banner for `Misc. Collected/Boss theme - Final Fantasy IV` with sharp artwork using the working `Boom Shakalaka` banner convention as the resolution reference.
+- **Observed:** The simfile references `FF4- Boss theme.png`; the original decoded successfully but was only 255 x 80, while the reference banner is an 836 x 328 PNG. ITGMania remained running throughout and was not restarted or terminated.
+- **Observed:** Backup health inspection at 23:39 Pacific found the scheduled task actively running and the most recent completed success at 03:02. Before the artwork-only replacement, preserved the original beside the song as `FF4- Boss theme.png.pre-crisp-20260801-2345.bak`.
+- Replaced only the referenced banner with a crisp 836 x 328 PNG built from the song's existing Final Fantasy IV pixel artwork and newly rendered title/artist typography. Post-write validation confirmed PNG decoding, 32-bit color, exact dimensions, and the unchanged `#BANNER:FF4- Boss theme.png;` reference. No simfiles, audio, charts, scores, profiles, configuration, or process state were changed.
+
+## 2026-08-01 - Final Fantasy IV banner replacement reverted
+
+- **Owner-confirmed:** The newly rendered Final Fantasy IV banner was not acceptable and should be undone.
+- **Observed:** Restored the original 255 x 80 PNG from `FF4- Boss theme.png.pre-crisp-20260801-2345.bak` and verified that the restored image decodes at its original dimensions.
+- Preserved the rejected 836 x 328 replacement as `FF4- Boss theme.png.rejected-crisp-20260801-2359.bak` rather than deleting it. No simfiles, audio, charts, scores, profiles, configuration, or process state were changed.
+
+## 2026-08-01 - Owner-approved regenerated Final Fantasy IV banner installed
+
+- **Owner-confirmed:** After reviewing the generated preview in chat, approved that exact regenerated banner for installation.
+- **Observed:** Resized the approved preview to the established 836 x 328 banner dimensions and installed it as the existing `FF4- Boss theme.png` target. Verified PNG decoding, exact dimensions, and the unchanged `#BANNER:FF4- Boss theme.png;` simfile reference.
+- Preserved the previously restored 255 x 80 original as `FF4- Boss theme.png.pre-approved-preview-20260801-2359.bak`. ITGMania was not restarted or terminated, and no simfiles, audio, charts, scores, profiles, or configuration were changed.
+
+## 2026-08-02 - Banner restoration skill added
+
+- **Owner-confirmed:** Add a reusable `upscale-banner` workflow that resolves the banner from a simfile, preserves the image content, presents an inline preview, and never installs before explicit approval.
+- **Observed:** ITGMania was running during skill development; no live song, banner, process, configuration, score, or profile state was changed.
+- Added deterministic inspection and approved-install helpers. The install path creates a timestamped sibling backup, normalizes the approved preview to 836 x 328 PNG, validates decoding and the unchanged `#BANNER` reference, and does not restart ITGMania.
+
+## 2026-08-02 - Children Dream Version banner restored
+
+- **Owner-confirmed:** Approved the exact GPT Image 2 high-fidelity preview shown in chat for `Misc. Collected/Children (Dream ver.)` by Robert Miles.
+- **Observed:** The simfile referenced `Children (Dream ver.)-bn.png`, which was missing, while ITGMania had displayed the existing 256 x 80 `Children (Dream ver.).png` fallback. Backup health was successful at 00:13 Pacific with scheduled-task result `0x0`.
+- Created the previously missing referenced banner as an 836 x 328 PNG and verified its decoding, dimensions, SHA-256, and unchanged `#BANNER` value. Preserved the original fallback file untouched. ITGMania was not restarted or terminated, and no simfiles, audio, charts, scores, profiles, or configuration were changed.
+
+## 2026-08-02 - Upscale Banner comparison preview added
+
+- **Owner-confirmed:** Require the `upscale-banner` skill to display the current banner and generated candidate together as labeled `Before` and `After` images.
+- Updated the preview contract and skill UI prompt without changing the approval-gated installation, backup, validation, or no-restart safeguards. No live ITGMania or song files were changed.

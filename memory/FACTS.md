@@ -56,3 +56,18 @@
 - **Observed:** `C:\Games\ITGmania\Songs\Flow Actualized 2` contains 22 song directories, 22 simfiles, and 22 audio files. Its 94.66 MiB archive had SHA-256 `3B1F9D94D65122F6C5613CF01F7C9436FCEFA2E7BF62BC9F91EEB060F77B8BFD`.
 - **Observed:** `C:\Games\ITGmania\Songs\Notice Me Benpai 3` contains 32 song directories, 64 simfiles, and 32 audio files. Its 203.60 MiB archive had SHA-256 `BDD063CD730B2A57B51808CB74FB908F1ABE7CB7F5145C2F7F9D648B975DFF5D`.
 - **Observed:** Defender found no threats in either archive or extracted pack. Reviewed title-only collisions were distinct songs by different artists; no existing pack or song content was overwritten. Both downloaded ZIPs were deleted.
+
+## 2026-08-01 The Starter Pack of Stamina 2 presence check
+
+- **Owner-confirmed:** Add `The Starter Pack of Stamina 2` alongside the existing `The Starter Pack of Stamina` series.
+- **Observed:** Before any download, the requested pack was already present at `C:\Games\ITGmania\Songs\The Starter Pack of Stamina 2`, alongside its predecessor in the canonical song root. Its `Pack.ini` assigns `Series=The Starter Pack of Stamina`, matching the predecessor's series assignment.
+- **Observed:** The existing sequel contains 100 song directories, 111 simfiles, and 100 audio files. ITGMania was closed and backup health was successful at the time of inspection. No archive was downloaded, no live content was modified, and no checksum or historical archive-scan result was reconstructed.
+
+## 2026-08-01 seven selected pack installations
+
+- **Owner-confirmed:** Install `Albumix 3.V`, `In The Groove Rebirth 2`, `Easy As Pie 6`, `dimocracy`, `dimocracy 2021 - second term`, `dimocracy 3 - raucous caucus`, and `Cosmic Incarnate` in the canonical song root.
+- **Observed:** The installed song/simfile/audio counts are respectively 20/20/20, 78/78/78, 24/24/24, 35/47/35, 55/64/55, 59/90/59, and 23/23/23. Every installed pack has zero malformed song directories.
+- **Observed:** Downloaded archive sizes and SHA-256 values were: Albumix 115,320,711 bytes / `8ADC2EB5A07F57EFF1F7152CAADC7B0198AD829E054141543F6FAB36FC410C2D`; Rebirth 2 307,096,996 / `62BEB8D07FCCCE511F2351AC06F4EA4F540365D9B6B5CAB61367F0A3C91E7822`; Easy As Pie 6 103,297,840 / `7EE2F95A0A0BB2C60158F14715E0FBFEBA23E24A9BD977BF17038527469F7931`; dimocracy 333,536,354 / `72F4BC881DE6D884CC476FA925656249020A1D3CE5473B174344A7ED60C17E30`; dimocracy 2021 443,311,932 / `8D48B13DD58614C50126B5F51E564CB473527A854455FA7B0765512AA874226E`; dimocracy 3 565,866,360 / `2AC0965D47DE9270FD7B017FE1EDE61DEDD20A310D2DFAB7F2C803D9A1C6067B`; Cosmic Incarnate 102,158,834 / `9CD650320F793C3E12A9BFF13936012C8B35ADAFCA2EEF65E90264F497700ECC`.
+- **Observed:** Albumix's flat source ZIP and dimocracy 2021's root credits file were normalized without changing any file contents; installed normalized ZIP hashes were `B06CB9B266DA89EBC7C050189998429B06B41AF137B6DFB97628FCEA8E5E83A5` and `3F6E6B01270A81FA24D7639BE1983DA89D7EF7AA86697DDF3CF7051025BA8A15`.
+- **Observed:** All original and normalized archives had zero unsafe paths or executable/script payloads, and Defender found no threats in the archives or extracted pack trees. Twenty-nine song-folder name collisions were reviewed; none would overwrite live content. Two shared identical audio assets but had different simfiles, while all other reviewed audio hashes differed.
+- **Observed:** `In The Groove Rebirth` and `In The Groove Rebirth 2` use `Series=In The Groove`; the three dimocracy packs use `Series=dimocracy`; and Cosmic Evolution, Reincarnate, and Incarnate use `Series=Cosmic`. `Easy As Pie 6` was left ungrouped because no other Easy As Pie pack is installed, and Albumix remains ungrouped.

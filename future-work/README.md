@@ -8,6 +8,7 @@ This directory keeps one proposed or deferred feature/change per Markdown file. 
 - `restrict-groovestats-to-kyle.md`
 - `song-library-integrity-report.md`
 - `phone-controller-guest-kiosk.md`
+- `phone-controller-interface-mockups.html`
 - `stepmaniax-panel-diagnostic-recorder.md`
 - `household-attract-dashboard.md`
 - `guided-guest-onboarding.md`
