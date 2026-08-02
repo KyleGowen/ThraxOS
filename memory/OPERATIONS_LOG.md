@@ -45,3 +45,12 @@
 - Re-read both files, confirmed the existing API key remained structurally valid, and verified through masked comparison that only the two approved fields changed.
 - The owner launched ITGMania, selected Kyle, and supplied a screenshot showing a successfully loaded GrooveStats leaderboard with GrooveStats' self row highlighted. No manufactured score was submitted.
 - Confirmed through secret-safe hashing that Kyle's structurally valid key is distinct from the legacy keys stored in the `elemwarr` and `Crios` local profiles.
+
+## 2026-08-01 — Stamina RPG 10 installed
+
+- Read the official SRPG10 rules, downloads, quest, progression, faction, and shop information through Kyle's authenticated browser session without printing or storing credentials.
+- Downloaded the official Unaffiliated and Stamina Nation archives, recorded local SHA-256 fingerprints, rejected unsafe paths and executables, scanned both with Windows Defender, and found no live song-name collisions.
+- Verified a recent successful backup and created a recoverable local rollback set for the pre-upgrade program binaries, Simply Love theme, and roaming Save data.
+- Upgraded the canonical installation from ITGMania 1.0.2 to 1.3.0 and replaced Simply Love 5.6.1 with 5.9.0 using verified official release assets.
+- Installed 97 Unaffiliated charts and 13 Stamina Nation marathons under the canonical song root without overwriting existing packs or songs.
+- Confirmed Kyle's GrooveStats configuration and tournament-compatible timing, life, judgment-window, and fail-mode preferences survived the upgrade. ITGMania was left closed pending owner-led live verification.

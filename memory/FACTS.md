@@ -36,3 +36,10 @@
 - **Observed:** With ITGMania closed, Simply Love was configured with `EnableGrooveStats=true` and Kyle's profile with `IsPadPlayer=1`.
 - **Observed:** Kyle's API key remained present and structurally valid, rollback copies of both edited INI files were created, and masked before/after comparisons showed no unrelated content changes.
 - **Observed:** With Kyle selected in ITGMania, the GrooveStats leaderboard loaded successfully and GrooveStats identified the account's self row. Kyle's API key is structurally valid and does not match the legacy keys stored in the `elemwarr` or `Crios` local profiles.
+
+## 2026-08-01 Stamina RPG 10 installation
+
+- **Owner-confirmed:** Upgrade ITGMania to 1.3.0 and Simply Love to 5.9.0, use Kyle's existing GrooveStats login for SRPG10, and install the Unaffiliated and Stamina Nation downloads.
+- **Observed:** ITGMania 1.3.0 and Simply Love 5.9.0 are installed. Kyle's GrooveStats key remains present with a valid shape, `IsPadPlayer=1`, and `EnableGrooveStats=true`.
+- **Observed:** `C:\Games\ITGmania\Songs\Stamina RPG 10` contains 97 songs/simfiles and `Stamina RPG 10 - SN` contains 13 songs/simfiles. The official archives had no unsafe paths, executable payloads, Defender detections, or live song-name collisions.
+- **Observed:** Tournament-compatible defaults remain present: dance mode, timing and life scales of 1.0 (Judge/Life 4), Decent and Way-Off windows, and `FailImmediateContinue`.
