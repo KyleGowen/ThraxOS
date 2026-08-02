@@ -83,3 +83,8 @@
 - **Decision:** Treat these as researched proposals, not implementation authorization. Preserve the existing approval boundaries for live configuration, restarts, pad settings, profiles, downloads, and destructive cleanup.
 - **Decision:** Keep the phone kiosk separate from Codex Remote and restrict any prototype to a private LAN, short-lived capability sessions, and allowlisted game actions. Do not expose public or arbitrary remote control.
 - **Rationale:** The selected proposals address observed household usability, library integrity, and Gen4 maintenance needs while fitting ThraxOS's control-plane role.
+
+## 2026-08-02 repository publication workflow
+
+- **Decision:** Use the project-local `ship-all` skill when the owner requests "commit and push everything" or equivalent publication of the complete intended worktree to `origin/main`.
+- **Rationale:** Whole-worktree review, privacy exclusions, proportional validation, explicit staging, non-destructive branch handling, and ordinary non-force pushes preserve compatible work while preventing secret leakage or history loss.

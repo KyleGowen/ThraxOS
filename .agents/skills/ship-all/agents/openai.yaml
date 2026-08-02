@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ship All"
+  short_description: "Safely commit and push all intended work"
+  default_prompt: "Use $ship-all to safely review, commit, and push all intended repository changes to main."

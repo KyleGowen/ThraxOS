@@ -9,6 +9,7 @@ Canonical migration index for every project-local skill under `.agents/skills/`.
 | `itg-packs-search` | Search the live ITG Packs spreadsheet and compare local overlap | [ITG Packs Search](itg-packs-search.md) |
 | `research-itg-community` | Evidence-graded rhythm-game community research | [ITG Community Research](research-itg-community.md) |
 | `upscale-banner` | Stage, approve, and safely install restored song banners | [Upscale Banner](upscale-banner.md) |
+| `ship-all` | Review, commit, and push all safe intended work to `origin/main` | [Ship All](ship-all.md) |
 
 ## Migration order
 
