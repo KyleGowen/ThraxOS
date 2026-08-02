@@ -210,3 +210,11 @@
 - **Observed:** Backup evidence was degraded only because scheduled-task inspection was access-denied; the latest log recorded a successful commit and push at 03:02 Pacific on 2026-08-01.
 - Created the previously missing referenced `banner.png` as an 836 x 328 PNG and verified decoding, dimensions, the unchanged `#BANNER:banner.png;` reference, and unchanged simfile hash. The installed PNG SHA-256 is `8F52FEDB3D5560E08681B793DD802801D4177D106E732D037321F7A397D39BAF` after guarded PNG normalization.
 - Preserved the 512 x 160 fallback `A Little Respect.png` untouched and saved its exact bytes as `banner.png.pre-upscale-20260802-011310.bak`. Marked the approved queue fingerprint `installed`. ITGMania remained closed and was not restarted; no audio, charts, scores, profiles, or configuration were changed.
+
+## 2026-08-02 - A Different Point of View banner installed
+
+- **Owner-confirmed:** Approved the exact attached `A Different Point of View` preview with SHA-256 `F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C` for installation; no additional aesthetic reasoning was provided.
+- **Observed:** The supplied preview decoded at 2001 x 786. ITGMania was closed. Backup health was degraded only because scheduled-task inspection was access-denied; the latest log recorded a successful backup at 03:02 Pacific on 2026-08-01.
+- Added and synthetically validated guarded support for a missing referenced banner target with an explicit contained fallback. The installer created `PoV.png` at 836 x 328, preserved the exact 256 x 80 fallback bytes as `PoV.png.pre-upscale-20260802-012230.bak`, and left the fallback and simfile unchanged.
+- **Observed:** The installed PNG SHA-256 is `D5F379CD6CA46CCBEEC662DEFDBEA673649615009890F8AFAB0C94FE506A0BC6`; `#BANNER:PoV.png;` is unchanged, the exact preview decision is recorded in the queue, and the fingerprint is `installed`. ITGMania was not restarted; no audio, charts, scores, profiles, or configuration were changed.
+- **Retrospective:** The reusable lesson was missing-target rollback semantics, so the skill and migration guide now require an explicit contained fallback backup and removal of a newly created target on failure. The approval supplied no broader aesthetic preference to promote.

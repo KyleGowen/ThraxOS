@@ -7,7 +7,7 @@ Resolves a simfile banner, stages faithful 836 x 328 preview options, always ren
 ## Components
 
 - `scripts/Inspect-Banner.ps1`: resolves and contains `#BANNER` within the song directory.
-- `scripts/Install-ApprovedBanner.ps1`: backs up and installs the approved preview.
+- `scripts/Install-ApprovedBanner.ps1`: backs up and installs the approved preview; a missing referenced target requires an explicit contained fallback original.
 - `scripts/Update-BannerQueue.ps1`: maintains the fingerprinted queue, atomic status transitions, attempt history, and round-robin selection.
 - `references/banner-conventions.md`; image editing capability; `memory/banner-upscale-queue.json` for scheduled state.
 

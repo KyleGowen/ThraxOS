@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-02T08:13:28.4493847Z",
+    "generatedAt":  "2026-08-02T08:22:31.9940546Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -58,12 +58,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "installed",
+                      "processedAt":  "2026-08-02T08:22:31.9295407Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
-                      "lastAttemptedAt":  "2026-08-02T08:03:22.3196226Z",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-previews\\a-different-point-of-view\\approved-F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C.png",
+                      "previewSha256":  "F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C",
+                      "lastAttemptedAt":  "2026-08-02T08:21:28.5871716Z",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-02T08:03:22.3196226Z",
@@ -73,7 +73,16 @@
                                                  "discardedPreviewPath":  null,
                                                  "discardedPreviewSha256":  null
                                              }
-                                         ]
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-02T08:22:31.9295407Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved the exact attached preview for installation and provided no additional aesthetic reasoning.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-previews\\a-different-point-of-view\\approved-F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C.png",
+                                                  "previewSha256":  "F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "A Little Respect",

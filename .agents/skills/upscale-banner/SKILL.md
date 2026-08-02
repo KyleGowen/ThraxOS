@@ -50,7 +50,7 @@ Follow the ThraxOS operating contract and load the `thraxos` skill before inspec
 
 1. Re-resolve the current simfile and `#BANNER` immediately before writing. Refuse traversal, ambiguity, missing references, or targets outside the song directory.
 2. Inspect backup health using the ThraxOS read-only helper. Preserve a recoverable local original regardless.
-3. Run `scripts/Install-ApprovedBanner.ps1 -Simfile <path> -Preview <path> -Approved`. It resizes a copy to 836x328, makes a timestamped sibling backup, replaces the target, and validates PNG decode, dimensions, and the unchanged reference.
+3. Run `scripts/Install-ApprovedBanner.ps1 -Simfile <path> -Preview <path> -Approved`. If the referenced target is missing and the queue resolved a fallback, also pass `-FallbackOriginal <path>`. It resizes a copy to 836x328, makes a timestamped sibling backup from the target or explicit fallback, writes only the referenced target, and validates PNG decode, dimensions, and the unchanged reference.
 4. Do not restart or terminate ITGMania. Never touch simfiles, audio, charts, scores, profiles, timestamps, signatures, or GrooveStats eligibility data.
 5. Report validation and update checked-in memory.
 
