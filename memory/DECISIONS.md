@@ -55,3 +55,10 @@
 - **Decision:** Supersede the earlier hold on ITGMania 1.0.2: upgrade the canonical installation to ITGMania 1.3.0 and Simply Love 5.9.0 for native Stamina RPG 10 support.
 - **Decision:** Install only the SRPG10 Unaffiliated and Stamina Nation packs for now; do not install Footspeed Empire, DPRT, NEP, doubles, or all-factions bundles without a later request.
 - **Decision:** Use Kyle's existing GrooveStats profile integration for SRPG10; do not purchase shop items or alter other profiles.
+
+## 2026-08-01 community-inspired future-work selection
+
+- **Owner-confirmed:** Track five community-inspired proposals: a song-library integrity report, a private-LAN phone controller and guest kiosk, a StepManiaX panel diagnostic recorder, a household attract/dashboard mode, and guided guest onboarding.
+- **Decision:** Treat these as researched proposals, not implementation authorization. Preserve the existing approval boundaries for live configuration, restarts, pad settings, profiles, downloads, and destructive cleanup.
+- **Decision:** Keep the phone kiosk separate from Codex Remote and restrict any prototype to a private LAN, short-lived capability sessions, and allowlisted game actions. Do not expose public or arbitrary remote control.
+- **Rationale:** The selected proposals address observed household usability, library integrity, and Gen4 maintenance needs while fitting ThraxOS's control-plane role.

@@ -6,3 +6,8 @@ This directory keeps one proposed or deferred feature/change per Markdown file. 
 - `reconcile-duplicate-80s-pack.md`
 - `calorie-estimation.md`
 - `restrict-groovestats-to-kyle.md`
+- `song-library-integrity-report.md`
+- `phone-controller-guest-kiosk.md`
+- `stepmaniax-panel-diagnostic-recorder.md`
+- `household-attract-dashboard.md`
+- `guided-guest-onboarding.md`
