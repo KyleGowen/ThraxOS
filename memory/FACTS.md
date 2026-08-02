@@ -71,3 +71,8 @@
 - **Observed:** Albumix's flat source ZIP and dimocracy 2021's root credits file were normalized without changing any file contents; installed normalized ZIP hashes were `B06CB9B266DA89EBC7C050189998429B06B41AF137B6DFB97628FCEA8E5E83A5` and `3F6E6B01270A81FA24D7639BE1983DA89D7EF7AA86697DDF3CF7051025BA8A15`.
 - **Observed:** All original and normalized archives had zero unsafe paths or executable/script payloads, and Defender found no threats in the archives or extracted pack trees. Twenty-nine song-folder name collisions were reviewed; none would overwrite live content. Two shared identical audio assets but had different simfiles, while all other reviewed audio hashes differed.
 - **Observed:** `In The Groove Rebirth` and `In The Groove Rebirth 2` use `Series=In The Groove`; the three dimocracy packs use `Series=dimocracy`; and Cosmic Evolution, Reincarnate, and Incarnate use `Series=Cosmic`. `Easy As Pie 6` was left ungrouped because no other Easy As Pie pack is installed, and Albumix remains ungrouped.
+
+## 2026-08-02 Nintendo NES controller investigation
+
+- **Observed:** Windows' Bluetooth service was running, but read-only device and driver queries found no Bluetooth radio, Bluetooth driver, Bluetooth PnP device, or Wi-Fi adapter. This is a current Windows enumeration finding, not proof that the NucBox hardware is absent.
+- **Inferred from manufacturer specification:** The GMKtec NucBox G3 Plus model includes a Realtek 8852BE Wi-Fi 6/Bluetooth 5.2 module. Restore or enable its official driver before considering a USB Bluetooth adapter.

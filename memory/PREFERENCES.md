@@ -12,3 +12,4 @@
 - **2026-08-01:** ITGMania Series should be based on genuine multi-pack lineages or collections. Do not create a Series containing only one installed pack.
 - **2026-08-01:** Keep `Elemwarr Misc`, `Elemwarr Originals`, `Misc. Collected`, and `Misc. Collected (DDR Ratings)` ungrouped, with no Series assignment.
 - **2026-08-01:** Retain all four preliminary phone-controller interface concepts—Arcade Deck, Jukebox, Smart Remote, and Family First—for later evaluation. Phone and dedicated-tablet layouts only need to control Thraximundar's single player and single pad.
+- **2026-08-02:** Retain the Nintendo Switch Online NES controller concept as a future wireless ITGMania menu controller. Preserve StepManiaX as the gameplay controller; map L and R separately to ITGMania Menu-left and Menu-right so L+R opens the submenu.

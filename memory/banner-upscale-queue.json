@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-02T16:10:50.8865014Z",
+    "generatedAt":  "2026-08-02T17:16:40.0993804Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -537,7 +537,7 @@
                   },
                   {
                       "songPath":  "Battle Scene (FF1)",
-                      "fingerprint":  "3A4A1C562A7C4EAE6421ED100F300A319E955D301902C7210B2B52470743A576",
+                      "fingerprint":  "E0DE69C3E825B05A16211BD76B81CD9D992623DEA4326476C02BA3F29C9F3444",
                       "simfiles":  [
                                        {
                                            "path":  "Battle Scene (FF1).sm",
@@ -545,39 +545,26 @@
                                        }
                                    ],
                       "bannerReference":  "BattleScenebanner.png",
-                      "sourcePath":  "Battle Scene (FF1).png",
-                      "sourceSha256":  "9029FD046388520E69310FC2A448B28C151B37543FA6A8CB3800E29391D1F1AA",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "installed",
-                      "processedAt":  "2026-08-02T16:06:29.8445183Z",
+                      "sourcePath":  "BattleScenebanner.png",
+                      "sourceSha256":  "04EB0E0B7C81EE6E9F304E44C8F0E3FF88823378944FDC753E22414890E6A0BB",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-02T17:02:33.2741290Z",
+                      "assessedAt":  "2026-08-02T17:02:33.2741290Z",
+                      "eligible":  false,
+                      "reason":  "Referenced banner already meets the 836 x 328 host convention.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3A4A1C562A7C4EAE6421ED100F300A319E955D301902C7210B2B52470743A576\\Battle Scene (FF1)-option-c-836x328.png",
-                      "previewSha256":  "95491984DA6AEF7927AAC0E08E38BF304CE3C279B283EEDACD956C039281C367",
-                      "lastAttemptedAt":  "2026-08-02T16:06:07.0903597Z",
+                      "previewPath":  null,
+                      "previewSha256":  null,
                       "attemptHistory":  [
-                                             {
-                                                 "recordedAt":  "2026-08-02T15:56:32.7047005Z",
-                                                 "outcome":  "preview-rejected",
-                                                 "note":  "Owner dislikes both the generated preview and the source banner direction. Owner requests three from-scratch choices informed by six supplied Final Fantasy references. Every choice must visibly include exact Title: Battle Scene; Artist: Nobuo Uematsu; Game: Final Fantasy.",
-                                                 "priorProcessedAt":  "2026-08-02T15:45:12.1700797Z",
-                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3A4A1C562A7C4EAE6421ED100F300A319E955D301902C7210B2B52470743A576\\Battle Scene (FF1)-after-836x328.png",
-                                                 "discardedPreviewSha256":  "E29DCD24CAB8DCCBD321D4BC900FA99FB131D415613395501C4489E3112BE8F0"
-                                             }
+
                                          ],
                       "decisionHistory":  [
-                                              {
-                                                  "recordedAt":  "2026-08-02T16:06:29.8445183Z",
-                                                  "outcome":  "installed",
-                                                  "note":  "Owner selected exact Option C and explicitly requested installation; no additional reasoning was provided.",
-                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3A4A1C562A7C4EAE6421ED100F300A319E955D301902C7210B2B52470743A576\\Battle Scene (FF1)-option-c-836x328.png",
-                                                  "previewSha256":  "95491984DA6AEF7927AAC0E08E38BF304CE3C279B283EEDACD956C039281C367"
-                                              }
+
                                           ]
                   },
                   {
@@ -607,7 +594,7 @@
                   },
                   {
                       "songPath":  "Be My Lover",
-                      "fingerprint":  "5897D7FD9E3DDFF1F2E121D2EA7AAC0F6F9C3F1921BB5662603A9CC8DD23AC73",
+                      "fingerprint":  "C7CFC6B462504A240A4B870869CE6FB346B688DE3F0D3AA2F78F0EE996C57D45",
                       "simfiles":  [
                                        {
                                            "path":  "Be My Lover.sm",
@@ -619,39 +606,26 @@
                                        }
                                    ],
                       "bannerReference":  "bemyloverbn.png",
-                      "sourcePath":  "Be My Lover.png",
-                      "sourceSha256":  "CBE3DD0ED690CF14C9EC5868F9F0523D5A081F1086DCDE876F825804C6B65EA1",
-                      "sourceWidth":  416,
-                      "sourceHeight":  164,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "installed",
-                      "processedAt":  "2026-08-02T16:10:50.8191292Z",
+                      "sourcePath":  "bemyloverbn.png",
+                      "sourceSha256":  "832216E09D675EEF8ACBB47F60EB8B12C1B6C44EDD5C4731F20A0DEBBA4EE3D6",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-02T17:02:33.2741290Z",
+                      "assessedAt":  "2026-08-02T17:02:33.2741290Z",
+                      "eligible":  false,
+                      "reason":  "Referenced banner already meets the 836 x 328 host convention.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\5897D7FD9E3DDFF1F2E121D2EA7AAC0F6F9C3F1921BB5662603A9CC8DD23AC73\\Be My Lover-owner-selected-6F3050C6.png",
-                      "previewSha256":  "6F3050C67CA6D0D7ABF7D43B159716851E1C76BA547F40DB7095DCCDA0686BA3",
-                      "lastAttemptedAt":  "2026-08-02T16:08:33.8709800Z",
+                      "previewPath":  null,
+                      "previewSha256":  null,
                       "attemptHistory":  [
-                                             {
-                                                 "recordedAt":  "2026-08-02T16:05:14.8685848Z",
-                                                 "outcome":  "generation-failed",
-                                                 "note":  "Two permitted GPT Image 2 high-fidelity attempts preserved the exact LA BOUCHE and BE MY LOVER text and violet-black composition, but both clipped the final R of BE MY LOVER at the right edge, including the narrower subtitle-only correction. Neither result was staged or bound; no deterministic fallback was attempted.",
-                                                 "priorProcessedAt":  "2026-08-02T16:02:28.1461346Z",
-                                                 "discardedPreviewPath":  null,
-                                                 "discardedPreviewSha256":  null
-                                             }
+
                                          ],
                       "decisionHistory":  [
-                                              {
-                                                  "recordedAt":  "2026-08-02T16:10:50.8191292Z",
-                                                  "outcome":  "installed",
-                                                  "note":  "Owner selected the attached second generated Be My Lover image and explicitly requested installation; no additional reasoning was provided.",
-                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\5897D7FD9E3DDFF1F2E121D2EA7AAC0F6F9C3F1921BB5662603A9CC8DD23AC73\\Be My Lover-owner-selected-6F3050C6.png",
-                                                  "previewSha256":  "6F3050C67CA6D0D7ABF7D43B159716851E1C76BA547F40DB7095DCCDA0686BA3"
-                                              }
+
                                           ]
                   },
                   {
@@ -673,11 +647,30 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-02T17:16:40.0603769Z",
+                      "pendingAction":  "generate-preview",
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-02T17:16:40.0603769Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-02T17:06:04.9586220Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restoration attempts were nonviable. Each split and greatly enlarged the exact visible artist text Ace of Base instead of preserving it as one small upper-left group, enlarged and moved Beautiful Life, and invented scene content including altered human silhouettes, foreground plants, and a right-side utility pole. Future work must preserve Ace of Base and Beautiful Life verbatim at their exact original positions and scales and keep every source silhouette and scene contour unchanged.",
+                                                 "priorProcessedAt":  "2026-08-02T17:02:54.2492285Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-02T17:16:38.3843838Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner said they do not really like the current Beautiful Life banner and requested three new options using four supplied references: vivid pop-art portrait artwork, tropical palm-sunset typography, bright pool/flamingo summer artwork, and a distressed ACE OF BASE wordmark. Treat these as authoritative creative references for a from-scratch redesign; use live metadata Beautiful Life and Ace Of Base and do not return to the prior sunset-silhouette composition.",
+                                                 "priorProcessedAt":  "2026-08-02T17:16:36.6345006Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "Better Than Revenge",
