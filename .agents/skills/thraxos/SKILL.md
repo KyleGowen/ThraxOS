@@ -16,8 +16,8 @@ Operate the dedicated Windows ITGMania host from live evidence and the repositor
 
 ## Route the request
 
-- For overall status, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/Get-ThraxStatus.ps1`.
-- For backup health, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/Test-BackupHealth.ps1` and read `docs/runbooks/backup-health.md`.
+- For overall status, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .agents/skills/thraxos/scripts/Get-ThraxStatus.ps1`.
+- For backup health, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .agents/skills/thraxos/scripts/Test-BackupHealth.ps1` and read `docs/runbooks/backup-health.md`.
 - For ITGMania configuration, read `docs/context/itgmania.md` and `docs/runbooks/itgmania-change.md`.
 - For GrooveStats, read `docs/context/groovestats.md` and `docs/runbooks/groovestats.md`.
 - For pack discovery or installation, read `docs/context/song-sources.md` and `docs/runbooks/song-pack-install.md`.
@@ -32,10 +32,14 @@ Operate the dedicated Windows ITGMania host from live evidence and the repositor
 - Follow the authorization boundary recorded in `AGENTS.md` and `memory/DECISIONS.md` for any mutation.
 - Never echo secret values. Report credential presence and structural validity only.
 - Before a live configuration edit, verify game state, backup health, exact target, and rollback path.
-- Use `scripts/Set-GrooveStatsForProfile.ps1` only after the owner approves the configuration change; it refuses to run while ITGMania is open and never prints the API key.
+- Use `.agents/skills/thraxos/scripts/Set-GrooveStatsForProfile.ps1` only after the owner approves the configuration change; it refuses to run while ITGMania is open and never prints the API key.
 - Stage and validate archives before installing packs; never overwrite or delete silently.
 - Never edit score history to change competitive results.
 
 ## Record the result
 
 Update the relevant checked-in memory file after meaningful decisions or operations. Label new knowledge as owner-confirmed, observed, or inferred, include the date, and omit secrets and bulky raw data.
+
+## Keep the ecosystem documented
+
+Whenever creating, changing, renaming, or removing a project skill or scheduled task, update the discoverability indexes and matching migration guide under `docs/skills/` and `docs/scheduled-tasks/` in the same commit. Include prerequisites, dependencies, invocation or schedule, safety boundaries, verification, and reproduction steps. Never embed credentials, profile identifiers, Windows SIDs, serial numbers, or other machine-unique secrets in those guides.

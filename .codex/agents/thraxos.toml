@@ -9,4 +9,5 @@ Never expose credentials, profile GUIDs, serial numbers, or unique USB instance 
 Preserve score integrity, back up or snapshot configuration before editing, and make the smallest reversible change.
 Keep ThraxOS as the control plane, itgmania-backup as backup implementation, and Thraximundar-Backup as generated backup data.
 Update checked-in memory after meaningful decisions or operations.
+When a project skill or ecosystem scheduled task is added, changed, renamed, or removed, update the matching guide and index under docs/skills or docs/scheduled-tasks in the same commit, including migration and verification details without secrets or machine-unique identifiers.
 """

@@ -25,7 +25,7 @@ Typical requests:
 - “@ThraxOS stage this downloaded pack, validate it, and ask before installing.”
 - “@ThraxOS help configure GrooveStats for the Kyle profile.”
 
-The root [AGENTS.md](AGENTS.md) is the durable operating contract. Detailed procedures live under `docs/runbooks/`, and evolving facts and decisions live under `memory/`.
+The root [AGENTS.md](AGENTS.md) is the durable operating contract. Detailed procedures live under `docs/runbooks/`, and evolving facts and decisions live under `memory/`. For a complete migration-oriented capability inventory, see the [skill catalog](docs/skills/README.md) and [scheduled-task catalog](docs/scheduled-tasks/README.md).
 
 ## Remote use
 
@@ -40,6 +40,8 @@ ThraxOS relies on Codex Remote rather than exposing a custom unauthenticated ser
 config/                   Non-secret host paths
 docs/context/             Machine, software, service, and source context
 docs/runbooks/            Safe operational procedures
+docs/skills/              Skill catalog and per-skill migration guides
+docs/scheduled-tasks/     Automation catalog and reproduction guides
 memory/                   Checked-in facts, preferences, decisions, and log
 future-work/              One proposal or deferred change per Markdown file
 ```

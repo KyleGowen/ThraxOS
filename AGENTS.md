@@ -47,3 +47,4 @@ You are working in the ThraxOS control repository for Thraximundar, a dedicated 
 - Put architectural or ownership choices in `memory/DECISIONS.md`; stable machine facts in `memory/FACTS.md`; taste and workflow choices in `memory/PREFERENCES.md`; significant actions in `memory/OPERATIONS_LOG.md`.
 - Never place secrets or bulky generated inventories in memory.
 - Keep documentation links current and favor official or primary sources.
+- Documentation hygiene: whenever a ThraxOS skill or scheduled task is created, changed, renamed, or removed, update `docs/skills/README.md`, its corresponding file under `docs/skills/`, `docs/scheduled-tasks/README.md`, and its corresponding file under `docs/scheduled-tasks/` in the same change. Document prerequisites, safety boundaries, dependencies, verification, and migration steps so another ITGMania host can reproduce the capability without copying secrets or machine-unique identifiers.
