@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-02T08:22:31.9940546Z",
+    "generatedAt":  "2026-08-02T14:47:59.9130774Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -41,7 +41,7 @@
                   },
                   {
                       "songPath":  "A Different Point of View",
-                      "fingerprint":  "BE4764616F3A9F12E7E732001F0F6C16BA279B3ED81E94F223F366BCB76C0299",
+                      "fingerprint":  "A9262287D59FFA40182473A64643C6E87F807EA74CB1F42052E5709CF843553E",
                       "simfiles":  [
                                        {
                                            "path":  "A Different Point of View.sm",
@@ -49,44 +49,31 @@
                                        }
                                    ],
                       "bannerReference":  "PoV.png",
-                      "sourcePath":  "A Different Point of View.png",
-                      "sourceSha256":  "F023B274C4D1BCBA09666607E17F84801D2072EC230120F0F4386C1551F5E02D",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "installed",
-                      "processedAt":  "2026-08-02T08:22:31.9295407Z",
+                      "sourcePath":  "PoV.png",
+                      "sourceSha256":  "D5F379CD6CA46CCBEEC662DEFDBEA673649615009890F8AFAB0C94FE506A0BC6",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-02T09:02:57.4536811Z",
+                      "assessedAt":  "2026-08-02T09:02:57.4536811Z",
+                      "eligible":  false,
+                      "reason":  "Referenced banner already meets the 836 x 328 host convention.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-previews\\a-different-point-of-view\\approved-F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C.png",
-                      "previewSha256":  "F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C",
-                      "lastAttemptedAt":  "2026-08-02T08:21:28.5871716Z",
+                      "previewPath":  null,
+                      "previewSha256":  null,
                       "attemptHistory":  [
-                                             {
-                                                 "recordedAt":  "2026-08-02T08:03:22.3196226Z",
-                                                 "outcome":  "output-handling-error",
-                                                 "note":  "The result wrapper failed to forward built-in image-generation results correctly, so the model outcome is unknown and the blank rendering does not establish generation failure. Source fallback text was verified as A Different Point of View; simfile artist is Pet Shop Boys but is not visible and must not be added.",
-                                                 "priorProcessedAt":  "2026-08-02T08:01:07.8868918Z",
-                                                 "discardedPreviewPath":  null,
-                                                 "discardedPreviewSha256":  null
-                                             }
+
                                          ],
                       "decisionHistory":  [
-                                              {
-                                                  "recordedAt":  "2026-08-02T08:22:31.9295407Z",
-                                                  "outcome":  "installed",
-                                                  "note":  "Owner explicitly approved the exact attached preview for installation and provided no additional aesthetic reasoning.",
-                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-previews\\a-different-point-of-view\\approved-F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C.png",
-                                                  "previewSha256":  "F1D2767451D47F2988E0E921AE0CBF062F422BE9D0A47BC2A9A75328F335650C"
-                                              }
+
                                           ]
                   },
                   {
                       "songPath":  "A Little Respect",
-                      "fingerprint":  "D5AF3D37DD41552A6D891368022C8827CCEFACC26FCE3B3CDF53CFD4759B314A",
+                      "fingerprint":  "E8AFC97A959D31F571674BA7D0044DD218481883CC92531572C61C9E0D95E361",
                       "simfiles":  [
                                        {
                                            "path":  "A Little Respect.ssc",
@@ -94,29 +81,26 @@
                                        }
                                    ],
                       "bannerReference":  "banner.png",
-                      "sourcePath":  "A Little Respect.png",
-                      "sourceSha256":  "6AA244E2699148363EE37F0516146EAB129171037893B56399A12FED216B6B4B",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "installed",
-                      "processedAt":  "2026-08-02T08:13:28.4358510Z",
+                      "sourcePath":  "banner.png",
+                      "sourceSha256":  "8F52FEDB3D5560E08681B793DD802801D4177D106E732D037321F7A397D39BAF",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-02T09:02:57.4536811Z",
+                      "assessedAt":  "2026-08-02T09:02:57.4536811Z",
+                      "eligible":  false,
+                      "reason":  "Referenced banner already meets the 836 x 328 host convention.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D5AF3D37DD41552A6D891368022C8827CCEFACC26FCE3B3CDF53CFD4759B314A\\A Little Respect-after-836x328.png",
-                      "previewSha256":  "5E5BE36185314B3C9274E6FE6E4D9B88167271AEB30192B97666D1CA1359CDDB",
-                      "lastAttemptedAt":  "2026-08-02T08:05:52.4875177Z",
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
                       "decisionHistory":  [
-                                              {
-                                                  "recordedAt":  "2026-08-02T08:13:28.4358510Z",
-                                                  "outcome":  "installed",
-                                                  "note":  "Owner approved the exact After preview by saying install it; no additional reason was provided.",
-                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D5AF3D37DD41552A6D891368022C8827CCEFACC26FCE3B3CDF53CFD4759B314A\\A Little Respect-after-836x328.png",
-                                                  "previewSha256":  "5E5BE36185314B3C9274E6FE6E4D9B88167271AEB30192B97666D1CA1359CDDB"
-                                              }
+
                                           ]
                   },
                   {
@@ -142,11 +126,31 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "installed",
+                      "processedAt":  "2026-08-02T14:18:01.4207617Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\PLAYER~1.NUC\\AppData\\Local\\Temp\\codex-clipboard-64cbfdbc-f395-45ba-9d3d-d2f797190888.png",
+                      "previewSha256":  "3C2AB3F81FEADA7559BD9C8A286A2BF720983B21D8098A5FB0E83790CF413034",
+                      "lastAttemptedAt":  "2026-08-02T14:17:16.4074051Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-02T09:06:16.5378954Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 high-fidelity restoration calls returned recoverable, successfully forwarded images, but each visibly misrendered the exact lower-right artist logo text Lizzo as an L7ZO-like form despite a second narrower prompt spelling L-i-z-z-o and prohibiting that substitution. The title, remix subtitle, grid background, and overall composition were otherwise recognizable. No output was staged or bound; future attempts must preserve the original Lizzo mark exactly.",
+                                                 "priorProcessedAt":  "2026-08-02T09:03:08.5528434Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-02T14:18:01.4207617Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected the attached After image and requested installation of that exact preview. No additional reasoning was provided.",
+                                                  "previewPath":  "C:\\Users\\PLAYER~1.NUC\\AppData\\Local\\Temp\\codex-clipboard-64cbfdbc-f395-45ba-9d3d-d2f797190888.png",
+                                                  "previewSha256":  "3C2AB3F81FEADA7559BD9C8A286A2BF720983B21D8098A5FB0E83790CF413034"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "Acceptable in the 80s",
@@ -167,11 +171,39 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "installed",
+                      "processedAt":  "2026-08-02T14:34:17.0640049Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\558F83D9741E7E72AD979F85E25A8DD42C8933E58D60E6FBCCF005B7F0FBB764\\Acceptable in the 80s-owner-selected.png",
+                      "previewSha256":  "F4A737EC6FD4204FA7877875EA2F78BC0A387360CA7AD545A5388B2A0AE778B4",
+                      "lastAttemptedAt":  "2026-08-02T14:33:17.0114132Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-02T10:05:45.9919029Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 high-fidelity restoration calls returned recoverable images and were forwarded successfully. Visible text was spelled correctly, but both outputs enlarged the typography far beyond the source layout and clipped the right-side the 80s treatment at the canvas edge; the second narrower restoration-only prompt explicitly required original relative scale, generous margins, and fully visible lettering but repeated the same composition drift. No output was staged or bound. Future attempts must preserve the source compact text scale and leave the entire blue the 80s phrase, including outline and shadow, fully inside the canvas.",
+                                                 "priorProcessedAt":  "2026-08-02T10:02:59.2242319Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-02T14:24:21.6318934Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner explicitly rejected both previously shown generated results because the text got cut off from the 80s and asked to try again. This was a correction and retry request, not a permanent opt-out. The replacement prompt must keep the complete blue the 80s phrase, including white outline and black shadow, fully inside the frame with visible background to its right.",
+                                                 "priorProcessedAt":  "2026-08-02T14:19:35.3608408Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-02T14:34:17.0640049Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected the attached corrected Acceptable in the 80s image and explicitly requested installation; no additional reasoning was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\558F83D9741E7E72AD979F85E25A8DD42C8933E58D60E6FBCCF005B7F0FBB764\\Acceptable in the 80s-owner-selected.png",
+                                                  "previewSha256":  "F4A737EC6FD4204FA7877875EA2F78BC0A387360CA7AD545A5388B2A0AE778B4"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "Africa",
@@ -192,11 +224,21 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "installed",
+                      "processedAt":  "2026-08-02T14:19:49.9109243Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3FEDAF892366AC612B913A29292D07BAE2177EE75799B48DE4FF5EA2FA4B97AE\\Africa-after-836x328.png",
+                      "previewSha256":  "DA5C4E44E1A9BBD2E2477DDFD5339608CB70385FEA83C61CE77279A647914E07",
+                      "lastAttemptedAt":  "2026-08-02T11:04:25.2462836Z",
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-02T14:19:49.9109243Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved installation of the exact displayed After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3FEDAF892366AC612B913A29292D07BAE2177EE75799B48DE4FF5EA2FA4B97AE\\Africa-after-836x328.png",
+                                                  "previewSha256":  "DA5C4E44E1A9BBD2E2477DDFD5339608CB70385FEA83C61CE77279A647914E07"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "AM-3P(AM EAST mix)",
@@ -321,11 +363,31 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "installed",
+                      "processedAt":  "2026-08-02T14:20:33.0870206Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\DDEFBCCA7668DFB07404A1B41960B65EDAC9C680AE76FA89C7245765ACD4024D\\Artillery-owner-selected-after.png",
+                      "previewSha256":  "16BF3AF7CBD897DDE37876370F9DD3E5CA13FB043908A0A21CC75DAC4B2BD607",
+                      "lastAttemptedAt":  "2026-08-02T14:19:40.6756408Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-02T12:07:38.4453012Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 high-fidelity results were recoverable and forwarded. Attempt 1 preserved the main ARTILLERY title and composition but invented readable upper-right text as ITGMANIA PRESENTS where the source has only a tiny unresolved dark-gray micro-mark. The narrower restoration-only attempt removed the invented wording but omitted that source micro-mark entirely. Neither result preserved all source content, so no preview was staged or bound; no deterministic fallback was attempted.",
+                                                 "priorProcessedAt":  "2026-08-02T12:04:02.1626979Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-02T14:20:33.0870206Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected the attached first generated preview containing the visible ITGMANIA PRESENTS text and explicitly requested installation; no additional reasoning was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\DDEFBCCA7668DFB07404A1B41960B65EDAC9C680AE76FA89C7245765ACD4024D\\Artillery-owner-selected-after.png",
+                                                  "previewSha256":  "16BF3AF7CBD897DDE37876370F9DD3E5CA13FB043908A0A21CC75DAC4B2BD607"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "At the River",
@@ -396,11 +458,21 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "installed",
+                      "processedAt":  "2026-08-02T14:21:03.8018067Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\6A6096C5FE4626BB6097EB64D325665AB04A14A7262D6BC737D0D887FEFF4D6E\\AUTOMATON-after-836x328.png",
+                      "previewSha256":  "6DB30A29675A370F340E9F9C62ADB2AE9274C8F357E242CF7B6DB57C594F62BD",
+                      "lastAttemptedAt":  "2026-08-02T13:05:20.7246443Z",
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-02T14:21:03.8018067Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved installation of the exact labeled After preview and provided no additional reasoning.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\6A6096C5FE4626BB6097EB64D325665AB04A14A7262D6BC737D0D887FEFF4D6E\\AUTOMATON-after-836x328.png",
+                                                  "previewSha256":  "6DB30A29675A370F340E9F9C62ADB2AE9274C8F357E242CF7B6DB57C594F62BD"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "BACK UP",
@@ -471,11 +543,31 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "installed",
+                      "processedAt":  "2026-08-02T14:47:59.8438964Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-manual\\46C45EFC90394044702CB4C5F37E0056DC349DA076EF4F294D4D6E4864ADC1CF\\owner-selected-option-a\\battle-1-owner-selected-option-a-836x328.png",
+                      "previewSha256":  "49178FC751A61EE11593C94B72B7AD97A189FED816009D14D6523C9F8049C278",
+                      "lastAttemptedAt":  "2026-08-02T14:46:30.0352602Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-02T14:28:28.9702523Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner said the staged title was particularly bad, while noting the original source title was already bad, and requested three completely new from-scratch banner concepts using supplied Final Fantasy II references. Owner supplied \u0027Nobuo Ometsu\u0027, but live simfile metadata verifies the artist as \u0027Nobuo Uematsu\u0027; use the verified spelling for correct-information redesigns.",
+                                                 "priorProcessedAt":  "2026-08-02T14:06:01.5995557Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\46C45EFC90394044702CB4C5F37E0056DC349DA076EF4F294D4D6E4864ADC1CF\\Battle 1 (FF2)-after-836x328.png",
+                                                 "discardedPreviewSha256":  "9EEB0A4EACEE580A0A7144D78E38D989454E628F31ECB63BA5FF32F66AC3DB9C"
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-02T14:47:59.8438964Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected from-scratch line-art Option A for installation because it looks great and is very class. Owner also liked pixel Option B and considered it on-brand, but ultimately rejected B because it did not read as Final Fantasy immediately.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-manual\\46C45EFC90394044702CB4C5F37E0056DC349DA076EF4F294D4D6E4864ADC1CF\\owner-selected-option-a\\battle-1-owner-selected-option-a-836x328.png",
+                                                  "previewSha256":  "49178FC751A61EE11593C94B72B7AD97A189FED816009D14D6523C9F8049C278"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "Battle Scene",
