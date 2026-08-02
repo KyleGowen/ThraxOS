@@ -9,3 +9,5 @@
 - **2026-08-01:** The canonical assessed music, household, difficulty, and chart preference model is maintained in `docs/context/family-music-taste.md`; use it for pack discovery and recommendations instead of the earlier broad taste summary.
 - **2026-07-31:** Pack downloads require an explicit owner request or approval.
 - **2026-07-31:** Health checks should print their result only; no alerts or notifications are wanted.
+- **2026-08-01:** ITGMania Series should be based on genuine multi-pack lineages or collections. Do not create a Series containing only one installed pack.
+- **2026-08-01:** Keep `Elemwarr Misc`, `Elemwarr Originals`, `Misc. Collected`, and `Misc. Collected (DDR Ratings)` ungrouped, with no Series assignment.

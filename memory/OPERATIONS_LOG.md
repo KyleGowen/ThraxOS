@@ -78,3 +78,19 @@
 - Reviewed Flow's `Body Talk` and `Breathe` and Notice's `Everything`, `Get Down`, and `Journey` title collisions against installed metadata. Different artists and audio evidence established that all five are distinct songs, so the reviewed-collision override was used without overwriting content.
 - Improved the installer to ignore only conventional top-level `__MACOSX` and `.DS_Store` metadata during pack-folder counting while continuing to safety-check every archive entry.
 - Installed 22 Flow songs and 32 Notice songs into separate new canonical pack folders. Deleted both ZIPs and empty staging directories; live recognition awaits an owner-approved reload/restart or normal game action.
+
+## 2026-08-01 - Song packs organized into Series
+
+- Recorded the owner preference that Series must contain at least two installed packs and that the Elemwarr and `Misc. Collected` packs remain ungrouped.
+- Confirmed ITGMania was closed and backup health was successful before editing live pack metadata.
+- Assigned 48 canonical packs to 11 lineage-based Series: Anthem Series, Ben Speirs / SPEIRMIX, Cosmic, DanceDanceRevolution, DDR Community Collections, In The Groove, JBEAN, Pendulum, Stamina RPG, Tech-Bit Adventures, and The Starter Pack of Stamina.
+- Removed nonblank Series assignments from six singleton packs and validated 20 designated standalone packs as ungrouped. No pack directories, songs, charts, scores, or profiles were removed or modified.
+- Created recoverable originals and a created-file manifest under `.tmp/pack-series-rollback-20260801-214045`; a second idempotent validation snapshot is under `.tmp/pack-series-rollback-20260801-214103`.
+- Re-read every canonical `Pack.ini` Series value and confirmed that all 11 resulting Series contain between 2 and 12 installed packs.
+
+## 2026-08-01 - Community pack sources expanded
+
+- Researched current pack and individual-simfile discovery practices across Reddit, Zenius-I-vanisher, StepMania forums, Flash Flash Revolution, GrooveStats and tournament pages, International Timing Collective resources, ITG Wiki, creator sites, gameplay channels, and Project OutFox material.
+- Added owner-approved community discovery and screening sources to `docs/context/song-sources.md`, with explicit roles and cautions for keyboard-first catalogs, mixed chart styles, engine-specific content, previews, reuploads, and direct file-host links.
+- Updated the `research-itg-community` skill to distinguish catalog metadata, announcements, reputation evidence, gameplay previews, publisher provenance, and archive validation in future pack research.
+- Downloaded or installed no packs and changed no live ITGMania, GrooveStats, StepManiaX, profile, backup, or Windows state.

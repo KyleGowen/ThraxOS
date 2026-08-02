@@ -39,6 +39,17 @@
 - **Decision:** Use the project-local `add-pack` skill for description- or URL-driven song-pack downloads and installations.
 - **Rationale:** Resumable downloads, Google Drive confirmation handling, immediate ZIP-signature checks, deterministic archive/layout validation, Defender scanning, collision refusal, explicit installation gating, and post-success cleanup make repeated installations safer and faster.
 
+## 2026-08-01 ITG community research workflow
+
+- **Decision:** Use the checked-in `research-itg-community` skill for investigations across Reddit, forums, personal sites, public archives, GitHub discussions, and other unstructured rhythm-game sources.
+- **Rationale:** Layered discovery, original-source tracing, claim-level evidence grading, counterevidence searches, version and hardware applicability checks, and explicit uncertainty reporting improve obscure-source research without treating anecdotes as confirmed machine facts.
+
+## 2026-08-01 community pack-source expansion
+
+- **Owner-confirmed:** Add r/StepMania, the ZIV Simulation Forums, GrooveStats event pages, International Timing Collective downloads, the ITG Wiki pack list, the StepMania Song Packs forum, and AlienSix's gameplay playlists to ThraxOS as approved pack and individual-song discovery or screening sources.
+- **Decision:** Keep the ITG Packs spreadsheet, ITGDb, ZIV simfile catalog, and StepMania Online as the primary structured catalogs. Community posts, tournament pages, wikis, forums, and videos supplement catalog research but do not independently establish archive provenance or safety.
+- **Rationale:** Current community research found durable value in combining structured metadata, active release discussions, competitive curation, historical context, and gameplay previews while preserving explicit pad, compatibility, provenance, and validation checks.
+
 ## 2026-08-01 Stamina RPG 10 upgrade
 
 - **Decision:** Supersede the earlier hold on ITGMania 1.0.2: upgrade the canonical installation to ITGMania 1.3.0 and Simply Love 5.9.0 for native Stamina RPG 10 support.

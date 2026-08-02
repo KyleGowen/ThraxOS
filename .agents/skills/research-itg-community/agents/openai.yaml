@@ -1,0 +1,4 @@
+interface:
+  display_name: "ITG Community Research"
+  short_description: "Research obscure ITG community sources"
+  default_prompt: "Use $research-itg-community to investigate an ITG or StepMania question across Reddit, forums, archives, and original sources."
