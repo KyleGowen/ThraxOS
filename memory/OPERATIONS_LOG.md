@@ -430,3 +430,120 @@
 - Neither result was staged or bound, and no deterministic fallback was attempted. Atomically returned the fingerprint to `eligible` with `generation-failed` attempt history and `lastAttemptedAt` preserved. Final queue counts are 109 eligible, 97 ineligible, and 0 pending; a read-only selection check chose never-attempted `Better Than Revenge`, confirming rotation.
 - ITGMania was not running, and the source hash remained unchanged after the attempt. No live banner, song, simfile, audio, chart, score, profile, configuration, or process state changed.
 - **Retrospective:** The existing composition lock, exact-text validation, two-attempt ceiling, no-silent-fallback, and atomic return-to-queue rules correctly handled the repeated semantic drift. The failure is fingerprint-specific and preserved in `attemptHistory`, so no reusable skill, documentation, or owner-wide preference change was justified.
+
+## 2026-08-02 - Beautiful Life source-informed redesign choices staged
+
+- **Owner-confirmed:** Said they did not really like the current `Beautiful Life` banner and requested three regenerated options using four supplied references: vivid pop-art portrait artwork, tropical palm-sunset typography, bright pool/flamingo summer artwork, and a distressed `ACE OF BASE` wordmark.
+- **Observed:** At 10:15 Pacific, the live simfile still identified `Beautiful Life` by `Ace Of Base`, referenced unchanged 418 x 164 `Beautiful Life.bn.png`, and matched queue fingerprint `E9EAF224BB4E1CAB1375EBDA751530947C552787430F8DC1B1DF4EB2F75BB6DF`. The owner's rejection and source-direction correction were preserved as `preview-rejected`, then the same fingerprint was reserved for the manual redesign.
+- Made exactly three built-in GPT Image 2 generation calls using all four supplied references. Staged opaque 836 x 328 options outside the live song folder: pop-art portrait A at `.tmp/banner-upscale-owner/E9EAF224BB4E1CAB1375EBDA751530947C552787430F8DC1B1DF4EB2F75BB6DF/options/Beautiful-Life-option-A-pop-art-836x328.png` with SHA-256 `A8EE7256859EEC024C141A487450055BBD5D32A5E5A5F4CADD130D788ED07822`; tropical sunset B at `.tmp/banner-upscale-owner/E9EAF224BB4E1CAB1375EBDA751530947C552787430F8DC1B1DF4EB2F75BB6DF/options/Beautiful-Life-option-B-sunset-836x328.png` with SHA-256 `3B8127803A2798F758708BA82AE91011AC51E80FA7D3143558B70AA4DB6CC773`; and pool/flamingo C at `.tmp/banner-upscale-owner/E9EAF224BB4E1CAB1375EBDA751530947C552787430F8DC1B1DF4EB2F75BB6DF/options/Beautiful-Life-option-C-pool-836x328.png` with SHA-256 `DA738E072BCE67777DEBCE3FDD356315F32ABF6E51CB87AACD086A0034BE2DD4`.
+- Exact-size review confirmed all three choices contain complete visible text `ACE OF BASE` and `BEAUTIFUL LIFE`, with no extra words, misspelling, clipping, transparency, or border. The queue remains `pending` with `generate-preview` and no bound preview path/hash until the owner selects A, B, or C.
+- ITGMania remained closed; live source and simfile hashes stayed unchanged. No live banner, song, simfile, audio, chart, score, profile, configuration, or process state changed.
+- **Retrospective:** The owner's dislike and supplied references are exact-fingerprint aesthetic evidence. Existing from-scratch multi-option generation, exact-text validation, deferred selection binding, staging, and safety rules fully cover the workflow, so no reusable skill, documentation, or owner-wide preference change was justified before selection feedback.
+
+## 2026-08-02 - Better Than Revenge banner preview staged
+
+- **Observed:** At 11:03 Pacific, refreshed all 206 live `Misc. Collected` song directories and allowed `Update-BannerQueue.ps1` to select never-attempted `Better Than Revenge` fingerprint `B2D42660714D0F690A007992D67C33D58ABAD67A693316DD646015138BF4F023`. The referenced 640 x 217 `betterthanrevengebn.png` remained unchanged with SHA-256 `5256197ED49E0347B21251070686C931B0C9B67CBFACB10E1DA0F89A9EB42C41` and exact visible text `Better Than Revenge` and `Taylor Swift`.
+- Atomically reserved the exact fingerprint before image work. It had no prior `attemptHistory`. One built-in GPT Image 2 high-fidelity restoration preserved the dark green abstract composition, diagonal panels, cursive layout, text colors, and complete exact wording without added labels or objects.
+- A local .NET resize-constructor typo occurred after generation returned a recoverable result, so it was treated as output handling rather than a second generative attempt. Reused the same result, staged it outside the live song folder at `.tmp/banner-upscale-hourly/B2D42660714D0F690A007992D67C33D58ABAD67A693316DD646015138BF4F023/Better Than Revenge-after-836x328.png`, and atomically bound exact 836 x 328 preview SHA-256 `B2F49896BE4A6348D101B7BA8F5493ADCE6118B69B9B40EC23DA0FE1DD0FB3AE` as `awaiting-install-decision`.
+- Final queue counts are 107 eligible, 97 ineligible, and 2 pending; the other pending fingerprint did not block selection. Integrity checks confirmed 206 unique fingerprints, exact preview/hash binding, unchanged source hash, and next helper selection `Blueprint`. ITGMania was running; no live banner, song, simfile, configuration, chart, score, profile, or process state changed.
+- **Retrospective:** Existing result-recovery, faithful-composition, exact-text, single-preview binding, and approval-gated installation rules fully covered the run. The resize typo was a one-off invocation error rather than a reusable domain lesson, so no skill, documentation, or owner-wide preference change was justified.
+
+## 2026-08-02 - Better Than Revenge installation preflight blocked
+
+- **Owner-confirmed:** Approved installation of the exact displayed `Better Than Revenge` After preview; no additional reasoning was provided.
+- **Observed:** At 11:17 Pacific, pending fingerprint `B2D42660714D0F690A007992D67C33D58ABAD67A693316DD646015138BF4F023`, preview SHA-256 `B2F49896BE4A6348D101B7BA8F5493ADCE6118B69B9B40EC23DA0FE1DD0FB3AE`, simfile SHA-256 `FEC2313F0BB00470BEFB8BE6EDAA0E6D83701D7B8F8FF775710FB7954169A11F`, and source SHA-256 `5256197ED49E0347B21251070686C931B0C9B67CBFACB10E1DA0F89A9EB42C41` all matched the recorded queue state. Backup health was successful with task result `0x0` and latest logged success at 03:05 Pacific.
+- ITGMania was running, so the guarded installation safety gate blocked the live write. The game was not terminated, the live banner remained unchanged, and the queue fingerprint remains pending with the exact approved preview binding intact.
+- **Retrospective:** The closed-game gate correctly prevented a live banner mutation while ITGMania was active. Existing preflight, exact-preview binding, and no-automatic-termination rules fully cover this outcome; no reusable skill, documentation, or owner-wide preference change was justified.
+
+## 2026-08-02 - Beautiful Life installation preflight blocked
+
+- **Owner-confirmed:** Selected the attached pool/flamingo `Beautiful Life` choice corresponding to After C and explicitly requested installation; no additional reasoning was provided.
+- **Observed:** At 11:18 Pacific, copied the opaque 2001 x 786 attachment byte-for-byte into workspace staging and bound SHA-256 `1211C592F6050D2C08E75B2E351AF8D700661DC692C56DD9354DD83B7535A82C` to pending fingerprint `E9EAF224BB4E1CAB1375EBDA751530947C552787430F8DC1B1DF4EB2F75BB6DF`. The live simfile and banner still matched queued SHA-256 values `D3A25472550A2233E52FBDCE40873591AEC293257E4750E0CEF880D2308849B6` and `F3601C5AAE4E336B83AB1220C0E51596D5E9D8EEE160424040738EC8AE782B1F`.
+- Today's backup log records a successful run at 03:05 Pacific; the backup-health helper reported unhealthy only because scheduled-task inspection was access-denied.
+- ITGMania was running, so the guarded live installation was not started and the application was not terminated. The exact selection remains pending with `awaiting-install-decision`; no live banner, song, simfile, audio, chart, score, profile, configuration, or process state changed.
+- **Retrospective:** Exact attachment binding and the closed-game gate correctly preserved the owner's selection without risking a live write. Existing preflight, rollback, exact-preview, and no-automatic-termination rules fully cover the outcome; no reusable skill, documentation, or owner-wide preference change was justified.
+# 2026-08-02 static song-background workflow
+
+- **Owner-confirmed:** Build a reusable static-background restoration skill and a half-hour hourly queue for `C:\Games\ITGmania\Songs\Misc. Collected`, with future skill-level expansion to other explicit folders.
+- **Implemented:** Added `upscale-background`, a separate fingerprint ledger, guarded resolution/installation helpers, migration documentation, and a preview-only recurring automation contract. The workflow targets the owner's windowed 1920 x 1080 16:9 setup and excludes missing/dynamic/video/animated/implicit backgrounds.
+- **Safety:** No live song background was changed during setup. Installation remains interactive, exact-preview-bound, backup-protected, and requires ITGMania closed.
+
+## 2026-08-02 - Boss theme - Final Fantasy IV background preview staged
+
+- **Observed:** At 11:29 Pacific, refreshed all 206 live `Misc. Collected` song directories and selected the helper-ordered never-attempted `Boss theme - Final Fantasy IV` fingerprint `481CBA2897B69086BA003E704A465C88811F4D6DFC9088EF4CA92C9F959C3BBE`. The explicit static single-frame source was 479 x 276 and remained unchanged with SHA-256 `F301BD25C080896BDE65B2A943A8B2D64AED0171877B52965553FDFE2AEE007D`.
+- Visually assessed the source as an intentionally pixel-art sprite collage whose low resolution and slightly non-16:9 fit warranted a faithful preview. Reserved the exact fingerprint, made one usable built-in image restoration, and extended the existing cyan/black geometric motif rather than cropping the sprites or adding text.
+- The first generation call returned no usable payload or staged artifact and was treated as an output-handling failure, not a creative attempt. Staged the recovered viable option outside the live song folder at `.tmp/background-upscale/boss-theme-final-fantasy-iv/after-a-1920x1080.png`; validated opaque 24-bit RGB, exact 1920 x 1080 dimensions, and bound SHA-256 `75C961C75E117BA1D0CBFE1AA5378C73D7FF747E9B455CFD724E634EEFBE90D8` as `awaiting-install-decision`.
+- Final queue counts are 4 eligible, 201 ineligible, and 1 pending. No live background, simfile, audio, chart, score, profile, configuration, or process state was changed.
+- **Retrospective:** Existing visual assessment, exact-fingerprint reservation, output-recovery, 16:9 outpainting, opaque-preview validation, and approval-gated installation rules fully covered the run. No reusable skill, scheduled-task documentation, or owner-wide preference change was justified.
+
+## 2026-08-02 - Boss theme - Final Fantasy IV background installed
+
+- **Owner-confirmed:** Replied `install`, approving the exact latest displayed After A for `Boss theme - Final Fantasy IV`.
+- **Observed:** At 11:39 Pacific, pending source fingerprint `481CBA2897B69086BA003E704A465C88811F4D6DFC9088EF4CA92C9F959C3BBE`, preview SHA-256 `75C961C75E117BA1D0CBFE1AA5378C73D7FF747E9B455CFD724E634EEFBE90D8`, source SHA-256 `F301BD25C080896BDE65B2A943A8B2D64AED0171877B52965553FDFE2AEE007D`, and simfile SHA-256 `6EEFFFE8D37923EAF4DE77AE5CE4CDFF98221D0937CDF39CA568D3CBC3015B7D` all matched the ledger. ITGMania was closed.
+- The backup-health helper was degraded only because scheduled-task inspection was access-denied. The 2026-08-02 backup log independently showed a push to the intended generated-backup repository and `Backup completed successfully.` at 03:05:34 Pacific.
+- Installed only the exact approved preview into the existing `.png` reference. The guarded installer created a timestamped sibling rollback copy. Post-install validation confirmed the live file exactly matches the preview hash, is opaque static PNG at 1920 x 1080 with one frame, the rollback copy matches the prior source hash, the simfile and `#BACKGROUND` reference are unchanged, and ITGMania remains closed.
+- A concurrent queue refresh observed the newly installed content before the helper could apply the old pending fingerprint's terminal transition. Reconciled only this song's resulting installed-content fingerprint `28E1355F3347ECA5B5D0947C1AEBF8B933AF0FEA5F002D8895EB2D776D6DDF96` to `installed`, preserving the owner approval, approved source fingerprint, exact preview path/hash, and race context in `decisionHistory`.
+- **Retrospective:** The guarded installer and post-write validation preserved live integrity and rollback. The refresh race reveals that terminal decisions can be lost when a live write changes the source before the queue transition; this is recorded as operational evidence for a future atomic workflow improvement, but no skill or scheduled-task code was changed during this installation.
+
+## 2026-08-02 - Fancy Footwork background left unchanged
+
+- **Observed:** At 11:31 Pacific, live status showed ITGMania 1.3.0 running. Refreshed all 206 `Misc. Collected` song directories; queue counts remained 4 eligible, 201 ineligible, and 1 pending, with the existing pending item not blocking selection.
+- Round-robin selected never-attempted `Fancy Footwork` fingerprint `E96333909A9300EB7484F6DD26FF66175B23C0DD3FEE9A72CB59CAE8A9057150`. `Inspect-Background.ps1` confirmed one explicit contained static 854 x 480 PNG with one frame; source SHA-256 remained `A250E074A5276B1482090810A48385D9F68E6EA7B2B14645049A985F7147E4AE`.
+- Visual assessment found a clean intentional near-16:9 minimalist composition: a uniform dark field with small exact `Fancy Footwork` text and no visible damage. The exact fingerprint was reserved, then returned to `eligible` with factual `preview-rejected` history because nominal resolution alone did not justify restoration. No generation attempt or preview binding was made.
+- ITGMania was not restarted or terminated. No live background, song, simfile, audio, chart, score, profile, configuration, or process state changed.
+- **Retrospective:** The visual quality gate prevented unnecessary semantic generation for sound minimalist art, while the atomic return preserved round-robin rotation. This is fingerprint-specific evidence and does not justify a skill, documentation, or owner-wide preference change.
+
+## 2026-08-02 - Background self-update mechanism hardened
+
+- **Owner-confirmed:** Require the static-background skill to have an auditable self-update mechanism before another task run.
+- Added `Record-BackgroundLearning.ps1` and made one retrospective record mandatory after every completed preview, failure, skip, denial, or installation interaction. The helper distinguishes no lesson, fingerprint-specific evidence, and reusable learning; reusable records require named changed files and successful validation evidence.
+- Updated the skill, migration guides, and active hourly automation prompt so scheduled-behavior improvements propagate to the live task. Parser checks, rejection of evidence-free reusable claims, successful no-change recording, and skill validation all passed.
+
+## 2026-08-02 - Masters of the Universe background preview staged
+
+- **Observed:** The next manual queue run selected never-attempted `Masters of the Universe` fingerprint `74505FD69550A1D755868C29D67450126D918E33794B7C2720B6C1B8573286AC`. Its explicit contained static PNG was 640 x 480 with SHA-256 `0DA1969A2A277840E6C0C9FFDB62039D1A6B3588130CE9ECB23DCED92B6BAED2`.
+- Visual review confirmed that the 4:3 source needed a 16:9 fit repair. One faithful built-in edit preserved exact text `Masters of the Universe  Juno Reactor`, the white/lime typography, orange storm composition, circular interface, technical overlays, and right-side structure while outpainting horizontally.
+- Staged an opaque 1920 x 1080 PNG outside the live song folder at `.tmp/background-upscale/masters-of-the-universe/after-a-1920x1080.png`, bound SHA-256 `2F88DAF5DA74CEC5A67191CEEDDD14E5BE58A356EB4F6C9C1FCEBD4BB537C40C`, and left the fingerprint pending for exact approval.
+- No live background, simfile, audio, chart, score, profile, configuration, or process state changed.
+- **Retrospective:** The existing faithful outpainting, exact-text review, staging, and approval rules fully covered the run. The successful composition is fingerprint-specific; no reusable skill or owner-wide preference change was justified.
+
+## 2026-08-02 - Masters of the Universe background installed
+
+- **Owner-confirmed:** Said `Hot! love it.` and explicitly approved the exact staged After A; this positive aesthetic feedback is retained with the decision.
+- **Observed:** ITGMania was closed; preview, source, and simfile hashes matched the pending fingerprint. Today's backup log directly confirmed `Backup completed successfully` at 03:05:34 Pacific; the health helper was degraded only by access denial while inspecting the scheduled task.
+- Installed only `Masters of the Universe-bg.png` as a validated static 1920 x 1080 PNG with SHA-256 `2F88DAF5DA74CEC5A67191CEEDDD14E5BE58A356EB4F6C9C1FCEBD4BB537C40C`. Preserved the prior 640 x 480 source as `Masters of the Universe-bg.png.pre-upscale-20260802-115731.bak` with original SHA-256 `0DA1969A2A277840E6C0C9FFDB62039D1A6B3588130CE9ECB23DCED92B6BAED2`.
+- Simfile hash and `#BACKGROUND` remained unchanged. ITGMania remained closed and was not restarted.
+- **Retrospective:** Two installs exposed a reusable refresh race: installer-created content could otherwise be assessed as unrelated new content. Updated the queue helper, skill migration guide, task guide, and live automation prompt so a source exactly matching its approved preview retains installed status/history under the refreshed fingerprint; genuinely different content still receives a fresh assessment. Parser, refresh, history-preservation, and skill validation checks passed.
+
+## 2026-08-02 - Praise You background preview staged
+
+- **Observed:** The next manual run selected never-attempted `Praise You` fingerprint `9FA5D3A97E29F65C1096100950D407DC3270AF3DDF2D630AAB3ACDD9EEC1B0C2`. Its explicit static 640 x 480 PNG remained unchanged with SHA-256 `1C099617220A35C161661023ADB9C8BD03EC22300B09D49923F1CAE111EF4FC1`.
+- Visual review confirmed that the 4:3 record-shelf composition warranted faithful horizontal outpainting. One built-in edit preserved exact `Praise You` text, bold white condensed typography and shadow, warm wooden shelves, dense vinyl records, muted palette, and original gritty photographic treatment.
+- Staged an opaque 1920 x 1080 PNG outside the live song folder at `.tmp/background-upscale/praise-you/after-a-1920x1080.png`, bound SHA-256 `1AB6883F0DB22EF28B27ACFD61B6E88757DA1043F0B5AFBAD21886D6CB97B17F`, and left the fingerprint pending for exact approval.
+- No live background, simfile, audio, chart, score, profile, configuration, or process state changed.
+- **Retrospective:** Existing faithful outpainting, exact-text validation, staging, queue binding, and approval rules covered the run. The result is fingerprint-specific and no reusable skill change was justified.
+
+## 2026-08-02 - Praise You background installed
+
+- **Owner-confirmed:** Said `Fantastic!` and explicitly approved the exact staged After A; no additional reasoning was supplied.
+- **Observed:** ITGMania was closed; the preview, original source, and simfile matched the pending ledger hashes. Today's backup log confirmed successful completion at 03:05:34 Pacific.
+- Installed only `Praise You-bg.png` as a static 1920 x 1080 PNG with approved SHA-256 `1AB6883F0DB22EF28B27ACFD61B6E88757DA1043F0B5AFBAD21886D6CB97B17F`. Preserved the prior source as `Praise You-bg.png.pre-upscale-20260802-120404.bak` with original SHA-256 `1C099617220A35C161661023ADB9C8BD03EC22300B09D49923F1CAE111EF4FC1`.
+- The simfile and `#BACKGROUND` remained unchanged. ITGMania remained closed. Refresh preserved installed status, preview hash, and decision history under the installed-content fingerprint as designed.
+- **Retrospective:** Exact approval binding, rollback preservation, post-install validation, and installed-state refresh preservation all worked as designed. The positive reaction is fingerprint-specific; no reusable skill change was justified.
+
+## 2026-08-02 - Guilt Is a Useless Emotion background left unchanged
+
+- **Observed:** At 11:40 Pacific, live status showed ITGMania 1.3.0 running at 1920 x 1080 windowed. Refreshed all 206 `Misc. Collected` song directories and selected never-attempted `Guilt Is a Useless Emotion (Mac Quayle Mix)` fingerprint `53017055589221A1CA1AD10E1CAC6E8CCFFC75E8E5D612C55682F8796E263000`.
+- `Inspect-Background.ps1` confirmed one explicit contained static 1280 x 720 PNG with one frame. Source SHA-256 remained `62658FF1813558B7E5AB2EBFFB379455614BB083355D414F2EEC32264670B0B5`.
+- Visual assessment found a clean exact-16:9 mixed-media composition with crisp intentional line work, intact edge-to-edge framing, and no visible compression damage. The exact fingerprint was reserved, then returned to `eligible` with factual `preview-rejected` history because nominal dimensions alone did not justify restoration and AI editing could alter the artwork. No generation attempt or preview binding was made.
+- Final validation found 206 unique fingerprints with counts 4 eligible, 201 ineligible, and 1 installed. ITGMania was no longer running at final verification; no process action was taken by this run. No live background, song, simfile, audio, chart, score, profile, or configuration changed.
+- **Retrospective:** The visual quality gate again prevented unnecessary processing of sound 16:9 artwork, while the atomic return preserved round-robin rotation. This fingerprint-specific assessment does not justify a skill, documentation, or owner-wide preference change.
+
+## 2026-08-02 - Good-as-is background skip recorded
+
+- **Owner-confirmed:** Mark `Guilt Is a Useless Emotion (Mac Quayle Mix)` as skipped because its current background is good as-is.
+- Added a distinct fingerprint-scoped `skipped` queue state, separate from the permanent-opt-out meaning of `denied`. The helper accepts `skipped` from eligible or pending state, requires a factual `DecisionNote`, needs no preview binding, preserves the decision across refreshes, and gives changed content a fresh assessment.
+- Updated the reusable skill, background conventions, skill catalog and guide, scheduled-task catalog and guide, and architectural decision record in the same change.
+- A temporary-ledger test marked the exact fingerprint skipped, refreshed successfully, and selected `Masters of the Universe` next instead. The skill validator reported `Skill is valid!`; the temporary test ledger was removed afterward.
+- Marked live queue fingerprint `53017055589221A1CA1AD10E1CAC6E8CCFFC75E8E5D612C55682F8796E263000` `skipped` with the owner's exact good-as-is reason. A subsequent refresh preserved the state. Final counts are 3 eligible, 201 ineligible, 1 installed, and 1 skipped; the live source hash remained unchanged.
+- **Retrospective:** A separate `skipped` state captures positive good-as-is feedback without mislabeling it as denial or repeatedly rotating sound artwork. The behavior remains fingerprint-scoped and does not generalize an aesthetic preference.

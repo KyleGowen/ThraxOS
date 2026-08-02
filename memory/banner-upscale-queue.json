@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-02T17:16:40.0993804Z",
+    "generatedAt":  "2026-08-02T19:07:06.3449598Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -648,11 +648,11 @@
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
                       "status":  "pending",
-                      "processedAt":  "2026-08-02T17:16:40.0603769Z",
-                      "pendingAction":  "generate-preview",
-                      "previewPath":  null,
-                      "previewSha256":  null,
-                      "lastAttemptedAt":  "2026-08-02T17:16:40.0603769Z",
+                      "processedAt":  "2026-08-02T18:18:12.7095202Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\E9EAF224BB4E1CAB1375EBDA751530947C552787430F8DC1B1DF4EB2F75BB6DF\\options\\Beautiful-Life-owner-selected-C-attachment.png",
+                      "previewSha256":  "1211C592F6050D2C08E75B2E351AF8D700661DC692C56DD9354DD83B7535A82C",
+                      "lastAttemptedAt":  "2026-08-02T18:18:12.7095202Z",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-02T17:06:04.9586220Z",
@@ -691,11 +691,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-02T18:06:23.9251647Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\B2D42660714D0F690A007992D67C33D58ABAD67A693316DD646015138BF4F023\\Better Than Revenge-after-836x328.png",
+                      "previewSha256":  "B2F49896BE4A6348D101B7BA8F5493ADCE6118B69B9B40EC23DA0FE1DD0FB3AE",
+                      "lastAttemptedAt":  "2026-08-02T18:06:23.9251647Z"
                   },
                   {
                       "songPath":  "Bike Chase",
@@ -803,7 +804,18 @@
                       "processedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-02T19:07:06.2669372Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-02T19:07:06.2669372Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "Two permitted built-in GPT Image 2 high-fidelity calls produced visually viable inline composites preserving the complete source composition and exact visible text ferry corsten and BLUEPRINT, but each persisted PNG was background-only and omitted the upper logo, lower title, and central cube/planet despite correct generated-image forwarding. No complete output was recoverable for exact staging or SHA-256 binding; no deterministic fallback was attempted.",
+                                                 "priorProcessedAt":  "2026-08-02T19:02:52.1914280Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "Boom",

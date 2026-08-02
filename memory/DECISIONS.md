@@ -65,6 +65,15 @@
 - **Decision:** Queue selection is round-robin. Never-attempted eligible fingerprints precede returned items; returned items retain their last-attempt time and cannot recur until every less-recently attempted eligible fingerprint has had its turn. Ordinary preview declines rotate; terminal denial is reserved for an explicit permanent opt-out of that fingerprint.
 - **Rationale:** Durable fingerprint state prevents duplicate work while allowing changed source content to be reassessed without weakening exact-preview approval.
 
+## 2026-08-02 static background restoration workflow
+
+- **Decision:** Use the project-local `upscale-background` skill for explicit static song backgrounds. Target the owner-confirmed windowed 1920 x 1080 16:9 presentation; prefer faithful restoration and outpainting, and require the exact labeled preview before installation.
+- **Decision:** Exclude missing backgrounds, `BGCHANGES`, videos, animated/multi-frame images, GIF, conflicting references, implicit legacy artwork, unsafe paths, and undecodable images. Missing-background creation is a separate future workflow.
+- **Decision:** Maintain `memory/background-upscale-queue.json` for `Misc. Collected`, using fingerprint-bound history and terminal decisions. Ordinary denials rotate; only explicit permanent opt-out is terminal. New owner-supplied source material authorizes another attempt and may support a from-scratch composition.
+- **Decision:** Record explicit owner feedback that valid artwork is good as-is as fingerprint-scoped `skipped`, distinct from `denied`. A source or simfile change creates a new fingerprint and triggers a fresh assessment.
+- **Decision:** Run the preview-only queue hourly at minute 30, one new candidate maximum per run. Pending candidates do not block others. Bare `install` selects the latest displayed After unless the owner identifies a different candidate.
+- **Rationale:** This preserves static-media safety, reversible installation, owner control, and useful iteration while keeping missing or dynamic-background work out of scope.
+
 ## 2026-08-01 community pack-source expansion
 
 - **Owner-confirmed:** Add r/StepMania, the ZIV Simulation Forums, GrooveStats event pages, International Timing Collective downloads, the ITG Wiki pack list, the StepMania Song Packs forum, and AlienSix's gameplay playlists to ThraxOS as approved pack and individual-song discovery or screening sources.
