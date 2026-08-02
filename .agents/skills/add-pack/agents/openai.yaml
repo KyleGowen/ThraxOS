@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Pack"
+  short_description: "Safely download and install ITG song packs"
+  default_prompt: "Use $add-pack to find or download an ITG song pack, validate it, install it safely, and clean up the archive."

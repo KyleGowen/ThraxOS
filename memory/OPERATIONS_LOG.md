@@ -54,3 +54,27 @@
 - Upgraded the canonical installation from ITGMania 1.0.2 to 1.3.0 and replaced Simply Love 5.6.1 with 5.9.0 using verified official release assets.
 - Installed 97 Unaffiliated charts and 13 Stamina Nation marathons under the canonical song root without overwriting existing packs or songs.
 - Confirmed Kyle's GrooveStats configuration and tournament-compatible timing, life, judgment-window, and fail-mode preferences survived the upgrade. ITGMania was left closed pending owner-led live verification.
+
+## 2026-08-01 — Ninajirachi girl EDM installed
+
+- Followed the owner-approved `girl-edm` source to the publisher's Google Drive archive and downloaded it into a unique ThraxOS staging directory.
+- Recorded the 509.76 MiB archive's SHA-256 fingerprint, rejected unsafe archive paths and executable/script payloads, and scanned both the archive and extracted pack with Windows Defender; no threats were found.
+- Verified 31 valid song directories, 31 simfiles, 31 audio files, one intentional `__bias-check` image-assets directory, and no existing pack or live song-name collisions.
+- Installed `Ninajirachi's girl EDM (disc 1) special edition` into the canonical `C:\Games\ITGmania\Songs` root without overwriting content.
+- Deleted the downloaded ZIP and empty staging directory as requested. Did not stop, restart, or reload ITGMania; the application was observed running before installation and closed afterward.
+
+## 2026-08-01 — Add Pack skill created
+
+- Added the project-local `add-pack` skill for resolving a pack from a description, source page, or archive URL and installing it through the guarded ThraxOS workflow.
+- Added a resumable `curl.exe` downloader that resolves common short links, handles Google Drive preview and large-file confirmation flows, verifies ZIP signatures immediately, and reports size plus SHA-256.
+- Added an explicitly gated installer that rejects traversal, absolute paths, executable/script payloads, malformed layouts, Defender failures, exact-pack collisions, and unreviewed song-name collisions before moving content into the canonical song root.
+- Validated the skill with the official validator, a clean synthetic pack in non-installing mode, a local download round-trip, and a malicious traversal archive. No test pack was added to the live library.
+
+## 2026-08-01 — Flow Actualized 2 and Notice Me Benpai 3 installed
+
+- Ran two parallel `add-pack` agents with unique staging directories for the owner-authorized Flow Actualized 2 and Notice Me Benpai 3 installations.
+- Verified today's 03:02 backup-log success; scheduled-task inspection remained access-denied. ITGMania stayed running and was not stopped, restarted, or reloaded.
+- Downloaded both publisher archives, recorded sizes and SHA-256 fingerprints, rejected unsafe paths and executable/script payloads, and completed archive plus extracted-tree Defender scans with no threats.
+- Reviewed Flow's `Body Talk` and `Breathe` and Notice's `Everything`, `Get Down`, and `Journey` title collisions against installed metadata. Different artists and audio evidence established that all five are distinct songs, so the reviewed-collision override was used without overwriting content.
+- Improved the installer to ignore only conventional top-level `__MACOSX` and `.DS_Store` metadata during pack-folder counting while continuing to safety-check every archive entry.
+- Installed 22 Flow songs and 32 Notice songs into separate new canonical pack folders. Deleted both ZIPs and empty staging directories; live recognition awaits an owner-approved reload/restart or normal game action.

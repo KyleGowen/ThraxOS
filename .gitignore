@@ -19,6 +19,7 @@ quarantine/
 # Runtime and generated state
 *.log
 .codex-log/
+.codex-remote-attachments/
 .tmp/
 tmp/
 out/

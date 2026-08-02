@@ -34,6 +34,11 @@
 - **Decision:** Use the checked-in `itg-packs-search` skill for queries against the ITG Packs Release Spreadsheet.
 - **Rationale:** A stable spreadsheet schema, minimal-call query plans, explicit range semantics, targeted hyperlink enrichment, alias handling, and deterministic installed-pack comparison improve accuracy while reducing repeated discovery work.
 
+## 2026-08-01 song-pack installation workflow
+
+- **Decision:** Use the project-local `add-pack` skill for description- or URL-driven song-pack downloads and installations.
+- **Rationale:** Resumable downloads, Google Drive confirmation handling, immediate ZIP-signature checks, deterministic archive/layout validation, Defender scanning, collision refusal, explicit installation gating, and post-success cleanup make repeated installations safer and faster.
+
 ## 2026-08-01 Stamina RPG 10 upgrade
 
 - **Decision:** Supersede the earlier hold on ITGMania 1.0.2: upgrade the canonical installation to ITGMania 1.3.0 and Simply Love 5.9.0 for native Stamina RPG 10 support.

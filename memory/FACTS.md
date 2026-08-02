@@ -43,3 +43,16 @@
 - **Observed:** ITGMania 1.3.0 and Simply Love 5.9.0 are installed. Kyle's GrooveStats key remains present with a valid shape, `IsPadPlayer=1`, and `EnableGrooveStats=true`.
 - **Observed:** `C:\Games\ITGmania\Songs\Stamina RPG 10` contains 97 songs/simfiles and `Stamina RPG 10 - SN` contains 13 songs/simfiles. The official archives had no unsafe paths, executable payloads, Defender detections, or live song-name collisions.
 - **Observed:** Tournament-compatible defaults remain present: dance mode, timing and life scales of 1.0 (Judge/Life 4), Decent and Way-Off windows, and `FailImmediateContinue`.
+
+## 2026-08-01 Ninajirachi girl EDM installation
+
+- **Owner-confirmed:** Add `Ninajirachi's girl EDM (disc 1) special edition` to the canonical ITGMania song library.
+- **Observed:** The pack is installed at `C:\Games\ITGmania\Songs\Ninajirachi's girl EDM (disc 1) special edition` with 31 song directories, 31 simfiles, 31 audio files, and `Pack.ini`.
+- **Observed:** The downloaded 509.76 MiB archive had SHA-256 `7C9396963EB24DE35C61E78E61311748AEC17D33170595B762DAF34C491CE776`; archive and extracted-tree Defender scans found no threats, and no live song-name collisions were found.
+
+## 2026-08-01 Flow Actualized 2 and Notice Me Benpai 3 installations
+
+- **Owner-confirmed:** Install the previously recommended `Flow Actualized 2` and `Notice Me Benpai 3` packs with the `add-pack` workflow.
+- **Observed:** `C:\Games\ITGmania\Songs\Flow Actualized 2` contains 22 song directories, 22 simfiles, and 22 audio files. Its 94.66 MiB archive had SHA-256 `3B1F9D94D65122F6C5613CF01F7C9436FCEFA2E7BF62BC9F91EEB060F77B8BFD`.
+- **Observed:** `C:\Games\ITGmania\Songs\Notice Me Benpai 3` contains 32 song directories, 64 simfiles, and 32 audio files. Its 203.60 MiB archive had SHA-256 `BDD063CD730B2A57B51808CB74FB908F1ABE7CB7F5145C2F7F9D648B975DFF5D`.
+- **Observed:** Defender found no threats in either archive or extracted pack. Reviewed title-only collisions were distinct songs by different artists; no existing pack or song content was overwritten. Both downloaded ZIPs were deleted.
