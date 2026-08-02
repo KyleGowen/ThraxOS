@@ -24,11 +24,11 @@
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
                       "status":  "eligible",
                       "processedAt":  null,
+                      "lastAttemptedAt":  "2026-08-02T07:57:47.1730799Z",
                       "pendingAction":  null,
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-                                             null,
                                              {
                                                  "recordedAt":  "2026-08-02T07:57:47.1730799Z",
                                                  "outcome":  "prompt-error",
