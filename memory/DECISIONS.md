@@ -49,7 +49,17 @@
 - **Decision:** Use the project-local `upscale-banner` skill for ITGMania song-banner restoration. Generate and show a faithful staged preview first; require explicit approval of that exact preview before changing the live banner.
 - **Decision:** Use 836 x 328 PNG as the current host convention, prefer GPT Image 2 high-fidelity editing for semantic restoration, and use deterministic super-resolution when exact content preservation is required.
 - **Decision:** Every `upscale-banner` preview must show the current source and generated candidate as clearly labeled `Before` and `After` images before requesting installation approval.
+- **Decision:** Attempt GPT Image 2 high-fidelity restoration at most twice. Offer deterministic exact-content upscaling only after both attempts fail, and require explicit approval before switching unless the owner already approved that fallback.
 - **Rationale:** This captures the successful Simply Love banner dimensions while separating creative generation from a minimal, reversible, validated live installation.
+
+## 2026-08-02 banner candidate queue
+
+- **Decision:** Maintain `memory/banner-upscale-queue.json` as the durable `Misc. Collected` banner queue, keyed by relative song path and content fingerprint. A terminal installed or denied decision applies only to that fingerprint.
+- **Decision:** Scheduled preview runs select eligible content by oldest observation time and then path, create no more than one preview, and atomically mark it pending. Existing pending previews do not block later distinct candidates.
+- **Decision:** Scheduled runs never install banners. Installation and denial remain interactive decisions bound to the exact preview hash.
+- **Decision:** A failed or misidentified preview attempt may be returned to the eligible queue as unprocessed only through an atomic transition that preserves timestamped attempt context and clears active processing and preview fields.
+- **Decision:** Queue selection is round-robin. Never-attempted eligible fingerprints precede returned items; returned items retain their last-attempt time and cannot recur until every less-recently attempted eligible fingerprint has had its turn. Ordinary preview declines rotate; terminal denial is reserved for an explicit permanent opt-out of that fingerprint.
+- **Rationale:** Durable fingerprint state prevents duplicate work while allowing changed source content to be reassessed without weakening exact-preview approval.
 
 ## 2026-08-01 community pack-source expansion
 

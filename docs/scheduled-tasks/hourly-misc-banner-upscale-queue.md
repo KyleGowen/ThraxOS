@@ -13,9 +13,9 @@ Observed live on 2026-08-02. Automation ID: `hourly-misc-banner-upscale-queue`.
 
 ## Per-run contract
 
-Load repository safety/context, refresh new or changed queue entries, select exactly one eligible fingerprint by oldest observation then path, atomically mark it pending, and stage one 836 x 328 Before/After preview. Record preview path and SHA-256 and ask whether to install that exact preview.
+Load repository safety/context, refresh new or changed queue entries, and select exactly one eligible fingerprint. Selection is round-robin: never-attempted entries first by oldest observation/path, then returned entries by least-recent attempt, observation, and path. Atomically mark it pending and stage one 836 x 328 Before/After preview. Record preview path and SHA-256 and ask whether to install that exact preview.
 
-Never install, mutate live songs, restart ITGMania, change configuration/charts/scores/profiles, duplicate a pending or terminal fingerprint, or silently switch processing methods. If no candidates remain, report counts and exit.
+Never install, mutate live songs, restart ITGMania, change configuration/charts/scores/profiles, duplicate a pending or terminal fingerprint, or silently switch processing methods. Generation failure, prompt error, or ordinary preview rejection returns the exact fingerprint to the queue with timestamped attempt context so it rotates behind less-recently attempted work. Only an explicit permanent owner opt-out becomes terminal `denied`. If no candidates remain, report counts and exit.
 
 ## Reproduce and verify
 

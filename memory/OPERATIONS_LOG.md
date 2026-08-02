@@ -148,3 +148,33 @@
 
 - **Owner-confirmed:** Require the `upscale-banner` skill to display the current banner and generated candidate together as labeled `Before` and `After` images.
 - Updated the preview contract and skill UI prompt without changing the approval-gated installation, backup, validation, or no-restart safeguards. No live ITGMania or song files were changed.
+
+## 2026-08-02 - Upscale Banner two-attempt fallback policy added
+
+- **Owner-confirmed:** Allow deterministic exact-content upscaling only after two failed GPT Image 2 high-fidelity attempts.
+- Updated the processing-path contract to retry generation exactly once, disclose both failures, and require approval before deterministic fallback unless already granted. No live ITGMania or song files were changed.
+
+## 2026-08-02 - Chill Dr. Mario banner upscaled
+
+- **Owner-confirmed:** After two GPT Image 2 output-filter failures, approved deterministic exact-content fallback and then approved the labeled 836 x 328 `After` preview for installation.
+- **Observed:** The simfile referenced a missing `bn.png`, while ITGMania had used the existing 256 x 80 `Chill (Dr. Mario).png` fallback. Backup health was successful at 00:24 Pacific with scheduled-task result `0x0`.
+- Created the missing referenced `bn.png` from the exact approved deterministic preview and verified PNG decoding, 836 x 328 dimensions, SHA-256, and the unchanged `#BANNER:bn.png;` reference. Preserved the original fallback untouched. ITGMania was closed and was not restarted; no simfiles, audio, charts, scores, profiles, or configuration were changed.
+
+## 2026-08-02 - Misc. Collected banner queue seeded
+
+- **Owner-confirmed:** Create a durable candidate queue for hourly preview-only banner restoration, allow distinct candidates to proceed while earlier previews await a response, and keep installation interactive.
+- **Observed:** Read-only assessment covered every current song directory in the live canonical `Misc. Collected` pack. The queue records simfile and source fingerprints, dimensions, eligibility reasons, processing state, and exact preview identity when one exists.
+- Added a deterministic refresh, selection, and atomic state-transition helper. No live song, banner, simfile, audio, chart, score, profile, configuration, or process state was changed, and no automation was created.
+
+## 2026-08-02 - Hourly banner queue test run stopped after two generation failures
+
+- **Observed:** Refreshed the live `Misc. Collected` banner queue and deterministically selected `80s Fitness`, whose referenced `80s bn.png` decoded at 418 x 164. ITGMania was closed during the observation.
+- Atomically reserved fingerprint `99E71968030E09A5C1DA25FE464947C84BF3B44D45FEF41B6D8106E4092F0608` as pending before image work. Both permitted GPT Image 2 high-fidelity restoration attempts returned no usable image payload, so no preview path or preview SHA-256 was recorded and the pending action remains `generate-preview`.
+- No deterministic fallback was attempted. No live song, banner, simfile, audio, chart, score, profile, configuration, or process state was changed.
+
+## 2026-08-02 - Banner queue return-with-context behavior added
+
+- **Owner-confirmed:** Return the unsuccessful `80s Fitness` attempt to the queue as unprocessed while preserving that both generation attempts failed and the attempted prompt misread the artist as `KENN YOUNG`; the banner's exact artist text is `KOAN SOUND`.
+- Added an atomic return-to-queue transition that records timestamped attempt outcome and notes, preserves any discarded preview identity, clears active preview and processing fields, and restores eligibility with a null `processedAt`.
+- Updated the reusable banner skill to require future runs to read and honor attempt history before prompting. No live song, banner, simfile, audio, chart, score, profile, configuration, or process state was changed.
+- Extended selection to round-robin ordering using durable `lastAttemptedAt`: never-attempted candidates are exhausted first, then returned candidates rotate from least recently attempted. Ordinary declines rotate; only explicit permanent opt-outs become terminal denials.
