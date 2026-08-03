@@ -58,11 +58,11 @@
 
 ## 2026-08-02 banner candidate queue
 
-- **Decision:** Maintain `memory/banner-upscale-queue.json` as the durable `Misc. Collected` banner queue, keyed by relative song path and content fingerprint. A terminal installed or denied decision applies only to that fingerprint.
+- **Decision:** Maintain `memory/banner-upscale-queue.json` as the durable `Misc. Collected` banner queue, keyed by relative song path and content fingerprint. A terminal installed, denied, or skipped decision applies only to that fingerprint.
 - **Decision:** Scheduled preview runs select eligible content by oldest observation time and then path, create no more than one preview, and atomically mark it pending. Existing pending previews do not block later distinct candidates.
 - **Decision:** Scheduled runs never install banners. Installation and denial remain interactive decisions bound to the exact preview hash.
 - **Decision:** A failed or misidentified preview attempt may be returned to the eligible queue as unprocessed only through an atomic transition that preserves timestamped attempt context and clears active processing and preview fields.
-- **Decision:** Queue selection is round-robin. Never-attempted eligible fingerprints precede returned items; returned items retain their last-attempt time and cannot recur until every less-recently attempted eligible fingerprint has had its turn. Ordinary preview declines rotate; terminal denial is reserved for an explicit permanent opt-out of that fingerprint.
+- **Decision:** Queue selection is round-robin. Never-attempted eligible fingerprints precede returned items; returned items retain their last-attempt time and cannot recur until every less-recently attempted eligible fingerprint has had its turn. Ordinary preview declines rotate; explicit good-as-is feedback becomes fingerprint-scoped `skipped`, while terminal denial is reserved for an explicit permanent opt-out of that fingerprint.
 - **Rationale:** Durable fingerprint state prevents duplicate work while allowing changed source content to be reassessed without weakening exact-preview approval.
 
 ## 2026-08-02 static background restoration workflow
@@ -72,6 +72,11 @@
 - **Decision:** Maintain `memory/background-upscale-queue.json` for `Misc. Collected`, using fingerprint-bound history and terminal decisions. Ordinary denials rotate; only explicit permanent opt-out is terminal. New owner-supplied source material authorizes another attempt and may support a from-scratch composition.
 - **Decision:** Record explicit owner feedback that valid artwork is good as-is as fingerprint-scoped `skipped`, distinct from `denied`. A source or simfile change creates a new fingerprint and triggers a fresh assessment.
 - **Decision:** Run the preview-only queue hourly at minute 30, one new candidate maximum per run. Pending candidates do not block others. Bare `install` selects the latest displayed After unless the owner identifies a different candidate.
+- **Owner-confirmed:** Treat whitespace-only `#BGCHANGES:;` as empty metadata rather than dynamic content. Continue excluding populated or malformed changes.
+- **Decision:** Prioritize eligible explicit static art by severity: broken/tiny, aspect mismatch, SD-or-smaller, sub-HD, then soft-review. Preserve round-robin ordering within a tier. Only clean near-16:9 soft-review art at 1280 x 720 or better may be skipped solely for adequate runtime quality.
+- **Decision:** When a background fingerprint exhausts both genuine AI attempts and deterministic fallback needs owner approval, retain it as pending with `pendingAction=awaiting-fallback-approval`; do not return it to eligible. Pending work remains non-blocking, so lower quality tiers continue instead of being starved by the exhausted highest-severity item.
+- **Decision:** Record plausible implicit DWI artwork and missing-reference fallbacks as non-selectable `review-only` records. A filename heuristic may support owner review but never establishes the runtime source or authorizes generation, simfile edits, or installation.
+- **Decision:** Preserve queue status and history across assessment-rule fingerprint migrations only when the explicit reference, source hash, and simfile hashes remain exact. Rule changes must not silently reopen an unchanged owner-skipped or denied source; content changes still receive a fresh assessment.
 - **Rationale:** This preserves static-media safety, reversible installation, owner control, and useful iteration while keeping missing or dynamic-background work out of scope.
 
 ## 2026-08-01 community pack-source expansion

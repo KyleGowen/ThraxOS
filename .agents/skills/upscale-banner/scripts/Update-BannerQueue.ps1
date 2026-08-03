@@ -5,7 +5,8 @@ param(
     [switch]$Refresh,
     [switch]$SelectNext,
     [switch]$ReturnToQueue,
-    [ValidateSet('eligible', 'pending', 'installed', 'denied')][string]$SetStatus,
+    [switch]$RecordInstalledContent,
+    [ValidateSet('eligible', 'pending', 'installed', 'denied', 'skipped')][string]$SetStatus,
     [string]$SongPath,
     [string]$Fingerprint,
     [string]$PreviewPath,
@@ -19,10 +20,33 @@ $repositoryRoot = Split-Path -Parent (Split-Path -Parent (Split-Path -Parent (Sp
 if (-not $QueuePath) { $QueuePath = Join-Path $repositoryRoot 'memory\banner-upscale-queue.json' }
 $targetWidth = 836
 $targetHeight = 328
-$validStatuses = @('eligible', 'ineligible', 'pending', 'installed', 'denied')
+$validStatuses = @('eligible', 'ineligible', 'pending', 'installed', 'denied', 'skipped')
 
 function Get-Sha256([string]$Path) {
     (Get-FileHash -LiteralPath $Path -Algorithm SHA256).Hash
+}
+
+function Get-InstallRenderSha256([string]$Preview, [int]$Width, [int]$Height) {
+    Add-Type -AssemblyName System.Drawing
+    $input = [Drawing.Image]::FromFile($Preview)
+    try {
+        $bitmap = New-Object Drawing.Bitmap $Width, $Height, ([Drawing.Imaging.PixelFormat]::Format32bppArgb)
+        try {
+            $graphics = [Drawing.Graphics]::FromImage($bitmap)
+            try {
+                $graphics.CompositingQuality = [Drawing.Drawing2D.CompositingQuality]::HighQuality
+                $graphics.InterpolationMode = [Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
+                $graphics.DrawImage($input, 0, 0, $Width, $Height)
+                $stream = New-Object IO.MemoryStream
+                try {
+                    $bitmap.Save($stream, [Drawing.Imaging.ImageFormat]::Png)
+                    $sha = [Security.Cryptography.SHA256]::Create()
+                    try { return ([BitConverter]::ToString($sha.ComputeHash($stream.ToArray()))).Replace('-', '') }
+                    finally { $sha.Dispose() }
+                } finally { $stream.Dispose() }
+            } finally { $graphics.Dispose() }
+        } finally { $bitmap.Dispose() }
+    } finally { $input.Dispose() }
 }
 
 function Get-RelativePath([string]$BasePath, [string]$ChildPath) {
@@ -164,6 +188,20 @@ if ($Refresh) {
         if ($old -and $old.fingerprint -eq $fresh.fingerprint) {
             if ($old.status -notin $validStatuses) { throw "Invalid status '$($old.status)' for $($old.songPath)." }
             $songs += $old
+        } elseif ($old -and $old.status -eq 'installed' -and
+                  ($old.PSObject.Properties.Name -contains 'installedSourceSha256') -and
+                  $old.installedSourceSha256 -eq $fresh.sourceSha256) {
+            $fresh.status = 'installed'
+            $fresh.reason = 'The exact owner-approved preview is installed.'
+            $fresh.processedAt = $old.processedAt
+            $fresh.lastAttemptedAt = $old.lastAttemptedAt
+            $fresh.previewPath = $old.previewPath
+            $fresh.previewSha256 = $old.previewSha256
+            $fresh.attemptHistory = @($old.attemptHistory | Where-Object { $_ })
+            $fresh.decisionHistory = @($old.decisionHistory | Where-Object { $_ })
+            $fresh['installedSourceSha256'] = $old.installedSourceSha256
+            $songs += [pscustomobject]$fresh
+            $changed = $true
         } else {
             $songs += [pscustomobject]$fresh
             $changed = $true
@@ -180,13 +218,19 @@ if ($Refresh) {
 }
 
 if ($SetStatus) {
+    if ($RecordInstalledContent -and $SetStatus -ne 'installed') { throw '-RecordInstalledContent can only be combined with -SetStatus installed.' }
     if (-not $SongPath -or -not $Fingerprint) { throw '-SetStatus requires -SongPath and -Fingerprint.' }
     $matches = @($existing.songs | Where-Object { $_.songPath -eq $SongPath -and $_.fingerprint -eq $Fingerprint })
     if ($matches.Count -ne 1) { throw 'The exact song path and fingerprint were not found; refresh and reassess instead of updating stale content.' }
     $record = $matches[0]
     if ($SetStatus -eq 'pending' -and $record.status -ne 'eligible' -and $record.status -ne 'pending') { throw "Cannot mark status '$($record.status)' as pending." }
-    if ($SetStatus -in @('installed', 'denied') -and $record.status -ne 'pending') { throw "Only a pending exact fingerprint can be marked $SetStatus." }
-    if ($SetStatus -in @('installed', 'denied') -and [string]::IsNullOrWhiteSpace($DecisionNote)) { throw "Status '$SetStatus' requires a nonblank -DecisionNote that captures the owner's outcome and any reasoning provided." }
+    $recordingInstalledContent = $SetStatus -eq 'installed' -and $RecordInstalledContent
+    $reprovingInstalledContent = $recordingInstalledContent -and $record.status -eq 'installed'
+    if ($SetStatus -in @('installed', 'denied') -and $record.status -ne 'pending' -and
+        -not ($recordingInstalledContent -and $record.status -in @('ineligible', 'installed'))) { throw "Only a pending exact fingerprint can be marked $SetStatus." }
+    if ($SetStatus -eq 'skipped' -and $record.status -notin @('eligible', 'pending')) { throw "Only an eligible or pending exact fingerprint can be marked skipped." }
+    if ($SetStatus -in @('installed', 'denied', 'skipped') -and [string]::IsNullOrWhiteSpace($DecisionNote)) { throw "Status '$SetStatus' requires a nonblank -DecisionNote that captures the owner's outcome and any reasoning provided." }
+    if ($recordingInstalledContent -and [string]::IsNullOrWhiteSpace($PreviewPath)) { throw '-RecordInstalledContent requires the exact approved -PreviewPath.' }
     if ($PreviewPath) {
         $resolvedPreview = (Resolve-Path -LiteralPath $PreviewPath).Path
         $record.previewPath = $resolvedPreview
@@ -194,15 +238,38 @@ if ($SetStatus) {
     } elseif ($SetStatus -in @('installed', 'denied') -and (-not $record.previewSha256)) {
         throw "Status '$SetStatus' requires a recorded exact preview."
     }
+    if ($SetStatus -eq 'installed') {
+        $songDirectory = [IO.Path]::GetFullPath((Join-Path $pack $record.songPath)).TrimEnd('\')
+        if (-not (Test-Path -LiteralPath $songDirectory -PathType Container)) { throw 'The installed song directory no longer exists.' }
+        if ([string]::IsNullOrWhiteSpace($record.sourcePath)) { throw 'The installed record has no contained source path.' }
+        $freshInstalled = Get-Assessment (Get-Item -LiteralPath $songDirectory) $pack ((Get-Date).ToUniversalTime().ToString('o'))
+        $simfilesUnchanged = ((@($freshInstalled.simfiles) | ConvertTo-Json -Compress) -ceq (@($record.simfiles) | ConvertTo-Json -Compress))
+        $fallbackBecameReferencedTarget = $record.usedFallback -and -not $freshInstalled.usedFallback -and
+            $freshInstalled.sourcePath -ceq $freshInstalled.bannerReference -and
+            $freshInstalled.bannerReference -ceq $record.bannerReference
+        if ($freshInstalled.bannerReference -cne $record.bannerReference -or -not $simfilesUnchanged -or
+            ($freshInstalled.sourcePath -cne $record.sourcePath -and -not $fallbackBecameReferencedTarget)) {
+            throw 'The simfile or banner reference changed before the installed-content decision could be recorded.'
+        }
+        $installedSource = [IO.Path]::GetFullPath((Join-Path $songDirectory $freshInstalled.sourcePath))
+        if (-not $installedSource.StartsWith($songDirectory + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'The installed source path escaped the song directory.' }
+        if (-not (Test-Path -LiteralPath $installedSource -PathType Leaf)) { throw 'The installed source file is missing.' }
+        $installedSourceSha256 = Get-Sha256 $installedSource
+        $expectedInstalledSha256 = Get-InstallRenderSha256 $record.previewPath $targetWidth $targetHeight
+        if ($installedSourceSha256 -cne $expectedInstalledSha256) { throw 'The live banner is not the deterministic installed rendering of the exact approved preview.' }
+        if ($record.PSObject.Properties.Name -contains 'installedSourceSha256') { $record.installedSourceSha256 = $installedSourceSha256 }
+        else { $record | Add-Member -NotePropertyName installedSourceSha256 -NotePropertyValue $installedSourceSha256 }
+        $record.reason = 'The exact owner-approved preview is installed.'
+    }
     $record.status = $SetStatus
-    $record.processedAt = if ($SetStatus -eq 'eligible') { $null } else { (Get-Date).ToUniversalTime().ToString('o') }
+    $record.processedAt = if ($SetStatus -eq 'eligible') { $null } elseif ($reprovingInstalledContent) { $record.processedAt } else { (Get-Date).ToUniversalTime().ToString('o') }
     if ($SetStatus -eq 'pending') {
         if ($record.PSObject.Properties.Name -contains 'lastAttemptedAt') { $record.lastAttemptedAt = $record.processedAt }
         else { $record | Add-Member -NotePropertyName lastAttemptedAt -NotePropertyValue $record.processedAt }
     }
     $record.pendingAction = if ($SetStatus -eq 'pending' -and $record.previewSha256) { 'awaiting-install-decision' } elseif ($SetStatus -eq 'pending') { 'generate-preview' } else { $null }
     if ($SetStatus -eq 'eligible') { $record.previewPath = $null; $record.previewSha256 = $null }
-    if ($SetStatus -in @('installed', 'denied')) {
+    if ($SetStatus -in @('installed', 'denied', 'skipped') -and -not $reprovingInstalledContent) {
         $decisions = @($record.decisionHistory | Where-Object { $_ })
         $decisions += [pscustomobject][ordered]@{
             recordedAt = $record.processedAt

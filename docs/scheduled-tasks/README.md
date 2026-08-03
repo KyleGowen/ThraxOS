@@ -5,8 +5,8 @@ Canonical catalog of recurring ThraxOS work across Windows Task Scheduler and Co
 | Scheduler | Task | Purpose | Guide |
 | --- | --- | --- | --- |
 | Windows Task Scheduler | `ITGManiaBackup` | Poll backup cron runner every minute; configured backup runs daily at 03:00 Pacific | [ITGManiaBackup](itgmania-backup.md) |
-| Codex cron automation | `Hourly Misc Banner Upscale Queue` | Refresh banner candidates and stage at most one approval-bound preview hourly | [Hourly queue](hourly-misc-banner-upscale-queue.md) |
-| Codex cron automation | `Hourly Misc Background Upscale Queue` | Refresh and assess static backgrounds, honoring fingerprint-scoped skips, hourly at minute 30 | [Hourly background queue](hourly-misc-background-upscale-queue.md) |
+| Codex cron automation | `Hourly Misc Banner Upscale Queue` | Refresh candidates, retain installed and good-as-is history including fallback-created targets, and stage at most one verified preview hourly | [Hourly queue](hourly-misc-banner-upscale-queue.md) |
+| Codex cron automation | `Hourly Misc Background Upscale Queue` | Refresh, severity-rank, and assess explicit static backgrounds while isolating unresolved legacy art, hourly at minute 30 | [Hourly background queue](hourly-misc-background-upscale-queue.md) |
 
 No other root-level Windows task was identified as part of ThraxOS. Standard Windows and vendor tasks are excluded.
 

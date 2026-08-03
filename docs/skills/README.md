@@ -8,8 +8,8 @@ Canonical migration index for every project-local skill under `.agents/skills/`.
 | `add-pack` | Download, validate, scan, collision-check, and install packs | [Add Pack](add-pack.md) |
 | `itg-packs-search` | Search the live ITG Packs spreadsheet and compare local overlap | [ITG Packs Search](itg-packs-search.md) |
 | `research-itg-community` | Evidence-graded rhythm-game community research | [ITG Community Research](research-itg-community.md) |
-| `upscale-banner` | Stage, approve, and safely install restored song banners | [Upscale Banner](upscale-banner.md) |
-| `upscale-background` | Assess, skip good-as-is, stage, approve, and safely install static song backgrounds | [Upscale Background](upscale-background.md) |
+| `upscale-banner` | Independently verify and normalize opacity, stage, approve, skip good-as-is fingerprints, prove fallback-created targets, and preserve terminal history for restored song banners | [Upscale Banner](upscale-banner.md) |
+| `upscale-background` | Tier, review, stage, approve, and safely install static song backgrounds while separating active changes and unresolved legacy art | [Upscale Background](upscale-background.md) |
 | `ship-all` | Review, commit, and push all safe intended work to `origin/main` | [Ship All](ship-all.md) |
 
 ## Migration order
