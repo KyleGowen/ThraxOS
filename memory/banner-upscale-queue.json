@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-03T20:34:15.8313795Z",
+    "generatedAt":  "2026-08-03T21:25:28.6726338Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -2355,7 +2355,7 @@
                   },
                   {
                       "songPath":  "Flash Man",
-                      "fingerprint":  "199CFE0E6AA5AE07A53B3E099954B7A993AD314D0DE88BD768CD219CE19CFD84",
+                      "fingerprint":  "68D26F48AFEB2951B92C8287B87C8C53AE01321A02D16F6D38E19FA67D173F71",
                       "simfiles":  [
                                        {
                                            "path":  "Flash Man.sm",
@@ -2363,21 +2363,21 @@
                                        }
                                    ],
                       "bannerReference":  "Flash Man-bn.png",
-                      "sourcePath":  "Flash Man.png",
-                      "sourceSha256":  "830A95E6EFBB6BC9E7A02DE04B0264600C5CC0CD18894DFC17D97216F495D739",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "Flash Man-bn.png",
+                      "sourceSha256":  "9343B1317EEBE3BE3649BA079014F78F0C54D065ABB1A584D6BC68C07E2C9741",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-03T21:25:28.6726338Z",
+                      "assessedAt":  "2026-08-03T21:25:28.6726338Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T21:25:25.9022553Z",
+                      "lastAttemptedAt":  "2026-08-03T21:13:30.0635210Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
-                      "lastAttemptedAt":  "2026-08-03T16:08:19.5194377Z",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\199CFE0E6AA5AE07A53B3E099954B7A993AD314D0DE88BD768CD219CE19CFD84-correct-ratio\\Flash Man-after-836x328.png",
+                      "previewSha256":  "9343B1317EEBE3BE3649BA079014F78F0C54D065ABB1A584D6BC68C07E2C9741",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-03T16:08:19.5194377Z",
@@ -2387,7 +2387,17 @@
                                                  "discardedPreviewPath":  null,
                                                  "discardedPreviewSha256":  null
                                              }
-                                         ]
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T21:25:25.9022553Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install for the latest explicitly displayed and queue-bound Flash Man After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\199CFE0E6AA5AE07A53B3E099954B7A993AD314D0DE88BD768CD219CE19CFD84-correct-ratio\\Flash Man-after-836x328.png",
+                                                  "previewSha256":  "9343B1317EEBE3BE3649BA079014F78F0C54D065ABB1A584D6BC68C07E2C9741"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "9343B1317EEBE3BE3649BA079014F78F0C54D065ABB1A584D6BC68C07E2C9741"
                   },
                   {
                       "songPath":  "Flight Tonight",
@@ -2568,12 +2578,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-03T20:33:53.4548802Z",
-                      "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D4273BA9E1205DE8E933DD3D431D3E569297AC3D3050ED47162AE15B9AB405FD\\Ghosts n Stuff-after-direct-836x328.png",
-                      "previewSha256":  "C2316330340DE10721056E4CFDE49D1BD3304C84334AEFB7F38BBBEB3138793E",
-                      "lastAttemptedAt":  "2026-08-03T20:33:53.4548802Z",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-03T21:22:40.0727980Z",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-03T20:07:27.6185982Z",
@@ -2590,12 +2600,36 @@
                                                  "priorProcessedAt":  "2026-08-03T20:32:46.1966726Z",
                                                  "discardedPreviewPath":  null,
                                                  "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T21:03:14.2947285Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner rejected deterministic bicubic preview SHA-256 C2316330340DE10721056E4CFDE49D1BD3304C84334AEFB7F38BBBEB3138793E as blurry and requested it be redone with a sharper upscaling process while retaining the original orange and gradient effects.",
+                                                 "priorProcessedAt":  "2026-08-03T20:33:53.4548802Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D4273BA9E1205DE8E933DD3D431D3E569297AC3D3050ED47162AE15B9AB405FD\\Ghosts n Stuff-after-direct-836x328.png",
+                                                 "discardedPreviewSha256":  "C2316330340DE10721056E4CFDE49D1BD3304C84334AEFB7F38BBBEB3138793E"
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T21:17:59.5712975Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner confirmed the 836 x 328 size is right but rejected Lanczos-sharp preview SHA-256 3D0A14848079228B6DDCEEE984DD9208C12C5C455790752D5C52BF22008170D5 because the text edges look jagged. Owner requested smoother anti-aliased text edges before installation while retaining the original colors, gradients, composition, and exact size.",
+                                                 "priorProcessedAt":  "2026-08-03T21:04:32.2557142Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D4273BA9E1205DE8E933DD3D431D3E569297AC3D3050ED47162AE15B9AB405FD\\Ghosts n Stuff-after-lanczos-sharp-836x328.png",
+                                                 "discardedPreviewSha256":  "3D0A14848079228B6DDCEEE984DD9208C12C5C455790752D5C52BF22008170D5"
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T21:22:40.0727980Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner explicitly did not approve supersampled smooth preview SHA-256 79C85AAF8CF3F9F3C363681907CDCF1D95BA9B5F4C6ED3703A816B5D6F8EE5AF. Owner said the result remains blurry and looks scaled without enhancing resolution; supplied 836 x 328 review screenshot SHA-256 C0813833A3485FB59E1B3693981A1B5192982E6836713C73B75957A8612650E1. Future work must genuinely reconstruct high-resolution edge and texture detail rather than use bicubic, Lanczos, supersampling, smoothing, or sharpening alone, while preserving the original orange gradients, exact text, composition, and 836 x 328 size. No installation was authorized.",
+                                                 "priorProcessedAt":  "2026-08-03T21:19:15.8006807Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D4273BA9E1205DE8E933DD3D431D3E569297AC3D3050ED47162AE15B9AB405FD\\Ghosts n Stuff-after-supersampled-smooth-836x328.png",
+                                                 "discardedPreviewSha256":  "79C85AAF8CF3F9F3C363681907CDCF1D95BA9B5F4C6ED3703A816B5D6F8EE5AF"
                                              }
                                          ]
                   },
                   {
                       "songPath":  "Gimme! Gimme! Gimme! (A Man After Midnight)",
-                      "fingerprint":  "ABB20DAF975CEDE68CB24C1281146E9B54BC864B79F396D20D9B532A14C0FE38",
+                      "fingerprint":  "02EB3D0F66B83EE5D7E7C7B213464529C54A669214B65C31638FFE810EFFD675",
                       "simfiles":  [
                                        {
                                            "path":  "Gimme! Gimme! Gimme! (A Man After Midnight).sm",
@@ -2608,19 +2642,33 @@
                                    ],
                       "bannerReference":  "Gimme! Gimme! Gimme! (A Man After Midnight).png",
                       "sourcePath":  "Gimme! Gimme! Gimme! (A Man After Midnight).png",
-                      "sourceSha256":  "2CD6B87C6DA1D99A48522BB9C45977C0D7C86AC8B53C3A553F975A626AEA33AC",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "D2F9FD9309B61650717F4060010AC0513AE9856A1CD0EC81172DB592B34356FE",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-03T21:19:38.3721868Z",
+                      "assessedAt":  "2026-08-03T21:19:38.3721868Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T21:19:34.4600703Z",
+                      "lastAttemptedAt":  "2026-08-03T21:07:13.5468566Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\ABB20DAF975CEDE68CB24C1281146E9B54BC864B79F396D20D9B532A14C0FE38\\Gimme Gimme Gimme-after-836x328.png",
+                      "previewSha256":  "D2F9FD9309B61650717F4060010AC0513AE9856A1CD0EC81172DB592B34356FE",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T21:19:34.4600703Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied install for the exact displayed and queue-bound After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\ABB20DAF975CEDE68CB24C1281146E9B54BC864B79F396D20D9B532A14C0FE38\\Gimme Gimme Gimme-after-836x328.png",
+                                                  "previewSha256":  "D2F9FD9309B61650717F4060010AC0513AE9856A1CD0EC81172DB592B34356FE"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "D2F9FD9309B61650717F4060010AC0513AE9856A1CD0EC81172DB592B34356FE"
                   },
                   {
                       "songPath":  "Guilt Is a Useless Emotion (Mac Quayle Mix)",

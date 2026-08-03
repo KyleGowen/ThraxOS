@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-03T20:39:06.1347587Z",
+    "generatedAt":  "2026-08-03T21:16:41.9413834Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -4103,7 +4103,7 @@
                   },
                   {
                       "songPath":  "Hypnodancer",
-                      "fingerprint":  "14765400C8D93E92AD6D4D7FFC64EF33B821A1E28099BCCBD3B86D7F324A0312",
+                      "fingerprint":  "165F224982EE97F397D011DE6C637D01D6318785491B36D97CC28BFFE127194D",
                       "simfiles":  [
                                        {
                                            "path":  "Hypnodancer.sm",
@@ -4116,31 +4116,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "hypno.jpg",
                       "sourcePath":  "hypno.jpg",
-                      "sourceSha256":  "B6B55EE048109CEF38D761FDC543AC8EC7D65F9605DED86A4792EA7A1E053A0D",
-                      "sourceWidth":  1080,
-                      "sourceHeight":  720,
+                      "sourceSha256":  "2160984AB4D98406324B872BEE3B17B645E455DFACC8AE0CD288D3F1B79EA1E4",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-03T20:37:49.0968104Z",
+                      "observedAt":  "2026-08-03T21:13:37.1035507Z",
+                      "assessedAt":  "2026-08-03T21:13:37.1035507Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T21:13:36.1964286Z",
                       "lastAttemptedAt":  "2026-08-03T20:37:49.0968104Z",
-                      "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Hypnodancer\\14765400C8D93E92AD6D4D7FFC64EF33B821A1E28099BCCBD3B86D7F324A0312\\After-A-1920x1080.png",
-                      "previewSha256":  "3046D746D1E903A7E1F7D30CA1D78CC9B262143C605C0A1734979E83713291D2",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Hypnodancer\\14765400C8D93E92AD6D4D7FFC64EF33B821A1E28099BCCBD3B86D7F324A0312\\Installed-Approved-2160984AB4D9.jpg",
+                      "previewSha256":  "2160984AB4D98406324B872BEE3B17B645E455DFACC8AE0CD288D3F1B79EA1E4",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T21:13:36.1964286Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install in the task whose latest explicitly displayed and queue-bound candidate was Little Big — Hypnodancer After A, approving exact preview SHA-256 3046D746D1E903A7E1F7D30CA1D78CC9B262143C605C0A1734979E83713291D2. Approved preview SHA-256 3046D746D1E903A7E1F7D30CA1D78CC9B262143C605C0A1734979E83713291D2. Installed SHA-256 2160984AB4D98406324B872BEE3B17B645E455DFACC8AE0CD288D3F1B79EA1E4 using normalized-render; rollback hypno.jpg.pre-upscale-20260803-141333.bak preserves original SHA-256 B6B55EE048109CEF38D761FDC543AC8EC7D65F9605DED86A4792EA7A1E053A0D.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Hypnodancer\\14765400C8D93E92AD6D4D7FFC64EF33B821A1E28099BCCBD3B86D7F324A0312\\Installed-Approved-2160984AB4D9.jpg",
+                                                  "previewSha256":  "2160984AB4D98406324B872BEE3B17B645E455DFACC8AE0CD288D3F1B79EA1E4"
+                                              }
                                           ]
                   },
                   {
@@ -10247,6 +10253,17 @@
                                 "summary":  "One faithful AI outpaint extended only the side room context for this 3:2 ensemble photograph; exact opaque 1920x1080 candidate SHA-256 3046D746D1E903A7E1F7D30CA1D78CC9B262143C605C0A1734979E83713291D2 is pending approval. The full-resolution app renderer failed, so a separate 960x540 display copy was used; this output-handling issue did not consume another model attempt. No owner feedback or reusable workflow change was claimed.",
                                 "songPath":  "Hypnodancer",
                                 "fingerprint":  "14765400C8D93E92AD6D4D7FFC64EF33B821A1E28099BCCBD3B86D7F324A0312",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T21:16:41.9413834Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved this task-local After A. The proof-gated installer preserved JPEG encoding, created and verified a sibling rollback, rebound exact installed proof SHA-256 2160984AB4D98406324B872BEE3B17B645E455DFACC8AE0CD288D3F1B79EA1E4, preserved the simfile and reference, and left ITGMania closed. No reusable workflow change or owner-wide preference was justified.",
+                                "songPath":  "Hypnodancer",
+                                "fingerprint":  "165F224982EE97F397D011DE6C637D01D6318785491B36D97CC28BFFE127194D",
                                 "changedFiles":  {
 
                                                  },
