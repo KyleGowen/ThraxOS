@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-03T05:13:46.3702480Z",
+    "generatedAt":  "2026-08-03T16:36:01.0054580Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -1769,11 +1769,31 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "skipped",
+                      "processedAt":  "2026-08-03T06:10:31.3453110Z",
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-03T06:04:33.3244278Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T06:04:33.3244278Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Built-in GPT Image 2 high-fidelity attempt 1 was blocked at input with moderation category public-figure; the narrower restoration-only retry was blocked at output with moderation category other. Neither call produced a recoverable image artifact. Preserve exact prominent text verbatim: don\u0027t / blame / me and taylor swift, including the apostrophe; preserve the grayscale newspaper collage, right-side portrait, crop, scale, and placement. No deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T06:02:21.9536347Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T06:10:31.3453110Z",
+                                                  "outcome":  "skipped",
+                                                  "note":  "Owner said \u0027skip it\u0027 for this exact fingerprint; no additional reasoning was provided.",
+                                                  "previewPath":  null,
+                                                  "previewSha256":  null
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "Don\u0027t Stop \u0027Til You Get Enough",
@@ -1802,7 +1822,7 @@
                   },
                   {
                       "songPath":  "Don\u0027t You (Forget About Me)",
-                      "fingerprint":  "3E390CFD1A5F324DEE9409C44DA3F306A723F33E4A70632A9863CD8C6927EF63",
+                      "fingerprint":  "34C4615B91E6813480F56111B725D7A9E7C9CBB9AA406534EADDB0D7AEE34BAE",
                       "simfiles":  [
                                        {
                                            "path":  "Don\u0027t You (Forget About Me).sm",
@@ -1814,20 +1834,34 @@
                                        }
                                    ],
                       "bannerReference":  "dontyou.png",
-                      "sourcePath":  "Don\u0027t You (Forget About Me).png",
-                      "sourceSha256":  "9ACA65A69FEBF8B0E84D40896AE2A8B8B57B0152A168C76064B36C908087F9F6",
-                      "sourceWidth":  1280,
-                      "sourceHeight":  450,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "dontyou.png",
+                      "sourceSha256":  "695F6D158C18C5D0808956BFA0DB2C97393A30F46CB4D79EE52A9488E238089A",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-03T15:25:01.7167411Z",
+                      "assessedAt":  "2026-08-03T15:25:01.7167411Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:24:51.0422907Z",
+                      "lastAttemptedAt":  "2026-08-03T07:05:36.3588866Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3E390CFD1A5F324DEE9409C44DA3F306A723F33E4A70632A9863CD8C6927EF63\\Don\u0027t You (Forget About Me)-after-836x328.png",
+                      "previewSha256":  "7B1F3E9D84A1AD3D89FA4A638CF28D52FBF8D0ABC555B09B08E14F6BF38359A6",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:24:51.0422907Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner said \u0027install it\u0027 for the exact displayed After preview; no additional reason for installation was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3E390CFD1A5F324DEE9409C44DA3F306A723F33E4A70632A9863CD8C6927EF63\\Don\u0027t You (Forget About Me)-after-836x328.png",
+                                                  "previewSha256":  "7B1F3E9D84A1AD3D89FA4A638CF28D52FBF8D0ABC555B09B08E14F6BF38359A6"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "695F6D158C18C5D0808956BFA0DB2C97393A30F46CB4D79EE52A9488E238089A"
                   },
                   {
                       "songPath":  "Driver",
@@ -1852,11 +1886,22 @@
                       "processedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-03T08:10:46.4274184Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T08:10:46.4274184Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 calls returned recoverable images but were unfaithful. Attempt 1 enlarged and redrew the Driver wordmark and surrounding radial motifs and replaced the concentric microtype. The measured-geometry retry kept the approximate central scale but recolored and redrew the Driver lettering, simplified and recomposed the rings, substituted small repeated motifs, and produced non-source microtype. Future work must preserve exact Driver and PENDULUM lettering, original title treatment and scale, concentric layout, and every mirrored radial element. No preview was bound and deterministic fallback was not used.",
+                                                 "priorProcessedAt":  "2026-08-03T08:04:30.5686357Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "DVNO",
-                      "fingerprint":  "B6080E993F779E53ED31038ABEDC607E99D47F48010EFF32EF51074144FCD550",
+                      "fingerprint":  "42D4578C3FBFCDD6E043FAD98ABBF649C23561527992C0CB83E23856F2DFD2DE",
                       "simfiles":  [
                                        {
                                            "path":  "DVNO.sm",
@@ -1865,19 +1910,33 @@
                                    ],
                       "bannerReference":  "DVNO.PNG",
                       "sourcePath":  "DVNO.PNG",
-                      "sourceSha256":  "0BD9C883CB33A691F95541C2F97DE1D60BFBF90AC7FBFD89D16BB39478C2F2E5",
-                      "sourceWidth":  639,
-                      "sourceHeight":  254,
+                      "sourceSha256":  "DF5413FDE3E1BE59C8271259C404F752F267BD32781BFA5780534891E3938979",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-03T16:19:57.2034866Z",
+                      "assessedAt":  "2026-08-03T16:19:57.2034866Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T16:19:04.1742811Z",
+                      "lastAttemptedAt":  "2026-08-03T09:07:17.7406012Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\B6080E993F779E53ED31038ABEDC607E99D47F48010EFF32EF51074144FCD550\\DVNO-after-836x328.png",
+                      "previewSha256":  "2B82514AF22D6D07104FB1CB5568C7697AC98B129B5D3C30A60B4AC3D803E857",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T16:19:04.1742811Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied install for the exact displayed DVNO After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\B6080E993F779E53ED31038ABEDC607E99D47F48010EFF32EF51074144FCD550\\DVNO-after-836x328.png",
+                                                  "previewSha256":  "2B82514AF22D6D07104FB1CB5568C7697AC98B129B5D3C30A60B4AC3D803E857"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "DF5413FDE3E1BE59C8271259C404F752F267BD32781BFA5780534891E3938979"
                   },
                   {
                       "songPath":  "East West Wobble",
@@ -1898,11 +1957,22 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-03T16:22:01.2066384Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\78C317CEC694B93DFECFF2C68DA73C772267D49405214EE58BC2A882B328B12A\\selection-A\\East West Wobble-After-A-836x328.png",
+                      "previewSha256":  "001280132B602C8AB1FD9F1551196CA85CD4EA3F46C113E1D995A51E26D7D51F",
+                      "lastAttemptedAt":  "2026-08-03T16:22:01.2066384Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T10:07:41.0889724Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two built-in GPT Image 2 high-fidelity attempts produced recoverable opaque artifacts with exact prominent text SHK, EAST WEST, and WOBBLE, but neither preserved the source geometry. Attempt 1 substantially enlarged and centered the full title stack, reduced margins, and recomposed the alley. The narrower measured-layout retry (raw SHA-256 94F384CA62142135158958A2DB1C3D2DBFD671629A4208962AAA3F2858912AF5; normalized inspection SHA-256 DE48322B0CA4E41B30CB10063D9725A471AF84C6BCB4F58416265C50749298DF) kept the main title closer but still enlarged SHK materially and redrew background signage and architecture. Exact source text is SHK, EAST WEST, and WOBBLE; keep tiny background signage indistinct. No viable preview was bound and no deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T10:03:06.0506428Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "end of an era",
@@ -1935,7 +2005,7 @@
                   },
                   {
                       "songPath":  "Enjoy the Silence",
-                      "fingerprint":  "DE2A66944DCA85EF0FE9DEDE08B98DB4645C7A4510121EEB62EC889DD1A5709A",
+                      "fingerprint":  "FD4B2C469901529E2F2834CCCECEABE17554D4320E3F4C9E5C1B430CD6AB98C0",
                       "simfiles":  [
                                        {
                                            "path":  "Enjoy the Silence.sm",
@@ -1947,20 +2017,34 @@
                                        }
                                    ],
                       "bannerReference":  "Enjoy the Silence-bn.png",
-                      "sourcePath":  "Enjoy the Silence.png",
-                      "sourceSha256":  "09AF628425E84D3A357AD4C76EF76C9482778077BCEB3AD653A8C62FCD56C739",
-                      "sourceWidth":  768,
-                      "sourceHeight":  240,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "Enjoy the Silence-bn.png",
+                      "sourceSha256":  "E552359E32E3FE90BF237B36095F43E932BD7F07B3A3ECE41B11CD5274970699",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-03T16:19:57.2034866Z",
+                      "assessedAt":  "2026-08-03T16:19:57.2034866Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T16:19:30.1939216Z",
+                      "lastAttemptedAt":  "2026-08-03T11:06:19.5963497Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\DE2A66944DCA85EF0FE9DEDE08B98DB4645C7A4510121EEB62EC889DD1A5709A\\Enjoy the Silence-after-836x328.png",
+                      "previewSha256":  "68DFDBA988BB0863EF4E9364A671BA841C632B413623CC2E97651893B9BDCC3D",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T16:19:30.1939216Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the exact displayed After preview by replying install; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\DE2A66944DCA85EF0FE9DEDE08B98DB4645C7A4510121EEB62EC889DD1A5709A\\Enjoy the Silence-after-836x328.png",
+                                                  "previewSha256":  "68DFDBA988BB0863EF4E9364A671BA841C632B413623CC2E97651893B9BDCC3D"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "E552359E32E3FE90BF237B36095F43E932BD7F07B3A3ECE41B11CD5274970699"
                   },
                   {
                       "songPath":  "Espresso (Mark Ronson x FNZ Working Later Remix)",
@@ -1989,7 +2073,7 @@
                   },
                   {
                       "songPath":  "Evil Eye",
-                      "fingerprint":  "134BFEDEF8C98C5191974D5550F07BF330223C10A71D3C71AE925161D4AF044D",
+                      "fingerprint":  "6CCA3B4433D6215CA0198C43A0B6F2EDF114221F6738A5A4262C052A2B0DAC1D",
                       "simfiles":  [
                                        {
                                            "path":  "Evil Eye.sm",
@@ -1997,20 +2081,41 @@
                                        }
                                    ],
                       "bannerReference":  "evileye-bn.png",
-                      "sourcePath":  "Evil Eye.png",
-                      "sourceSha256":  "2A0EC2D16CF6FE8B5B9D0FA80B48B69DA03B3752F8E0C1058653AA447CD0E31B",
-                      "sourceWidth":  418,
-                      "sourceHeight":  164,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "evileye-bn.png",
+                      "sourceSha256":  "001EF55518CFFAD56BEE293D436F240C2DD2B4DC9A070409F55C18438951923A",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-03T16:24:09.2817994Z",
+                      "assessedAt":  "2026-08-03T16:24:09.2817994Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T16:23:53.9368590Z",
+                      "lastAttemptedAt":  "2026-08-03T16:22:37.8132094Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\134BFEDEF8C98C5191974D5550F07BF330223C10A71D3C71AE925161D4AF044D\\Evil Eye-owner-approved.png",
+                      "previewSha256":  "FB565839C20943F548B82F56104B65FF509C836F589CC00F5FFD2446B46C8C9D",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T12:06:44.5197020Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted built-in GPT Image 2 calls returned recoverable opaque images with exact text FRANZ FERDINAND and EVIL EYE, but neither was faithful enough. Attempt 1 (raw SHA-256 6BB8AABCE36A065403AB6DE7341978A6042FD5DD09E2366ACD03B50B1D6E8091) widened FRANZ FERDINAND beyond the source right margin and expanded/retextured the concentric red/yellow burst. The narrower measured-geometry retry (raw SHA-256 A99B11194D32085ECAD2CF8B438C418CA4F63D23547E9791856C1C9E76784C54) still widened and moved the artist line and redrew/darkened the radial field. Preserve source-relative bounds on the 418 x 164 source: FRANZ FERDINAND approximately x=56..365, y=32..65; EVIL EYE approximately x=106..346, y=69..140. Preserve exact ring radii, margins, oval silhouette, streak placement, texture, colors, and both text strings verbatim. No preview was bound and no deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T12:02:55.3557533Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T16:23:53.9368590Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected the attached first generated Evil Eye image and said install this one; no additional reasoning was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\134BFEDEF8C98C5191974D5550F07BF330223C10A71D3C71AE925161D4AF044D\\Evil Eye-owner-approved.png",
+                                                  "previewSha256":  "FB565839C20943F548B82F56104B65FF509C836F589CC00F5FFD2446B46C8C9D"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "001EF55518CFFAD56BEE293D436F240C2DD2B4DC9A070409F55C18438951923A"
                   },
                   {
                       "songPath":  "Fancy Footwork",
@@ -2031,15 +2136,26 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-03T16:29:54.8400581Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-interactive\\129AF7083AF8E91A446D13A1102545430928FC7A1BAB416A6033FF7F2CBCC738\\Fancy Footwork-after-source-material-836x328.png",
+                      "previewSha256":  "F5E2A85AF10430C8623F33F02BADBA617BC34E89E1F45EDF1FD79B58704247D6",
+                      "lastAttemptedAt":  "2026-08-03T16:29:54.8400581Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T16:29:47.7766036Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner said the first pending banner was bad out of the gate and supplied the current background, album cover, and Chromeo wordmark as source material for a replacement.",
+                                                 "priorProcessedAt":  "2026-08-03T13:07:39.6881735Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\129AF7083AF8E91A446D13A1102545430928FC7A1BAB416A6033FF7F2CBCC738\\Fancy Footwork-after-836x328.png",
+                                                 "discardedPreviewSha256":  "8A801BB2D2FA9D8ED981412DD20E7936DA3D7F9DF35839D30586697D90ADF3CD"
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "Fantastic World",
-                      "fingerprint":  "9A6C1E4B0F7996734EEDB2E4BDB5187067ACCD7E12747C2B6CD2E9C704FED05D",
+                      "fingerprint":  "271D410A74EDCA62382AD0EFFDDD81038C733AB693CF2C2C5769F6B782154DBD",
                       "simfiles":  [
                                        {
                                            "path":  "fantasticworld.ssc",
@@ -2047,20 +2163,41 @@
                                        }
                                    ],
                       "bannerReference":  "bn",
-                      "sourcePath":  "bn.png",
-                      "sourceSha256":  "959A4932D042292FD9FB7A27139032058BB62F87B611176A79AEEBEFDD85CD0D",
+                      "sourcePath":  "bn",
+                      "sourceSha256":  "30319B26475AF8F9C70A57E48F4C5650EE3FA07478CD9B0D7C3156286A387492",
                       "sourceWidth":  836,
                       "sourceHeight":  328,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-03T16:33:09.3632609Z",
+                      "assessedAt":  "2026-08-03T16:33:09.3632609Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T16:33:06.6549115Z",
+                      "lastAttemptedAt":  "2026-08-03T16:31:44.5592580Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\9A6C1E4B0F7996734EEDB2E4BDB5187067ACCD7E12747C2B6CD2E9C704FED05D\\Fantastic World-owner-selected-20260803-0931.png",
+                      "previewSha256":  "7A7411A562F86428DB25F890AFAE5415242627FD1F76599A9D35F596A0DCB8D4",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T14:07:05.3948533Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 high-fidelity edits were recoverable and rendered all exact text correctly, but both materially enlarged and shifted the two-character group and title, recomposed the background, and cropped or removed source edge content. The measured-layout restoration-only retry repeated the same zoom and composition drift. No preview was staged and no deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T14:02:41.0568110Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T16:33:06.6549115Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected the attached Fantastic World result and explicitly requested installation; no additional reasoning was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\9A6C1E4B0F7996734EEDB2E4BDB5187067ACCD7E12747C2B6CD2E9C704FED05D\\Fantastic World-owner-selected-20260803-0931.png",
+                                                  "previewSha256":  "7A7411A562F86428DB25F890AFAE5415242627FD1F76599A9D35F596A0DCB8D4"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "30319B26475AF8F9C70A57E48F4C5650EE3FA07478CD9B0D7C3156286A387492"
                   },
                   {
                       "songPath":  "Feels",
@@ -2158,7 +2295,7 @@
                   },
                   {
                       "songPath":  "Flaming June",
-                      "fingerprint":  "632DA8ECA0A75E60CD4643B9CC4E7EA5190A1AA665B9D7A221109E3BFA61D3FC",
+                      "fingerprint":  "1288B974AA9E80474EB309D9556B5B697A6C13EA8A8281357D373A9C1705D940",
                       "simfiles":  [
                                        {
                                            "path":  "Flaming June.sm",
@@ -2171,19 +2308,40 @@
                                    ],
                       "bannerReference":  "Flaming June-bn.png",
                       "sourcePath":  "Flaming June-bn.png",
-                      "sourceSha256":  "AE754DC604141C345DA62F3D0E013813BC7A053DF2A9ABABCCC03AF61485C299",
-                      "sourceWidth":  418,
-                      "sourceHeight":  164,
+                      "sourceSha256":  "7273A331E7A0030D974D95B7CFF7427F38CAC661B177BDABFA5D13A85CB8FFCC",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-03T16:36:01.0054580Z",
+                      "assessedAt":  "2026-08-03T16:36:01.0054580Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T16:35:42.5642258Z",
+                      "lastAttemptedAt":  "2026-08-03T16:34:00.5629705Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\632DA8ECA0A75E60CD4643B9CC4E7EA5190A1AA665B9D7A221109E3BFA61D3FC\\Flaming June-owner-selected-836x328.png",
+                      "previewSha256":  "CE16C01CE760276C6EE2827587E307F7010060B5816AF0EA581FA75CEB5849A9",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T15:07:04.0934747Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 high-fidelity edits were recoverable and normalized for exact-size review but materially recomposed the source. Attempt 1 (raw AC30207F91D61C99364652BE2ED010541170DEA4B09BD1D87A4FD0F0627D5105; 836x328 CE16C01CE760276C6EE2827587E307F7010060B5816AF0EA581FA75CEB5849A9) enlarged and raised the left mountain and right island, moved the horizon upward, and enlarged/raised the central pyramid. The measured-geometry restoration-only retry (raw BCA11B7615013205716E89EBB67C011E7EDADC2E44E3F934E5FA199160039BDD; 836x328 75A253CFF7C8597E1455DD9F5102FC1D0B8487FFFF58DC4C0007473B32614F3C) still enlarged the landforms and made the pyramid substantially too large and high. Exact source label is BT_Flaming_June. No preview was bound and no deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T15:03:28.2426063Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T16:35:42.5642258Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected the pasted first Flaming June result and requested installation; no additional reasoning was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\632DA8ECA0A75E60CD4643B9CC4E7EA5190A1AA665B9D7A221109E3BFA61D3FC\\Flaming June-owner-selected-836x328.png",
+                                                  "previewSha256":  "CE16C01CE760276C6EE2827587E307F7010060B5816AF0EA581FA75CEB5849A9"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "7273A331E7A0030D974D95B7CFF7427F38CAC661B177BDABFA5D13A85CB8FFCC"
                   },
                   {
                       "songPath":  "Flash Man",
@@ -2208,7 +2366,18 @@
                       "processedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-03T16:08:19.5194377Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T16:08:19.5194377Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restoration attempts were recoverable and spelled exact visible text FLASHMAN and Manami Matsumae correctly, but both materially enlarged the two text lines and the right-side armored character and recomposed the pale-blue speed-line field. Attempt 1 raw SHA-256 CFBEA07A301C1E961877016B7AC278DCCFC9F7CE3A3DEA3CABE5BCA06B4E792F; 836x328 inspection SHA-256 51CA11B458D96138A895E3FF020FD7F1F896D4661B483B7A418683BA04A3167B. Attempt 2 raw SHA-256 4395E76F34801DC64B500C455CDA4F19E03FC498E521AC85DC26EECEA3CEEFA7; 836x328 inspection SHA-256 7AAD4E464C5EA0D964B02E146789335DB3415EE384407EF7DB5F5157A39DDFEC. Future attempt must preserve source geometry: title approximately x 0-151 and y 1-34 of 256x80, artist x 1-151 and y 34-57, character beginning near x 152 and confined to the rightmost 41 percent, with large lower-left negative space. No viable preview was bound; no deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T16:03:51.7262974Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "Flight Tonight",

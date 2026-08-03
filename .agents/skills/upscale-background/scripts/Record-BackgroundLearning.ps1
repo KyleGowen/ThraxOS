@@ -17,7 +17,7 @@ if($Scope-eq'reusable'){
     if(-not$ChangedFiles-or@($ChangedFiles).Count-eq 0){throw 'Reusable learning requires ChangedFiles.'}
     if([string]::IsNullOrWhiteSpace($ValidationResult)-or$ValidationResult-notmatch '(?i)(valid|pass|success)'){throw 'Reusable learning requires a successful ValidationResult.'}
 }
-$file=[IO.Path]::GetFullPath($QueuePath);$doc=Get-Content -LiteralPath $file -Raw|ConvertFrom-Json
+$file=[IO.Path]::GetFullPath($QueuePath);$doc=[IO.File]::ReadAllText($file,[Text.UTF8Encoding]::new($false))|ConvertFrom-Json
 $entry=[pscustomobject][ordered]@{recordedAt=(Get-Date).ToUniversalTime().ToString('o');scope=$Scope;summary=$Summary.Trim();songPath=if($SongPath){$SongPath}else{$null};fingerprint=if($Fingerprint){$Fingerprint}else{$null};changedFiles=if($ChangedFiles){@($ChangedFiles)}else{@()};validationResult=if($ValidationResult){$ValidationResult.Trim()}else{$null}}
 $history=@();if($doc.PSObject.Properties.Name-contains'learningHistory'){$history=@($doc.learningHistory)};$history+=$entry
 if($doc.PSObject.Properties.Name-contains'learningHistory'){$doc.learningHistory=$history}else{$doc|Add-Member -NotePropertyName learningHistory -NotePropertyValue $history}

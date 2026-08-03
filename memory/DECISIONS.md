@@ -50,6 +50,7 @@
 - **Decision:** Use 836 x 328 PNG as the current host convention, prefer GPT Image 2 high-fidelity editing for semantic restoration, and use deterministic super-resolution when exact content preservation is required.
 - **Decision:** Every `upscale-banner` preview must show the current source and generated candidate as clearly labeled `Before` and `After` images before requesting installation approval.
 - **Decision:** Always render `Before`, including failure-only responses. Render every viable generated option as `After` or lettered After choices before requesting selection or installation approval.
+- **Decision:** Render each `Before` and `After` from its exact full-resolution file, state independently decoded pixel dimensions, and include a direct native-file link so client-side inline scaling never hides the original size or detail.
 - **Decision:** Treat image generation and result forwarding as separate phases. Use the built-in tool's generated-image result handler; do not count a recoverable result-forwarding or staging error as a failed generative attempt.
 - **Decision:** When a simfile's contained banner target is missing, installation may create only that referenced target if the queue resolved an existing contained fallback and the installer preserves the fallback's exact bytes as the recoverable timestamped backup. Rollback must remove the newly created target rather than copying fallback bytes into it.
 - **Decision:** End every banner run and install/deny follow-up with an evidence-based retrospective. Preserve exact-fingerprint reasoning in the queue, promote only stable owner-wide preferences or reusable workflow lessons, and validate every resulting skill edit. Never invent feedback or weaken safety boundaries in the name of self-improvement.
@@ -65,6 +66,14 @@
 - **Decision:** Queue selection is round-robin. Never-attempted eligible fingerprints precede returned items; returned items retain their last-attempt time and cannot recur until every less-recently attempted eligible fingerprint has had its turn. Ordinary preview declines rotate; explicit good-as-is feedback becomes fingerprint-scoped `skipped`, while terminal denial is reserved for an explicit permanent opt-out of that fingerprint.
 - **Rationale:** Durable fingerprint state prevents duplicate work while allowing changed source content to be reassessed without weakening exact-preview approval.
 
+## 2026-08-03 banner installation hardening
+
+- **Decision:** Bare `install` refers only to the most recently displayed, explicitly labeled, queue-bound After in the same task; never resolve it from global pending order or an unlabeled artifact.
+- **Decision:** Pass expected preview, live-source, and simfile hashes into the guarded banner installer. The installer must refuse an open game or hash drift, verify the sibling rollback, and return hashes for the preview, original, backup, installed file, and unchanged simfile.
+- **Decision:** Serialize banner-queue helper read/modify/write cycles with a per-queue cross-process mutex. Verify exact installed-item invariants after refresh instead of relying on mutable global counts, and never duplicate a decision while recovering from a legacy concurrent rewrite.
+- **Decision:** Treat backup result `0x41301` as an active-run degraded state, not a completed failure. Banner installation may proceed in that state only with a same-day successful log, confirmed Songs exclusion, and guarded local rollback.
+- **Rationale:** Repeated interactive installs exposed avoidable manual hash work, a time-of-check gap, and one stale concurrent queue rewrite. Hash-bound installation and serialized queue updates make the same approval-gated workflow faster and more reliable without widening live-write authority.
+
 ## 2026-08-02 static background restoration workflow
 
 - **Decision:** Use the project-local `upscale-background` skill for explicit static song backgrounds. Target the owner-confirmed windowed 1920 x 1080 16:9 presentation; prefer faithful restoration and outpainting, and require the exact labeled preview before installation.
@@ -77,6 +86,8 @@
 - **Decision:** When a background fingerprint exhausts both genuine AI attempts and deterministic fallback needs owner approval, retain it as pending with `pendingAction=awaiting-fallback-approval`; do not return it to eligible. Pending work remains non-blocking, so lower quality tiers continue instead of being starved by the exhausted highest-severity item.
 - **Decision:** Record plausible implicit DWI artwork and missing-reference fallbacks as non-selectable `review-only` records. A filename heuristic may support owner review but never establishes the runtime source or authorizes generation, simfile edits, or installation.
 - **Decision:** Preserve queue status and history across assessment-rule fingerprint migrations only when the explicit reference, source hash, and simfile hashes remain exact. Rule changes must not silently reopen an unchanged owner-skipped or denied source; content changes still receive a fresh assessment.
+- **Decision:** Read and write the background queue and retrospective ledger explicitly as UTF-8 without a BOM. Windows PowerShell implicit decoding is prohibited because it can repeatedly corrupt non-ASCII history and expand the queue on subsequent rewrites.
+- **Owner-confirmed:** Background approval and owner-decision messages must lead with the full canonical simfile artist and song title, include useful identification metadata such as pack/folder and source/candidate dimensions, and carry artist/title into the inbox item. Do not infer missing metadata from artwork or filenames.
 - **Rationale:** This preserves static-media safety, reversible installation, owner control, and useful iteration while keeping missing or dynamic-background work out of scope.
 
 ## 2026-08-01 community pack-source expansion

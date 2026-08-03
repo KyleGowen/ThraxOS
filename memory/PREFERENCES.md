@@ -13,3 +13,5 @@
 - **2026-08-01:** Keep `Elemwarr Misc`, `Elemwarr Originals`, `Misc. Collected`, and `Misc. Collected (DDR Ratings)` ungrouped, with no Series assignment.
 - **2026-08-01:** Retain all four preliminary phone-controller interface concepts—Arcade Deck, Jukebox, Smart Remote, and Family First—for later evaluation. Phone and dedicated-tablet layouts only need to control Thraximundar's single player and single pad.
 - **2026-08-02:** Retain the Nintendo Switch Online NES controller concept as a future wireless ITGMania menu controller. Preserve StepManiaX as the gameplay controller; map L and R separately to ITGMania Menu-left and Menu-right so L+R opens the submenu.
+- **2026-08-03:** For banner Before/After comparisons, show the exact full-resolution files, state their decoded pixel dimensions, and provide direct native-size links rather than relying only on client-scaled inline images.
+- **2026-08-03:** For background-preview approval and decision messages, lead with the full canonical simfile artist and song title, include useful pack/folder and source/candidate metadata, and identify the artist/title in the inbox item.

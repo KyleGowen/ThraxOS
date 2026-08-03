@@ -52,6 +52,10 @@ function Invoke-Update([string[]]$Arguments) {
     ($output -join "`n")
 }
 
+function Read-Queue([string]$Path) {
+    [IO.File]::ReadAllText($Path, [Text.UTF8Encoding]::new($false)) | ConvertFrom-Json
+}
+
 try {
     [void](New-Item -ItemType Directory -Path $pack)
     $emptySim = New-SimFixture 'Empty SD' 'bg.png' '' 854 480
@@ -76,13 +80,13 @@ try {
     [void](Invoke-Update @('-PackPath', $pack, '-QueuePath', $queue, '-AwaitOwnerInput', '-SongPath', $selected.songPath, '-Fingerprint', $selected.fingerprint, '-AttemptOutcome', 'generation-failed', '-AttemptNote', 'Two genuine model attempts are exhausted; deterministic fallback needs owner approval.'))
     $afterDeferral = Invoke-Update @('-PackPath', $pack, '-QueuePath', $queue, '-SelectNext') | ConvertFrom-Json
     Assert ($afterDeferral.songPath -eq 'Aspect') 'an exhausted highest-tier candidate awaiting owner input must not starve lower tiers'
-    $deferredDocument = Get-Content -LiteralPath $queue -Raw | ConvertFrom-Json
+    $deferredDocument = Read-Queue $queue
     $deferred = $deferredDocument.songs | Where-Object songPath -eq 'Tiny'
     Assert ($deferred.status -eq 'pending') 'an exhausted candidate should remain pending while awaiting owner input'
     Assert ($deferred.pendingAction -eq 'awaiting-fallback-approval') 'the required owner decision should be explicit and durable'
     Assert (@($deferred.attemptHistory).Count -eq 1) 'deferral should retain a factual attempt-history entry'
 
-    $document = Get-Content -LiteralPath $queue -Raw | ConvertFrom-Json
+    $document = Read-Queue $queue
     Assert ($document.schemaVersion -eq 2) 'queue schema should be version 2'
     $empty = $document.songs | Where-Object songPath -eq 'Empty SD'
     Assert ($empty.status -eq 'eligible') 'empty BGCHANGES metadata should remain eligible'
@@ -101,15 +105,17 @@ try {
 
     $empty.status = 'skipped'
     $empty.processedAt = (Get-Date).ToUniversalTime().ToString('o')
-    $empty.decisionHistory = @([pscustomobject]@{ recordedAt = $empty.processedAt; outcome = 'skipped'; note = 'Disposable fixture skip.'; previewPath = $null; previewSha256 = $null })
+    $unicodeNote = 'Unicode round trip: caf' + [char]0x00E9 + ' ' + [char]0x00D7 + ' ' + [char]0x2019
+    $empty.decisionHistory = @([pscustomobject]@{ recordedAt = $empty.processedAt; outcome = 'skipped'; note = $unicodeNote; previewPath = $null; previewSha256 = $null })
     $empty.fingerprint = 'RULEVERSIONCHANGE'
     $document.schemaVersion = 1
     [IO.File]::WriteAllText($queue, ($document | ConvertTo-Json -Depth 12) + "`n", [Text.UTF8Encoding]::new($false))
     [void](Invoke-Update @('-PackPath', $pack, '-QueuePath', $queue, '-Refresh'))
-    $migrated = Get-Content -LiteralPath $queue -Raw | ConvertFrom-Json
+    $migrated = Read-Queue $queue
     $empty = $migrated.songs | Where-Object songPath -eq 'Empty SD'
     Assert ($empty.status -eq 'skipped') 'an unchanged source should preserve fingerprint-scoped decisions across rule-version fingerprint changes'
     Assert (@($empty.decisionHistory).Count -eq 1) 'decision history should survive an assessment-rule migration'
+    Assert ($empty.decisionHistory[0].note -ceq $unicodeNote) 'queue rewrites must preserve UTF-8 text exactly'
 
     $inspection = & $inspect -Simfile $emptySim
     Assert ($inspection.BgChangesState -eq 'empty') 'the inspector should accept an empty BGCHANGES tag'
@@ -132,7 +138,7 @@ try {
     [void](Invoke-Update @('-PackPath', $pack, '-QueuePath', $queue, '-SetStatus', 'installed', '-SongPath', $empty.songPath, '-Fingerprint', $empty.fingerprint, '-PreviewPath', $preview, '-DecisionNote', 'Disposable fixture approval.'))
     Copy-Item -LiteralPath $preview -Destination (Join-Path $pack 'Empty SD\bg.png') -Force
     [void](Invoke-Update @('-PackPath', $pack, '-QueuePath', $queue, '-Refresh'))
-    $refreshed = Get-Content -LiteralPath $queue -Raw | ConvertFrom-Json
+    $refreshed = Read-Queue $queue
     $installed = $refreshed.songs | Where-Object songPath -eq 'Empty SD'
     Assert ($installed.status -eq 'installed') 'installed decision should survive the refreshed fingerprint'
     Assert ($installed.sourceSha256 -eq $installed.previewSha256) 'installed source should match the approved preview hash'

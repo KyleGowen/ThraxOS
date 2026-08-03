@@ -170,6 +170,23 @@ function Get-Assessment([IO.DirectoryInfo]$Song, [string]$PackRoot, [string]$Now
 
 $pack = (Resolve-Path -LiteralPath $PackPath).Path
 $queueFile = [IO.Path]::GetFullPath($QueuePath)
+$lockHash = [Security.Cryptography.SHA256]::Create()
+try {
+    $lockBytes = [Text.Encoding]::UTF8.GetBytes($queueFile.ToLowerInvariant())
+    $lockId = ([BitConverter]::ToString($lockHash.ComputeHash($lockBytes))).Replace('-', '')
+} finally {
+    $lockHash.Dispose()
+}
+$queueMutex = [Threading.Mutex]::new($false, "Local\ThraxOS-BannerQueue-$lockId")
+$queueLockTaken = $false
+try {
+    try {
+        $queueLockTaken = $queueMutex.WaitOne([TimeSpan]::FromSeconds(60))
+    } catch [Threading.AbandonedMutexException] {
+        $queueLockTaken = $true
+    }
+    if (-not $queueLockTaken) { throw "Timed out waiting for the banner queue lock: $queueFile" }
+
 $existing = $null
 if (Test-Path -LiteralPath $queueFile -PathType Leaf) {
     $existing = Get-Content -LiteralPath $queueFile -Raw | ConvertFrom-Json
@@ -323,4 +340,8 @@ if ($SelectNext) {
 } else {
     $counts = @($existing.songs) | Group-Object status | Sort-Object Name | ForEach-Object { [pscustomobject]@{ status = $_.Name; count = $_.Count } }
     [pscustomobject]@{ queuePath = $queueFile; total = @($existing.songs).Count; counts = $counts } | ConvertTo-Json -Depth 4
+}
+} finally {
+    if ($queueLockTaken) { $queueMutex.ReleaseMutex() }
+    $queueMutex.Dispose()
 }

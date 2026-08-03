@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-03T05:07:59.2435760Z",
+    "generatedAt":  "2026-08-03T16:45:43.4370439Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -108,7 +108,7 @@
                   },
                   {
                       "songPath":  "A Little Respect",
-                      "fingerprint":  "6A15D8D7B34A882C7B1D9E9EC587722AFFAD0A7531563F850AE5B909BF278733",
+                      "fingerprint":  "470B2650D9FB119FDEB6497923A797F5658E6550056E7FF587F314FE37FF2BE6",
                       "simfiles":  [
                                        {
                                            "path":  "A Little Respect.ssc",
@@ -121,31 +121,43 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "A Little Respect-bg.png",
                       "sourcePath":  "A Little Respect-bg.png",
-                      "sourceSha256":  "33D142A14296CF67AF291A0F22926B4C9C3E7EB5FBB09CC45DB6E6842EED0E52",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "33C466C6C80BCE109D9680C6F803C0632B162988C5A3A8883D462BC9A6334A72",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T06:01:55.3303215Z",
+                      "assessedAt":  "2026-08-03T06:01:55.3303215Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T06:01:52.5284640Z",
+                      "lastAttemptedAt":  "2026-08-03T05:55:56.0905248Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\A Little Respect\\6A15D8D7B34A882C7B1D9E9EC587722AFFAD0A7531563F850AE5B909BF278733\\After-C-1920x1080.png",
+                      "previewSha256":  "33C466C6C80BCE109D9680C6F803C0632B162988C5A3A8883D462BC9A6334A72",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-03T05:50:39.9877514Z",
+                                                 "outcome":  "new-source-supplied",
+                                                 "note":  "Owner supplied four new visual references and requested three distinct replacement concepts because the original artwork is not desired. Preserved source hashes: portrait B2A546F6826749B8D385A2FA30758980A15D64B3D9A91FF4860FA6395EBBB751; neon 69DA17B273913B5B8F9369A162DF789FE1169C3B0D0AD0088AD2DDFC51C21EA6; vinyl poster 8F9456B2FCF60D66946916EDDE8644228600D630B72436D0B932A4462DEC65C1; amphitheater 6C2003DB3FBC15A950DB7741FD4DD851EF6CBA707E3003CC2D7058CD6BA7A63C. Prior bound preview is superseded.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\A Little Respect\\6A15D8D7B34A882C7B1D9E9EC587722AFFAD0A7531563F850AE5B909BF278733\\After-A-1920x1080.png",
+                                                 "discardedPreviewSha256":  "2353C37BFCBDE86E3EA40DCAE59B65C6893F6868E0246C011CFEAAA924A33132"
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T06:01:52.5284640Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved install C, the minimalist vinyl-amphitheater After C preview, exact SHA-256 33C466C6C80BCE109D9680C6F803C0632B162988C5A3A8883D462BC9A6334A72.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\A Little Respect\\6A15D8D7B34A882C7B1D9E9EC587722AFFAD0A7531563F850AE5B909BF278733\\After-C-1920x1080.png",
+                                                  "previewSha256":  "33C466C6C80BCE109D9680C6F803C0632B162988C5A3A8883D462BC9A6334A72"
+                                              }
                                           ]
                   },
                   {
@@ -196,7 +208,7 @@
                   },
                   {
                       "songPath":  "Acceptable in the 80s",
-                      "fingerprint":  "9A7A3D6BF5F7BCFFD03993F8082928103C55DFD65097CA3D3ACADF2F3EACE5A6",
+                      "fingerprint":  "E21A0B287C0922D2F4C83A695C94C4D6F693F97B3181D6D9FCF4273AF013ED92",
                       "simfiles":  [
                                        {
                                            "path":  "Acceptable in the 80s.sm",
@@ -209,31 +221,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Acceptable in the 80s-bg.png",
                       "sourcePath":  "Acceptable in the 80s-bg.png",
-                      "sourceSha256":  "75222DE2622E21953113FE750320BB36AFE35497A46EF9DBE0DE20B6F0B95C71",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "176170142D1BD60357DD4C609CD1028E805B274D5281C91ADF80E6E62CE4057F",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T15:27:10.1276217Z",
+                      "assessedAt":  "2026-08-03T15:27:10.1276217Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:27:07.4924326Z",
+                      "lastAttemptedAt":  "2026-08-03T06:36:16.7634498Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Acceptable in the 80s\\9A7A3D6BF5F7BCFFD03993F8082928103C55DFD65097CA3D3ACADF2F3EACE5A6\\After-A-1920x1080.png",
+                      "previewSha256":  "176170142D1BD60357DD4C609CD1028E805B274D5281C91ADF80E6E62CE4057F",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:27:07.4924326Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the latest displayed Acceptable in the 80s After A with exact SHA-256 176170142D1BD60357DD4C609CD1028E805B274D5281C91ADF80E6E62CE4057F; guarded installation replaced only the explicitly referenced background and preserved rollback evidence.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Acceptable in the 80s\\9A7A3D6BF5F7BCFFD03993F8082928103C55DFD65097CA3D3ACADF2F3EACE5A6\\After-A-1920x1080.png",
+                                                  "previewSha256":  "176170142D1BD60357DD4C609CD1028E805B274D5281C91ADF80E6E62CE4057F"
+                                              }
                                           ]
                   },
                   {
@@ -459,7 +477,7 @@
                   },
                   {
                       "songPath":  "Artillery",
-                      "fingerprint":  "AA9DC022A9282BE1DF1958ECDA6013E8E41F62FCC4050DDD93B3C3965A8044EC",
+                      "fingerprint":  "F36379B2C2C710402E9F856EE4D3003586641ADACA2B16043D96C8256BE9B3BD",
                       "simfiles":  [
                                        {
                                            "path":  "Artillery.sm",
@@ -472,31 +490,43 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "artillery-bg.png",
                       "sourcePath":  "artillery-bg.png",
-                      "sourceSha256":  "B498CD56A1B947BD7739AFE41A915B63186C55A1A05FABCDB62EB7BB071FF7D3",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "8F631D1C3016D990AF64ACAB433FA6BFBA40661B0AC9C566DA4BA7255BDB52EA",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T15:29:57.5465287Z",
+                      "assessedAt":  "2026-08-03T15:29:57.5465287Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:29:43.3599445Z",
+                      "lastAttemptedAt":  "2026-08-03T15:29:32.6639992Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Artillery\\AA9DC022A9282BE1DF1958ECDA6013E8E41F62FCC4050DDD93B3C3965A8044EC\\After-A-1920x1080-installed.png",
+                      "previewSha256":  "8F631D1C3016D990AF64ACAB433FA6BFBA40661B0AC9C566DA4BA7255BDB52EA",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-03T07:36:35.7324400Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine AI edits were used. Attempt 1 produced a faithful wide composition but changed the exact subtitle to \u0027INFECTED MUSHROOMU\u0027. Attempt 2 was instructed to correct only that text but retained the same erroneous extra trailing U. Neither result is installable; deterministic fallback requires explicit owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:29:43.3599445Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected displayed After A with \u0027install A\u0027, accepting its rendered subtitle. The guarded installer deterministically normalized approved raw preview SHA-256 35278037D4666DBAC4E8CC9139BD5D93040FC1F117C7858BE15C63484F572753 to 1920 x 1080; the installed exact-byte binding is SHA-256 8F631D1C3016D990AF64ACAB433FA6BFBA40661B0AC9C566DA4BA7255BDB52EA.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Artillery\\AA9DC022A9282BE1DF1958ECDA6013E8E41F62FCC4050DDD93B3C3965A8044EC\\After-A-1920x1080-installed.png",
+                                                  "previewSha256":  "8F631D1C3016D990AF64ACAB433FA6BFBA40661B0AC9C566DA4BA7255BDB52EA"
+                                              }
                                           ]
                   },
                   {
@@ -770,7 +800,7 @@
                   },
                   {
                       "songPath":  "Battle Scene",
-                      "fingerprint":  "5D09BFD2C1E2C2BDD08B6EBBDA0C545DFB3B9E1F82E78AE4C112DCF38D273500",
+                      "fingerprint":  "A365E1D59EAA31EEA8554BE9DA12A9BAF7835A531E407760A59C6A3797B492EA",
                       "simfiles":  [
                                        {
                                            "path":  "Battle Scene.sm",
@@ -786,31 +816,43 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Battle Scene-bg.jpg",
                       "sourcePath":  "Battle Scene-bg.jpg",
-                      "sourceSha256":  "C5E616B6589815D24C1E8E1F1A9185E1CD23C062AFA6DE6C905040AEBB193D6A",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "6C98D61899E49AC3DF31ED24E701C109149F4D194D2960D855CFD32C8DDBE1FA",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T15:45:13.4746965Z",
+                      "assessedAt":  "2026-08-03T15:45:13.4746965Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:45:03.9277384Z",
+                      "lastAttemptedAt":  "2026-08-03T15:44:55.9287097Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Battle Scene\\5D09BFD2C1E2C2BDD08B6EBBDA0C545DFB3B9E1F82E78AE4C112DCF38D273500\\After-A-installed-20260803-084354.jpg",
+                      "previewSha256":  "6C98D61899E49AC3DF31ED24E701C109149F4D194D2960D855CFD32C8DDBE1FA",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-03T08:35:54.1689161Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The validated 1920 x 1080 preview could not be forwarded at original resolution; a 960 x 540 display copy rendered successfully. This did not consume another model attempt.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Battle Scene\\5D09BFD2C1E2C2BDD08B6EBBDA0C545DFB3B9E1F82E78AE4C112DCF38D273500\\After-A-1920x1080.png",
+                                                 "discardedPreviewSha256":  "8C794F5418BA08AC1127A2623A315EAF95232A41AEA4FA2EB7421E8C19E72998"
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:45:03.9277384Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install in the task whose latest displayed preview was Battle Scene After A, explicitly approving raw PNG SHA-256 8C794F5418BA08AC1127A2623A315EAF95232A41AEA4FA2EB7421E8C19E72998. The standard guarded installer preserved the live JPG encoding; exact installed/staged JPG SHA-256 is 6C98D61899E49AC3DF31ED24E701C109149F4D194D2960D855CFD32C8DDBE1FA.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Battle Scene\\5D09BFD2C1E2C2BDD08B6EBBDA0C545DFB3B9E1F82E78AE4C112DCF38D273500\\After-A-installed-20260803-084354.jpg",
+                                                  "previewSha256":  "6C98D61899E49AC3DF31ED24E701C109149F4D194D2960D855CFD32C8DDBE1FA"
+                                              }
                                           ]
                   },
                   {
@@ -982,12 +1024,12 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-03T09:37:06.2839546Z",
+                      "lastAttemptedAt":  "2026-08-03T09:37:06.2839546Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Beautiful Life\\BD7F891AC8264F115A90E371F0223828EC6A4C46B9E48FC8C0F0BAC6E0F0893A\\After-A-1920x1080.png",
+                      "previewSha256":  "9271B264B4138700FF2B17D99BF433F59673E4951E07FEA85F4D9C3B2F5A3684",
                       "attemptHistory":  [
 
                                          ],
@@ -997,7 +1039,7 @@
                   },
                   {
                       "songPath":  "Better Than Revenge",
-                      "fingerprint":  "DB38D7BC388310B0522FCC65FF2B4E8C24B58839A5B7BD433079A9535E2BA0AD",
+                      "fingerprint":  "D6D9D9C72EFA7197424766597AE7331865E1804DB23958A00AEAD19CA81FF7E0",
                       "simfiles":  [
                                        {
                                            "path":  "betterthanrevenge.sm",
@@ -1010,31 +1052,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "betterthanrevenge.png",
                       "sourcePath":  "betterthanrevenge.png",
-                      "sourceSha256":  "674B88EF2C304371427BD06F69A81E0D953DE8DC29536A028869E894A8CE443A",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "887A816E5271356C986BEE67424A628C47311086674AB302B440F8FBD7146AD2",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T15:42:14.7597813Z",
+                      "assessedAt":  "2026-08-03T15:42:14.7597813Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:42:12.4227883Z",
+                      "lastAttemptedAt":  "2026-08-03T10:35:23.0946496Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Better Than Revenge\\DB38D7BC388310B0522FCC65FF2B4E8C24B58839A5B7BD433079A9535E2BA0AD\\After-A-1920x1080.png",
+                      "previewSha256":  "887A816E5271356C986BEE67424A628C47311086674AB302B440F8FBD7146AD2",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:42:12.4227883Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved Better Than Revenge After A for installation. Installed preview SHA-256 887A816E5271356C986BEE67424A628C47311086674AB302B440F8FBD7146AD2 after exact source, simfile, preview, ITGMania-closed, and healthy-backup verification.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Better Than Revenge\\DB38D7BC388310B0522FCC65FF2B4E8C24B58839A5B7BD433079A9535E2BA0AD\\After-A-1920x1080.png",
+                                                  "previewSha256":  "887A816E5271356C986BEE67424A628C47311086674AB302B440F8FBD7146AD2"
+                                              }
                                           ]
                   },
                   {
@@ -1433,14 +1481,55 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-03T15:54:21.8493649Z",
+                      "lastAttemptedAt":  "2026-08-03T15:54:21.8493649Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\Breathe-After-B-1920x1080.png",
+                      "previewSha256":  "24F087EDB6F59CBDBBB38AC0CA0126B891D0AD1285FF6E284BA3E7B12FDCA1B4",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-03T11:37:06.8230703Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The built-in edit completed but returned no forwarded artifact; the generated file was recovered from the generated-image store. Full-resolution preview forwarding also failed, while a 960 x 540 display copy rendered successfully. These were output-handling issues and did not consume another model attempt.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T15:47:17.0047639Z",
+                                                 "outcome":  "new-source-supplied",
+                                                 "note":  "Owner rejected the previously bound anime-style preview and supplied four Prodigy Breathe cover-art references for a fresh source-led composition. Preserved outside the live song folder with SHA-256 values 44C06A9F671A2A5C1231A6336426A10A0A3FEC1430AD5417A27EFAF7FE9C371D, 50CDCC4408538E115B046418F5A1661F369B8813F839345AAFDF6C564811E685, E0D97EC6020B4881DB8276904026A4B3A66F49E7F8F715590496E5327737F05C, and 0F47184532D47D0AC6BD0C8B235BA47BBAB6CD094145825DFBF179A24F80F2B1.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Breathe\\CBE17833F6A3DF9D6FCD2A26D67E5CFF6280D59F68895067EC65A58CB510DC86\\After-A-1920x1080.png",
+                                                 "discardedPreviewSha256":  "5919A93B9B45512A9627B12685D20DD0A43D5EADF57B9CD798F8517C31DAEC1C"
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T15:48:20.4254903Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The first source-led generation call did not start because the image tool could not encode the clipboard-derived physical-cover PNG. All four preserved owner inputs were decoded and re-saved as plain opaque 24-bit RGB PNGs; no model attempt was consumed.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T15:49:45.1375465Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The second source-led call also did not start because the image tool rejected the third normalized reference when four files were passed separately. Consolidated all four preserved inputs into one decoded opaque 1600 x 1600 reference board; no model attempt was consumed.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T15:50:44.9430742Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The consolidated four-source reference board decoded and rendered locally, but the image tool rejected its long staging path before generation. Retrying the same byte-identical board from a short workspace path to avoid the filesystem handoff boundary; no model attempt was consumed.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T15:54:18.5612937Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "Source-led model attempt 1 completed successfully but returned no forwarded artifact. Recovered the generated image from the built-in generated-image store, visually validated exact prodigy and BREATHE text plus source-faithful fish and wood composition, and normalized it to an opaque one-frame 1920 x 1080 preview. No additional model attempt was consumed.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1494,7 +1583,7 @@
                   },
                   {
                       "songPath":  "Car Keys (Ayla)",
-                      "fingerprint":  "C93E5090668426DF39101A9D1432E9ADEB2187D6A01918C297699B58B8729763",
+                      "fingerprint":  "14481F54C230528FD0A396E594AAD9865B6BC7C8E4984F86C0226AA66FB784C0",
                       "simfiles":  [
                                        {
                                            "path":  "Car Keys (Ayla).ssc",
@@ -1507,31 +1596,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Car Keys (Ayla) - bg.png",
                       "sourcePath":  "Car Keys (Ayla) - bg.png",
-                      "sourceSha256":  "959B41347AD8B4008C830A021FA4B246CCF6CFD73138CEEE2212F8DCBF2B0610",
-                      "sourceWidth":  1260,
-                      "sourceHeight":  720,
+                      "sourceSha256":  "51940B88092A1A4CD9A6CF8F852D9BC6067E60D9F74DCA445AC55192FBE135DA",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T15:53:45.8313829Z",
+                      "assessedAt":  "2026-08-03T15:53:45.8313829Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:53:38.3924966Z",
+                      "lastAttemptedAt":  "2026-08-03T12:36:51.4797042Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Car Keys (Ayla)\\C93E5090668426DF39101A9D1432E9ADEB2187D6A01918C297699B58B8729763\\After-A-1920x1080.png",
+                      "previewSha256":  "51940B88092A1A4CD9A6CF8F852D9BC6067E60D9F74DCA445AC55192FBE135DA",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:53:38.3924966Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved bare install for this task latest displayed Alok \u0026 Ava Max — Car Keys (Ayla) After A, exact SHA-256 51940B88092A1A4CD9A6CF8F852D9BC6067E60D9F74DCA445AC55192FBE135DA. Guarded installation replaced only the explicit Car Keys (Ayla) - bg.png target; installed bytes exactly match the approved preview and the simfile/reference remained unchanged.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Car Keys (Ayla)\\C93E5090668426DF39101A9D1432E9ADEB2187D6A01918C297699B58B8729763\\After-A-1920x1080.png",
+                                                  "previewSha256":  "51940B88092A1A4CD9A6CF8F852D9BC6067E60D9F74DCA445AC55192FBE135DA"
+                                              }
                                           ]
                   },
                   {
@@ -1578,7 +1673,7 @@
                   },
                   {
                       "songPath":  "Change the Formality",
-                      "fingerprint":  "9BDCDC6BC5A53482E08FFDC6DD384BFFBCC33D0F956983C815F5044F29A197CF",
+                      "fingerprint":  "21763057A79A208FD20B8A9D933A060944BE97B504BC7BE8A9E73AC102E0BA64",
                       "simfiles":  [
                                        {
                                            "path":  "Change the Formality.sm",
@@ -1591,31 +1686,43 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "ctf-bg.jpg",
                       "sourcePath":  "ctf-bg.jpg",
-                      "sourceSha256":  "278E61C7833FC226060A6889697F484B714FE30C577307C19376542D77FA1933",
-                      "sourceWidth":  3800,
-                      "sourceHeight":  2400,
+                      "sourceSha256":  "2E011D67983F84C2BA7D64B25974E6698FAEB958C9E88929E97E5F46059B06B3",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T15:57:49.3237043Z",
+                      "assessedAt":  "2026-08-03T15:57:49.3237043Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:57:38.8128155Z",
+                      "lastAttemptedAt":  "2026-08-03T13:38:22.2766571Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Change the Formality\\9BDCDC6BC5A53482E08FFDC6DD384BFFBCC33D0F956983C815F5044F29A197CF\\owner-approved-installed-1920x1080.jpg",
+                      "previewSha256":  "2E011D67983F84C2BA7D64B25974E6698FAEB958C9E88929E97E5F46059B06B3",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-03T13:36:17.1123080Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The validated 1920 x 1080 staged preview could not be processed by the full-resolution inline viewer; a 960 x 540 display-only copy rendered successfully, so no additional model attempt was consumed.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:57:38.8128155Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install in the task whose latest displayed candidate was Infected Mushroom — Change the Formality After A, approving raw PNG SHA-256 1B0F070796CADE97E703C58E2ACB2A3715BC6A4FE970149838109AAED5E5136B. The guarded installer preserved the explicit ctf-bg.jpg reference and normalized the approved pixels to the target JPG encoding; installed/staged JPG SHA-256 is 2E011D67983F84C2BA7D64B25974E6698FAEB958C9E88929E97E5F46059B06B3.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Change the Formality\\9BDCDC6BC5A53482E08FFDC6DD384BFFBCC33D0F956983C815F5044F29A197CF\\owner-approved-installed-1920x1080.jpg",
+                                                  "previewSha256":  "2E011D67983F84C2BA7D64B25974E6698FAEB958C9E88929E97E5F46059B06B3"
+                                              }
                                           ]
                   },
                   {
@@ -2277,7 +2384,7 @@
                   },
                   {
                       "songPath":  "Devil in Wonderland",
-                      "fingerprint":  "BAEF920E5179108301CCE2013AD8B0851CEC9EAF983826B26EC24379F2094607",
+                      "fingerprint":  "B0E1784A447FCAF840CBA21A1A9B5687F59918F013A31E00526C98A391E68AAA",
                       "simfiles":  [
                                        {
                                            "path":  "Devil in Wonderland.sm",
@@ -2293,31 +2400,43 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Devil in Wonderland-bg.png",
                       "sourcePath":  "Devil in Wonderland-bg.png",
-                      "sourceSha256":  "FC5B20CB81C43B6962198806F5B075364C7FA7C6D1ABC7A0F86F88B67441D18A",
-                      "sourceWidth":  800,
-                      "sourceHeight":  600,
+                      "sourceSha256":  "67174EACE33B8CBF32372BCD2D1DDD2FD104FEE061DBD7DB0E817BB468407F03",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T15:34:35.3392811Z",
+                      "assessedAt":  "2026-08-03T15:34:35.3392811Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:34:33.2066566Z",
+                      "lastAttemptedAt":  "2026-08-03T15:34:30.7271288Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Devil in Wonderland\\BAEF920E5179108301CCE2013AD8B0851CEC9EAF983826B26EC24379F2094607\\After-A-installed-normalized-1920x1080.png",
+                      "previewSha256":  "67174EACE33B8CBF32372BCD2D1DDD2FD104FEE061DBD7DB0E817BB468407F03",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-03T14:36:08.9744171Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The validated opaque 1920 x 1080 After A could not be rendered inline at full resolution; a 960 x 540 display copy was created successfully. The AI result and full-resolution preview remain viable, so this did not consume another model attempt.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Devil in Wonderland\\BAEF920E5179108301CCE2013AD8B0851CEC9EAF983826B26EC24379F2094607\\After-A-1920x1080.png",
+                                                 "discardedPreviewSha256":  "81E582985CFBEAAA4D70E84B4FD6D921FE271F1FC755A605C94B87064EA8E73D"
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:34:33.2066566Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install in the task whose latest displayed preview was Devil in Wonderland After A, approving raw preview SHA-256 81E582985CFBEAAA4D70E84B4FD6D921FE271F1FC755A605C94B87064EA8E73D. The guarded installer changed only the explicit referenced PNG and normalized its encoding to opaque one-frame 1920 x 1080 SHA-256 67174EACE33B8CBF32372BCD2D1DDD2FD104FEE061DBD7DB0E817BB468407F03; decoded pixel SHA-256 matched the approved preview exactly. Rollback Devil in Wonderland-bg.png.pre-upscale-20260803-083334.bak preserves original SHA-256 FC5B20CB81C43B6962198806F5B075364C7FA7C6D1ABC7A0F86F88B67441D18A. Simfile hash and #BACKGROUND reference remained unchanged, and ITGMania remained closed.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Devil in Wonderland\\BAEF920E5179108301CCE2013AD8B0851CEC9EAF983826B26EC24379F2094607\\After-A-installed-normalized-1920x1080.png",
+                                                  "previewSha256":  "67174EACE33B8CBF32372BCD2D1DDD2FD104FEE061DBD7DB0E817BB468407F03"
+                                              }
                                           ]
                   },
                   {
@@ -2736,7 +2855,7 @@
                   },
                   {
                       "songPath":  "East West Wobble",
-                      "fingerprint":  "E9B1CA8AE332B6C6E6F856A6CA3390D58CAE12B4050185B1BDC2241AB7CAF063",
+                      "fingerprint":  "D0C876763F348656355E77987BD3A91D5E7825E380B0CF0FAC0A231A8EAB3A86",
                       "simfiles":  [
                                        {
                                            "path":  "East West Wobble.sm",
@@ -2752,31 +2871,43 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "east west wobble-bg.png",
                       "sourcePath":  "east west wobble-bg.png",
-                      "sourceSha256":  "BD95DA327D5E7AC0B8532A3E675ED0B914BA02491B8354C22D52787A2FB8D609",
-                      "sourceWidth":  800,
-                      "sourceHeight":  600,
+                      "sourceSha256":  "4674CEC82D318B3857BDE6864FFE2B429B2F32495DB762A8E878F5877CF84D08",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T16:00:00.0078791Z",
+                      "assessedAt":  "2026-08-03T16:00:00.0078791Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T15:59:55.7793712Z",
+                      "lastAttemptedAt":  "2026-08-03T15:38:57.0128539Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\East West Wobble\\E9B1CA8AE332B6C6E6F856A6CA3390D58CAE12B4050185B1BDC2241AB7CAF063\\After-A-1920x1080.png",
+                      "previewSha256":  "4674CEC82D318B3857BDE6864FFE2B429B2F32495DB762A8E878F5877CF84D08",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-03T15:38:51.1943785Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The validated full-resolution 1920 x 1080 preview could not be forwarded by the app; a 960 x 540 display-only copy rendered successfully, so no additional model attempt was consumed.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T15:59:55.7793712Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install in the task whose latest displayed preview was SHK - East West Wobble After A, approving exact SHA-256 4674CEC82D318B3857BDE6864FFE2B429B2F32495DB762A8E878F5877CF84D08; guarded installation produced a byte-for-byte identical opaque one-frame 1920 x 1080 PNG and preserved the original in a timestamped sibling rollback.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\East West Wobble\\E9B1CA8AE332B6C6E6F856A6CA3390D58CAE12B4050185B1BDC2241AB7CAF063\\After-A-1920x1080.png",
+                                                  "previewSha256":  "4674CEC82D318B3857BDE6864FFE2B429B2F32495DB762A8E878F5877CF84D08"
+                                              }
                                           ]
                   },
                   {
@@ -3263,7 +3394,7 @@
                   },
                   {
                       "songPath":  "Flaming June",
-                      "fingerprint":  "0A2DF884A94F129BB516FE6278569D0736EC1BD84702008EABB6B8CB87311F39",
+                      "fingerprint":  "9CA6F908777D7AC37C67190F4B0D670DA1A9257363CCF4D03305A8EFBB80242E",
                       "simfiles":  [
                                        {
                                            "path":  "Flaming June.sm",
@@ -3280,31 +3411,43 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Flaming June-bg.png",
                       "sourcePath":  "Flaming June-bg.png",
-                      "sourceSha256":  "B2BD6ACE82A7D88BF7C743AB3672C22918A1DEE9C09A05F4ED0C96A9759893A1",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "4F6C6C575E406E0939F3C22545791DFCA76D977780C9650209A1C87C43B024A7",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T16:44:31.4977187Z",
+                      "assessedAt":  "2026-08-03T16:44:31.4977187Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T16:44:26.1410987Z",
+                      "lastAttemptedAt":  "2026-08-03T16:38:36.2948610Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Flaming June\\0A2DF884A94F129BB516FE6278569D0736EC1BD84702008EABB6B8CB87311F39\\After-A-1920x1080.png",
+                      "previewSha256":  "4F6C6C575E406E0939F3C22545791DFCA76D977780C9650209A1C87C43B024A7",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-03T16:38:30.0542331Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The full-resolution 1920x1080 preview could not render inline in the app; a 960x540 display-only copy rendered successfully. The exact staged preview validated and was retained. This did not consume another model attempt.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T16:44:26.1410987Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved BT — Flaming June After A, raw preview SHA-256 4F6C6C575E406E0939F3C22545791DFCA76D977780C9650209A1C87C43B024A7. Installed only Flaming June-bg.png as opaque 1920x1080 PNG; installed SHA-256 4F6C6C575E406E0939F3C22545791DFCA76D977780C9650209A1C87C43B024A7 and decoded pixels exactly match the approved preview. Rollback Flaming June-bg.png.pre-upscale-20260803-094324.bak preserves original SHA-256 B2BD6ACE82A7D88BF7C743AB3672C22918A1DEE9C09A05F4ED0C96A9759893A1.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Flaming June\\0A2DF884A94F129BB516FE6278569D0736EC1BD84702008EABB6B8CB87311F39\\After-A-1920x1080.png",
+                                                  "previewSha256":  "4F6C6C575E406E0939F3C22545791DFCA76D977780C9650209A1C87C43B024A7"
+                                              }
                                           ]
                   },
                   {
@@ -9675,6 +9818,286 @@
                                 "summary":  "Owner explicitly selected the previously rejected first generated artwork and approved its installation. The guarded installer normalized it to 1920x1080, preserved a sibling rollback, left the simfile and reference unchanged, and queue refresh retained exact installed proof. This owner selection and result are fingerprint-specific and do not justify a reusable workflow change.",
                                 "songPath":  "80s Fitness",
                                 "fingerprint":  "2FD7FB840D762428815FB6B21A5E1E926A7858361254757D79569BE3046AF4A5",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T05:38:23.1312577Z",
+                                "scope":  "fingerprint",
+                                "summary":  "A faithful first-attempt horizontal outpaint preserved the exact erasure and a little respect text, central amphitheater artwork, palette, and analog texture. Local bitmap-constructor and full-resolution forwarding errors were recoverable output-handling issues and did not justify a second AI attempt or a reusable workflow change.",
+                                "songPath":  "A Little Respect",
+                                "fingerprint":  "6A15D8D7B34A882C7B1D9E9EC587722AFFAD0A7531563F850AE5B909BF278733",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T05:56:17.1013734Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner stated that the original A Little Respect artwork is not desired and supplied four source images for three replacement choices. Preserved the sources and created three exact-text 1920 x 1080 options: A monochrome portrait with magenta type (4A8221849A3DE8F183BA9FBB258B7BB86EF1D2BE339075DDECA4B50379C81500), B neon synthwave with amphitheater wireframe (531F19E44DF50A16D71D0E944FE683CEFFB7DA3CDCF35398B58B4FF0FB0E0C96), and C minimalist vinyl-amphitheater poster (33C466C6C80BCE109D9680C6F803C0632B162988C5A3A8883D462BC9A6334A72). Choice C is the latest displayed and bound default. This is fingerprint-specific feedback; no reusable workflow change is justified.",
+                                "songPath":  "A Little Respect",
+                                "fingerprint":  "6A15D8D7B34A882C7B1D9E9EC587722AFFAD0A7531563F850AE5B909BF278733",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T06:02:46.3352510Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly approved Choice C for A Little Respect. Guarded installation replaced only A Little Respect-bg.png with exact approved SHA-256 33C466C6C80BCE109D9680C6F803C0632B162988C5A3A8883D462BC9A6334A72, created rollback A Little Respect-bg.png.pre-upscale-20260802-230118.bak with prior-source SHA-256 33D142A14296CF67AF291A0F22926B4C9C3E7EB5FBB09CC45DB6E6842EED0E52, preserved simfile SHA-256 E39A2CFC8FD2182B434C181E4A02DAD763FE4B4C2ECC344B572A7A4823F6862E, and migrated queue history to installed fingerprint 470B2650D9FB119FDEB6497923A797F5658E6550056E7FF587F314FE37FF2BE6. No reusable workflow change is justified.",
+                                "songPath":  "A Little Respect",
+                                "fingerprint":  "470B2650D9FB119FDEB6497923A797F5658E6550056E7FF587F314FE37FF2BE6",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T06:36:50.8789341Z",
+                                "scope":  "fingerprint",
+                                "summary":  "A faithful 16:9 horizontal outpaint preserved the source-specific DanceDance Revolution, Acceptable in the 80s, and RED IMPULSE identity while extending only the surrounding red-orange halftone collage; no reusable workflow change was justified.",
+                                "songPath":  "Acceptable in the 80s",
+                                "fingerprint":  "9A7A3D6BF5F7BCFFD03993F8082928103C55DFD65097CA3D3ACADF2F3EACE5A6",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T07:37:05.9581720Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Both permitted AI edits preserved the Artillery composition but rendered the exact subtitle with an extra trailing U; the targeted second correction did not fix it. No preview is installable, so this fingerprint awaits explicit deterministic-fallback approval.",
+                                "songPath":  "Artillery",
+                                "fingerprint":  "AA9DC022A9282BE1DF1958ECDA6013E8E41F62FCC4050DDD93B3C3965A8044EC",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T08:36:55.1677660Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful AI outpaint preserved the low-poly fantasy identity and exact Battle Scene title; the validated opaque 1920 x 1080 preview is bound for approval. Full-resolution forwarding failed, but a 960 x 540 display copy rendered successfully without consuming another model attempt.",
+                                "songPath":  "Battle Scene",
+                                "fingerprint":  "5D09BFD2C1E2C2BDD08B6EBBDA0C545DFB3B9E1F82E78AE4C112DCF38D273500",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T09:37:43.0768955Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Beautiful Life source-specific result: one faithful AI outpaint preserved the sunset scene, family silhouettes, bicycle, palette, and exact Ace Of Base / Beautiful Life lettering; staged and bound an opaque one-frame 1920 x 1080 preview for owner approval. No owner feedback or reusable workflow change was received.",
+                                "songPath":  "Beautiful Life",
+                                "fingerprint":  "BD7F891AC8264F115A90E371F0223828EC6A4C46B9E48FC8C0F0BAC6E0F0893A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T10:35:56.0560673Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful AI outpaint preserved the exact Better Than Revenge title, abstract green guitar collage, diagonal string geometry, palette, and central composition while repairing the 4:3 fit. The opaque one-frame 1920 x 1080 preview was validated and bound; no reusable workflow change or owner feedback was inferred.",
+                                "songPath":  "Better Than Revenge",
+                                "fingerprint":  "DB38D7BC388310B0522FCC65FF2B4E8C24B58839A5B7BD433079A9535E2BA0AD",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T11:37:34.7941991Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Attempt 1 faithfully outpainted the 640 x 480 Breathe artwork to an opaque one-frame 1920 x 1080 preview while preserving the characters, Breathe title, artist credit, palette, and anime style. The built-in edit result and full-resolution display required recoverable output handling; the staged artifact validated and was bound for install approval. No owner feedback or reusable workflow change was received.",
+                                "songPath":  "Breathe",
+                                "fingerprint":  "CBE17833F6A3DF9D6FCD2A26D67E5CFF6280D59F68895067EC65A58CB510DC86",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T12:37:19.9441371Z",
+                                "scope":  "fingerprint",
+                                "summary":  "A restrained horizontal AI outpaint preserved the exact ALOK \u0026 AVA MAX and Car Keys (Ayla) text, central moon/cloud identity, palette, and soft texture; the generated artifact required local discovery after forwarding returned no output, which was an output-handling issue rather than another model attempt. The staged 1920 x 1080 opaque one-frame preview passed validation and was bound while live source and simfile hashes remained unchanged. No owner feedback or reusable workflow change occurred.",
+                                "songPath":  "Car Keys (Ayla)",
+                                "fingerprint":  "C93E5090668426DF39101A9D1432E9ADEB2187D6A01918C297699B58B8729763",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T13:50:26.4784537Z",
+                                "scope":  "reusable",
+                                "summary":  "A live queue rewrite exposed catastrophic mojibake growth because Windows PowerShell implicitly decoded UTF-8-without-BOM JSON. The corrupted retrospective line was repaired without losing song, attempt, decision, or learning history; both production helpers now use explicit UTF-8 reads and writes, and a Unicode round-trip regression fixture prevents recurrence. The Change the Formality source-specific outpaint remained faithfully staged and bound.",
+                                "songPath":  "Change the Formality",
+                                "fingerprint":  "9BDCDC6BC5A53482E08FFDC6DD384BFFBCC33D0F956983C815F5044F29A197CF",
+                                "changedFiles":  [
+                                                     ".agents/skills/upscale-background/SKILL.md",
+                                                     ".agents/skills/upscale-background/scripts/Update-BackgroundQueue.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Record-BackgroundLearning.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Test-BackgroundQueue.ps1",
+                                                     "docs/skills/README.md",
+                                                     "docs/skills/upscale-background.md",
+                                                     "docs/scheduled-tasks/README.md",
+                                                     "docs/scheduled-tasks/hourly-misc-background-upscale-queue.md",
+                                                     "memory/DECISIONS.md",
+                                                     "memory/OPERATIONS_LOG.md"
+                                                 ],
+                                "validationResult":  "Passed Test-BackgroundQueue.ps1 including Unicode round trip; all three changed PowerShell scripts parsed; git diff --check passed; quick_validate.py reported Skill is valid!; final live refresh preserved 206 unique records and constant queue byte size."
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T14:36:45.7138556Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful AI outpaint preserved the red-and-charcoal gothic pixel-art identity, centered title lockup, architectural perspective, palette, and texture while extending the 4:3 source horizontally. The staged After A is opaque, one-frame 1920 x 1080 with SHA-256 81E582985CFBEAAA4D70E84B4FD6D921FE271F1FC755A605C94B87064EA8E73D; the full-resolution inline render failed, so a successful 960 x 540 display copy and factual output-handling attempt record were used without consuming another model attempt. Source and simfile hashes stayed unchanged, no live content was mutated, and no owner feedback or reusable workflow change occurred.",
+                                "songPath":  "Devil in Wonderland",
+                                "fingerprint":  "BAEF920E5179108301CCE2013AD8B0851CEC9EAF983826B26EC24379F2094607",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:28:35.5599998Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved bare install for the latest displayed Acceptable in the 80s After A, exact SHA-256 176170142D1BD60357DD4C609CD1028E805B274D5281C91ADF80E6E62CE4057F. Guarded installation replaced only the explicit background, preserved rollback Acceptable in the 80s-bg.png.pre-upscale-20260803-082701.bak with prior-source SHA-256 75222DE2622E21953113FE750320BB36AFE35497A46EF9DBE0DE20B6F0B95C71, kept simfile SHA-256 0F1681A5E8582E6839805D54339A4E49D1EF89392C7B1AA34698261031715788 unchanged, validated opaque one-frame 1920 x 1080 output, and left ITGMania closed. No reusable workflow change was justified.",
+                                "songPath":  "Acceptable in the 80s",
+                                "fingerprint":  "E21A0B287C0922D2F4C83A695C94C4D6F693F97B3181D6D9FCF4273AF013ED92",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:30:46.6735231Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected displayed Artillery After A with \u0027install A\u0027, accepting its previously noted subtitle rendering. The guarded installer normalized the approved wide image to 1920 x 1080, preserved the original in a timestamped sibling rollback, and refresh retained installed history under the exact live output hash.",
+                                "songPath":  "Artillery",
+                                "fingerprint":  "F36379B2C2C710402E9F856EE4D3003586641ADACA2B16043D96C8256BE9B3BD",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:36:08.1707873Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the latest displayed Devil in Wonderland After A. Guarded installation replaced only the explicit referenced PNG, preserved the original in a timestamped sibling rollback, and produced opaque one-frame 1920 x 1080 installed SHA-256 67174EACE33B8CBF32372BCD2D1DDD2FD104FEE061DBD7DB0E817BB468407F03. Deterministic PNG normalization changed the file hash from the approved raw preview SHA-256 81E582985CFBEAAA4D70E84B4FD6D921FE271F1FC755A605C94B87064EA8E73D, but decoded pixel SHA-256 matched exactly. Simfile and reference were unchanged, queue migration preserved installed history with zero installed hash mismatches, ITGMania remained closed, and no reusable workflow change was justified.",
+                                "songPath":  "Devil in Wonderland",
+                                "fingerprint":  "B0E1784A447FCAF840CBA21A1A9B5687F59918F013A31E00526C98A391E68AAA",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:39:53.5965939Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful horizontal outpaint preserved the exact SHK / EAST WEST / WOBBLE title, central figure, illustrated city identity, warm palette, and painterly texture; the staged 1920 x 1080 opaque preview validated successfully, while only full-resolution app forwarding required a display copy.",
+                                "songPath":  "East West Wobble",
+                                "fingerprint":  "E9B1CA8AE332B6C6E6F856A6CA3390D58CAE12B4050185B1BDC2241AB7CAF063",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:46:05.4292525Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the exact displayed Battle Scene After A. The guarded installer preserved the live JPG encoding, created an exact rollback of the original 640 x 480 source, installed an opaque one-frame 1920 x 1080 result, and preserved approval history by binding an exact staged copy of the installed JPG; no reusable workflow change was justified.",
+                                "songPath":  "Battle Scene",
+                                "fingerprint":  "A365E1D59EAA31EEA8554BE9DA12A9BAF7835A531E407760A59C6A3797B492EA",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:48:46.5135611Z",
+                                "scope":  "reusable",
+                                "summary":  "Owner explicitly required background approval and decision messages to identify the full canonical simfile artist and song title plus useful metadata. Installed Taylor Swift — Better Than Revenge After A safely, then updated the skill, migration guides and catalogs, durable decisions/preferences, operations log, and live hourly automation prompt so future messages lead with ARTIST — TITLE, include pack/folder and source/candidate details, omit blank fields, and never infer missing metadata.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  [
+                                                     ".agents/skills/upscale-background/SKILL.md",
+                                                     "docs/skills/upscale-background.md",
+                                                     "docs/skills/README.md",
+                                                     "docs/scheduled-tasks/hourly-misc-background-upscale-queue.md",
+                                                     "docs/scheduled-tasks/README.md",
+                                                     "memory/DECISIONS.md",
+                                                     "memory/PREFERENCES.md",
+                                                     "memory/OPERATIONS_LOG.md"
+                                                 ],
+                                "validationResult":  "Skill is valid! Metadata extraction produced Taylor Swift — Better Than Revenge; live automation metadata rule persisted; git diff --check passed; installed hash, rollback hash, simfile hash, queue uniqueness, and installed-preview consistency checks passed."
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:55:18.3151940Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner rejected the anime-style Breathe preview and supplied four Prodigy Breathe cover-art references. Preserved all sources and hashes, generated one source-led panoramic fish-on-red-wood composition with exact prodigy and BREATHE text, excluded rear-cover track list, band photo, barcode, and legal copy, validated opaque one-frame 1920 x 1080 output, and bound After B for approval. Multiple reference-path and forwarding failures were output-handling issues rather than model attempts. No reusable workflow change was justified.",
+                                "songPath":  "Breathe",
+                                "fingerprint":  "CBE17833F6A3DF9D6FCD2A26D67E5CFF6280D59F68895067EC65A58CB510DC86",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:55:23.4609689Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved this task latest displayed Alok \u0026 Ava Max — Car Keys (Ayla) After A. Exact preview, source, simfile, metadata, static-reference, closed-game, and backup gates passed; the initial health check merely caught the scheduled backup task mid-run, and the elevated recheck returned Ready with 0x0. Guarded installation changed only the referenced PNG, produced bytes exactly matching the approved 1920 x 1080 preview, preserved the original in a timestamped sibling rollback, left the simfile/reference unchanged, migrated installed history to the new content fingerprint, and left ITGMania closed. No reusable workflow change was justified.",
+                                "songPath":  "Car Keys (Ayla)",
+                                "fingerprint":  "14481F54C230528FD0A396E594AAD9865B6BC7C8E4984F86C0226AA66FB784C0",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T15:59:16.9945046Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved this task-local Infected Mushroom — Change the Formality After A. Exact preview/source/simfile binding, healthy backup evidence, guarded JPG normalization, sibling rollback, static decode validation, staged installed-byte preservation, and installed-content fingerprint migration all succeeded. No reusable workflow change or new owner-wide preference was justified.",
+                                "songPath":  "Change the Formality",
+                                "fingerprint":  "21763057A79A208FD20B8A9D933A060944BE97B504BC7BE8A9E73AC102E0BA64",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T16:00:52.3177049Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the exact SHK - East West Wobble After A; guarded installation produced a byte-for-byte identical opaque one-frame 1920 x 1080 PNG, preserved the original 800 x 600 source in a timestamped sibling rollback, retained the simfile/reference, and migrated installed history to the installed-content fingerprint. No reusable workflow change was justified.",
+                                "songPath":  "East West Wobble",
+                                "fingerprint":  "D0C876763F348656355E77987BD3A91D5E7825E380B0CF0FAC0A231A8EAB3A86",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T16:38:52.8788521Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Flaming June required faithful horizontal outpainting of its 640x480 explicit static source. After A preserved the exact BT_FlamingJune text, dark angular floating form, ocean horizon, cool blue palette, photographic grain, and black top band. The full-resolution app render failed, but a 960x540 display-only copy recovered presentation without another AI attempt; the exact opaque 1920x1080 preview remained valid and bound.",
+                                "songPath":  "Flaming June",
+                                "fingerprint":  "0A2DF884A94F129BB516FE6278569D0736EC1BD84702008EABB6B8CB87311F39",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T16:45:43.4370439Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the exact BT — Flaming June After A. Guarded installation replaced only the referenced PNG; live bytes and decoded pixels exactly match the approved 1920x1080 preview, the original was preserved in a verified sibling rollback, both simfiles remained unchanged, and installed history migrated to the new content fingerprint. No reusable workflow or owner-wide preference change was justified.",
+                                "songPath":  "Flaming June",
+                                "fingerprint":  "9CA6F908777D7AC37C67190F4B0D670DA1A9257363CCF4D03305A8EFBB80242E",
                                 "changedFiles":  {
 
                                                  },
