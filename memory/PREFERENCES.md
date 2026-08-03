@@ -15,3 +15,4 @@
 - **2026-08-02:** Retain the Nintendo Switch Online NES controller concept as a future wireless ITGMania menu controller. Preserve StepManiaX as the gameplay controller; map L and R separately to ITGMania Menu-left and Menu-right so L+R opens the submenu.
 - **2026-08-03:** For banner Before/After comparisons, show the exact full-resolution files, state their decoded pixel dimensions, and provide direct native-size links rather than relying only on client-scaled inline images.
 - **2026-08-03:** For background-preview approval and decision messages, lead with the full canonical simfile artist and song title, include useful pack/folder and source/candidate metadata, and identify the artist/title in the inbox item.
+- **2026-08-03:** For every background `Before` and `After`, always list decoded image dimensions and aspect ratio; distinguish any display copy from the exact install candidate.

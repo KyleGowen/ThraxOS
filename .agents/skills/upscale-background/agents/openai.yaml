@@ -1,4 +1,4 @@
 interface:
   display_name: "Upscale Background"
   short_description: "Restore static ITGMania song backgrounds"
-  default_prompt: "Use $upscale-background to faithfully restore a static song background and show me Before and After previews."
+  default_prompt: "Use $upscale-background to faithfully restore a static song background, show labeled Before and After previews with dimensions and aspect ratios, and safely complete any exact approved install."

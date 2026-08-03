@@ -72,7 +72,8 @@
 - **Decision:** Pass expected preview, live-source, and simfile hashes into the guarded banner installer. The installer must refuse an open game or hash drift, verify the sibling rollback, and return hashes for the preview, original, backup, installed file, and unchanged simfile.
 - **Decision:** Serialize banner-queue helper read/modify/write cycles with a per-queue cross-process mutex. Verify exact installed-item invariants after refresh instead of relying on mutable global counts, and never duplicate a decision while recovering from a legacy concurrent rewrite.
 - **Decision:** Treat backup result `0x41301` as an active-run degraded state, not a completed failure. Banner installation may proceed in that state only with a same-day successful log, confirmed Songs exclusion, and guarded local rollback.
-- **Rationale:** Repeated interactive installs exposed avoidable manual hash work, a time-of-check gap, and one stale concurrent queue rewrite. Hash-bound installation and serialized queue updates make the same approval-gated workflow faster and more reliable without widening live-write authority.
+- **Decision:** Preserve opaque approved previews as fully opaque installed output, and use the identical pixel-format-aware renderer for live installation and queue proof.
+- **Rationale:** Repeated interactive installs exposed avoidable manual hash work, a time-of-check gap, one stale concurrent queue rewrite, and transparent perimeter pixels introduced while resizing an opaque attachment. Hash-bound, opacity-safe installation and serialized queue updates make the same approval-gated workflow faster and more reliable without widening live-write authority.
 
 ## 2026-08-02 static background restoration workflow
 
@@ -88,6 +89,9 @@
 - **Decision:** Preserve queue status and history across assessment-rule fingerprint migrations only when the explicit reference, source hash, and simfile hashes remain exact. Rule changes must not silently reopen an unchanged owner-skipped or denied source; content changes still receive a fresh assessment.
 - **Decision:** Read and write the background queue and retrospective ledger explicitly as UTF-8 without a BOM. Windows PowerShell implicit decoding is prohibited because it can repeatedly corrupt non-ASCII history and expand the queue on subsequent rewrites.
 - **Owner-confirmed:** Background approval and owner-decision messages must lead with the full canonical simfile artist and song title, include useful identification metadata such as pack/folder and source/candidate dimensions, and carry artist/title into the inbox item. Do not infer missing metadata from artwork or filenames.
+- **Owner-confirmed:** Every rendered background `Before` and `After` must list decoded dimensions and aspect ratio. Report reduced `W:H` plus decimal `W/H:1`, and identify display-only copies separately from the exact install candidate.
+- **Decision:** Resolve bare `install` only from the latest explicitly labeled, queue-bound After in the same task. After current backup verification, prefer `Complete-ApprovedBackgroundInstall.ps1` so one mutex-held workflow consumes queue hashes, invokes the guarded installer, records proof without shell-quoting hazards, refreshes the installed-content fingerprint, and validates terminal state.
+- **Decision:** Serialize background queue operations with a per-queue cross-process mutex. The lower-level installer must refuse an open game or expected-hash drift, recheck immediately before the live write, verify a unique sibling rollback, return structured hashes and presentation data, and use a byte-exact same-format fast path when a matching opaque 1920 x 1080 preview needs no normalization.
 - **Rationale:** This preserves static-media safety, reversible installation, owner control, and useful iteration while keeping missing or dynamic-background work out of scope.
 
 ## 2026-08-01 community pack-source expansion

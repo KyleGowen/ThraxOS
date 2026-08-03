@@ -43,6 +43,10 @@ try {
     $sourceSha256 = (Get-FileHash -LiteralPath $source -Algorithm SHA256).Hash
     $previewSha256 = (Get-FileHash -LiteralPath $preview -Algorithm SHA256).Hash
     $simfileSha256 = (Get-FileHash -LiteralPath $simfile -Algorithm SHA256).Hash
+    $previewDecoded = [Drawing.Image]::FromFile($preview)
+    try {
+        if (-not [Drawing.Image]::IsAlphaPixelFormat($previewDecoded.PixelFormat)) { throw 'Fixture must exercise fully opaque RGBA input.' }
+    } finally { $previewDecoded.Dispose() }
 
     $staleRejected = $false
     try {
@@ -70,11 +74,13 @@ try {
     if ($installed.OriginalSha256 -cne $sourceSha256 -or $installed.BackupSha256 -cne $sourceSha256) { throw 'Installer rollback hash evidence is wrong.' }
     if ($installed.SimfileSha256 -cne $simfileSha256) { throw 'Installer changed the simfile.' }
     if (-not $installed.ITGManiaClosedVerified -or $installed.RestartedITGmania) { throw 'Installer process-state evidence is wrong.' }
+    if (-not $installed.OutputOpaque) { throw 'Installer did not preserve the opaque preview as opaque output.' }
     if (-not (Test-Path -LiteralPath $installed.Backup -PathType Leaf)) { throw 'Installer did not create the rollback backup.' }
 
     $decoded = [Drawing.Image]::FromFile($source)
     try {
         if ($decoded.Width -ne 836 -or $decoded.Height -ne 328) { throw 'Installed fixture dimensions are wrong.' }
+        if ([Drawing.Image]::IsAlphaPixelFormat($decoded.PixelFormat)) { throw 'Installed opaque fixture unexpectedly has an alpha pixel format.' }
     } finally { $decoded.Dispose() }
 
     # Hold the same named mutex as the queue helper and prove another process waits rather than reading stale state.
@@ -137,6 +143,7 @@ try {
         InstalledSha256 = $installed.InstalledSha256
         BackupSha256 = $installed.BackupSha256
         SimfileSha256 = $installed.SimfileSha256
+        InstalledOpaque = $installed.OutputOpaque
         QueueMutexWaitVerified = $true
         ConcurrentPendingUpdates = $pendingFixtures.Count
         QueueSongs = @($document.songs).Count

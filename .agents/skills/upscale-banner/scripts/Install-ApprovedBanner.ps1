@@ -29,6 +29,28 @@ function Assert-ITGManiaClosed {
     }
 }
 
+function Test-ImageFullyOpaque($Image) {
+    if (-not [Drawing.Image]::IsAlphaPixelFormat($Image.PixelFormat)) { return $true }
+    $copy = New-Object Drawing.Bitmap $Image.Width, $Image.Height, ([Drawing.Imaging.PixelFormat]::Format32bppArgb)
+    try {
+        $graphics = [Drawing.Graphics]::FromImage($copy)
+        try {
+            $graphics.CompositingMode = [Drawing.Drawing2D.CompositingMode]::SourceCopy
+            $graphics.DrawImageUnscaled($Image, 0, 0)
+        } finally { $graphics.Dispose() }
+        $rect = New-Object Drawing.Rectangle 0, 0, $copy.Width, $copy.Height
+        $data = $copy.LockBits($rect, [Drawing.Imaging.ImageLockMode]::ReadOnly, [Drawing.Imaging.PixelFormat]::Format32bppArgb)
+        try {
+            $bytes = New-Object byte[] ([Math]::Abs($data.Stride) * $data.Height)
+            [Runtime.InteropServices.Marshal]::Copy($data.Scan0, $bytes, 0, $bytes.Length)
+            for ($index = 3; $index -lt $bytes.Length; $index += 4) {
+                if ($bytes[$index] -ne 255) { return $false }
+            }
+            return $true
+        } finally { $copy.UnlockBits($data) }
+    } finally { $copy.Dispose() }
+}
+
 if (-not $Approved) { throw 'Explicit -Approved is required after owner approval of the exact preview.' }
 Assert-ITGManiaClosed
 
@@ -70,7 +92,12 @@ $result = $null
 Add-Type -AssemblyName System.Drawing
 $input = [Drawing.Image]::FromFile($source)
 try {
-    $bitmap = New-Object Drawing.Bitmap $Width, $Height, ([Drawing.Imaging.PixelFormat]::Format32bppArgb)
+    $targetPixelFormat = if (Test-ImageFullyOpaque $input) {
+        [Drawing.Imaging.PixelFormat]::Format24bppRgb
+    } else {
+        [Drawing.Imaging.PixelFormat]::Format32bppArgb
+    }
+    $bitmap = New-Object Drawing.Bitmap $Width, $Height, $targetPixelFormat
     try {
         $graphics = [Drawing.Graphics]::FromImage($bitmap)
         try {
@@ -126,6 +153,7 @@ try {
         CreatedMissingTarget = (-not $targetExisted)
         Width = $after.Width
         Height = $after.Height
+        OutputOpaque = ($targetPixelFormat -eq [Drawing.Imaging.PixelFormat]::Format24bppRgb)
         BannerReference = $after.BannerReference
         ITGManiaClosedVerified = $true
         RestartedITGmania = $false

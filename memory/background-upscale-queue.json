@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-03T16:45:43.4370439Z",
+    "generatedAt":  "2026-08-03T20:39:06.1347587Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -1454,7 +1454,7 @@
                   },
                   {
                       "songPath":  "Breathe",
-                      "fingerprint":  "CBE17833F6A3DF9D6FCD2A26D67E5CFF6280D59F68895067EC65A58CB510DC86",
+                      "fingerprint":  "A4E78F062263B78D2DD441B0959F662F83FF0D3C5BBBAD56B4904C58EE0F1B34",
                       "simfiles":  [
                                        {
                                            "path":  "Breathe.sm",
@@ -1467,24 +1467,24 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "breathe-bg.png",
                       "sourcePath":  "breathe-bg.png",
-                      "sourceSha256":  "F2FC5548B1697838CEE800BBE7F842715081913AB7294B80823ECC401D8F7E31",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "24F087EDB6F59CBDBBB38AC0CA0126B891D0AD1285FF6E284BA3E7B12FDCA1B4",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-03T15:54:21.8493649Z",
+                      "observedAt":  "2026-08-03T16:58:59.8270591Z",
+                      "assessedAt":  "2026-08-03T16:58:59.8270591Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T16:58:57.5420935Z",
                       "lastAttemptedAt":  "2026-08-03T15:54:21.8493649Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\Breathe-After-B-1920x1080.png",
                       "previewSha256":  "24F087EDB6F59CBDBBB38AC0CA0126B891D0AD1285FF6E284BA3E7B12FDCA1B4",
                       "attemptHistory":  [
@@ -1532,7 +1532,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T16:58:57.5420935Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install in the task whose latest displayed candidate was The Prodigy — Breathe After B, approving SHA-256 24F087EDB6F59CBDBBB38AC0CA0126B891D0AD1285FF6E284BA3E7B12FDCA1B4. Guarded installation changed only breathe-bg.png; live bytes and decoded pixels exactly match the approved opaque one-frame 1920 x 1080 preview. Rollback breathe-bg.png.pre-upscale-20260803-095740.bak preserves original SHA-256 F2FC5548B1697838CEE800BBE7F842715081913AB7294B80823ECC401D8F7E31. Simfile and #BACKGROUND stayed unchanged; ITGMania remained closed.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\Breathe-After-B-1920x1080.png",
+                                                  "previewSha256":  "24F087EDB6F59CBDBBB38AC0CA0126B891D0AD1285FF6E284BA3E7B12FDCA1B4"
+                                              }
                                           ]
                   },
                   {
@@ -3452,7 +3458,7 @@
                   },
                   {
                       "songPath":  "Flash Man",
-                      "fingerprint":  "C4754434404696621EC3EFAE4CE48692D2EA539853B59A24ABE13E04806DBD3F",
+                      "fingerprint":  "8C7746E57411EA0B82779CAE89184D3F013B849442CE0F6B0BBBD8FA119D30A2",
                       "simfiles":  [
                                        {
                                            "path":  "Flash Man.sm",
@@ -3468,31 +3474,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Flash Man-bg.png",
                       "sourcePath":  "Flash Man-bg.png",
-                      "sourceSha256":  "ED9719C903F49DC68360E1C1C21B84168BADDB4A6F03C47AE17C2827CD64E3C9",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "E5B475BE8A14F500A1DC9526A00D79F031FA83CDCA25AF0DC6117C03431B0896",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T19:03:39.0426921Z",
+                      "assessedAt":  "2026-08-03T19:03:39.0426921Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T19:03:24.8917147Z",
+                      "lastAttemptedAt":  "2026-08-03T17:36:41.9587099Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Flash Man\\C4754434404696621EC3EFAE4CE48692D2EA539853B59A24ABE13E04806DBD3F\\After-A-1920x1080.png",
+                      "previewSha256":  "E5B475BE8A14F500A1DC9526A00D79F031FA83CDCA25AF0DC6117C03431B0896",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T19:03:24.8917147Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved the latest displayed Manami Matsumae - Flash Man - Mega Man 2 After A, SHA-256 E5B475BE8A14F500A1DC9526A00D79F031FA83CDCA25AF0DC6117C03431B0896. Installed only Flash Man-bg.png; rollback Flash Man-bg.png.pre-upscale-20260803-120255.bak preserves the original SHA-256 ED9719C903F49DC68360E1C1C21B84168BADDB4A6F03C47AE17C2827CD64E3C9. Installed bytes exactly match the approved preview and the simfile/reference remained unchanged.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Flash Man\\C4754434404696621EC3EFAE4CE48692D2EA539853B59A24ABE13E04806DBD3F\\After-A-1920x1080.png",
+                                                  "previewSha256":  "E5B475BE8A14F500A1DC9526A00D79F031FA83CDCA25AF0DC6117C03431B0896"
+                                              }
                                           ]
                   },
                   {
@@ -3543,7 +3555,7 @@
                   },
                   {
                       "songPath":  "Force Your Way",
-                      "fingerprint":  "9D1958B9B41E0E05B00B9F1B4B8EC481F506AE0D2F81BD1ECEE78DEBE5F5BA0D",
+                      "fingerprint":  "EB2E9813C6C616C25812844A5488B9827C8917FC2900196AEF99ADD89ABA6EC6",
                       "simfiles":  [
                                        {
                                            "path":  "force.sm",
@@ -3559,31 +3571,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Force-bg.jpg",
                       "sourcePath":  "Force-bg.jpg",
-                      "sourceSha256":  "E0438F35D2482A9A9F6C8C4E232D7E95D2D7957BD20A4C51537F083FCC4A881E",
-                      "sourceWidth":  800,
-                      "sourceHeight":  600,
+                      "sourceSha256":  "AC6CA5D006BB1490EFC754B856571E203BF687932A5E1AB7F6976B3C18898DB9",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T19:03:39.0426921Z",
+                      "assessedAt":  "2026-08-03T19:03:39.0426921Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T19:03:13.6927767Z",
+                      "lastAttemptedAt":  "2026-08-03T18:35:42.1285548Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Force Your Way\\9D1958B9B41E0E05B00B9F1B4B8EC481F506AE0D2F81BD1ECEE78DEBE5F5BA0D\\After-A-installed.jpg",
+                      "previewSha256":  "AC6CA5D006BB1490EFC754B856571E203BF687932A5E1AB7F6976B3C18898DB9",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T19:03:13.6927767Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install in the task whose latest displayed queue-bound candidate was The Black Mages - Force Your Way - Final Fantasy VIII After A, approving raw PNG SHA-256 C45B88CF95146C13D9008754C79BE325E3A1E91F952E0206FCDEAAF38CEDA040. The guarded installer preserved the live JPG encoding; the bound staged installed JPG exactly matches live SHA-256 AC6CA5D006BB1490EFC754B856571E203BF687932A5E1AB7F6976B3C18898DB9.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Force Your Way\\9D1958B9B41E0E05B00B9F1B4B8EC481F506AE0D2F81BD1ECEE78DEBE5F5BA0D\\After-A-installed.jpg",
+                                                  "previewSha256":  "AC6CA5D006BB1490EFC754B856571E203BF687932A5E1AB7F6976B3C18898DB9"
+                                              }
                                           ]
                   },
                   {
@@ -3869,7 +3887,7 @@
                   },
                   {
                       "songPath":  "Handy",
-                      "fingerprint":  "DD66970C0D6795EAC84F1B1E160B1AD41C615075B229B91E384986E37FF21A8D",
+                      "fingerprint":  "636D129C93F05519121194756B97A58B4DAA41B4F57E85E80BF6A5D85761A09A",
                       "simfiles":  [
                                        {
                                            "path":  "Handy.sm",
@@ -3882,31 +3900,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Handy-bg.png",
                       "sourcePath":  "Handy-bg.png",
-                      "sourceSha256":  "E0245FA5926953127B3447335BC4CBCAC525DE42384404FCE6825347B81650F6",
-                      "sourceWidth":  960,
-                      "sourceHeight":  720,
+                      "sourceSha256":  "0D79FB19C2AE3CE71C70AC79804CCD961369510EC38BBF811E8FB59848404AA0",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-03T20:04:48.2861629Z",
+                      "assessedAt":  "2026-08-03T20:04:48.2861629Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T20:03:59.0000000Z",
+                      "lastAttemptedAt":  "2026-08-03T19:35:48.4405468Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Handy\\DD66970C0D6795EAC84F1B1E160B1AD41C615075B229B91E384986E37FF21A8D\\After-A-1920x1080.png",
+                      "previewSha256":  "0D79FB19C2AE3CE71C70AC79804CCD961369510EC38BBF811E8FB59848404AA0",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-03T20:03:59.0000000Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the latest displayed \u0027Weird Al\u0027 Yankovic — Handy After A, SHA-256 0D79FB19C2AE3CE71C70AC79804CCD961369510EC38BBF811E8FB59848404AA0. Guarded installation replaced only Handy-bg.png; live bytes exactly match the approved opaque one-frame 1920 x 1080 PNG. Simfile and #BACKGROUND reference remained unchanged. Rollback: Handy-bg.png.pre-upscale-20260803-130359.bak, original SHA-256 E0245FA5926953127B3447335BC4CBCAC525DE42384404FCE6825347B81650F6.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Handy\\DD66970C0D6795EAC84F1B1E160B1AD41C615075B229B91E384986E37FF21A8D\\After-A-1920x1080.png",
+                                                  "previewSha256":  "0D79FB19C2AE3CE71C70AC79804CCD961369510EC38BBF811E8FB59848404AA0"
+                                              }
                                           ]
                   },
                   {
@@ -4106,12 +4130,12 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-03T20:37:49.0968104Z",
+                      "lastAttemptedAt":  "2026-08-03T20:37:49.0968104Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Hypnodancer\\14765400C8D93E92AD6D4D7FFC64EF33B821A1E28099BCCBD3B86D7F324A0312\\After-A-1920x1080.png",
+                      "previewSha256":  "3046D746D1E903A7E1F7D30CA1D78CC9B262143C605C0A1734979E83713291D2",
                       "attemptHistory":  [
 
                                          ],
@@ -10098,6 +10122,131 @@
                                 "summary":  "Owner approved the exact BT — Flaming June After A. Guarded installation replaced only the referenced PNG; live bytes and decoded pixels exactly match the approved 1920x1080 preview, the original was preserved in a verified sibling rollback, both simfiles remained unchanged, and installed history migrated to the new content fingerprint. No reusable workflow or owner-wide preference change was justified.",
                                 "songPath":  "Flaming June",
                                 "fingerprint":  "9CA6F908777D7AC37C67190F4B0D670DA1A9257363CCF4D03305A8EFBB80242E",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T17:00:47.5648033Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved The Prodigy — Breathe source-led After B. Healthy backup evidence, exact pending hash binding, unchanged original source and simfile hashes, closed ITGMania, sibling rollback, byte-exact guarded replacement, static 1920 x 1080 validation, and installed-content fingerprint migration all passed. Live SHA-256 equals approved preview SHA-256 24F087EDB6F59CBDBBB38AC0CA0126B891D0AD1285FF6E284BA3E7B12FDCA1B4; rollback preserves F2FC5548B1697838CEE800BBE7F842715081913AB7294B80823ECC401D8F7E31. No reusable workflow or owner-wide preference change was justified.",
+                                "songPath":  "Breathe",
+                                "fingerprint":  "A4E78F062263B78D2DD441B0959F662F83FF0D3C5BBBAD56B4904C58EE0F1B34",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T17:36:53.9568644Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Flash Man attempt 1 faithfully outpainted the explicit 640x480 source to opaque 1920x1080 while preserving the full character, exact FLASHMAN and DWN-014 text, blue palette, and radial energy composition; no owner feedback or reusable workflow change was established.",
+                                "songPath":  "Flash Man",
+                                "fingerprint":  "C4754434404696621EC3EFAE4CE48692D2EA539853B59A24ABE13E04806DBD3F",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T18:36:49.9310331Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The 800 x 600 Force Your Way source required horizontal outpainting; one faithful AI edit preserved the character portrait, Final Fantasy VIII logo and Japanese line, FORCE YOUR WAY title, The Black Mages credit block, dark palette, and left-right hierarchy in an opaque one-frame 1920 x 1080 preview. No owner feedback or reusable workflow change was received.",
+                                "songPath":  "Force Your Way",
+                                "fingerprint":  "9D1958B9B41E0E05B00B9F1B4B8EC481F506AE0D2F81BD1ECEE78DEBE5F5BA0D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T19:04:43.9688317Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the exact displayed Force Your Way After A. Guarded installation preserved JPG encoding, created a verified sibling rollback, left the simfile and background reference unchanged, and rebound queue preservation to an exact staged copy of the installed JPEG while retaining the approved raw PNG hash in the decision note. No reusable workflow or owner-wide preference change was justified.",
+                                "songPath":  "Force Your Way",
+                                "fingerprint":  "EB2E9813C6C616C25812844A5488B9827C8917FC2900196AEF99ADD89ABA6EC6",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T19:04:48.9214033Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the exact displayed Flash Man After A; guarded installation preserved the original in a sibling rollback, installed byte-exact opaque 1920x1080 content, retained the simfile and reference, and migrated full history to the installed-content fingerprint. No reusable workflow or owner-wide preference change was justified.",
+                                "songPath":  "Flash Man",
+                                "fingerprint":  "8C7746E57411EA0B82779CAE89184D3F013B849442CE0F6B0BBBD8FA119D30A2",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T19:36:39.6105811Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The 960 x 720 explicit static source is a clean 4:3 gear graphic whose identity depends on the exact HANDY lettering, purple palette, and overlapping gear composition; one faithful horizontal outpaint preserved those elements and produced a validated opaque 1920 x 1080 After A pending owner approval. No reusable workflow change or owner feedback was received.",
+                                "songPath":  "Handy",
+                                "fingerprint":  "DD66970C0D6795EAC84F1B1E160B1AD41C615075B229B91E384986E37FF21A8D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T20:10:25.3391899Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the exact Handy After A. Guarded installation produced a byte-identical opaque one-frame 1920 x 1080 live PNG, preserved the original in a sibling rollback, and left the simfile reference and ITGMania state unchanged. A queue decision-note quoting error and an overly broad first repair were caught by mismatch validation; the unrelated record was restored and final refresh preserved only Handy as installed with zero mismatches. This was task-local execution evidence, not owner feedback or a reusable workflow change.",
+                                "songPath":  "Handy",
+                                "fingerprint":  "636D129C93F05519121194756B97A58B4DAA41B4F57E85E80BF6A5D85761A09A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T20:29:21.4583901Z",
+                                "scope":  "none",
+                                "summary":  "A repeated bare install resolved to the latest explicitly displayed Force Your Way After A, which was already terminal installed with matching live, queue-source, proof-preview, and simfile hashes. No live file, queue decision, process state, reusable workflow, or owner-wide preference changed.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T20:29:52.9660069Z",
+                                "scope":  "reusable",
+                                "summary":  "Owner requires decoded dimensions and reduced-plus-decimal aspect ratios for every background Before and After. The install workflow now uses deterministic presentation reporting, expected hash and closed-game gates, a byte-exact same-format fast path, verified rollback, serialized queue access, and a one-command proof completion wrapper that refreshes and validates terminal installed state. The live hourly automation prompt was updated to match.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  [
+                                                     ".agents/skills/upscale-background/SKILL.md",
+                                                     ".agents/skills/upscale-background/agents/openai.yaml",
+                                                     ".agents/skills/upscale-background/references/background-conventions.md",
+                                                     ".agents/skills/upscale-background/scripts/Get-ImagePresentation.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Inspect-Background.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Install-ApprovedBackground.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Complete-ApprovedBackgroundInstall.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Update-BackgroundQueue.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Test-BackgroundInstallWorkflow.ps1",
+                                                     "docs/skills/README.md",
+                                                     "docs/skills/upscale-background.md",
+                                                     "docs/scheduled-tasks/README.md",
+                                                     "docs/scheduled-tasks/hourly-misc-background-upscale-queue.md",
+                                                     "memory/DECISIONS.md",
+                                                     "memory/PREFERENCES.md",
+                                                     "memory/OPERATIONS_LOG.md"
+                                                 ],
+                                "validationResult":  "PowerShell parser passed; Test-BackgroundQueue passed; Test-BackgroundInstallWorkflow PASS; official quick_validate reported Skill is valid!; git diff --check passed; live automation contract check passed."
+                            },
+                            {
+                                "recordedAt":  "2026-08-03T20:39:06.1347587Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful AI outpaint extended only the side room context for this 3:2 ensemble photograph; exact opaque 1920x1080 candidate SHA-256 3046D746D1E903A7E1F7D30CA1D78CC9B262143C605C0A1734979E83713291D2 is pending approval. The full-resolution app renderer failed, so a separate 960x540 display copy was used; this output-handling issue did not consume another model attempt. No owner feedback or reusable workflow change was claimed.",
+                                "songPath":  "Hypnodancer",
+                                "fingerprint":  "14765400C8D93E92AD6D4D7FFC64EF33B821A1E28099BCCBD3B86D7F324A0312",
                                 "changedFiles":  {
 
                                                  },

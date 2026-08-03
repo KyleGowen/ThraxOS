@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-03T16:36:01.0054580Z",
+    "generatedAt":  "2026-08-03T20:34:15.8313795Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -2119,7 +2119,7 @@
                   },
                   {
                       "songPath":  "Fancy Footwork",
-                      "fingerprint":  "129AF7083AF8E91A446D13A1102545430928FC7A1BAB416A6033FF7F2CBCC738",
+                      "fingerprint":  "6317108432B0A9C9C17490448BC734D780D02D60D57CC960187C6123E98FF845",
                       "simfiles":  [
                                        {
                                            "path":  "Fancy Footwork.ssc",
@@ -2128,20 +2128,20 @@
                                    ],
                       "bannerReference":  "banner.png",
                       "sourcePath":  "banner.png",
-                      "sourceSha256":  "F1CA86D6F4F62A64280D758AD69F5F19DAF04D990F835AA622BEE15BDD7B440A",
-                      "sourceWidth":  418,
-                      "sourceHeight":  164,
+                      "sourceSha256":  "D0C5541C488E81CB738859B304404A183519006A81C1BF8A59EA3E17451C81C7",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-03T16:29:54.8400581Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "observedAt":  "2026-08-03T20:12:28.8871090Z",
+                      "assessedAt":  "2026-08-03T20:12:28.8871090Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T20:12:26.0292269Z",
+                      "lastAttemptedAt":  "2026-08-03T16:29:54.8400581Z",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-interactive\\129AF7083AF8E91A446D13A1102545430928FC7A1BAB416A6033FF7F2CBCC738\\Fancy Footwork-after-source-material-836x328.png",
                       "previewSha256":  "F5E2A85AF10430C8623F33F02BADBA617BC34E89E1F45EDF1FD79B58704247D6",
-                      "lastAttemptedAt":  "2026-08-03T16:29:54.8400581Z",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-03T16:29:47.7766036Z",
@@ -2151,7 +2151,17 @@
                                                  "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\129AF7083AF8E91A446D13A1102545430928FC7A1BAB416A6033FF7F2CBCC738\\Fancy Footwork-after-836x328.png",
                                                  "discardedPreviewSha256":  "8A801BB2D2FA9D8ED981412DD20E7936DA3D7F9DF35839D30586697D90ADF3CD"
                                              }
-                                         ]
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T20:12:26.0292269Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied install for the exact displayed source-material After preview; no additional reasoning was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-interactive\\129AF7083AF8E91A446D13A1102545430928FC7A1BAB416A6033FF7F2CBCC738\\Fancy Footwork-after-source-material-836x328.png",
+                                                  "previewSha256":  "F5E2A85AF10430C8623F33F02BADBA617BC34E89E1F45EDF1FD79B58704247D6"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "D0C5541C488E81CB738859B304404A183519006A81C1BF8A59EA3E17451C81C7"
                   },
                   {
                       "songPath":  "Fantastic World",
@@ -2381,7 +2391,7 @@
                   },
                   {
                       "songPath":  "Flight Tonight",
-                      "fingerprint":  "E6FD8786B8F9DF3FD49CCBE5BA6A6F3596B2FB04F827B0B3C3781F935AB41499",
+                      "fingerprint":  "0E16C0E1A2F5E7E2EE53E711A55514AC7454D97F0269549F09DDCA57154ACBEC",
                       "simfiles":  [
                                        {
                                            "path":  "Flight Tonight.sm",
@@ -2393,24 +2403,45 @@
                                        }
                                    ],
                       "bannerReference":  "banner.png",
-                      "sourcePath":  "Flight Tonight.png",
-                      "sourceSha256":  "1260D8F8E5DCCFA3848CBFB3052F60A7681A92A6EA58ABBFD685985DCFC83C5C",
-                      "sourceWidth":  416,
-                      "sourceHeight":  164,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "banner.png",
+                      "sourceSha256":  "BE8202D423207F2D698FBE13D241D4707C2AA43648A0EBC1DF701D8F41ECAFC1",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-03T20:26:38.3136535Z",
+                      "assessedAt":  "2026-08-03T20:26:38.3136535Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T20:20:17.5065771Z",
+                      "lastAttemptedAt":  "2026-08-03T20:17:33.5522245Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\E6FD8786B8F9DF3FD49CCBE5BA6A6F3596B2FB04F827B0B3C3781F935AB41499\\Flight Tonight-owner-selected-raw.png",
+                      "previewSha256":  "E0CCFAD0BD485C5460063FD4260F4142C657E3078C48A9D2B55E901C40D49DF0",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T17:07:19.3379236Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 results were recoverable and spelled exact visible text The Avalanches and Flight Tonight, but neither preserved the source geometry. Attempt 1 materially enlarged both text lines and extended the upper artist band from about 57 percent to about 81 percent of canvas width, making both bands effectively the same width; raw SHA-256 2A892A9B8C40F6B10B450EB778C2DBCAB1A988894D9891F294C64C59C54792E9, exact-size SHA-256 72CC6D2F1B79678B4F2EBA9EC9771204AC3C733E7A93C4F344B30B439BBCED31. The measured restoration-only retry overcorrected by shrinking and raising both bands: its title band ends near 53 percent instead of the source 81 percent and the title text is much narrower; it also materially recomposed the abstract background. Retry raw SHA-256 10DCBB05DE0632B0305D2FF534E9DBEB84D485A1E7D077D79FA42E9254FD24B6, exact-size SHA-256 420CD7DE542EBD0C19718FF39DF234F9DA442CD982707B714031E176FB419C78. No viable preview was bound and no deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T17:03:25.8306938Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T20:20:17.5065771Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner attached this exact Flight Tonight image and said install this one, explicitly selecting it despite the earlier automated fidelity rejection; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\E6FD8786B8F9DF3FD49CCBE5BA6A6F3596B2FB04F827B0B3C3781F935AB41499\\Flight Tonight-owner-selected-raw.png",
+                                                  "previewSha256":  "E0CCFAD0BD485C5460063FD4260F4142C657E3078C48A9D2B55E901C40D49DF0"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "BE8202D423207F2D698FBE13D241D4707C2AA43648A0EBC1DF701D8F41ECAFC1"
                   },
                   {
                       "songPath":  "Force Your Way",
-                      "fingerprint":  "D0120FCE6639D741CF1F5DFBC298C13912F6A1379353E2052A048C3B9979013F",
+                      "fingerprint":  "F44EB8D41C7415EE4FC84497ABFD13440E3EE2B2FD884D575DC4980771418ADE",
                       "simfiles":  [
                                        {
                                            "path":  "force.sm",
@@ -2419,23 +2450,44 @@
                                    ],
                       "bannerReference":  "Force-ba.png",
                       "sourcePath":  "Force-ba.png",
-                      "sourceSha256":  "70F29196B1E5D5CD8B4C93FB95EFFA8D80B8C96A3905241796C3A7EE8D089495",
-                      "sourceWidth":  255,
-                      "sourceHeight":  85,
+                      "sourceSha256":  "A1A0E66C46FDA9048C2DA873595C29AD7B583EBD1F9CD86E5E31E7625888109D",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-03T20:21:16.9223684Z",
+                      "assessedAt":  "2026-08-03T20:21:16.9223684Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T20:21:04.3406681Z",
+                      "lastAttemptedAt":  "2026-08-03T20:19:29.1266479Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D0120FCE6639D741CF1F5DFBC298C13912F6A1379353E2052A048C3B9979013F\\Force Your Way-owner-selected-2001x786.png",
+                      "previewSha256":  "BFD72F15DCDA24E89F15D5A633C3740045F981AB2C8D4A29AD270F3C854BAF92",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T18:08:19.9544874Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two permitted GPT Image 2 high-fidelity attempts were recoverable and spelled exact visible text Force and Your Way, but both materially reinterpreted the 255 x 85 source crop. Each invented a second visible eye and revealed fuller facial content where the source has one visible eye in a tight right-edge crop. Attempt 1 widened Your Way to roughly 70 percent of the canvas and overlapped the character; the measured restoration-only retry still reached roughly 64 percent versus the source near 52 percent. Raw attempt SHA-256 values: 470704F9F0F21F579E2D9F31F09E83C658F0565FCCDF35AABFC98116F49C9ABA and C06A9CF88CC1381126437106CCF45240F7719F31340395EB9586AA2B704185CE. No viable preview was bound and no deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T18:04:35.9211835Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T20:21:04.3406681Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected the attached Force Your Way image and requested installation; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D0120FCE6639D741CF1F5DFBC298C13912F6A1379353E2052A048C3B9979013F\\Force Your Way-owner-selected-2001x786.png",
+                                                  "previewSha256":  "BFD72F15DCDA24E89F15D5A633C3740045F981AB2C8D4A29AD270F3C854BAF92"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "A1A0E66C46FDA9048C2DA873595C29AD7B583EBD1F9CD86E5E31E7625888109D"
                   },
                   {
                       "songPath":  "Forgive Me",
-                      "fingerprint":  "C69FE51389DC8BE21046F510DA7C77ADE9FA96DE1D7ACD40D66822BA72DDF803",
+                      "fingerprint":  "142D9D648221E1FD355E617302579CC16F34E392FF85D139AA26F773FFDEA0E7",
                       "simfiles":  [
                                        {
                                            "path":  "Forgive Me.sm",
@@ -2444,19 +2496,33 @@
                                    ],
                       "bannerReference":  "fme-bn.png",
                       "sourcePath":  "fme-bn.png",
-                      "sourceSha256":  "4F2744196FC67AE0AB2BA5BABC0AD4E8DB4D2C220CE48B1B9AF37F482BAC0824",
-                      "sourceWidth":  768,
-                      "sourceHeight":  277,
+                      "sourceSha256":  "21AF59BC739EA34F9A2EDF0A44682A802E4A7554DE4951475E9254F5C239A928",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-03T20:33:24.6923133Z",
+                      "assessedAt":  "2026-08-03T20:33:24.6923133Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-03T20:34:15.7898137Z",
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\C69FE51389DC8BE21046F510DA7C77ADE9FA96DE1D7ACD40D66822BA72DDF803\\Forgive Me-owner-approved.png",
+                      "previewSha256":  "02247341B132F29D01049E8C3FFC21A31375C63C3D03A21EB06F73EF7537BA13",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-03T20:34:15.7898137Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner attached the exact desired Forgive Me image and explicitly requested installation; no additional installation reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\C69FE51389DC8BE21046F510DA7C77ADE9FA96DE1D7ACD40D66822BA72DDF803\\Forgive Me-owner-approved.png",
+                                                  "previewSha256":  "02247341B132F29D01049E8C3FFC21A31375C63C3D03A21EB06F73EF7537BA13"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "21AF59BC739EA34F9A2EDF0A44682A802E4A7554DE4951475E9254F5C239A928"
                   },
                   {
                       "songPath":  "Future Club",
@@ -2502,11 +2568,30 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-03T20:33:53.4548802Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\D4273BA9E1205DE8E933DD3D431D3E569297AC3D3050ED47162AE15B9AB405FD\\Ghosts n Stuff-after-direct-836x328.png",
+                      "previewSha256":  "C2316330340DE10721056E4CFDE49D1BD3304C84334AEFB7F38BBBEB3138793E",
+                      "lastAttemptedAt":  "2026-08-03T20:33:53.4548802Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-03T20:07:27.6185982Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restoration calls produced recoverable, correctly spelled artifacts but failed source fidelity. Attempt 1 changed the white-filled title to orange and added a red gradient to deadmau5; raw SHA-256 A63DA24F3B4DCAE55ED84246F4486F4625085BDF1C2CCE3260F6E29B4808FAD7, normalized SHA-256 771C0C280DC0BD12622CAC1DDD0388113860260062983C1FCE6F3C49732641F5. Attempt 2 restored the white title but changed ROB and SWIRE to yellow gradients, changed white feat. to tan, and materially enlarged lower typography; raw SHA-256 8CA000142756B092C57E00E4358AA64764C70D57997165D00DB5DD40A0520715, normalized SHA-256 BF49D2BE157ECFCBF8370E2300D0F2EC4FAD80AA2C8962437FA781E951D98526. No preview was bound and no deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-03T20:03:28.0839069Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-03T20:32:51.8794053Z",
+                                                 "outcome":  "prompt-error",
+                                                 "note":  "Owner corrected the prior fidelity analysis: the source title intentionally includes orange fill plus gradient effects, and those source colors/effects must be preserved. The earlier note incorrectly treated the orange/gradient content as generated drift. Owner explicitly requested a deterministic direct upscale with no generative reinterpretation.",
+                                                 "priorProcessedAt":  "2026-08-03T20:32:46.1966726Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "Gimme! Gimme! Gimme! (A Man After Midnight)",
