@@ -8,6 +8,6 @@
 - Treat whitespace-only `#BGCHANGES:;` tags as empty metadata. Require the same nonblank explicit `#BACKGROUND` in every `.sm`/`.ssc`; exclude a missing or blank companion reference, populated or malformed `BGCHANGES`, GIF, video/movie formats, conflicting references, traversal, and multi-frame decoder results.
 - Keep plausible implicit legacy art and missing-reference fallbacks `review-only`; filenames do not establish the runtime source and do not authorize generation or installation.
 - Record explicit owner feedback that a valid background is good as-is as fingerprint-scoped `skipped`; changed source or simfile content receives a fresh assessment.
-- Ask for installation with explicit candidate labels: `Install A`, `Install B`, and so on. Never offer or resolve bare `install`; a live write requires a label that maps to one displayed file and hash.
+- With exactly one displayed, hash-bound installable candidate, ask for `Install` and accept either `install` or its explicit label such as `Install A`. With multiple displayed candidates, enumerate and require `Install A`, `Install B`, and so on; bare `install` is ambiguous and must not authorize a write.
 
 AI restoration may infer detail; compare closely and require approval. Deterministic resampling cannot recover missing semantic detail.

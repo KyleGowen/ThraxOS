@@ -17,4 +17,4 @@
 - **2026-08-03:** For banner Before/After comparisons, show the exact full-resolution files, state their decoded pixel dimensions, and provide direct native-size links rather than relying only on client-scaled inline images.
 - **2026-08-03:** For background-preview approval and decision messages, lead with the full canonical simfile artist and song title, include useful pack/folder and source/candidate metadata, and identify the artist/title in the inbox item.
 - **2026-08-03:** For every background `Before` and `After`, always list decoded image dimensions and aspect ratio; distinguish any display copy from the exact install candidate.
-- **2026-08-03:** Background installation prompts must ask for explicit labeled choices such as `Install A` or `Install B`. Bare `install` is too ambiguous and must not authorize a live write.
+- **2026-08-03:** For one displayed background option, `install` is sufficient and `install A` remains acceptable. When more than one option is displayed, require `install A`, `install B`, and so on so the exact candidate is unambiguous.

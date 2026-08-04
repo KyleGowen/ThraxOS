@@ -1,11 +1,11 @@
 # Codex automation: `Hourly Misc Banner Upscale Queue`
 
-Observed live on 2026-08-02. Automation ID: `hourly-misc-banner-upscale-queue`.
+Observed live on 2026-08-03. Automation ID: `hourly-misc-banner-upscale-queue`.
 
 ## Definition
 
 - Scheduler/status: Codex cron automation, active.
-- Frequency: hourly at minute 0 in the Codex automation environment.
+- Frequency: every four hours at 00:00, 04:00, 08:00, 12:00, 16:00, and 20:00 in the host timezone (America/Los_Angeles on Thraximundar).
 - Execution: local, scoped to the ThraxOS project and repository working directory.
 - Model at observation: `gpt-5.6-sol`, high reasoning; availability is environment-specific.
 - Dependencies: `thraxos`, `upscale-banner`, and `memory/banner-upscale-queue.json`.
@@ -31,7 +31,7 @@ End every scheduled run with a retrospective over the run's prompt, tool results
 
 1. Migrate and validate `thraxos` and `upscale-banner` first.
 2. Initialize/refresh the target queue with `Update-BannerQueue.ps1`.
-3. Create a local project Codex cron named `Hourly Misc Banner Upscale Queue`, hourly at minute 0, with the target repository working directory. Copy the behavioral prompt while replacing machine paths and project identity.
+3. Create a local project Codex cron named `Hourly Misc Banner Upscale Queue`, every four hours at 00:00, 04:00, 08:00, 12:00, 16:00, and 20:00 in the host timezone, with the target repository working directory. Copy the behavioral prompt while replacing machine paths and project identity.
 4. Select the new checkout's project; do not copy the source internal project ID.
 5. Test one preview-only run. Confirm one fingerprint, independently decoded and normalized output with intended opacity, exact full-resolution `Before` and every viable labeled After rendered from their native files, decoded dimensions plus direct links for each, pending fingerprint/hash state, no live write or restart, a clear exact-option approval request, fingerprint-scoped good-as-is skipping, and a documented retrospective that does not invent owner feedback.
 6. In a disposable song/queue fixture, test approved installation recording and refresh preservation. Confirm expected-hash and closed-game gates, rollback/installed hash output, opaque-input preservation, exact installed-render proof, stale-source rejection, cross-process queue serialization, and terminal preview/decision history across the fingerprint change.

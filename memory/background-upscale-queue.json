@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-04T03:32:45.5440426Z",
+    "generatedAt":  "2026-08-04T05:08:34.9475849Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -4797,7 +4797,7 @@
                   },
                   {
                       "songPath":  "Light Years",
-                      "fingerprint":  "17490CE9FE844D5D9AD050DEBC4957F9DFB000E3F29454C13AB0D533436CA28A",
+                      "fingerprint":  "F0F6ADF8CE29CB09A7FC38FCF9C777A98D9BB3B33AE7005219F9E9F36E92C308",
                       "simfiles":  [
                                        {
                                            "path":  "Steps.ssc",
@@ -4810,24 +4810,24 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "BG.png",
                       "sourcePath":  "BG.png",
-                      "sourceSha256":  "58F5E0FC6B4BB831A3D47168E7D38D7AFF43177FD69E64310A5BA4E0143BCED8",
-                      "sourceWidth":  1728,
+                      "sourceSha256":  "3061ABAFBFD5A854B3DED207854CEC1CB2747EF0B6413AC98829F86293CE1086",
+                      "sourceWidth":  1920,
                       "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-03T23:35:52.0744738Z",
+                      "observedAt":  "2026-08-04T05:04:29.0851682Z",
+                      "assessedAt":  "2026-08-04T05:04:29.0851682Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T05:04:26.3299050Z",
                       "lastAttemptedAt":  "2026-08-03T23:35:52.0744738Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Light Years\\17490CE9FE844D5D9AD050DEBC4957F9DFB000E3F29454C13AB0D533436CA28A\\After-A-1920x1080-v2.png",
                       "previewSha256":  "3061ABAFBFD5A854B3DED207854CEC1CB2747EF0B6413AC98829F86293CE1086",
                       "attemptHistory":  [
@@ -4847,7 +4847,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T05:04:26.3299050Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved the displayed The Midnight — Light Years After A by replying Install A in this task. Approved preview SHA-256 3061ABAFBFD5A854B3DED207854CEC1CB2747EF0B6413AC98829F86293CE1086. Installed SHA-256 3061ABAFBFD5A854B3DED207854CEC1CB2747EF0B6413AC98829F86293CE1086 using byte-exact-copy; rollback BG.png.pre-upscale-20260803-220409.bak preserves original SHA-256 58F5E0FC6B4BB831A3D47168E7D38D7AFF43177FD69E64310A5BA4E0143BCED8.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Light Years\\17490CE9FE844D5D9AD050DEBC4957F9DFB000E3F29454C13AB0D533436CA28A\\After-A-1920x1080-v2.png",
+                                                  "previewSha256":  "3061ABAFBFD5A854B3DED207854CEC1CB2747EF0B6413AC98829F86293CE1086"
+                                              }
                                           ]
                   },
                   {
@@ -5081,7 +5087,7 @@
                   },
                   {
                       "songPath":  "Lovers (Pure Mix)",
-                      "fingerprint":  "97A7258AB6466A439984BD1C6D7185776FBEEF3C95A45BAA6B66CEADBF371F52",
+                      "fingerprint":  "1EE2D106F7DF5D7D5D74796B78748D96059FDD9ECA18FB4E106BD419946514F3",
                       "simfiles":  [
                                        {
                                            "path":  "Lovers (Pure Mix).sm",
@@ -5098,36 +5104,42 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Lovers (Pure Mix)-bg.png",
                       "sourcePath":  "Lovers (Pure Mix)-bg.png",
-                      "sourceSha256":  "73278578E9C69BDB96C26FE545EF022A05C9A86447C9F0E855DA27BE254B615E",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "3D1F8A30A8CD3CD266307AF230176CD0042490FB3911DDC5B3B41F83D94A362C",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T00:37:04.9159500Z",
+                      "observedAt":  "2026-08-04T05:07:24.3611646Z",
+                      "assessedAt":  "2026-08-04T05:07:24.3611646Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T05:07:23.0178559Z",
                       "lastAttemptedAt":  "2026-08-04T00:37:04.9159500Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Lovers (Pure Mix)\\97A7258AB6466A439984BD1C6D7185776FBEEF3C95A45BAA6B66CEADBF371F52\\After-A-1920x1080.png",
                       "previewSha256":  "3D1F8A30A8CD3CD266307AF230176CD0042490FB3911DDC5B3B41F83D94A362C",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T05:07:23.0178559Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed Solarstone featuring Lemon — Lovers (Pure Mix) After A by replying install A; approved preview SHA-256 3D1F8A30A8CD3CD266307AF230176CD0042490FB3911DDC5B3B41F83D94A362C. Approved preview SHA-256 3D1F8A30A8CD3CD266307AF230176CD0042490FB3911DDC5B3B41F83D94A362C. Installed SHA-256 3D1F8A30A8CD3CD266307AF230176CD0042490FB3911DDC5B3B41F83D94A362C using byte-exact-copy; rollback Lovers (Pure Mix)-bg.png.pre-upscale-20260803-220719.bak preserves original SHA-256 73278578E9C69BDB96C26FE545EF022A05C9A86447C9F0E855DA27BE254B615E.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Lovers (Pure Mix)\\97A7258AB6466A439984BD1C6D7185776FBEEF3C95A45BAA6B66CEADBF371F52\\After-A-1920x1080.png",
+                                                  "previewSha256":  "3D1F8A30A8CD3CD266307AF230176CD0042490FB3911DDC5B3B41F83D94A362C"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Maawrio Twinz",
-                      "fingerprint":  "CD36AF109D8F46415DC7FBFD5EEB4E3EABF10B186DC2B031139A455A5987F656",
+                      "fingerprint":  "F8B2F0E6B95B696F07B18DECBABABBC880968CB42F7C7380B1EEFD6649140BEE",
                       "simfiles":  [
                                        {
                                            "path":  "Maawrio Twinz.sm",
@@ -5144,24 +5156,24 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Maawrio Twinz-bg.png",
                       "sourcePath":  "Maawrio Twinz-bg.png",
-                      "sourceSha256":  "2D37231E9D4E8848E902A767C0701A18DEB7E281477FAA131C10CF7A2F026BA1",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "82DFCF742FF4C0CC9CF1A12E46A54A53A7079192154AF420A59DD7BAE339F0F2",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T01:36:02.9186502Z",
+                      "observedAt":  "2026-08-04T05:05:19.1034162Z",
+                      "assessedAt":  "2026-08-04T05:05:19.1034162Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T05:05:18.1191538Z",
                       "lastAttemptedAt":  "2026-08-04T01:36:02.9186502Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Maawrio Twinz\\CD36AF109D8F46415DC7FBFD5EEB4E3EABF10B186DC2B031139A455A5987F656\\After-A-1920x1080.png",
                       "previewSha256":  "82DFCF742FF4C0CC9CF1A12E46A54A53A7079192154AF420A59DD7BAE339F0F2",
                       "attemptHistory":  [
@@ -5174,7 +5186,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T05:05:18.1191538Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved the displayed 7 Minutes Dead - Maawrio Twinz After A by replying Install A on 2026-08-03. Approved preview SHA-256 82DFCF742FF4C0CC9CF1A12E46A54A53A7079192154AF420A59DD7BAE339F0F2. Installed SHA-256 82DFCF742FF4C0CC9CF1A12E46A54A53A7079192154AF420A59DD7BAE339F0F2 using byte-exact-copy; rollback Maawrio Twinz-bg.png.pre-upscale-20260803-220515.bak preserves original SHA-256 2D37231E9D4E8848E902A767C0701A18DEB7E281477FAA131C10CF7A2F026BA1.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Maawrio Twinz\\CD36AF109D8F46415DC7FBFD5EEB4E3EABF10B186DC2B031139A455A5987F656\\After-A-1920x1080.png",
+                                                  "previewSha256":  "82DFCF742FF4C0CC9CF1A12E46A54A53A7079192154AF420A59DD7BAE339F0F2"
+                                              }
                                           ]
                   },
                   {
@@ -5455,7 +5473,7 @@
                   },
                   {
                       "songPath":  "Moon Trance",
-                      "fingerprint":  "EA2A66748FDAC9A786B8FC19D2DC26052CB5A4865F5166D0C93A444E23344235",
+                      "fingerprint":  "33B821DE2768E2044F0996403598CC1DB1B0FD8F1853F4468F8160072922A7A6",
                       "simfiles":  [
                                        {
                                            "path":  "Moon Trance.sm",
@@ -5468,31 +5486,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "moontrance bg.png",
                       "sourcePath":  "moontrance bg.png",
-                      "sourceSha256":  "8D1DE6FC3B8C9DEC1E3A4BB32AF579CFE5E1E07793F246EA8D410D92A0D40174",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "8D5AECAFC059A83EC44C28300DC7DB4B28048E38D22889B9760E17A1B7F25044",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-04T05:02:48.6771886Z",
+                      "assessedAt":  "2026-08-04T05:02:48.6771886Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T05:02:46.5314775Z",
+                      "lastAttemptedAt":  "2026-08-04T03:39:36.6657765Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Moon Trance\\EA2A66748FDAC9A786B8FC19D2DC26052CB5A4865F5166D0C93A444E23344235\\After-A-1920x1080.png",
+                      "previewSha256":  "8D5AECAFC059A83EC44C28300DC7DB4B28048E38D22889B9760E17A1B7F25044",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T05:02:46.5314775Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved the displayed Lindsey Stirling - Moon Trance After A by replying Install A; approved preview SHA-256 8D5AECAFC059A83EC44C28300DC7DB4B28048E38D22889B9760E17A1B7F25044. Approved preview SHA-256 8D5AECAFC059A83EC44C28300DC7DB4B28048E38D22889B9760E17A1B7F25044. Installed SHA-256 8D5AECAFC059A83EC44C28300DC7DB4B28048E38D22889B9760E17A1B7F25044 using byte-exact-copy; rollback moontrance bg.png.pre-upscale-20260803-220241.bak preserves original SHA-256 8D1DE6FC3B8C9DEC1E3A4BB32AF579CFE5E1E07793F246EA8D410D92A0D40174.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Moon Trance\\EA2A66748FDAC9A786B8FC19D2DC26052CB5A4865F5166D0C93A444E23344235\\After-A-1920x1080.png",
+                                                  "previewSha256":  "8D5AECAFC059A83EC44C28300DC7DB4B28048E38D22889B9760E17A1B7F25044"
+                                              }
                                           ]
                   },
                   {
@@ -5528,14 +5552,20 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T04:35:47.1723003Z",
+                      "lastAttemptedAt":  "2026-08-04T04:35:47.1723003Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Moorea\\8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006\\After-A-1920x1080.png",
+                      "previewSha256":  "1950BEE340231347C383304A1D28C590E89982E0389231782B36B32C38A7F073",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-04T04:35:42.2905828Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The first local bitmap-constructor invocation failed before a normalized candidate was created; the same successful model output was reused and normalized without consuming another AI attempt.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -6146,10 +6176,10 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T05:08:34.9475849Z",
+                      "lastAttemptedAt":  "2026-08-04T05:08:34.9475849Z",
+                      "pendingAction":  "generate-preview",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
@@ -10421,6 +10451,61 @@
                                 "summary":  "The owner replied bare install while eight background previews were pending. The existing label-explicit approval rule correctly prevented inferring a candidate, so no preview binding, queue status, or live song file changed. ITGMania was closed, but installation remains unauthorized until the owner replies with the displayed candidate label. No new fingerprint-specific or reusable lesson was established.",
                                 "songPath":  null,
                                 "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T03:40:39.3598922Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Attempt 1 faithfully widened the 4:3 moon-and-cloud composition to 16:9 while preserving the exact visible MOON TRANCE and LINDSEY STIRLING text, crescent, palette, and centered hierarchy. The opaque 1920 x 1080 After A was bound after visual and presentation validation; live source and simfile hashes remained unchanged, and no owner feedback has been received yet.",
+                                "songPath":  "Moon Trance",
+                                "fingerprint":  "EA2A66748FDAC9A786B8FC19D2DC26052CB5A4865F5166D0C93A444E23344235",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T04:36:31.9114237Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful horizontal outpaint preserved the pale tropical collage, layered sketch figures, and exact Moorea/AIRBASE lettering. A local bitmap-constructor error occurred before normalized output existed; reusing the same model result produced the bound opaque 1920 x 1080 candidate, so no second AI attempt was consumed.",
+                                "songPath":  "Moorea",
+                                "fingerprint":  "8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T04:56:29.9898173Z",
+                                "scope":  "none",
+                                "summary":  "Owner replied with bare install for the currently displayed Mods de Chocobo preview. The current contract requires an explicit label such as Install A, so no installation, queue transition, or live song mutation was authorized.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T05:06:39.1122461Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly approved Light Years After A with Install A. Exact hash binding, active-backup-run evidence plus same-day success and Songs exclusion, sibling rollback, byte-exact PNG installation, unchanged simfile, and installed-content fingerprint proof all succeeded; no reusable workflow change was justified.",
+                                "songPath":  "Light Years",
+                                "fingerprint":  "F0F6ADF8CE29CB09A7FC38FCF9C777A98D9BB3B33AE7005219F9E9F36E92C308",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T05:08:16.0670764Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly approved the displayed Maawrio Twinz After A with Install A. The proof-gated wrapper verified unchanged preview, source, and both simfile hashes, interpreted current backup evidence with a same-day success plus Songs exclusion and a mandatory sibling rollback, installed by byte-exact copy, preserved the original 640 x 480 source, migrated the installed proof to the new content fingerprint, and left ITGMania closed. This is source-specific evidence and does not justify a reusable workflow change.",
+                                "songPath":  "Maawrio Twinz",
+                                "fingerprint":  "F8B2F0E6B95B696F07B18DECBABABBC880968CB42F7C7380B1EEFD6649140BEE",
                                 "changedFiles":  {
 
                                                  },

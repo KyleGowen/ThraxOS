@@ -1,12 +1,12 @@
 # ThraxOS scheduled-task catalog
 
-Canonical catalog of recurring ThraxOS work across Windows Task Scheduler and Codex automations. Live state observed 2026-08-02 (America/Los_Angeles).
+Canonical catalog of recurring ThraxOS work across Windows Task Scheduler and Codex automations. Live state observed 2026-08-03 (America/Los_Angeles).
 
 | Scheduler | Task | Purpose | Guide |
 | --- | --- | --- | --- |
 | Windows Task Scheduler | `ITGManiaBackup` | Poll backup cron runner every minute; configured backup runs daily at 03:00 Pacific | [ITGManiaBackup](itgmania-backup.md) |
-| Codex cron automation | `Hourly Misc Banner Upscale Queue` | Serialize queue updates, retain fingerprint history, stage one linked comparison hourly, and support hash-bound opacity-safe interactive installs | [Hourly queue](hourly-misc-banner-upscale-queue.md) |
-| Codex cron automation | `Hourly Misc Background Upscale Queue` | Validate companion simfiles, refresh serialized UTF-8 history, severity-rank static backgrounds, and request label-explicit approval with canonical metadata and presentation facts | [Hourly background queue](hourly-misc-background-upscale-queue.md) |
+| Codex cron automation | `Hourly Misc Banner Upscale Queue` | Every four hours from midnight, serialize queue updates, retain fingerprint history, stage one linked comparison, and support hash-bound opacity-safe interactive installs | [Banner queue](hourly-misc-banner-upscale-queue.md) |
+| Codex cron automation | `Hourly Misc Background Upscale Queue` | Every four hours from 02:00, validate companion simfiles, severity-rank static backgrounds, and request one-option bare or multi-option labeled approval with canonical metadata | [Background queue](hourly-misc-background-upscale-queue.md) |
 
 No other root-level Windows task was identified as part of ThraxOS. Standard Windows and vendor tasks are excluded.
 

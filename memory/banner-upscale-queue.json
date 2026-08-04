@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-04T03:07:08.5859752Z",
+    "generatedAt":  "2026-08-04T04:59:32.9656209Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -2698,7 +2698,7 @@
                   },
                   {
                       "songPath":  "Halcyon and On and On",
-                      "fingerprint":  "F67A01EDAB13A7EC44326043B423D7FA3D17A862CA9169448D1AE6CAA7984D7E",
+                      "fingerprint":  "48420595E365912FF7E09F62F4788FA1DB60F6C81A2F9F0D0882920B4DBFBF92",
                       "simfiles":  [
                                        {
                                            "path":  "Halcyon and On and On.sm",
@@ -2706,21 +2706,34 @@
                                        }
                                    ],
                       "bannerReference":  "halcyonbn.png",
-                      "sourcePath":  "Halcyon and On and On.png",
-                      "sourceSha256":  "90E34528B7EEBE14D465DE2EE88C748DB2A4FE9E432ED0D861458F867CDD7FB0",
-                      "sourceWidth":  416,
-                      "sourceHeight":  164,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-03T23:04:18.9710503Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "sourcePath":  "halcyonbn.png",
+                      "sourceSha256":  "B7516BE58D4A292598AF4B80A81FECBD53B2DDA27C857A4E1D404B05A2017822",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-04T03:39:11.0158982Z",
+                      "assessedAt":  "2026-08-04T03:39:11.0158982Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T03:39:07.0256351Z",
+                      "lastAttemptedAt":  "2026-08-03T23:04:18.9710503Z",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\F67A01EDAB13A7EC44326043B423D7FA3D17A862CA9169448D1AE6CAA7984D7E\\Halcyon and On and On-after-836x328.png",
                       "previewSha256":  "B7516BE58D4A292598AF4B80A81FECBD53B2DDA27C857A4E1D404B05A2017822",
-                      "lastAttemptedAt":  "2026-08-03T23:04:18.9710503Z"
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-04T03:39:07.0256351Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the exact displayed and queue-bound After preview by replying install; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\F67A01EDAB13A7EC44326043B423D7FA3D17A862CA9169448D1AE6CAA7984D7E\\Halcyon and On and On-after-836x328.png",
+                                                  "previewSha256":  "B7516BE58D4A292598AF4B80A81FECBD53B2DDA27C857A4E1D404B05A2017822"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "B7516BE58D4A292598AF4B80A81FECBD53B2DDA27C857A4E1D404B05A2017822"
                   },
                   {
                       "songPath":  "Handy",
@@ -2760,7 +2773,7 @@
                   },
                   {
                       "songPath":  "Harder To Breathe",
-                      "fingerprint":  "BD0FB266CF60EF7F9A08D4C532B4EBA2F638BD9366167A514463678BE8DFEF20",
+                      "fingerprint":  "B62E2575E0211C09E7D020B9C2FBAFA124F51A3F79F1BB1D08054DFF89104CDF",
                       "simfiles":  [
                                        {
                                            "path":  "Harder To Breathe.sm",
@@ -2769,20 +2782,40 @@
                                    ],
                       "bannerReference":  "Harder To Breathe.png",
                       "sourcePath":  "Harder To Breathe.png",
-                      "sourceSha256":  "843DE33BBB6D406EA8316626DF318DC8F0A297269CE12ACFB36B19576E1EA835",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "B01D540B1BD87C4BA1027F7F291B440CA5B9FF0FA31B7CF4725BF7EC08A7A546",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T01:06:12.5846239Z",
-                      "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\BD0FB266CF60EF7F9A08D4C532B4EBA2F638BD9366167A514463678BE8DFEF20\\Harder To Breathe-after-836x328.png",
-                      "previewSha256":  "29C7F5F08EE804C32E6DD2803F3F753A01C1EB14E503E9C4349F77501E8EFDF3",
-                      "lastAttemptedAt":  "2026-08-04T01:06:12.5846239Z"
+                      "observedAt":  "2026-08-04T03:48:08.6585839Z",
+                      "assessedAt":  "2026-08-04T03:48:08.6585839Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T03:48:06.4425520Z",
+                      "lastAttemptedAt":  "2026-08-04T03:42:57.6151779Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\BD0FB266CF60EF7F9A08D4C532B4EBA2F638BD9366167A514463678BE8DFEF20\\owner-redesign-20260803-2040\\Harder To Breathe-red-cover-after-836x328.png",
+                      "previewSha256":  "B01D540B1BD87C4BA1027F7F291B440CA5B9FF0FA31B7CF4725BF7EC08A7A546",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-04T03:40:13.1173340Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner rejected the photo-based preview as a bad banner and requested a new design using four supplied Maroon 5 Harder To Breathe/Songs About Jane cover references. New direction: red, rust, black, and peach illustrated cover language; use the woman holding the box/megaphone-like object, oversized black question-mark flourish, splattered organic texture, thin geometric MAROON 5 wordmark, and exact HARDER TO BREATHE title. Do not reuse the five-man photograph.",
+                                                 "priorProcessedAt":  "2026-08-04T01:06:12.5846239Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\BD0FB266CF60EF7F9A08D4C532B4EBA2F638BD9366167A514463678BE8DFEF20\\Harder To Breathe-after-836x328.png",
+                                                 "discardedPreviewSha256":  "29C7F5F08EE804C32E6DD2803F3F753A01C1EB14E503E9C4349F77501E8EFDF3"
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-04T03:48:06.4425520Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner said the redesigned banner looks great and explicitly requested installation of the exact displayed After preview.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\BD0FB266CF60EF7F9A08D4C532B4EBA2F638BD9366167A514463678BE8DFEF20\\owner-redesign-20260803-2040\\Harder To Breathe-red-cover-after-836x328.png",
+                                                  "previewSha256":  "B01D540B1BD87C4BA1027F7F291B440CA5B9FF0FA31B7CF4725BF7EC08A7A546"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "B01D540B1BD87C4BA1027F7F291B440CA5B9FF0FA31B7CF4725BF7EC08A7A546"
                   },
                   {
                       "songPath":  "Heads Will Roll",
@@ -2812,7 +2845,7 @@
                   },
                   {
                       "songPath":  "Hey Momma-Hit The Road Jack",
-                      "fingerprint":  "2E8D455990573492FFB1F51547AF2ED4C9147A325EA2CD35FBCD914188321AB0",
+                      "fingerprint":  "AA5E22648118F3FFF28DE929D89FB6CE06C5455658C4FD0051EFE82E1D406A80",
                       "simfiles":  [
                                        {
                                            "path":  "Hey Momma-Hit The Road Jack.sm",
@@ -2821,20 +2854,33 @@
                                    ],
                       "bannerReference":  "Hey Momma-Hit The Road Jack.png",
                       "sourcePath":  "Hey Momma-Hit The Road Jack.png",
-                      "sourceSha256":  "09780490BF22AAED6AAFDA566B5FD384EB678C8B97D19F3340DA1EE501EA7E78",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "EFC08964C1697C6BAC538144015E6550A75F353801914EFB7634D620A4432BB0",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T03:07:08.5535583Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "observedAt":  "2026-08-04T04:59:32.9656209Z",
+                      "assessedAt":  "2026-08-04T04:59:32.9656209Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T04:59:26.2843563Z",
+                      "lastAttemptedAt":  "2026-08-04T03:07:08.5535583Z",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\2E8D455990573492FFB1F51547AF2ED4C9147A325EA2CD35FBCD914188321AB0\\Hey Momma-Hit The Road Jack-attempt2-836x328.png",
                       "previewSha256":  "EFC08964C1697C6BAC538144015E6550A75F353801914EFB7634D620A4432BB0",
-                      "lastAttemptedAt":  "2026-08-04T03:07:08.5535583Z"
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-04T04:59:26.2843563Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install for the most recently displayed, explicitly labeled, queue-bound After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\2E8D455990573492FFB1F51547AF2ED4C9147A325EA2CD35FBCD914188321AB0\\Hey Momma-Hit The Road Jack-attempt2-836x328.png",
+                                                  "previewSha256":  "EFC08964C1697C6BAC538144015E6550A75F353801914EFB7634D620A4432BB0"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "EFC08964C1697C6BAC538144015E6550A75F353801914EFB7634D620A4432BB0"
                   },
                   {
                       "songPath":  "Houdini",
@@ -2880,11 +2926,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T04:07:17.7814496Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3214878B6EBC0BE0669754637AD9963E8860E97DAEAF0E9185B0697630922624\\Hypnodancer-after-836x328.png",
+                      "previewSha256":  "0997104605C3708F1C56482B39E50D611859BBF7A26BFB432550568B251CA6DE",
+                      "lastAttemptedAt":  "2026-08-04T04:07:17.7814496Z"
                   },
                   {
                       "songPath":  "Im the Supervisor",
