@@ -1,6 +1,6 @@
 # Family music and chart taste
 
-Assessed on 2026-08-01. This is the canonical preference model for song-pack discovery and recommendation. It separates owner-confirmed preferences from signals inferred from the installed library; owning a pack does not by itself imply liking it.
+Assessed on 2026-08-01 and updated with owner-confirmed artist preferences on 2026-08-03. This is the canonical preference model for song-pack discovery and recommendation. It separates owner-confirmed preferences from signals inferred from the installed library; owning a pack does not by itself imply liking it.
 
 ## Recommendation policy
 
@@ -32,6 +32,8 @@ Assessed on 2026-08-01. This is the canonical preference model for song-pack dis
 - metal
 - drum and bass
 
+**Owner-confirmed artists:** Little Big, Dua Lipa, Sofi Tukker, Chromeo, Pendulum, and Jamiroquai.
+
 No assessed genre is a categorical musical exclusion. Dubstep and anime-focused music are only mild negatives.
 
 ### Strong library examples
@@ -54,13 +56,15 @@ DDR and ITG arcade-series packs are installed primarily for completeness and sho
 
 - Target difficulty: ITG 5-9.
 - Favors current Top 40 and pop.
-- Representative artists include Sofi Tukker and Above & Beyond, adding dance-pop, house, melodic trance, and progressive electronic music to the broader pop preference.
+- Owner-confirmed artists include Sofi Tukker and P!nk.
+- Above & Beyond is also a representative artist, adding melodic trance and progressive electronic music to the broader pop, dance-pop, and house preference.
 - No separate chart-technique restrictions are recorded.
 
 ## Eliza
 
 - Target difficulty: ITG 3-5.
-- Representative artists and music include Taylor Swift, Katy Perry, Dua Lipa, Kesha, Karol G, Jennifer Lopez, and *KPop Demon Hunters*.
+- Owner-confirmed artists include Little Big, Dua Lipa, and P!nk.
+- Other representative artists and music include Taylor Swift, Katy Perry, Kesha, Karol G, Jennifer Lopez, and *KPop Demon Hunters*.
 - The installed `K-Pop Demon Hunters` pack is for Eliza and is not evidence of Kyle's taste.
 - No separate chart-technique restrictions are recorded.
 
@@ -74,4 +78,5 @@ A recommendation does not need to serve all three people. Kyle's musical and 8-1
 - **Observed 2026-08-01:** `Misc. Collected` contained 206 song directories; 199 yielded artist metadata in the read-only scan.
 - **Owner-confirmed 2026-08-01:** `Misc. Collected` is personally curated and is the best library sample of Kyle's taste.
 - **Owner-confirmed 2026-08-01:** DDR and ITG packs are retained for completeness; `K-Pop Demon Hunters` is for Eliza.
+- **Owner-confirmed 2026-08-03:** Eliza and Kyle both like Little Big and Dua Lipa; Samantha and Kyle both like Sofi Tukker; Kyle likes Chromeo, Pendulum, and Jamiroquai; Samantha and Eliza both like P!nk.
 - **Interpretation:** Pack names and simfile metadata were used as supporting signals only. The owner-confirmed statements above override library-derived inference.

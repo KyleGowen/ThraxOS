@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-03T21:25:28.6726338Z",
+    "generatedAt":  "2026-08-04T03:07:08.5859752Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -2689,11 +2689,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-03T22:06:51.4220101Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\F2713C3BFF71572E7A0871E33BFE0659A1BAAF24779D04E6D2BB0D9D44142C51\\Guilt Is a Useless Emotion-after-836x328.png",
+                      "previewSha256":  "62A35CEAE07ED38EFCACFDD48118D3B0C3A3F3524BBC6FEE81E787AC342CE940",
+                      "lastAttemptedAt":  "2026-08-03T22:06:51.4220101Z"
                   },
                   {
                       "songPath":  "Halcyon and On and On",
@@ -2714,11 +2715,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-03T23:04:18.9710503Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\F67A01EDAB13A7EC44326043B423D7FA3D17A862CA9169448D1AE6CAA7984D7E\\Halcyon and On and On-after-836x328.png",
+                      "previewSha256":  "B7516BE58D4A292598AF4B80A81FECBD53B2DDA27C857A4E1D404B05A2017822",
+                      "lastAttemptedAt":  "2026-08-03T23:04:18.9710503Z"
                   },
                   {
                       "songPath":  "Handy",
@@ -2743,7 +2745,18 @@
                       "processedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-04T00:07:12.6618642Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-04T00:07:12.6618642Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 edits were recoverable but failed source-fidelity review. Exact source text is HANDY; the artist line has double quotation marks around Weird Al followed by Yankovic. Attempt 1 CBC4D8DB72DADE3EADEA4D8CDF5A359E9E890BF8BE66F47FFD78CABAEEDF84E9 enlarged and redrew the character, face, pose, crop, body, and title. Attempt 2 18123564699081FDEC93F96B0888C97D3901EF27C89BD492750352027E7B95EE used the exact layout reference but still enlarged and changed those elements. No viable preview, third call, or fallback.",
+                                                 "priorProcessedAt":  "2026-08-04T00:03:27.3059546Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "Harder To Breathe",
@@ -2764,11 +2777,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T01:06:12.5846239Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\BD0FB266CF60EF7F9A08D4C532B4EBA2F638BD9366167A514463678BE8DFEF20\\Harder To Breathe-after-836x328.png",
+                      "previewSha256":  "29C7F5F08EE804C32E6DD2803F3F753A01C1EB14E503E9C4349F77501E8EFDF3",
+                      "lastAttemptedAt":  "2026-08-04T01:06:12.5846239Z"
                   },
                   {
                       "songPath":  "Heads Will Roll",
@@ -2789,11 +2803,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T02:06:19.8213763Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\047C6E6DBAEA4BEEBF9BF81EE30CA0BC31821250B44F742E37F0D3DA4E3394C7\\Heads Will Roll-after-836x328.png",
+                      "previewSha256":  "B84D0549D6A02D3834ACCF524C66B7E1EB781F01A32754541AC3DD065DB526D7",
+                      "lastAttemptedAt":  "2026-08-04T02:06:19.8213763Z"
                   },
                   {
                       "songPath":  "Hey Momma-Hit The Road Jack",
@@ -2814,11 +2829,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T03:07:08.5535583Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\2E8D455990573492FFB1F51547AF2ED4C9147A325EA2CD35FBCD914188321AB0\\Hey Momma-Hit The Road Jack-attempt2-836x328.png",
+                      "previewSha256":  "EFC08964C1697C6BAC538144015E6550A75F353801914EFB7634D620A4432BB0",
+                      "lastAttemptedAt":  "2026-08-04T03:07:08.5535583Z"
                   },
                   {
                       "songPath":  "Houdini",

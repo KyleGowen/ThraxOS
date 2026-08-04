@@ -72,6 +72,11 @@ try {
     [IO.File]::WriteAllText((Join-Path $missing.FullName 'Missing.sm'), "#TITLE:Missing;`n#BACKGROUND:missing.png;`n#BGCHANGES:;`n", [Text.UTF8Encoding]::new($false))
     New-Image (Join-Path $missing.FullName 'fallback-bg.png') 564 278
 
+    $partial = New-Item -ItemType Directory -Path (Join-Path $pack 'Partial Reference')
+    [IO.File]::WriteAllText((Join-Path $partial.FullName 'Partial Reference.sm'), "#TITLE:Partial Reference;`n#BACKGROUND:Partial Reference-bg.png;`n#BGCHANGES:;`n", [Text.UTF8Encoding]::new($false))
+    [IO.File]::WriteAllText((Join-Path $partial.FullName 'Partial Reference.ssc'), "#TITLE:Partial Reference;`n#BACKGROUND:;`n#BGCHANGES:;`n", [Text.UTF8Encoding]::new($false))
+    New-Image (Join-Path $partial.FullName 'Partial Reference-bg.png') 640 640
+
     $selected = Invoke-Update @('-PackPath', $pack, '-QueuePath', $queue, '-Refresh', '-SelectNext') | ConvertFrom-Json
     Assert ($selected.songPath -eq 'Tiny') 'severity ordering should select the broken-or-tiny candidate first'
     Assert ($selected.qualityRank -eq 0) 'the tiny candidate should have quality rank 0'
@@ -102,6 +107,10 @@ try {
     $missingRecord = $document.songs | Where-Object songPath -eq 'Missing'
     Assert ($missingRecord.status -eq 'review-only') 'missing reference with fallback should be review-only'
     Assert ($missingRecord.reviewCategory -eq 'missing-reference-fallback') 'missing fallback category should be explicit'
+    $partialRecord = $document.songs | Where-Object songPath -eq 'Partial Reference'
+    Assert ($partialRecord.status -eq 'review-only') 'a blank #BACKGROUND in any companion simfile must prevent automatic selection'
+    Assert (-not $partialRecord.eligible) 'a partially explicit background set must never be eligible'
+    Assert (-not [string]::IsNullOrWhiteSpace($partialRecord.sourceSha256)) 'a safe static source named by one companion should retain source evidence for installed-proof preservation'
 
     $empty.status = 'skipped'
     $empty.processedAt = (Get-Date).ToUniversalTime().ToString('o')
