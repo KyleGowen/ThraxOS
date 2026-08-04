@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-04T05:08:34.9475849Z",
+    "generatedAt":  "2026-08-04T14:37:27.1300445Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -5553,11 +5553,11 @@
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
                       "status":  "pending",
-                      "processedAt":  "2026-08-04T04:35:47.1723003Z",
-                      "lastAttemptedAt":  "2026-08-04T04:35:47.1723003Z",
+                      "processedAt":  "2026-08-04T14:32:06.9698255Z",
+                      "lastAttemptedAt":  "2026-08-04T14:32:06.9698255Z",
                       "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Moorea\\8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006\\After-A-1920x1080.png",
-                      "previewSha256":  "1950BEE340231347C383304A1D28C590E89982E0389231782B36B32C38A7F073",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Moorea\\8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006\\After-B-1920x1080.png",
+                      "previewSha256":  "A7723CA0F0449A200B3D2BE9B3800BEB77DA4BB201A21011446F7E51D8948446",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-04T04:35:42.2905828Z",
@@ -5565,6 +5565,13 @@
                                                  "note":  "The first local bitmap-constructor invocation failed before a normalized candidate was created; the same successful model output was reused and normalized without consuming another AI attempt.",
                                                  "discardedPreviewPath":  null,
                                                  "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-04T14:29:50.5141284Z",
+                                                 "outcome":  "new-source-supplied",
+                                                 "note":  "Owner rejected the prior preview because its anime sketch-character overlays were not desired, supplied the clean Moorea banner as authoritative source material, and requested a new character-free background.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Moorea\\8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006\\After-A-1920x1080.png",
+                                                 "discardedPreviewSha256":  "1950BEE340231347C383304A1D28C590E89982E0389231782B36B32C38A7F073"
                                              }
                                          ],
                       "decisionHistory":  [
@@ -6177,13 +6184,33 @@
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
                       "status":  "pending",
-                      "processedAt":  "2026-08-04T05:08:34.9475849Z",
-                      "lastAttemptedAt":  "2026-08-04T05:08:34.9475849Z",
-                      "pendingAction":  "generate-preview",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "processedAt":  "2026-08-04T14:36:24.5939062Z",
+                      "lastAttemptedAt":  "2026-08-04T14:36:24.5939062Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Picture to Burn\\B28CF475ACD6B91EDC0A9B67651433B44EF5E529EFC78373B866EE1A4DC35588\\After-A-1920x1080.png",
+                      "previewSha256":  "CE3F5EAF33189BCF5F1D35F930F57E70B40AE1C5DECE57079CF628B77AD7B82A",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-04T05:10:43.4944818Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine built-in image edit attempts produced no artifact: attempt 1 was blocked at input with moderation category public-figure; attempt 2, restricted to non-person side extensions with the source unchanged, was blocked at output with category other. The two-attempt ceiling is exhausted; deterministic fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-04T14:32:33.4808847Z",
+                                                 "outcome":  "new-source-supplied",
+                                                 "note":  "Owner supplied four new reference images and explicitly authorized a fresh generated background that need not depict Taylor Swift. Staged source hashes: source-1 074A748A9AF03D242277E528B12E4A178DAA2F7126CFA06CE6FB13E5D577A02C; source-2 9D302E0B6488DC07FC3AEA911FD9047658C7B58693DC4E9A1CF0F72103901F91; source-3 7208D703C55D2514D231B906D4921B3530B41DA2395791CFD309CDE2F6A100F4; source-4 4FE60664C7D39B6C805D71B200D989EA723943BC0D176A9C5169822B017B286B. New direction uses their fire, disc, cream, charcoal, and orange motifs without any person or likeness.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-04T14:36:18.1767714Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "The exact opaque 1920 x 1080 candidate decoded and passed presentation checks, but the full-resolution app viewer failed to render it. A separate opaque 960 x 540 display-only copy rendered successfully; no second AI attempt was used.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -6309,12 +6336,12 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T09:06:43.3726745Z",
+                      "lastAttemptedAt":  "2026-08-04T09:06:43.3726745Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Policy of Truth\\C0659D375D2758E9F188F8B64A68E610C60D73EDB2E1BB4DDB68C0316326326E\\After-A-1920x1080.png",
+                      "previewSha256":  "7DB487BF6D3FC20BCFB6D53C02650F8A02C6B5DDBA2AAA319627C8AA071A7E42",
                       "attemptHistory":  [
 
                                          ],
@@ -6351,12 +6378,12 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T13:08:19.5147115Z",
+                      "lastAttemptedAt":  "2026-08-04T13:08:19.5147115Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\POT\\D27B9226F19CEAFA10143C8A2FDFEFDC7C5CA39C3CF78FCBF1FB0C6E1A1FEAF1\\After-A-1920x1080.png",
+                      "previewSha256":  "8ACCB6F9D36D975C471EBF25228BF19076C358D2A486A69C8AC4A9281B7AF216",
                       "attemptHistory":  [
 
                                          ],
@@ -10506,6 +10533,82 @@
                                 "summary":  "The owner explicitly approved the displayed Maawrio Twinz After A with Install A. The proof-gated wrapper verified unchanged preview, source, and both simfile hashes, interpreted current backup evidence with a same-day success plus Songs exclusion and a mandatory sibling rollback, installed by byte-exact copy, preserved the original 640 x 480 source, migrated the installed proof to the new content fingerprint, and left ITGMania closed. This is source-specific evidence and does not justify a reusable workflow change.",
                                 "songPath":  "Maawrio Twinz",
                                 "fingerprint":  "F8B2F0E6B95B696F07B18DECBABABBC880968CB42F7C7380B1EEFD6649140BEE",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T05:10:47.7962364Z",
+                                "scope":  "fingerprint",
+                                "summary":  "This source-specific public-figure image exhausted both permitted built-in AI attempts without producing an artifact; keep it pending and non-blocking until the owner explicitly approves a deterministic 16:9 fallback or supplies new source material.",
+                                "songPath":  "Picture to Burn",
+                                "fingerprint":  "B28CF475ACD6B91EDC0A9B67651433B44EF5E529EFC78373B866EE1A4DC35588",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T05:14:53.4584117Z",
+                                "scope":  "reusable",
+                                "summary":  "Owner generalized background approval semantics: when exactly one installable candidate is displayed and hash-bound in the same task, bare install or its explicit label approves that sole option; when multiple candidates are displayed, require Install A, Install B, and so on. Implemented the rule in the skill, UI prompt, conventions, migration docs and indexes, durable decision/preference/operation records, and active automation prompt. The exact approved Lovers After A was installed byte-for-byte with unchanged simfiles, verified sibling rollback, terminal queue proof, and ITGMania left closed.",
+                                "songPath":  "Lovers (Pure Mix)",
+                                "fingerprint":  "1EE2D106F7DF5D7D5D74796B78748D96059FDD9ECA18FB4E106BD419946514F3",
+                                "changedFiles":  [
+                                                     ".agents/skills/upscale-background/SKILL.md",
+                                                     ".agents/skills/upscale-background/agents/openai.yaml",
+                                                     ".agents/skills/upscale-background/references/background-conventions.md",
+                                                     "docs/skills/README.md",
+                                                     "docs/skills/upscale-background.md",
+                                                     "docs/scheduled-tasks/README.md",
+                                                     "docs/scheduled-tasks/hourly-misc-background-upscale-queue.md",
+                                                     "memory/DECISIONS.md",
+                                                     "memory/PREFERENCES.md",
+                                                     "memory/OPERATIONS_LOG.md",
+                                                     "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\automations\\hourly-misc-background-upscale-queue\\automation.toml"
+                                                 ],
+                                "validationResult":  "PASS: 8 PowerShell scripts parsed; Background queue tests passed; Background install workflow PASS; approval-contract and automation-preservation assertions passed; git diff --check passed; official validator reported Skill is valid!"
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T09:08:12.7154224Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful horizontal outpaint preserved the rose, black-red palette, distressed texture, and verbatim Policy of Truth and Depeche Mode identity text; deterministic normalization produced one opaque 1920 x 1080 preview. No reusable workflow or owner-wide preference change was evidenced.",
+                                "songPath":  "Policy of Truth",
+                                "fingerprint":  "C0659D375D2758E9F188F8B64A68E610C60D73EDB2E1BB4DDB68C0316326326E",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T13:08:55.4594371Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For POT, the first faithful side outpaint preserved the main identity but left a visible vertical seam in the left brown field. A second narrowly scoped seam-blending edit produced the sole viable opaque 1920 x 1080 candidate while retaining POT, TEE LOPES, DYLAN JAMES, the central figure, palette, and retro texture. This is source-specific evidence and does not justify a reusable workflow change.",
+                                "songPath":  "POT",
+                                "fingerprint":  "D27B9226F19CEAFA10143C8A2FDFEFDC7C5CA39C3CF78FCBF1FB0C6E1A1FEAF1",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T14:32:44.3817618Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner rejected the prior Moorea preview because the anime sketch-character overlays were not desired and supplied the clean banner as authoritative source material. The banner-derived retry preserved the tropical coastline, jungle, city, beach, ocean, exact Moorea/AIRBASE identity, and excluded all people and sketch overlays; opaque 1920 x 1080 After B was bound for approval.",
+                                "songPath":  "Moorea",
+                                "fingerprint":  "8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T14:37:27.1300445Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner-supplied references authorized a new from-scratch direction without Taylor Swift imagery. A person-free prompt using burning instant-photo, compact-disc, cream, charcoal, orange, and teal motifs produced a viable exact-title candidate in one AI attempt. Deterministic normalization corrected transparent perimeter pixels to opaque RGB; the exact 1920 x 1080 candidate passed presentation and hash checks, while a 960 x 540 display-only copy was required because the full-resolution app viewer failed.",
+                                "songPath":  "Picture to Burn",
+                                "fingerprint":  "B28CF475ACD6B91EDC0A9B67651433B44EF5E529EFC78373B866EE1A4DC35588",
                                 "changedFiles":  {
 
                                                  },

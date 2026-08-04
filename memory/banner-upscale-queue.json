@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-04T04:59:32.9656209Z",
+    "generatedAt":  "2026-08-04T11:05:18.2198935Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -2909,7 +2909,7 @@
                   },
                   {
                       "songPath":  "Hypnodancer",
-                      "fingerprint":  "3214878B6EBC0BE0669754637AD9963E8860E97DAEAF0E9185B0697630922624",
+                      "fingerprint":  "C6C56BBB8F404032C1028040CD2369D5C67A3B31593BD8CD672D1810EC3B4566",
                       "simfiles":  [
                                        {
                                            "path":  "Hypnodancer.sm",
@@ -2918,20 +2918,33 @@
                                    ],
                       "bannerReference":  "Hypnodancer-bn2.png",
                       "sourcePath":  "Hypnodancer-bn2.png",
-                      "sourceSha256":  "F1ECD5E998BA87184BB19BD75A34EDA2C2169B467E7F1872FD8D0AFD293685D7",
-                      "sourceWidth":  686,
-                      "sourceHeight":  345,
+                      "sourceSha256":  "0997104605C3708F1C56482B39E50D611859BBF7A26BFB432550568B251CA6DE",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T04:07:17.7814496Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "observedAt":  "2026-08-04T05:13:30.7168246Z",
+                      "assessedAt":  "2026-08-04T05:13:30.7168246Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T05:13:14.1448759Z",
+                      "lastAttemptedAt":  "2026-08-04T04:07:17.7814496Z",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3214878B6EBC0BE0669754637AD9963E8860E97DAEAF0E9185B0697630922624\\Hypnodancer-after-836x328.png",
                       "previewSha256":  "0997104605C3708F1C56482B39E50D611859BBF7A26BFB432550568B251CA6DE",
-                      "lastAttemptedAt":  "2026-08-04T04:07:17.7814496Z"
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-04T05:13:14.1448759Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied \u0027install A\u0027 for the only preview displayed in this task; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3214878B6EBC0BE0669754637AD9963E8860E97DAEAF0E9185B0697630922624\\Hypnodancer-after-836x328.png",
+                                                  "previewSha256":  "0997104605C3708F1C56482B39E50D611859BBF7A26BFB432550568B251CA6DE"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "0997104605C3708F1C56482B39E50D611859BBF7A26BFB432550568B251CA6DE"
                   },
                   {
                       "songPath":  "Im the Supervisor",
@@ -2952,11 +2965,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T07:06:26.2742193Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\DF1245CCB11693EFDDF3016F51E48F8A39F76F334B7ADAA14F780BBBAD9172D5\\Im-the-Supervisor-after-836x328.png",
+                      "previewSha256":  "DECC65FC1118261F3AF4B09FE204797727F9BDBC3F7454AD38277DA7FDFBFF6A",
+                      "lastAttemptedAt":  "2026-08-04T07:06:26.2742193Z"
                   },
                   {
                       "songPath":  "Instanbul",
@@ -2977,11 +2991,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T11:05:18.1969040Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\4269B7D6BD4264A93D4370BE34DCE826FE7297EEB4417DE247A88AC27EE0255A\\Istanbul-after-836x328.png",
+                      "previewSha256":  "FA920AD3AE2345900B8A10285CBF4123ACB8E38EC2028DD7B552A31E50132064",
+                      "lastAttemptedAt":  "2026-08-04T11:05:18.1969040Z"
                   },
                   {
                       "songPath":  "Invisible Scars",
