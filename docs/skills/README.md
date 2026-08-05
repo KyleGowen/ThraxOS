@@ -8,7 +8,7 @@ Canonical migration index for every project-local skill under `.agents/skills/`.
 | `add-pack` | Download, validate, scan, collision-check, and install packs | [Add Pack](add-pack.md) |
 | `itg-packs-search` | Search the live ITG Packs spreadsheet and compare local overlap | [ITG Packs Search](itg-packs-search.md) |
 | `research-itg-community` | Evidence-graded rhythm-game community research | [ITG Community Research](research-itg-community.md) |
-| `upscale-banner` | Verify, normalize, render and link full-resolution comparisons, hash-bind opacity-safe guarded installs, serialize queue updates, and preserve fingerprint history | [Upscale Banner](upscale-banner.md) |
+| `upscale-banner` | Reject inconsistent simfile banner references; verify, normalize, renderer-safely display and link full-resolution comparisons; hash-bind opacity-safe guarded installs; serialize queue updates; and preserve fingerprint history | [Upscale Banner](upscale-banner.md) |
 | `upscale-background` | Validate explicit backgrounds across companion simfiles, stage faithful previews, allow bare install for one exact option, require labels for multiple options, and proof-complete hash-bound installs | [Upscale Background](upscale-background.md) |
 | `ship-all` | Review, commit, and push all safe intended work to `origin/main` | [Ship All](ship-all.md) |
 

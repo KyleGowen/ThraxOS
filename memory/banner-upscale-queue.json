@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-04T11:05:18.2198935Z",
+    "generatedAt":  "2026-08-04T19:05:40.8403012Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -2819,7 +2819,7 @@
                   },
                   {
                       "songPath":  "Heads Will Roll",
-                      "fingerprint":  "047C6E6DBAEA4BEEBF9BF81EE30CA0BC31821250B44F742E37F0D3DA4E3394C7",
+                      "fingerprint":  "73C24980D002C12D8F24376FFBBC9A5A967280BF63B6631E67307A8311F7130B",
                       "simfiles":  [
                                        {
                                            "path":  "Heads Will Roll.ssc",
@@ -2827,21 +2827,41 @@
                                        }
                                    ],
                       "bannerReference":  "Heads Will Roll-banner.png",
-                      "sourcePath":  "Heads Will Roll.png",
-                      "sourceSha256":  "2AC13B3A6B9B9B3395BA26058C3EF834F6C560A82A20C4C5D144B441A35BE904",
-                      "sourceWidth":  418,
-                      "sourceHeight":  164,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T02:06:19.8213763Z",
-                      "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\047C6E6DBAEA4BEEBF9BF81EE30CA0BC31821250B44F742E37F0D3DA4E3394C7\\Heads Will Roll-after-836x328.png",
-                      "previewSha256":  "B84D0549D6A02D3834ACCF524C66B7E1EB781F01A32754541AC3DD065DB526D7",
-                      "lastAttemptedAt":  "2026-08-04T02:06:19.8213763Z"
+                      "sourcePath":  "Heads Will Roll-banner.png",
+                      "sourceSha256":  "22D714CD1B8E9A2194A2E081FDD052C6834B966244C4C2B0A18DB3FBF1848D8D",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-04T17:33:26.9473447Z",
+                      "assessedAt":  "2026-08-04T17:33:26.9473447Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T17:33:08.4004123Z",
+                      "lastAttemptedAt":  "2026-08-04T15:51:42.7658006Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\047C6E6DBAEA4BEEBF9BF81EE30CA0BC31821250B44F742E37F0D3DA4E3394C7\\owner-redesign-20260804-0848\\Heads Will Roll-red-vampire-after-836x328.png",
+                      "previewSha256":  "22D714CD1B8E9A2194A2E081FDD052C6834B966244C4C2B0A18DB3FBF1848D8D",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-04T15:47:51.2873436Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner requested a fresh recreation using four supplied Heads Will Roll artwork references. Replace the cyan disco-ball and WILL/(T)ROLL interpretation from preview SHA-256 B84D0549D6A02D3834ACCF524C66B7E1EB781F01A32754541AC3DD065DB526D7 with the supplied red-eyed vampire-face source direction and exact Yeah Yeah Yeahs / Heads Will Roll identification; no permanent opt-out was requested.",
+                                                 "priorProcessedAt":  "2026-08-04T02:06:19.8213763Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\047C6E6DBAEA4BEEBF9BF81EE30CA0BC31821250B44F742E37F0D3DA4E3394C7\\Heads Will Roll-after-836x328.png",
+                                                 "discardedPreviewSha256":  "B84D0549D6A02D3834ACCF524C66B7E1EB781F01A32754541AC3DD065DB526D7"
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-04T17:33:08.4004123Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner said install it for the most recently displayed, explicitly labeled, queue-bound Heads Will Roll red-vampire After preview SHA-256 22D714CD1B8E9A2194A2E081FDD052C6834B966244C4C2B0A18DB3FBF1848D8D; no additional installation reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\047C6E6DBAEA4BEEBF9BF81EE30CA0BC31821250B44F742E37F0D3DA4E3394C7\\owner-redesign-20260804-0848\\Heads Will Roll-red-vampire-after-836x328.png",
+                                                  "previewSha256":  "22D714CD1B8E9A2194A2E081FDD052C6834B966244C4C2B0A18DB3FBF1848D8D"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "22D714CD1B8E9A2194A2E081FDD052C6834B966244C4C2B0A18DB3FBF1848D8D"
                   },
                   {
                       "songPath":  "Hey Momma-Hit The Road Jack",
@@ -2948,7 +2968,7 @@
                   },
                   {
                       "songPath":  "Im the Supervisor",
-                      "fingerprint":  "DF1245CCB11693EFDDF3016F51E48F8A39F76F334B7ADAA14F780BBBAD9172D5",
+                      "fingerprint":  "E57006989BB6B1884C30941385365FCEBA5100C6E3BCE9B625CA68344AFC561C",
                       "simfiles":  [
                                        {
                                            "path":  "IM the Supervisor.sm",
@@ -2957,24 +2977,37 @@
                                    ],
                       "bannerReference":  "imthesup-bn.png",
                       "sourcePath":  "imthesup-bn.png",
-                      "sourceSha256":  "354A235A18571EE6DE614175196FAB0ACD8C4C738E88A7C45149BE25AA86414A",
-                      "sourceWidth":  1031,
-                      "sourceHeight":  282,
+                      "sourceSha256":  "DECC65FC1118261F3AF4B09FE204797727F9BDBC3F7454AD38277DA7FDFBFF6A",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T07:06:26.2742193Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "observedAt":  "2026-08-04T15:55:16.0215955Z",
+                      "assessedAt":  "2026-08-04T15:55:16.0215955Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T15:55:13.8316039Z",
+                      "lastAttemptedAt":  "2026-08-04T07:06:26.2742193Z",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\DF1245CCB11693EFDDF3016F51E48F8A39F76F334B7ADAA14F780BBBAD9172D5\\Im-the-Supervisor-after-836x328.png",
                       "previewSha256":  "DECC65FC1118261F3AF4B09FE204797727F9BDBC3F7454AD38277DA7FDFBFF6A",
-                      "lastAttemptedAt":  "2026-08-04T07:06:26.2742193Z"
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-04T15:55:13.8316039Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install for the exact displayed, queue-bound After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\DF1245CCB11693EFDDF3016F51E48F8A39F76F334B7ADAA14F780BBBAD9172D5\\Im-the-Supervisor-after-836x328.png",
+                                                  "previewSha256":  "DECC65FC1118261F3AF4B09FE204797727F9BDBC3F7454AD38277DA7FDFBFF6A"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "DECC65FC1118261F3AF4B09FE204797727F9BDBC3F7454AD38277DA7FDFBFF6A"
                   },
                   {
                       "songPath":  "Instanbul",
-                      "fingerprint":  "4269B7D6BD4264A93D4370BE34DCE826FE7297EEB4417DE247A88AC27EE0255A",
+                      "fingerprint":  "DE21A03FDB7B32E2DAC166CF40CD9B9350D6BF0B5B067BABE10DD8103B64BD08",
                       "simfiles":  [
                                        {
                                            "path":  "Istanbul.ssc",
@@ -2983,20 +3016,33 @@
                                    ],
                       "bannerReference":  "bn.png",
                       "sourcePath":  "bn.png",
-                      "sourceSha256":  "C0B39207B5922633C73EDC2795BE799FDC3453AC5D468EE75D2ACCE5899FDCFA",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "FA920AD3AE2345900B8A10285CBF4123ACB8E38EC2028DD7B552A31E50132064",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T11:05:18.1969040Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "observedAt":  "2026-08-04T16:02:10.4003914Z",
+                      "assessedAt":  "2026-08-04T16:02:10.4003914Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T16:02:07.5341530Z",
+                      "lastAttemptedAt":  "2026-08-04T11:05:18.1969040Z",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\4269B7D6BD4264A93D4370BE34DCE826FE7297EEB4417DE247A88AC27EE0255A\\Istanbul-after-836x328.png",
                       "previewSha256":  "FA920AD3AE2345900B8A10285CBF4123ACB8E38EC2028DD7B552A31E50132064",
-                      "lastAttemptedAt":  "2026-08-04T11:05:18.1969040Z"
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-04T16:02:07.5341530Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied \u0027Install A\u0027 for the sole displayed, queue-bound Istanbul After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\4269B7D6BD4264A93D4370BE34DCE826FE7297EEB4417DE247A88AC27EE0255A\\Istanbul-after-836x328.png",
+                                                  "previewSha256":  "FA920AD3AE2345900B8A10285CBF4123ACB8E38EC2028DD7B552A31E50132064"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "FA920AD3AE2345900B8A10285CBF4123ACB8E38EC2028DD7B552A31E50132064"
                   },
                   {
                       "songPath":  "Invisible Scars",
@@ -3025,7 +3071,7 @@
                   },
                   {
                       "songPath":  "Irufushi",
-                      "fingerprint":  "3D8A0C788A2072B069D90A7A06B8B7381BF367CCD24A21111B5C57D6A209DC79",
+                      "fingerprint":  "E133C16B6BDF46725C224B78E446E5B341ABD6751F08217DA9F2BCE87FE4B261",
                       "simfiles":  [
                                        {
                                            "path":  "Irufushi.sm",
@@ -3038,19 +3084,40 @@
                                    ],
                       "bannerReference":  "Irufushi-bn.png",
                       "sourcePath":  "Irufushi-bn.png",
-                      "sourceSha256":  "A478104EED8766ED1CD0573FA86A5576D4AFA6F422F3C6B550354D210C23EBC9",
-                      "sourceWidth":  418,
-                      "sourceHeight":  164,
+                      "sourceSha256":  "CD9690539CAC0785DA2E192BB144AFBC9D3927A769EF0C70CF828FE5A4AC850D",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-04T17:29:38.3771363Z",
+                      "assessedAt":  "2026-08-04T17:29:38.3771363Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T17:29:33.9865246Z",
+                      "lastAttemptedAt":  "2026-08-04T17:20:48.3508888Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3D8A0C788A2072B069D90A7A06B8B7381BF367CCD24A21111B5C57D6A209DC79\\owner-selected-B-20260804-1018\\Irufushi-owner-selected-B-after-836x328.png",
+                      "previewSha256":  "CD9690539CAC0785DA2E192BB144AFBC9D3927A769EF0C70CF828FE5A4AC850D",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-04T15:07:05.9247411Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 high-fidelity edits were recoverable but failed source-fidelity review. Source is an opaque 418 x 164 flat-cyan banner with compact upper-left text exactly `Super8 \u0026 Tab`, `Irufushi`, and `anjunabeats`, plus the white Anjunabeats emblem and large empty cyan area on the right. Attempt 1 raw SHA-256 8FB36EA42C6825B21D5D28E761E85E4D5355700B92C724555750290F032D44F2 added a cyan gradient and enlarged/repositioned the text and emblem. The restoration-only retry used an exact 836 x 328 layout reference but raw SHA-256 6ADCF45196B28E17280533C584F5987E1E526B4FFB1634591FF2CF83FEC438DB still added a gradient and enlarged the compact source block. No viable preview was bound; no third model call or deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-04T15:02:47.9072914Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-04T17:29:33.9865246Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied `install B` after the exact normalized 836 x 328 After B was displayed and queue-bound; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\3D8A0C788A2072B069D90A7A06B8B7381BF367CCD24A21111B5C57D6A209DC79\\owner-selected-B-20260804-1018\\Irufushi-owner-selected-B-after-836x328.png",
+                                                  "previewSha256":  "CD9690539CAC0785DA2E192BB144AFBC9D3927A769EF0C70CF828FE5A4AC850D"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "CD9690539CAC0785DA2E192BB144AFBC9D3927A769EF0C70CF828FE5A4AC850D"
                   },
                   {
                       "songPath":  "Jason - [StarrySergal]",
@@ -3079,7 +3146,7 @@
                   },
                   {
                       "songPath":  "Jealous (I Ain\u0027t With It)",
-                      "fingerprint":  "A071D68943ADD6A0606BC6E7311767CC3E9ABD32F935B6CB8188DB47899AE453",
+                      "fingerprint":  "D2424A8EFF47B47475AA28BFF992713A019582576452029CDE0982B187D9793B",
                       "simfiles":  [
                                        {
                                            "path":  "Jealous (I Ain\u0027t With It).sm",
@@ -3090,21 +3157,28 @@
                                            "sha256":  "B7A61207B2BF2525C056772DEF642AB1A17A36CC13B99D8C6AAE15F43D1B1E40"
                                        }
                                    ],
-                      "bannerReference":  "jealous-bn.png",
-                      "sourcePath":  "jealous-bn.png",
-                      "sourceSha256":  "C9000E45642C362B62B19BBAAF92365D6066C623CFA5D61603B5B06AAF247A39",
-                      "sourceWidth":  639,
-                      "sourceHeight":  211,
+                      "bannerReference":  null,
+                      "sourcePath":  null,
+                      "sourceSha256":  null,
+                      "sourceWidth":  null,
+                      "sourceHeight":  null,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
+                      "observedAt":  "2026-08-04T19:05:40.8403012Z",
+                      "assessedAt":  "2026-08-04T19:05:40.8403012Z",
+                      "eligible":  false,
+                      "reason":  "Simfiles have a missing, ambiguous, or inconsistent #BANNER reference.",
+                      "status":  "ineligible",
                       "processedAt":  null,
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "J-E-N-O-V-A (Final Fantasy VII)",
@@ -4225,7 +4299,7 @@
                   },
                   {
                       "songPath":  "Quick Man Stage",
-                      "fingerprint":  "A008A666267DD5921D0A44234AA939A062D968498BD73AE3EADF6DCA6C7B6E28",
+                      "fingerprint":  "8A2623A863BA27106E1AA4B699E2DC05C06581EF8783ACFCFE0F8DE65E99C666",
                       "simfiles":  [
                                        {
                                            "path":  "Quick Man Stage.sm",
@@ -4236,21 +4310,28 @@
                                            "sha256":  "4592520B8D44DEF0169B4D450A5894DE1774A691D1381D0BCE5ED5FF82AA5021"
                                        }
                                    ],
-                      "bannerReference":  "banner.jpg",
-                      "sourcePath":  "banner.jpg",
-                      "sourceSha256":  "3D20EDA0A926201F6514295D0A8F009C3C967BC52BF49A2CB6470226621799F5",
-                      "sourceWidth":  1140,
-                      "sourceHeight":  570,
+                      "bannerReference":  null,
+                      "sourcePath":  null,
+                      "sourceSha256":  null,
+                      "sourceWidth":  null,
+                      "sourceHeight":  null,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
+                      "observedAt":  "2026-08-04T19:05:40.8403012Z",
+                      "assessedAt":  "2026-08-04T19:05:40.8403012Z",
                       "eligible":  false,
-                      "reason":  "Referenced banner already meets the 836 x 328 host convention.",
+                      "reason":  "Simfiles have a missing, ambiguous, or inconsistent #BANNER reference.",
                       "status":  "ineligible",
                       "processedAt":  null,
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "Quo Vadis",

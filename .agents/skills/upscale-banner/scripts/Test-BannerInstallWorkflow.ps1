@@ -9,6 +9,7 @@ $pack = Join-Path $testRoot 'Pack'
 $song = Join-Path $pack 'Fixture Song'
 $songB = Join-Path $pack 'Fixture B'
 $songC = Join-Path $pack 'Fixture C'
+$songD = Join-Path $pack 'Fixture Inconsistent'
 $queue = Join-Path $testRoot 'queue.json'
 $simfile = Join-Path $song 'fixture.sm'
 $source = Join-Path $song 'banner.png'
@@ -32,12 +33,16 @@ try {
     New-Item -ItemType Directory -Path $song -Force | Out-Null
     New-Item -ItemType Directory -Path $songB -Force | Out-Null
     New-Item -ItemType Directory -Path $songC -Force | Out-Null
+    New-Item -ItemType Directory -Path $songD -Force | Out-Null
     [IO.File]::WriteAllText($simfile, "#TITLE:Fixture Song;`r`n#BANNER:banner.png;`r`n", [Text.UTF8Encoding]::new($false))
     [IO.File]::WriteAllText((Join-Path $songB 'fixture.sm'), "#TITLE:Fixture B;`r`n#BANNER:banner.png;`r`n", [Text.UTF8Encoding]::new($false))
     [IO.File]::WriteAllText((Join-Path $songC 'fixture.sm'), "#TITLE:Fixture C;`r`n#BANNER:banner.png;`r`n", [Text.UTF8Encoding]::new($false))
+    [IO.File]::WriteAllText((Join-Path $songD 'fixture.sm'), "#TITLE:Fixture Inconsistent;`r`n#BANNER:banner.png;`r`n", [Text.UTF8Encoding]::new($false))
+    [IO.File]::WriteAllText((Join-Path $songD 'fixture.ssc'), "#TITLE:Fixture Inconsistent;`r`n#BANNER:;`r`n", [Text.UTF8Encoding]::new($false))
     New-TestPng $source 64 20 ([Drawing.Color]::DarkOrange)
     New-TestPng (Join-Path $songB 'banner.png') 64 20 ([Drawing.Color]::DarkBlue)
     New-TestPng (Join-Path $songC 'banner.png') 64 20 ([Drawing.Color]::DarkGreen)
+    New-TestPng (Join-Path $songD 'banner.png') 64 20 ([Drawing.Color]::DarkRed)
     New-TestPng $preview 836 328 ([Drawing.Color]::Gold)
 
     $sourceSha256 = (Get-FileHash -LiteralPath $source -Algorithm SHA256).Hash
@@ -108,7 +113,15 @@ try {
     [void]@(Receive-Job -Job $refreshJob)
     if (-not (Test-Path -LiteralPath $queue -PathType Leaf)) { throw 'Queue helper did not write the fixture queue.' }
     $document = Get-Content -LiteralPath $queue -Raw | ConvertFrom-Json
-    if (@($document.songs).Count -ne 3) { throw 'Fixture queue integrity failed after serialized refresh.' }
+    if (@($document.songs).Count -ne 4) { throw 'Fixture queue integrity failed after serialized refresh.' }
+
+    $inconsistent = @($document.songs | Where-Object songPath -eq 'Fixture Inconsistent')
+    if ($inconsistent.Count -ne 1 -or $inconsistent[0].status -ne 'ineligible') {
+        throw 'Queue helper did not reject inconsistent #BANNER declarations across simfiles.'
+    }
+    if ($inconsistent[0].reason -ne 'Simfiles have a missing, ambiguous, or inconsistent #BANNER reference.') {
+        throw 'Queue helper reported the wrong reason for inconsistent #BANNER declarations.'
+    }
 
     $candidateB = @($document.songs | Where-Object songPath -eq 'Fixture B')
     $candidateC = @($document.songs | Where-Object songPath -eq 'Fixture C')
@@ -146,6 +159,7 @@ try {
         InstalledOpaque = $installed.OutputOpaque
         QueueMutexWaitVerified = $true
         ConcurrentPendingUpdates = $pendingFixtures.Count
+        InconsistentReferencesRejected = $true
         QueueSongs = @($document.songs).Count
     }
 } finally {

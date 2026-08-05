@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-04T14:37:27.1300445Z",
+    "generatedAt":  "2026-08-04T17:18:23.8044844Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -5427,7 +5427,7 @@
                   },
                   {
                       "songPath":  "Mods de Chocobo",
-                      "fingerprint":  "C9A4FE4BEF19A1957180A22EB7B266275569C1391EAFD9061D087B89CDBB7A0E",
+                      "fingerprint":  "FE0A1DCBD297918EABB7B1D633A9BEADFA6E7A345863A2355726F6885B34C94A",
                       "simfiles":  [
                                        {
                                            "path":  "Mods de Chocobo.sm",
@@ -5444,31 +5444,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Mods de Chocobo-bg.png",
                       "sourcePath":  "Mods de Chocobo-bg.png",
-                      "sourceSha256":  "300EA231F34AC1AC7271F96D02DA350FA7D703C4172C9ABA6FFA6AA169ACA576",
-                      "sourceWidth":  680,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "6F7E848A9DAF5B0BA04B53603310608C42D135FC6C9F0F68FDFB2F0490940C08",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T02:36:09.7494840Z",
+                      "observedAt":  "2026-08-04T15:02:52.6703325Z",
+                      "assessedAt":  "2026-08-04T15:02:52.6703325Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T15:02:51.8115872Z",
                       "lastAttemptedAt":  "2026-08-04T02:36:09.7494840Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Mods de Chocobo\\C9A4FE4BEF19A1957180A22EB7B266275569C1391EAFD9061D087B89CDBB7A0E\\After-A-1920x1080.png",
                       "previewSha256":  "6F7E848A9DAF5B0BA04B53603310608C42D135FC6C9F0F68FDFB2F0490940C08",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T15:02:51.8115872Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved displayed After A with command Install A; approved preview SHA-256 6F7E848A9DAF5B0BA04B53603310608C42D135FC6C9F0F68FDFB2F0490940C08. Approved preview SHA-256 6F7E848A9DAF5B0BA04B53603310608C42D135FC6C9F0F68FDFB2F0490940C08. Installed SHA-256 6F7E848A9DAF5B0BA04B53603310608C42D135FC6C9F0F68FDFB2F0490940C08 using byte-exact-copy; rollback Mods de Chocobo-bg.png.pre-upscale-20260804-080250.bak preserves original SHA-256 300EA231F34AC1AC7271F96D02DA350FA7D703C4172C9ABA6FFA6AA169ACA576.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Mods de Chocobo\\C9A4FE4BEF19A1957180A22EB7B266275569C1391EAFD9061D087B89CDBB7A0E\\After-A-1920x1080.png",
+                                                  "previewSha256":  "6F7E848A9DAF5B0BA04B53603310608C42D135FC6C9F0F68FDFB2F0490940C08"
+                                              }
                                           ]
                   },
                   {
@@ -5521,7 +5527,7 @@
                   },
                   {
                       "songPath":  "Moorea",
-                      "fingerprint":  "8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006",
+                      "fingerprint":  "3FF12E81CA8FFA3086F2768C441F4644293CFFB4D2885BF1E64AADB0DC42F156",
                       "simfiles":  [
                                        {
                                            "path":  "Moorea.sm",
@@ -5538,24 +5544,24 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Moorea-BG.png",
                       "sourcePath":  "Moorea-BG.png",
-                      "sourceSha256":  "CFC9955B560DF384DCD41B643063B82ED169EE12DDD1EB0038F755EF56F2C570",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "A7723CA0F0449A200B3D2BE9B3800BEB77DA4BB201A21011446F7E51D8948446",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T14:32:06.9698255Z",
+                      "observedAt":  "2026-08-04T17:16:13.8611808Z",
+                      "assessedAt":  "2026-08-04T17:16:13.8611808Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T17:16:13.0282148Z",
                       "lastAttemptedAt":  "2026-08-04T14:32:06.9698255Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Moorea\\8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006\\After-B-1920x1080.png",
                       "previewSha256":  "A7723CA0F0449A200B3D2BE9B3800BEB77DA4BB201A21011446F7E51D8948446",
                       "attemptHistory":  [
@@ -5575,7 +5581,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T17:16:13.0282148Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed Airbase — Moorea After B with bare install in this task. Approved preview SHA-256 A7723CA0F0449A200B3D2BE9B3800BEB77DA4BB201A21011446F7E51D8948446. Installed SHA-256 A7723CA0F0449A200B3D2BE9B3800BEB77DA4BB201A21011446F7E51D8948446 using byte-exact-copy; rollback Moorea-BG.png.pre-upscale-20260804-101610.bak preserves original SHA-256 CFC9955B560DF384DCD41B643063B82ED169EE12DDD1EB0038F755EF56F2C570.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Moorea\\8746F446FD7605D5C3772F94B8294E1EA5B1B8475BCFE14A416B1614DB459006\\After-B-1920x1080.png",
+                                                  "previewSha256":  "A7723CA0F0449A200B3D2BE9B3800BEB77DA4BB201A21011446F7E51D8948446"
+                                              }
                                           ]
                   },
                   {
@@ -6152,7 +6164,7 @@
                   },
                   {
                       "songPath":  "Picture to Burn",
-                      "fingerprint":  "B28CF475ACD6B91EDC0A9B67651433B44EF5E529EFC78373B866EE1A4DC35588",
+                      "fingerprint":  "317A5B8C1BC89702BC057468ED1BA7B8236B478324111C1028966762CC092080",
                       "simfiles":  [
                                        {
                                            "path":  "Picture to Burn.sm",
@@ -6169,24 +6181,24 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Picture to Burn-bg.png",
                       "sourcePath":  "Picture to Burn-bg.png",
-                      "sourceSha256":  "115C9A34312942A93A1D1710AB6956D49FE1FDB43342B6C565102B3485790121",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "CE3F5EAF33189BCF5F1D35F930F57E70B40AE1C5DECE57079CF628B77AD7B82A",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T14:36:24.5939062Z",
+                      "observedAt":  "2026-08-04T14:59:02.9335731Z",
+                      "assessedAt":  "2026-08-04T14:59:02.9335731Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T14:59:02.3421975Z",
                       "lastAttemptedAt":  "2026-08-04T14:36:24.5939062Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Picture to Burn\\B28CF475ACD6B91EDC0A9B67651433B44EF5E529EFC78373B866EE1A4DC35588\\After-A-1920x1080.png",
                       "previewSha256":  "CE3F5EAF33189BCF5F1D35F930F57E70B40AE1C5DECE57079CF628B77AD7B82A",
                       "attemptHistory":  [
@@ -6213,7 +6225,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T14:59:02.3421975Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed Taylor Swift — Picture to Burn After A by saying love it install it; exact preview SHA-256 CE3F5EAF33189BCF5F1D35F930F57E70B40AE1C5DECE57079CF628B77AD7B82A. Approved preview SHA-256 CE3F5EAF33189BCF5F1D35F930F57E70B40AE1C5DECE57079CF628B77AD7B82A. Installed SHA-256 CE3F5EAF33189BCF5F1D35F930F57E70B40AE1C5DECE57079CF628B77AD7B82A using byte-exact-copy; rollback Picture to Burn-bg.png.pre-upscale-20260804-075900.bak preserves original SHA-256 115C9A34312942A93A1D1710AB6956D49FE1FDB43342B6C565102B3485790121.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Picture to Burn\\B28CF475ACD6B91EDC0A9B67651433B44EF5E529EFC78373B866EE1A4DC35588\\After-A-1920x1080.png",
+                                                  "previewSha256":  "CE3F5EAF33189BCF5F1D35F930F57E70B40AE1C5DECE57079CF628B77AD7B82A"
+                                              }
                                           ]
                   },
                   {
@@ -6309,7 +6327,7 @@
                   },
                   {
                       "songPath":  "Policy of Truth",
-                      "fingerprint":  "C0659D375D2758E9F188F8B64A68E610C60D73EDB2E1BB4DDB68C0316326326E",
+                      "fingerprint":  "7E9F10C2B8BAB5F20B4DA66B5AD1DBE20AC62333D34A5F63DC82C0CE886D720D",
                       "simfiles":  [
                                        {
                                            "path":  "Policy of Truth.sm",
@@ -6322,36 +6340,42 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Policy of Truth-bg.png",
                       "sourcePath":  "Policy of Truth-bg.png",
-                      "sourceSha256":  "87A9EC368411F27EBE782D30572999AAF8965DC74976498904F6A3C78E23D93B",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "7DB487BF6D3FC20BCFB6D53C02650F8A02C6B5DDBA2AAA319627C8AA071A7E42",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T09:06:43.3726745Z",
+                      "observedAt":  "2026-08-04T15:50:12.6301158Z",
+                      "assessedAt":  "2026-08-04T15:50:12.6301158Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T15:50:12.1646883Z",
                       "lastAttemptedAt":  "2026-08-04T09:06:43.3726745Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Policy of Truth\\C0659D375D2758E9F188F8B64A68E610C60D73EDB2E1BB4DDB68C0316326326E\\After-A-1920x1080.png",
                       "previewSha256":  "7DB487BF6D3FC20BCFB6D53C02650F8A02C6B5DDBA2AAA319627C8AA071A7E42",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T15:50:12.1646883Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed Depeche Mode - Policy of Truth After A with bare install; exact preview SHA-256 7DB487BF6D3FC20BCFB6D53C02650F8A02C6B5DDBA2AAA319627C8AA071A7E42. Approved preview SHA-256 7DB487BF6D3FC20BCFB6D53C02650F8A02C6B5DDBA2AAA319627C8AA071A7E42. Installed SHA-256 7DB487BF6D3FC20BCFB6D53C02650F8A02C6B5DDBA2AAA319627C8AA071A7E42 using byte-exact-copy; rollback Policy of Truth-bg.png.pre-upscale-20260804-085011.bak preserves original SHA-256 87A9EC368411F27EBE782D30572999AAF8965DC74976498904F6A3C78E23D93B.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Policy of Truth\\C0659D375D2758E9F188F8B64A68E610C60D73EDB2E1BB4DDB68C0316326326E\\After-A-1920x1080.png",
+                                                  "previewSha256":  "7DB487BF6D3FC20BCFB6D53C02650F8A02C6B5DDBA2AAA319627C8AA071A7E42"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "POT",
-                      "fingerprint":  "D27B9226F19CEAFA10143C8A2FDFEFDC7C5CA39C3CF78FCBF1FB0C6E1A1FEAF1",
+                      "fingerprint":  "6568D460F7B36187DC4CB9E1BF81B03665B8C5348F5AF2E1E3457200E991B662",
                       "simfiles":  [
                                        {
                                            "path":  "pot.ssc",
@@ -6364,31 +6388,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "jacket.png",
                       "sourcePath":  "jacket.png",
-                      "sourceSha256":  "F1C8F4BEFB48C6500310A2E90A747F603D38C9B36DE64CE7F79EB0A6BB1BF20D",
-                      "sourceWidth":  1024,
-                      "sourceHeight":  1024,
+                      "sourceSha256":  "8ACCB6F9D36D975C471EBF25228BF19076C358D2A486A69C8AC4A9281B7AF216",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-04T13:08:19.5147115Z",
+                      "observedAt":  "2026-08-04T15:21:38.3875570Z",
+                      "assessedAt":  "2026-08-04T15:21:38.3875570Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-04T15:21:37.8329981Z",
                       "lastAttemptedAt":  "2026-08-04T13:08:19.5147115Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\POT\\D27B9226F19CEAFA10143C8A2FDFEFDC7C5CA39C3CF78FCBF1FB0C6E1A1FEAF1\\After-A-1920x1080.png",
                       "previewSha256":  "8ACCB6F9D36D975C471EBF25228BF19076C358D2A486A69C8AC4A9281B7AF216",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-04T15:21:37.8329981Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved the sole displayed Tee Lopes \u0026 Dylan James - POT After A by replying \u0027install A\u0027 in the same task; approved preview SHA-256 8ACCB6F9D36D975C471EBF25228BF19076C358D2A486A69C8AC4A9281B7AF216. Approved preview SHA-256 8ACCB6F9D36D975C471EBF25228BF19076C358D2A486A69C8AC4A9281B7AF216. Installed SHA-256 8ACCB6F9D36D975C471EBF25228BF19076C358D2A486A69C8AC4A9281B7AF216 using byte-exact-copy; rollback jacket.png.pre-upscale-20260804-082136.bak preserves original SHA-256 F1C8F4BEFB48C6500310A2E90A747F603D38C9B36DE64CE7F79EB0A6BB1BF20D.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\POT\\D27B9226F19CEAFA10143C8A2FDFEFDC7C5CA39C3CF78FCBF1FB0C6E1A1FEAF1\\After-A-1920x1080.png",
+                                                  "previewSha256":  "8ACCB6F9D36D975C471EBF25228BF19076C358D2A486A69C8AC4A9281B7AF216"
+                                              }
                                           ]
                   },
                   {
@@ -6965,14 +6995,20 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-04T17:15:41.6653979Z",
+                      "lastAttemptedAt":  "2026-08-04T17:15:41.6653979Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-04T17:15:41.6653979Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Owner rejected the sole bound After A because the generated legs look bizarre and unnatural. Two genuine AI restoration attempts have been consumed for this fingerprint; the rejected preview binding was cleared and a deterministic exact-content fallback now requires explicit owner approval.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Roundtable-Rival-E60CE506\\After-A-1920x1080.png",
+                                                 "discardedPreviewSha256":  "0D7BC54A6F1B959C33F9A3377236DA1DC470E1D50750C937D12925D9F6AD5D98"
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -10609,6 +10645,83 @@
                                 "summary":  "Owner-supplied references authorized a new from-scratch direction without Taylor Swift imagery. A person-free prompt using burning instant-photo, compact-disc, cream, charcoal, orange, and teal motifs produced a viable exact-title candidate in one AI attempt. Deterministic normalization corrected transparent perimeter pixels to opaque RGB; the exact 1920 x 1080 candidate passed presentation and hash checks, while a 960 x 540 display-only copy was required because the full-resolution app viewer failed.",
                                 "songPath":  "Picture to Burn",
                                 "fingerprint":  "B28CF475ACD6B91EDC0A9B67651433B44EF5E529EFC78373B866EE1A4DC35588",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T15:01:30.6763784Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner said love it and approved the sole displayed person-free Picture to Burn After A. The byte-exact guarded installation produced an opaque one-frame 1920 x 1080 live PNG matching approved SHA-256 CE3F5EAF33189BCF5F1D35F930F57E70B40AE1C5DECE57079CF628B77AD7B82A, preserved the original in a verified sibling rollback, left both simfiles unchanged, migrated queue history to installed state, and left ITGMania closed. This positive feedback is source-specific and does not justify a reusable workflow change.",
+                                "songPath":  "Picture to Burn",
+                                "fingerprint":  "317A5B8C1BC89702BC057468ED1BA7B8236B478324111C1028966762CC092080",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T15:04:24.6176178Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved exact After A. The guarded byte-exact PNG installation preserved both simfiles, created and verified the sibling rollback, migrated the installed record to the live-content fingerprint, and left ITGMania closed. Backup evidence was an active task run plus a same-day success with Songs excluded. No reusable workflow or owner-wide preference change was justified.",
+                                "songPath":  "Mods de Chocobo",
+                                "fingerprint":  "FE0A1DCBD297918EABB7B1D633A9BEADFA6E7A345863A2355726F6885B34C94A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T15:23:39.1891082Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly approved the sole displayed POT After A with \u0027install A\u0027. The proof-gated byte-exact install preserved the original in a verified sibling rollback, kept the simfile unchanged, migrated the installed proof to the new content fingerprint, and left ITGMania closed. This successful approval and installation is source-specific and does not justify a reusable workflow change.",
+                                "songPath":  "POT",
+                                "fingerprint":  "6568D460F7B36187DC4CB9E1BF81B03665B8C5348F5AF2E1E3457200E991B662",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T15:52:21.1362733Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner bare-install approval correctly resolved to the sole displayed Policy of Truth After A. Healthy backup evidence, exact queue/source/simfile/preview hash gates, byte-exact replacement, verified rollback, installed-content migration, and closed-game enforcement all succeeded; no reusable workflow or owner-wide preference change was evidenced.",
+                                "songPath":  "Policy of Truth",
+                                "fingerprint":  "7E9F10C2B8BAB5F20B4DA66B5AD1DBE20AC62333D34A5F63DC82C0CE886D720D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T17:09:07.2186335Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Roundtable Rival required horizontal outpainting from a 640 x 480 source. Attempt 1 preserved the warm train-car identity, portrait, violin, reflection, and both exact text lines well enough for owner review; Attempt 2 was rejected because it introduced more lower-body content and composition drift. After A was deterministically normalized to opaque one-frame 1920 x 1080 and hash-bound without changing the live source.",
+                                "songPath":  "Roundtable Rival",
+                                "fingerprint":  "E60CE50621CF1F02023F2F04F8B0315AD2333E9E2174E5DDD68D089077703958",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T17:15:58.6900675Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner rejected After A because the generated legs look bizarre and unnatural. Both permitted AI attempts for this fingerprint are exhausted. The rejected preview binding was cleared and the item remains pending awaiting explicit approval for a deterministic exact-content fallback; no reusable preference was inferred from this source-specific correction.",
+                                "songPath":  "Roundtable Rival",
+                                "fingerprint":  "E60CE50621CF1F02023F2F04F8B0315AD2333E9E2174E5DDD68D089077703958",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-04T17:18:23.8044844Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed character-free Airbase — Moorea After B with bare install. The proof-gated installer performed a byte-exact replacement, preserved the original 640 x 480 source in one verified sibling rollback, left both simfiles unchanged, and refreshed matching installed live/source/preview proof; no reusable lesson was justified.",
+                                "songPath":  "Moorea",
+                                "fingerprint":  "3FF12E81CA8FFA3086F2768C441F4644293CFFB4D2885BF1E64AADB0DC42F156",
                                 "changedFiles":  {
 
                                                  },

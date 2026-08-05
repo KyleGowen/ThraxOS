@@ -121,17 +121,23 @@ function Get-Assessment([IO.DirectoryInfo]$Song, [string]$PackRoot, [string]$Now
     $relative = Get-RelativePath $PackRoot $Song.FullName
     $simfiles = @(Get-ChildItem -LiteralPath $Song.FullName -File | Where-Object Extension -in @('.sm', '.ssc') | Sort-Object Name)
     $references = @()
+    $allSimfilesHaveOneBannerReference = $true
     $simParts = @()
     foreach ($sim in $simfiles) {
         $text = [IO.File]::ReadAllText($sim.FullName)
         $matches = [regex]::Matches($text, '(?im)^#BANNER\s*:\s*([^;\r\n]+)\s*;')
-        if ($matches.Count -eq 1) { $references += $matches[0].Groups[1].Value.Trim() }
-        else { $references += $null }
+        if ($matches.Count -eq 1) {
+            $reference = $matches[0].Groups[1].Value.Trim()
+            if ([string]::IsNullOrWhiteSpace($reference)) { $allSimfilesHaveOneBannerReference = $false }
+            else { $references += $reference }
+        } else {
+            $allSimfilesHaveOneBannerReference = $false
+        }
         $simParts += "$($sim.Name):$(Get-Sha256 $sim.FullName)"
     }
 
     $uniqueReferences = @($references | Where-Object { $_ } | Sort-Object -Unique)
-    $bannerReference = if ($uniqueReferences.Count -eq 1 -and $references.Count -eq $simfiles.Count) { $uniqueReferences[0] } else { $null }
+    $bannerReference = if ($allSimfilesHaveOneBannerReference -and $uniqueReferences.Count -eq 1 -and $references.Count -eq $simfiles.Count) { $uniqueReferences[0] } else { $null }
     $sourcePath = $null
     $sourceInfo = $null
     $usedFallback = $false
