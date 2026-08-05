@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-04T19:05:40.8403012Z",
+    "generatedAt":  "2026-08-05T03:05:56.1977269Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -3203,7 +3203,18 @@
                       "processedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-05T03:05:56.1367270Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-05T03:05:56.1367270Z",
+                                                 "outcome":  "prompt-error",
+                                                 "note":  "Attempt 1 prompt incorrectly named the small source figure as Sephiroth. The source only establishes a small dark polygonal swordsman figure holding an oversized sword inside the pale green-white diagonal glow; do not name the character unless independently established. The model kept exact visible text J-E-N-O-V-A but enlarged both title and figure and lost the sparse source balance. Raw 2001x786 output SHA-256 947A50EBD7B7904E6E31F65300A43A07E8EEB7FEAF281C0501DDB4FA3052FFCE is preserved in task staging. No second attempt or fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-05T03:03:25.3401826Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "JOYRIDE",

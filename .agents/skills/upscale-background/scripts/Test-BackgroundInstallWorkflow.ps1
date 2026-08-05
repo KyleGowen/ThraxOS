@@ -6,6 +6,7 @@ $installer = Join-Path $PSScriptRoot 'Install-ApprovedBackground.ps1'
 $complete = Join-Path $PSScriptRoot 'Complete-ApprovedBackgroundInstall.ps1'
 $queueHelper = Join-Path $PSScriptRoot 'Update-BackgroundQueue.ps1'
 $presentationHelper = Join-Path $PSScriptRoot 'Get-ImagePresentation.ps1'
+$formatter = Join-Path $PSScriptRoot 'Format-BackgroundPreviewMarkdown.ps1'
 $testRoot = Join-Path ([IO.Path]::GetTempPath()) ('thraxos-background-install-test-' + [guid]::NewGuid().ToString('N'))
 $pack = Join-Path $testRoot 'Pack'
 $pngSong = Join-Path $pack 'PNG Fixture'
@@ -17,6 +18,7 @@ $pngSource = Join-Path $pngSong 'background.png'
 $jpgSource = Join-Path $jpgSong 'background.jpg'
 $pngPreview = Join-Path $testRoot 'png-preview.png'
 $jpgPreview = Join-Path $testRoot 'jpg-preview.png'
+$formatterFixture = Join-Path $testRoot 'Background Preview (A) #1.png'
 $queueMutex = $null
 $queueLockTaken = $false
 $jobs = @()
@@ -50,12 +52,22 @@ try {
     New-TestImage $jpgSource 640 480 ([Drawing.Color]::DarkRed)
     New-TestImage $pngPreview 1920 1080 ([Drawing.Color]::CornflowerBlue) ([Drawing.Imaging.PixelFormat]::Format32bppArgb)
     New-TestImage $jpgPreview 1920 1080 ([Drawing.Color]::IndianRed)
+    New-TestImage $formatterFixture 1920 1080 ([Drawing.Color]::DarkSlateGray)
 
     $beforePresentation = & $presentationHelper -Path $pngSource
     $afterPresentation = & $presentationHelper -Path $pngPreview
     if ($beforePresentation.AspectRatio -cne '4:3' -or $beforePresentation.AspectRatioDecimal -ne 1.3333) { throw 'Before aspect-ratio reporting is wrong.' }
     if ($afterPresentation.AspectRatio -cne '16:9' -or $afterPresentation.AspectRatioDecimal -ne 1.7778) { throw 'After aspect-ratio reporting is wrong.' }
     if (-not $afterPresentation.HasAlphaPixelFormat -or -not $afterPresentation.IsFullyOpaque) { throw 'Opaque RGBA presentation detection is wrong.' }
+
+    $formatted = & $formatter -Label 'After A' -Path $formatterFixture
+    if ($formatted.InlinePath -match '[\\\s<>]') { throw 'Formatter emitted a renderer-unsafe inline path.' }
+    foreach ($escape in @('%20', '%28', '%29', '%23')) {
+        if ($formatted.InlinePath -notlike "*$escape*") { throw "Formatter did not emit required escape $escape." }
+    }
+    if ($formatted.Sha256 -cne (Get-FileHash -LiteralPath $formatterFixture -Algorithm SHA256).Hash) { throw 'Formatter hash does not match the exact fixture.' }
+    if ($formatted.Dimensions -cne '1920 x 1080' -or $formatted.AspectRatio -cne '16:9' -or $formatted.AspectRatioDecimal -ne 1.7778) { throw 'Formatter presentation data is wrong.' }
+    if ($formatted.Markdown -notmatch [regex]::Escape("![$($formatted.Label)]($($formatted.InlinePath))")) { throw 'Formatter Markdown does not use its renderer-safe inline path.' }
 
     & $queueHelper -PackPath $pack -QueuePath $queue -Refresh | Out-Null
     $document = Read-Queue
@@ -126,6 +138,7 @@ try {
         Result = 'PASS'
         BeforePresentation = "$($beforePresentation.Dimensions), $($beforePresentation.AspectRatio) ($($beforePresentation.AspectRatioDecimal):1)"
         AfterPresentation = "$($afterPresentation.Dimensions), $($afterPresentation.AspectRatio) ($($afterPresentation.AspectRatioDecimal):1)"
+        RendererSafeInlinePath = $formatted.InlinePath
         PngInstallMode = $pngResult.InstallMode
         PngByteExact = ($pngResult.InstalledSha256 -ceq $pngPreviewSha256)
         JpgInstallMode = $jpgResult.InstallMode

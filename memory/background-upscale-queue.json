@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-04T17:18:23.8044844Z",
+    "generatedAt":  "2026-08-05T05:07:34.4032273Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -7195,7 +7195,7 @@
                   },
                   {
                       "songPath":  "Save Your Tears -The Weeknd",
-                      "fingerprint":  "5E32A585D4A3EF93ECD7C3A982C98A2E1789E2B94D7C1ABD281A0C2154720C07",
+                      "fingerprint":  "AA0EEF77BAA60D8E42D0EFC19185114AD641023E30504DFA5C30555A0C984076",
                       "simfiles":  [
                                        {
                                            "path":  "Save Your Tears -The Weeknd.sm",
@@ -7208,31 +7208,37 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "BG.png",
                       "sourcePath":  "BG.png",
-                      "sourceSha256":  "B102FDD7DD9F44EAAF37D731D46ABF766F199655F41576DC132A9381FA560D80",
-                      "sourceWidth":  1280,
-                      "sourceHeight":  960,
+                      "sourceSha256":  "A817A81F6C338E53A0D36D72E1B0D6AB4557E5180C5F5A0735AB8D329BFB521B",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-05T03:02:36.0684987Z",
+                      "assessedAt":  "2026-08-05T03:02:36.0684987Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T03:02:35.5055825Z",
+                      "lastAttemptedAt":  "2026-08-05T01:09:16.3755843Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Save Your Tears -The Weeknd\\5E32A585D4A3EF93ECD7C3A982C98A2E1789E2B94D7C1ABD281A0C2154720C07\\After-A-1920x1080.png",
+                      "previewSha256":  "A817A81F6C338E53A0D36D72E1B0D6AB4557E5180C5F5A0735AB8D329BFB521B",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-05T03:02:35.5055825Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed, hash-bound After A and requested installation. Approved preview SHA-256 A817A81F6C338E53A0D36D72E1B0D6AB4557E5180C5F5A0735AB8D329BFB521B. Installed SHA-256 A817A81F6C338E53A0D36D72E1B0D6AB4557E5180C5F5A0735AB8D329BFB521B using byte-exact-copy; rollback BG.png.pre-upscale-20260804-200234.bak preserves original SHA-256 B102FDD7DD9F44EAAF37D731D46ABF766F199655F41576DC132A9381FA560D80.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Save Your Tears -The Weeknd\\5E32A585D4A3EF93ECD7C3A982C98A2E1789E2B94D7C1ABD281A0C2154720C07\\After-A-1920x1080.png",
+                                                  "previewSha256":  "A817A81F6C338E53A0D36D72E1B0D6AB4557E5180C5F5A0735AB8D329BFB521B"
+                                              }
                                           ]
                   },
                   {
@@ -7264,14 +7270,27 @@
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-05T05:06:30.4737825Z",
+                      "lastAttemptedAt":  "2026-08-05T05:06:30.4737825Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-05T05:05:01.9112144Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 repainted and enlarged the identity-critical creature, changed the original crop, and corrupted the verbatim small infected mushroom wordmark; output was rejected before preview binding.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-05T05:06:30.4737825Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 2 again repainted and enlarged the identity-critical creature and changed the original crop instead of preserving the source area. Both genuine AI attempts are exhausted; deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -10722,6 +10741,48 @@
                                 "summary":  "Owner approved the sole displayed character-free Airbase — Moorea After B with bare install. The proof-gated installer performed a byte-exact replacement, preserved the original 640 x 480 source in one verified sibling rollback, left both simfiles unchanged, and refreshed matching installed live/source/preview proof; no reusable lesson was justified.",
                                 "songPath":  "Moorea",
                                 "fingerprint":  "3FF12E81CA8FFA3086F2768C441F4644293CFFB4D2885BF1E64AADB0DC42F156",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T01:10:11.5114474Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Attempt 1 faithfully outpainted the 4:3 grayscale droplet artwork to 16:9 while preserving the sole droplet, palette, composition, and verbatim visible The Weeknd and Save Your Tears text; the exact opaque 1920 x 1080 After A is pending owner installation approval.",
+                                "songPath":  "Save Your Tears -The Weeknd",
+                                "fingerprint":  "5E32A585D4A3EF93ECD7C3A982C98A2E1789E2B94D7C1ABD281A0C2154720C07",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T03:13:07.5945610Z",
+                                "scope":  "reusable",
+                                "summary":  "Owner screenshot confirmed that an angle-wrapped Windows backslash path can leave a valid background preview as a broken inline placeholder while a byte-identical short-path rendering succeeds. Added a formatter that emits forward-slash percent-encoded inline paths with native links and a verified short-path recovery rule without regeneration or queue transition; updated the live automation behavior.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  [
+                                                     ".agents/skills/upscale-background/SKILL.md",
+                                                     ".agents/skills/upscale-background/references/background-conventions.md",
+                                                     ".agents/skills/upscale-background/scripts/Format-BackgroundPreviewMarkdown.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Test-BackgroundInstallWorkflow.ps1",
+                                                     "docs/skills/README.md",
+                                                     "docs/skills/upscale-background.md",
+                                                     "docs/scheduled-tasks/README.md",
+                                                     "docs/scheduled-tasks/hourly-misc-background-upscale-queue.md",
+                                                     "memory/DECISIONS.md",
+                                                     "memory/OPERATIONS_LOG.md"
+                                                 ],
+                                "validationResult":  "PASS: actual artifact formatting; disposable renderer-path, presentation, installation, rollback, proof, and mutex workflow; all PowerShell parser checks; git diff check; official skill validator Skill is valid."
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T05:07:34.4032273Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Both faithful horizontal-outpaint attempts repainted the identity-critical creature and changed the original crop; attempt 1 also corrupted the infected mushroom wordmark. Neither output was bound or installable. Preserve the exact source and require owner approval before a deterministic exact-content fallback.",
+                                "songPath":  "Selecta",
+                                "fingerprint":  "D08DCA3B0978C81E70FD585EC5786C4B21239A0327B7B0860917AC4018F5F632",
                                 "changedFiles":  {
 
                                                  },
