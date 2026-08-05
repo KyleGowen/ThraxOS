@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connect Controller"
+  short_description: "Pair and map ITGMania menu controllers"
+  default_prompt: "Use $connect-controller to pair and configure a menu-only controller for ITGMania."

@@ -76,3 +76,10 @@
 
 - **Observed:** Windows' Bluetooth service was running, but read-only device and driver queries found no Bluetooth radio, Bluetooth driver, Bluetooth PnP device, or Wi-Fi adapter. This is a current Windows enumeration finding, not proof that the NucBox hardware is absent.
 - **Inferred from manufacturer specification:** The GMKtec NucBox G3 Plus model includes a Realtek 8852BE Wi-Fi 6/Bluetooth 5.2 module. Restore or enable its official driver before considering a USB Bluetooth adapter.
+
+## 2026-08-04 Nintendo NES controller pairing and mapping
+
+- **Observed:** After a transient Bluetooth driver reset, the Realtek Bluetooth adapter re-enumerated normally and Windows reconnected the paired `NES Controller (R)` as the sole installed game controller (`Wireless Gamepad`).
+- **Owner-confirmed:** In Windows' controller test, B/A/L/R/Select/Start report as buttons 1/2/5/6/9/10 and the D-pad reports as POV hat directions.
+- **Observed:** With ITGMania closed, the active roaming `Keymaps.ini` was updated and parsed successfully: the D-pad uses `Joy1_H-Up`, `Joy1_H-Down`, `Joy1_H-Left`, and `Joy1_H-Right`, matching the controller's Windows POV hat; A and physical Start map to Start; B maps Back; Select maps Select; and L/R map separately to Player 1 Left/Right for the song-wheel submenu chord. The dedicated Menu-left/Menu-right mappings are intentionally empty because the active Simply Love configuration recognizes `Left-Right` and otherwise consumes the individual direct menu actions. ITGMania retains at most two bindings per action, so Left/Right use the D-pad and L/R shoulders; keyboard fallbacks remain on Up/Down only. Hash-verified pre-edit rollback copies are stored beside the active file.
+- **Owner-confirmed:** The final in-game menu mapping, including the L+R song-wheel submenu chord, is working perfectly.

@@ -10,6 +10,8 @@ Canonical catalog of recurring ThraxOS work across Windows Task Scheduler and Co
 
 No other root-level Windows task was identified as part of ThraxOS. Standard Windows and vendor tasks are excluded.
 
+`connect-controller` is an on-demand skill, not a scheduled task; it creates no Task Scheduler or Codex automation entry.
+
 ## Documentation contract
 
 A task change is incomplete until this index and its guide are updated. Record scheduler, owner, trigger, action, working directory, environment, concurrency, safety limits, dependencies, state, reproduction, and verification. Use placeholders for accounts/project IDs; never commit tokens, Windows SIDs, or unique identifiers.

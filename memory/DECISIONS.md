@@ -119,3 +119,9 @@
 
 - **Decision:** Use the project-local `ship-all` skill when the owner requests "commit and push everything" or equivalent publication of the complete intended worktree to `origin/main`.
 - **Rationale:** Whole-worktree review, privacy exclusions, proportional validation, explicit staging, non-destructive branch handling, and ordinary non-force pushes preserve compatible work while preventing secret leakage or history loss.
+
+## 2026-08-05 controller setup workflow
+
+- **Owner-confirmed:** Create the project-local `connect-controller` skill for menu-only handheld controllers, retaining StepManiaX as the gameplay controller. Store each first-class controller as an independently copyable rider file in the skill.
+- **Decision:** Promote a controller rider only after owner confirmation of pairing/reconnect, Windows input evidence, ITGMania navigation, song-wheel submenu, normal-exit persistence, and unchanged StepManiaX gameplay behavior.
+- **Decision:** Require a final explicit approval before every live driver, pairing, application, or Keymaps mutation; use a hash-gated sibling rollback and honor ITGMania's two-input-per-action limit.

@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-05T03:05:56.1977269Z",
+    "generatedAt":  "2026-08-05T07:25:16.2803938Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -3289,11 +3289,22 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-05T07:25:16.2145811Z",
+                      "pendingAction":  "generate-preview",
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-05T07:25:16.2145811Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-05T07:08:15.8285021Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restoration edits decoded successfully and preserved visible text The Midnight and Kick Drums and Red Wine, but failed source fidelity by substantially enlarging and reframing the central woman, title lettering, and right-edge car instead of retaining the sparse source scale and exact placements. Attempt 1 raw SHA-256 F7914931C3D077C628EAE12E8D01EB4AE7E8F050EC08B1A93797EF847C86FD8B; attempt 2 raw SHA-256 B409ECEA41A0E4D81B57E6D8B75B57B2D6151A91B596B1A28F9A7CAEE6F54D21. No viable After was normalized or bound; no third attempt or deterministic fallback.",
+                                                 "priorProcessedAt":  "2026-08-05T07:04:05.5917415Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "La Isla Bonita",

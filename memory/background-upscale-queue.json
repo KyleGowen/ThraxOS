@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-05T05:07:34.4032273Z",
+    "generatedAt":  "2026-08-05T05:26:14.2658902Z",
     "songs":  [
                   {
                       "songPath":  "80s Fitness",
@@ -7243,7 +7243,7 @@
                   },
                   {
                       "songPath":  "Selecta",
-                      "fingerprint":  "D08DCA3B0978C81E70FD585EC5786C4B21239A0327B7B0860917AC4018F5F632",
+                      "fingerprint":  "3C400FDB2173738922D459DE90C4D71D0C51DBC9A3ECAAEF4A70AE505729921F",
                       "simfiles":  [
                                        {
                                            "path":  "Selecta.sm",
@@ -7256,26 +7256,26 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "selecta-bg.png",
                       "sourcePath":  "selecta-bg.png",
-                      "sourceSha256":  "143F7176B04DFA937ECD4CE4E42DB59A9D35168476722EAF301778BEDC223B6B",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "CDEB5AAC6FF95F7566156FC7304E2BA2D34EE96476D925B68328B7DAF2D42A90",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-05T05:06:30.4737825Z",
-                      "lastAttemptedAt":  "2026-08-05T05:06:30.4737825Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-05T05:24:42.2548096Z",
+                      "assessedAt":  "2026-08-05T05:24:42.2548096Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T05:24:41.7486171Z",
+                      "lastAttemptedAt":  "2026-08-05T05:24:01.4941280Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\bg\\selecta\\owner-approved\\Installed-Approved-CDEB5AAC6FF9.png",
+                      "previewSha256":  "CDEB5AAC6FF95F7566156FC7304E2BA2D34EE96476D925B68328B7DAF2D42A90",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-05T05:05:01.9112144Z",
@@ -7293,7 +7293,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-05T05:24:41.7486171Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly supplied this exact 1672 x 941 PNG and requested install this; approved attachment SHA-256 1B1F816211AE813035542B65A1F7D057129C5E5D7AD8B0377248425718AAF570. Approved preview SHA-256 1B1F816211AE813035542B65A1F7D057129C5E5D7AD8B0377248425718AAF570. Installed SHA-256 CDEB5AAC6FF95F7566156FC7304E2BA2D34EE96476D925B68328B7DAF2D42A90 using normalized-render; rollback selecta-bg.png.pre-upscale-20260804-222438.bak preserves original SHA-256 143F7176B04DFA937ECD4CE4E42DB59A9D35168476722EAF301778BEDC223B6B.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\bg\\selecta\\owner-approved\\Installed-Approved-CDEB5AAC6FF9.png",
+                                                  "previewSha256":  "CDEB5AAC6FF95F7566156FC7304E2BA2D34EE96476D925B68328B7DAF2D42A90"
+                                              }
                                           ]
                   },
                   {
@@ -10783,6 +10789,17 @@
                                 "summary":  "Both faithful horizontal-outpaint attempts repainted the identity-critical creature and changed the original crop; attempt 1 also corrupted the infected mushroom wordmark. Neither output was bound or installable. Preserve the exact source and require owner approval before a deterministic exact-content fallback.",
                                 "songPath":  "Selecta",
                                 "fingerprint":  "D08DCA3B0978C81E70FD585EC5786C4B21239A0327B7B0860917AC4018F5F632",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T05:26:14.2658902Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly supplied and approved a clipboard-reencoded 1672 x 941 version of the previously rejected After B. The exact upload was rebound and safely normalized to opaque 1920 x 1080 for installation; this choice overrides the earlier fidelity rejection only for the supplied Selecta artifact and does not justify a reusable preference.",
+                                "songPath":  "Selecta",
+                                "fingerprint":  "3C400FDB2173738922D459DE90C4D71D0C51DBC9A3ECAAEF4A70AE505729921F",
                                 "changedFiles":  {
 
                                                  },

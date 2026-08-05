@@ -5,6 +5,7 @@ Canonical migration index for every project-local skill under `.agents/skills/`.
 | Skill | Purpose | Migration guide |
 | --- | --- | --- |
 | `thraxos` | Safe router and operating contract for the host | [ThraxOS](thraxos.md) |
+| `connect-controller` | Pair and map handheld menu controllers with verified song-wheel submenu behavior | [Connect Controller](connect-controller.md) |
 | `add-pack` | Download, validate, scan, collision-check, and install packs | [Add Pack](add-pack.md) |
 | `itg-packs-search` | Search the live ITG Packs spreadsheet and compare local overlap | [ITG Packs Search](itg-packs-search.md) |
 | `research-itg-community` | Evidence-graded rhythm-game community research | [ITG Community Research](research-itg-community.md) |

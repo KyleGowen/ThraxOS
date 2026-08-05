@@ -1,5 +1,13 @@
 # Operations log
 
+## 2026-08-04 22:25 Pacific - Infected Mushroom - Selecta owner-supplied background installed
+
+- **Owner-confirmed:** Supplied an opaque 1672 x 941 PNG and requested `install this` for `Infected Mushroom - Selecta`. The clipboard attachment SHA-256 was `1B1F816211AE813035542B65A1F7D057129C5E5D7AD8B0377248425718AAF570`; it was visually the chosen prior After B but had new bytes, so the exact upload was preserved in workspace staging and explicitly rebound before installation.
+- Preflight revalidated pending fingerprint `D08DCA3B0978C81E70FD585EC5786C4B21239A0327B7B0860917AC4018F5F632`, unchanged original source SHA-256 `143F7176B04DFA937ECD4CE4E42DB59A9D35168476722EAF301778BEDC223B6B`, unchanged simfile SHA-256 `6B703CE7C88956AFE9F4D653944EE6F7C84167DA360AE5EE182011F43B659A0C`, empty `BGCHANGES`, and closed ITGMania. The elevated backup check was healthy: task `Ready`, result `0x0`, and same-day 03:02 successful push evidence.
+- The proof-gated installer normalized the approved 1672 x 941 attachment to an opaque one-frame 1920 x 1080 PNG and replaced only `selecta-bg.png`. Live and installed queue-proof SHA-256 are `CDEB5AAC6FF95F7566156FC7304E2BA2D34EE96476D925B68328B7DAF2D42A90`; the simfile remained unchanged and ITGMania was not restarted.
+- Rollback `selecta-bg.png.pre-upscale-20260804-222438.bak` preserves the original 640 x 480 source byte-for-byte with SHA-256 `143F7176B04DFA937ECD4CE4E42DB59A9D35168476722EAF301778BEDC223B6B`. Queue refresh migrated retained attempt and decision history to installed-content fingerprint `3C400FDB2173738922D459DE90C4D71D0C51DBC9A3ECAAEF4A70AE505729921F`, terminal `installed`; independent validation found matching live/proof hashes and zero installer temporary files.
+- **Retrospective:** Exact owner upload preservation, re-binding, current backup evidence, deterministic normalization, guarded rollback, and installed-proof migration behaved as designed. The owner's choice overrides the earlier source-fidelity rejection only for this exact attachment; no reusable workflow or owner-wide preference change was inferred.
+
 ## 2026-08-04 20:12 Pacific - The Weeknd - Save Your Tears background installed and preview rendering hardened
 
 - **Owner-confirmed:** Requested installation of the sole displayed, queue-bound `The Weeknd — Save Your Tears` After A, SHA-256 `A817A81F6C338E53A0D36D72E1B0D6AB4557E5180C5F5A0735AB8D329BFB521B`, and supplied a screenshot showing the first inline After as a broken placeholder while the later short-path image-content rendering succeeded.
@@ -1739,3 +1747,51 @@
 - One built-in GPT Image 2 edit returned a recoverable opaque 2001 x 786 image, raw SHA-256 `947A50EBD7B7904E6E31F65300A43A07E8EEB7FEAF281C0501DDB4FA3052FFCE`, but the prompt incorrectly named the small source figure as Sephiroth. The result also enlarged the title and figure and lost the source's sparse balance. The raw output was preserved in task staging; no second model call or deterministic fallback was used.
 - Returned the exact fingerprint atomically to `eligible` with immutable `prompt-error` history and `lastAttemptedAt`. Final counts are 72 eligible, 99 ineligible, 29 installed, 4 pending, and 2 skipped. The source and simfile hashes remained unchanged, ITGMania remained closed, and no live song, banner, configuration, chart, score, profile, or process state changed.
 - **Retrospective:** Future work on this fingerprint must describe only the visible small dark polygonal swordsman figure with an oversized sword inside the pale green-white diagonal glow unless the character identity is independently established, and must retain the small title/figure scale. This correction is fingerprint-specific; no reusable skill, documentation, scheduled-task, or owner-wide preference change was justified.
+
+## 2026-08-04 22:22 Pacific - J-E-N-O-V-A install request blocked by exact-preview gate
+
+- **Owner-confirmed:** Replied bare `install` after the scheduled run had rejected its only generated output and returned `J-E-N-O-V-A (Final Fantasy VII)` fingerprint `8FE157FC8B85F826A41B41DA7DFA39F3357276B3A4EEAF1FF8296C9992EE752E` to round-robin eligibility.
+- **Observed:** Re-read the exact queue record at 22:22 Pacific. It remains `eligible` with `processedAt`, `pendingAction`, `previewPath`, and `previewSha256` all null; its immutable `prompt-error` history confirms the raw model output was never normalized, labeled `After`, or queue-bound for installation. ITGMania was closed.
+- The exact-preview approval gate blocked installation. No live banner, song, simfile, configuration, chart, score, profile, queue record, or process state changed.
+- **Retrospective:** Bare approval remains intentionally limited to the most recently displayed, explicitly labeled, queue-bound After in the same task. This interaction supplied no new aesthetic reasoning or reusable workflow evidence, so no queue, skill, documentation, scheduled-task, or owner-wide preference change was justified.
+
+## 2026-08-04 23:18 Pacific - NES controller menu mapping applied
+
+- **Owner-confirmed:** Approved repair of the NUC Bluetooth state and the NES controller mapping workflow.
+- **Observed:** Windows reconnected the paired NES controller and showed it as the sole `Wireless Gamepad` in Game Controllers. Owner-tested inputs were B1/B2/B5/B6/B9/B10 for B/A/L/R/Select/Start and POV hat directions for the D-pad.
+- **Observed:** ITGMania was closed. The active roaming `Keymaps.ini` was changed only for nine Player 1 inputs: D-pad directions, Back, Select, Start, Menu-left, and Menu-right. The new file parsed with all expected values, keyboard direction fallbacks remain, and a hash-verified pre-edit rollback copy was placed beside it. ITGMania was not launched; in-game behavior remains to be tested by the owner.
+
+## 2026-08-04 23:24 Pacific - NES controller D-pad mapping corrected
+
+- **Owner-confirmed:** Reported that all mapped buttons worked but the D-pad did not, then supplied a Windows controller-test screenshot proving the D-pad is a POV hat.
+- **Observed:** Official ITGMania source confirms that DirectInput POV events serialize as `H-Up`, `H-Down`, `H-Left`, and `H-Right`. With ITGMania closed, only the four D-pad lines were corrected to `Joy1_H-*`, preserving their keyboard fallbacks. A fresh hash-verified rollback of the preceding mapping was created beside the active file, and the resulting entries parsed exactly. In-game confirmation remains pending owner launch/test.
+
+## 2026-08-04 23:29 Pacific - NES controller L/R song-wheel submenu mapping corrected
+
+- **Owner-confirmed:** Reported that all controls worked except the L+R song-wheel submenu chord.
+- **Observed:** ITGMania was closed. L and R already mapped to Menu-left/Menu-right, but the song-wheel chord requires the normal Player 1 Left/Right actions. `Joy1_B5` and `Joy1_B6` were therefore added only to those two Player 1 direction bindings, alongside the D-pad and keyboard fallbacks. The resulting file parsed exactly and a fresh hash-verified rollback copy was created beside it. Owner in-game confirmation remains pending.
+
+## 2026-08-04 23:39 Pacific - NES controller dedicated menu binding conflict removed
+
+- **Owner-confirmed:** Reported that the L+R attempt still moved the song wheel individually rather than opening the submenu.
+- **Observed:** The active Simply Love settings are dance mode with `OnlyDedicatedMenuButtons=0`; its song-wheel submenu accepts `Left-Right`. The duplicate dedicated Menu-left/Menu-right bindings caused those individual actions to be consumed by the wheel. With ITGMania closed, only `1_MenuLeft` and `1_MenuRight` were cleared, leaving L/R mapped to Player 1 Left/Right. A fresh hash-verified rollback was created and the resulting file parsed exactly. Owner in-game confirmation remains pending.
+
+## 2026-08-04 23:42 Pacific - NES controller L binding retained within ITGMania input limit
+
+- **Owner-confirmed:** Reported that D-pad Left plus R opened the submenu but L alone did not work.
+- **Observed:** On normal exit, ITGMania rewrote `1_Left` to retain only the first two of its three entries, dropping `Joy1_B5`; `1_Right` retained its D-pad and R bindings while dropping the keyboard fallback. ITGMania therefore supports at most two bindings per action in this configuration. With ITGMania closed, Left/Right were made symmetric: D-pad Left + L and D-pad Right + R. A fresh hash-verified rollback was created and the exact two-binding entries validated. Keyboard Left/Right are intentionally unavailable; keyboard Up/Down remain.
+- **Owner-confirmed:** Final in-game testing found the menu controls, including the L+R song-wheel submenu chord, working perfectly.
+
+## 2026-08-05 00:09 Pacific - Connect Controller skill created
+
+- **Owner-confirmed:** Requested a reusable project-local `connect-controller` skill for menu-only wired and Bluetooth gamepads, first-class per-controller rider files, automatic safe mapping where possible, and validated song-wheel submenu behavior.
+- **Observed:** Created the guarded skill with redacted controller preflight and hash-gated `[dance]` Player 1 mapping scripts, a generic rider template, and the owner-verified Nintendo Switch Online NES rider. The rider records native Bluetooth pairing, POV-hat D-pad bindings, B/A/L/R/Select/Start observations, the two-input ITGMania limit, the Simply Love Left+Right submenu chord, and unchanged StepManiaX gameplay as promotion proof.
+- **Observed:** Skill metadata passed the standard validator. Its preflight script ran against the live host read-only, and its mapping writer was exercised successfully against a disposable Keymaps copy with a disposable rollback; the live Keymaps file was not modified during testing. Migration documentation and catalogs were updated; no scheduled task was created.
+
+## 2026-08-05 00:08 Pacific - The Midnight - Kick Drums & Red Wine banner attempt rotated
+
+- **Observed:** Live state at 00:02 Pacific showed ITGMania 1.3.0 closed with Simply Love and healthy backup state `Ready` / `0x0`; the latest successful backup log remained 2026-08-04 03:02 Pacific. The banner helper refreshed all 206 `Misc. Collected` song directories and selected never-attempted `Kick Drums & Red Wine`, fingerprint `A2FCC074EF5E5B097D5CF6ABD1F304B032EC65C9B95023E2EE4478C26983A019`; four existing pending previews did not block selection.
+- Atomically reserved the fingerprint before image work. Both simfiles identify `The Midnight - Kick Drums & Red Wine`, agree on missing contained reference `kd_rw-bn.png`, and use opaque 768 x 240 fallback `Kick Drums & Red Wine.png`, source SHA-256 `575FD5EDBCFDE4962CF204D83A0831924832DF9CF654C411BD68C6581F6BF617`. Exact visible text is `The Midnight` and `Kick Drums and Red Wine`; there was no prior attempt history.
+- Both permitted built-in GPT Image 2 edits decoded successfully and preserved the wording, but failed source-fidelity review by substantially enlarging and reframing the central woman, title lettering, and right-edge car. Preserved raw 2001 x 786 attempt one SHA-256 `F7914931C3D077C628EAE12E8D01EB4AE7E8F050EC08B1A93797EF847C86FD8B` and raw 2002 x 786 attempt two SHA-256 `B409ECEA41A0E4D81B57E6D8B75B57B2D6151A91B596B1A28F9A7CAEE6F54D21` in task staging.
+- No viable After was normalized or queue-bound. Returned the exact fingerprint atomically to `eligible` with immutable `generation-failed` history and `lastAttemptedAt`; no third model call or deterministic fallback was used. Final counts are 72 eligible, 99 ineligible, 29 installed, 4 pending, and 2 skipped. Source and both simfile hashes stayed unchanged, ITGMania remained closed, and no live song, banner, configuration, chart, score, profile, or process state changed.
+- **Retrospective:** The two prompts already captured exact text and strict restoration constraints, but GPT Image 2 still reinterpreted the composition. This is fingerprint-specific evidence; no reusable skill, documentation, scheduled-task, or owner-wide preference change was justified.

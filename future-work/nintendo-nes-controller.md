@@ -1,6 +1,6 @@
 # Add a Nintendo Switch Online NES controller as a wireless ITGMania menu controller
 
-Status: owner-requested future work on 2026-08-02. This proposal is not authorization to install drivers, pair a controller, change mappings, or launch ITGMania.
+Status: implemented and owner-verified on 2026-08-04. The reusable first-class configuration now lives in [`connect-controller`](../.agents/skills/connect-controller/references/controllers/nintendo-switch-online-nes.md); this document remains the recovery and future-maintenance reference.
 
 Difficulty: 2/5. Expected impact: 3/5.
 
@@ -14,6 +14,7 @@ Use one official Nintendo Switch Online Nintendo Entertainment System controller
 - On 2026-08-02, Windows' Bluetooth service was running, but read-only Windows queries found no Bluetooth radio, Bluetooth driver, Bluetooth PnP device, or Wi-Fi adapter. This does **not** establish that the installed hardware is missing; it makes a disabled or missing OEM wireless driver the first issue to resolve.
 - ITGMania's active roaming save contains the existing StepManiaX mappings in `Keymaps.ini` and has `AutoMapOnJoyChange=1`. A newly connected controller must not replace those mappings.
 - Nintendo identifies the two NES controllers as HAC-033 and HAC-034. They are intended primarily for NES - Nintendo Switch Online; use with Windows is not guaranteed by Nintendo: <https://en-americas-support.nintendo.com/app/answers/detail/a_id/41192/>.
+- On 2026-08-04, Windows showed the paired NES controller as the sole `Wireless Gamepad` in `joy.cpl`. Its tested inputs are B/A/L/R/Select/Start = B1/B2/B5/B6/B9/B10, and its D-pad is POV hat 1.
 
 ## Parts and prerequisites
 
@@ -42,10 +43,14 @@ Use one official Nintendo Switch Online Nintendo Entertainment System controller
 | D-pad | Up / Down / Left / Right |
 | A | Start / confirm |
 | B | Back |
-| L | Menu-left |
-| R | Menu-right |
+| L | Player 1 Left |
+| R | Player 1 Right |
+| Select | Select |
+| Start | Start / confirm |
 
 Mapping L and R separately is required: pressing **L + R together** activates ITGMania's submenu action.
+
+The applied Player 1 bindings use `Joy1_H-Up`, `Joy1_H-Down`, `Joy1_H-Left`, and `Joy1_H-Right` for the D-pad POV hat; `Joy1_B2:Joy1_B10` for Start; `Joy1_B1` for Back; `Joy1_B9` for Select; and `Joy1_B5`/`Joy1_B6` for Player 1 Left/Right. Dedicated Menu-left/Menu-right are intentionally blank: with the current Simply Love configuration, it would consume individual shoulder presses before the Player 1 Left+Right song-wheel submenu chord. ITGMania preserves only two bindings per action, so Left/Right have no keyboard fallback; Up/Down retain theirs. A timestamped pre-edit `Keymaps.ini` rollback copy is stored beside the active file.
 
 ## Verification and rollback
 
