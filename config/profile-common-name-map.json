@@ -1,0 +1,16 @@
+{
+  "$schemaDescription": "Portable mapping from household common names to ITGMania Stats.xml GeneralData/DisplayName values. Match profileDisplayNames after trimming and Unicode case-folding; never use profile directory names or GUIDs. Add one object per person. commonName must be unique and lowercase. profileDisplayNames must contain one or more exact display-name aliases. Unmapped profiles are reported but not inferred.",
+  "formatVersion": 1,
+  "matching": {
+    "sourceField": "Stats/GeneralData/DisplayName",
+    "comparison": "trimmed-unicode-case-insensitive-exact",
+    "unmappedBehavior": "report-and-omit"
+  },
+  "profiles": [
+    { "commonName": "kyle", "profileDisplayNames": ["kyle"] },
+    { "commonName": "samantha", "profileDisplayNames": ["sam"] },
+    { "commonName": "eliza", "profileDisplayNames": ["lizy"] },
+    { "commonName": "quinn", "profileDisplayNames": ["elemwarr"] },
+    { "commonName": "rich", "profileDisplayNames": ["crios"] }
+  ]
+}

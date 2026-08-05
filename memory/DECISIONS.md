@@ -74,6 +74,7 @@
 - **Decision:** Serialize banner-queue helper read/modify/write cycles with a per-queue cross-process mutex. Verify exact installed-item invariants after refresh instead of relying on mutable global counts, and never duplicate a decision while recovering from a legacy concurrent rewrite.
 - **Decision:** Treat backup result `0x41301` as an active-run degraded state, not a completed failure. Banner installation may proceed in that state only with a same-day successful log, confirmed Songs exclusion, and guarded local rollback.
 - **Decision:** Preserve opaque approved previews as fully opaque installed output, and use the identical pixel-format-aware renderer for live installation and queue proof.
+- **Decision:** When a banner source outside the repository opens through its native link but cannot render inline, use a SHA-verified, byte-identical full-resolution workspace display copy only for presentation. Keep the authoritative path/hash, native link, preview approval, and queue binding unchanged.
 - **Rationale:** Repeated interactive installs exposed avoidable manual hash work, a time-of-check gap, one stale concurrent queue rewrite, and transparent perimeter pixels introduced while resizing an opaque attachment. Hash-bound, opacity-safe installation and serialized queue updates make the same approval-gated workflow faster and more reliable without widening live-write authority.
 
 ## 2026-08-02 static background restoration workflow
@@ -125,3 +126,24 @@
 - **Owner-confirmed:** Create the project-local `connect-controller` skill for menu-only handheld controllers, retaining StepManiaX as the gameplay controller. Store each first-class controller as an independently copyable rider file in the skill.
 - **Decision:** Promote a controller rider only after owner confirmation of pairing/reconnect, Windows input evidence, ITGMania navigation, song-wheel submenu, normal-exit persistence, and unchanged StepManiaX gameplay behavior.
 - **Decision:** Require a final explicit approval before every live driver, pairing, application, or Keymaps mutation; use a hash-gated sibling rollback and honor ITGMania's two-input-per-action limit.
+
+## 2026-08-05 individual-song installation workflow
+
+- **Owner-confirmed:** Create a project-local skill that efficiently resolves, downloads, validates, installs, and cleans up one individual song for `Misc. Collected`.
+- **Decision:** Keep single-song handling in `add-song`, separate from the pack-layout assumptions in `add-pack`. Use one deterministic GUID-staged command, require publisher provenance and expected artist/title metadata, retain the existing backup/game/Defender/collision boundaries, and remove only task-owned staging in `finally`.
+- **Rationale:** Individual ZIV-style ZIPs place simfile and audio directly in one song folder, while pack archives contain a pack folder with child song folders. Separate validators preserve strict layout checks without manual extraction residue or unsafe pack-script exceptions.
+
+## 2026-08-05 individual-song discovery workflow
+
+- **Owner-confirmed:** Create `find-singles` to reproduce the family-taste individual-song search and return up to 10 candidates for the people who use Thraximundar.
+- **Decision:** Keep `find-singles` read-only and separate from `add-song` installation and `itg-packs-search` whole-pack discovery. Require the canonical family taste profile, current approved public sources, exact release/pad evidence, both live song roots, metadata-aware overlap review, and at most 10 genuinely supported unique results.
+- **Decision:** Use bounded combined `rg` metadata lookup plus normalized folder leads for finalist overlap, returning only candidate-specific pack/song labels. Do not build or print a complete library inventory.
+- **Rationale:** This preserves the earlier successful recommendation logic while making repeated searches current, efficient, household-specific, and resistant to installed-song duplicates and mirrored-chart duplication.
+
+## 2026-08-05 dynamic player skill-level workflow
+
+- **Owner-confirmed:** Replace static per-player difficulty ranges with dynamic evidence derived from each profile's recent `Stats.xml` activity, and never use that evidence to infer musical taste.
+- **Owner-confirmed:** For each profile, use the 90 days ending at its latest recorded score. Define stretch as the highest live simfile meter with at least two resolved successful records in that window.
+- **Owner-confirmed:** Maintain a portable common-name map seeded as Kyle=`kyle`, Samantha=`sam`, Eliza=`lizy`, Quinn=`elemwarr`, and Rich=`crios`.
+- **Decision:** Match only trimmed, Unicode case-insensitive exact `Stats/GeneralData/DisplayName` aliases; omit and report unmapped profiles. Store no profile paths or GUIDs. Join Stats song directory, StepsType, and Difficulty to current simfiles and report unresolved or ambiguous records rather than guessing.
+- **Decision:** Treat `Stats.xml` as dated high-score evidence, not a complete play log. Regenerate skill output for every consumer and keep numeric skill levels out of the musical-taste context.

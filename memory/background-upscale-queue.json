@@ -1,8 +1,50 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-05T05:26:14.2658902Z",
+    "generatedAt":  "2026-08-05T20:15:45.3655895Z",
     "songs":  [
+                  {
+                      "songPath":  "[Prime Time] - Green Light (Chromeo Remix)",
+                      "fingerprint":  "6421AF29124E5BE01066A0783C550E39178D4336D0DDA7ECD1CBDD9B703A0A75",
+                      "simfiles":  [
+                                       {
+                                           "path":  "[Prime Time] - Green Light (Chromeo Remix).sm",
+                                           "sha256":  "BF641A2AE4CBC6E0C2657989A2504C422622FD11D4EFFFBB73564E2B6C436187"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "empty",
+                      "backgroundReference":  "[Prime Time] - Green Light (Chromeo Remix)-bg.png",
+                      "sourcePath":  "[Prime Time] - Green Light (Chromeo Remix)-bg.png",
+                      "sourceSha256":  "D5814E3A896432BBC7968B3E4B0F9B4EBC32386E0FB2F598B7E5E6C4757BCDBC",
+                      "sourceWidth":  900,
+                      "sourceHeight":  600,
+                      "sourceFrames":  1,
+                      "qualityRank":  1,
+                      "qualityTier":  "aspect-mismatch",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "assessedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
                   {
                       "songPath":  "80s Fitness",
                       "fingerprint":  "2FD7FB840D762428815FB6B21A5E1E926A7858361254757D79569BE3046AF4A5",
@@ -4102,6 +4144,55 @@
                                           ]
                   },
                   {
+                      "songPath":  "Houdini (Initial Talk Dua Goes Freestyle Remix)",
+                      "fingerprint":  "B3BF09A59E4307D3F5346EE7C217ABE7F960FFFE75D9DFEF00B88D5CCA2C46B2",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Houdini (Initial Talk Dua Goes Freestyle Remix).sm",
+                                           "sha256":  "F38021D15C672BEF7F51F7A55EA662BF19AABBF6A2D3E274D03742A363E89609"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "empty",
+                      "backgroundReference":  null,
+                      "sourcePath":  null,
+                      "sourceSha256":  null,
+                      "sourceWidth":  null,
+                      "sourceHeight":  null,
+                      "sourceFrames":  null,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  "implicit-legacy",
+                      "reviewCandidates":  [
+                                               {
+                                                   "path":  "Houdini (Initial Talk Dua Goes Freestyle Remix)-bg.png",
+                                                   "sha256":  "BDAADAEF7C67DB78880528CE10B42ED8EDE4026CFBD4D09ED3C66F7A690A5EF9",
+                                                   "width":  854,
+                                                   "height":  480,
+                                                   "frames":  1,
+                                                   "extension":  ".png"
+                                               }
+                                           ],
+                      "observedAt":  "2026-08-05T14:15:25.8744062Z",
+                      "assessedAt":  "2026-08-05T14:15:25.8744062Z",
+                      "eligible":  false,
+                      "reason":  "Missing, ambiguous, or inconsistent explicit #BACKGROUND; 1 plausible static candidate(s) require owner source confirmation.",
+                      "status":  "review-only",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
                       "songPath":  "Hypnodancer",
                       "fingerprint":  "165F224982EE97F397D011DE6C637D01D6318785491B36D97CC28BFFE127194D",
                       "simfiles":  [
@@ -5384,6 +5475,48 @@
                                           ]
                   },
                   {
+                      "songPath":  "Mi Cama",
+                      "fingerprint":  "A2896DC94C39AD2CCDBF3DA6F9DEF584FAE87E250D4CB7514DDBC772339C8742",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Mi Cama.sm",
+                                           "sha256":  "422209EAB147419F247B65F6FFAED100FF89EDFAEDE42A1A937EB6BE7D9437BD"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "populated",
+                      "backgroundReference":  "Mi Cama-bg.png",
+                      "sourcePath":  "Mi Cama-bg.png",
+                      "sourceSha256":  "2D4E99510AE460197D112BB1A33A11A21233E195389BD6E92FB876BA335D46F7",
+                      "sourceWidth":  1280,
+                      "sourceHeight":  720,
+                      "sourceFrames":  1,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "assessedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "eligible":  false,
+                      "reason":  "BGCHANGES contains active content; changing or animated backgrounds are excluded.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
                       "songPath":  "Michael",
                       "fingerprint":  "E4EEB5DF5CCA4762245FCB5F7F8F8281D3702EC4C786F0151C90AF090BBA5922",
                       "simfiles":  [
@@ -6562,6 +6695,55 @@
                                           ]
                   },
                   {
+                      "songPath":  "Propane Nightmares (Celldweller Remix)",
+                      "fingerprint":  "B0126A92C399C94D0BF68DE5EF1EC06395D55DF741765976C71E389F9BA8A36F",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Propane Nightmares (Celldweller Remix).sm",
+                                           "sha256":  "3E31CC3B686901E9FF476DDD7CFE06A4C96F52928788D6E1A13442D19D04C2B1"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "empty",
+                      "backgroundReference":  "propane-bg.png",
+                      "sourcePath":  null,
+                      "sourceSha256":  null,
+                      "sourceWidth":  null,
+                      "sourceHeight":  null,
+                      "sourceFrames":  null,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  "missing-reference-fallback",
+                      "reviewCandidates":  [
+                                               {
+                                                   "path":  "Propane Nightmares (Celldweller Remix)-bg.png",
+                                                   "sha256":  "6568DDB20D8DC0AE0E8BCBF444CACEB6FDB93CA48F86BCBA89D1BEDE836DABE6",
+                                                   "width":  640,
+                                                   "height":  480,
+                                                   "frames":  1,
+                                                   "extension":  ".png"
+                                               }
+                                           ],
+                      "observedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "assessedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "eligible":  false,
+                      "reason":  "Referenced background is missing; 1 plausible contained fallback candidate(s) require owner source confirmation.",
+                      "status":  "review-only",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
                       "songPath":  "Quick Man Stage",
                       "fingerprint":  "6E556400C50A93FC2465D559CCDFAFEC36ECF716824D25BBEBA6A61F2CDEE847",
                       "simfiles":  [
@@ -7353,7 +7535,7 @@
                   },
                   {
                       "songPath":  "SING",
-                      "fingerprint":  "807808961587545379A2B25F8EC0B1FC756DD2F7F0EDBCAD71DCBABEA89F80C9",
+                      "fingerprint":  "6DC237CCDD7C5E74D57FDD7A9AC149631099655CEC182803F445AB12628BFF9A",
                       "simfiles":  [
                                        {
                                            "path":  "[ROUND H] - SING.sm",
@@ -7369,31 +7551,50 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "[ROUND H] - SING-bg.png",
                       "sourcePath":  "[ROUND H] - SING-bg.png",
-                      "sourceSha256":  "C391BFF9BE2DC7B3FC9935A911585527AA0ECA3FC098554C6D8FD6883DDC472B",
-                      "sourceWidth":  1200,
-                      "sourceHeight":  901,
+                      "sourceSha256":  "0E81C0D648AA235FDF3F7E53CCCBA1B8C5EBA2A028AD4AD896F34814D39ED460",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-05T14:15:25.8744062Z",
+                      "assessedAt":  "2026-08-05T14:15:25.8744062Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T14:15:25.0563435Z",
+                      "lastAttemptedAt":  "2026-08-05T14:14:59.6232233Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SING-807808961587545379A2B25F8EC0B1FC756DD2F7F0EDBCAD71DCBABEA89F80C9\\owner-approved\\Installed-Approved-0E81C0D648AA.png",
+                      "previewSha256":  "0E81C0D648AA235FDF3F7E53CCCBA1B8C5EBA2A028AD4AD896F34814D39ED460",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-05T09:07:11.5317767Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 preserved readable S I N G and Pentatonix text but shrank and recomposed the entire central Earth, letter-box, and wordmark design instead of extending only the side background; no installable preview was bound.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-05T09:07:14.2182020Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 2 again preserved readable S I N G and Pentatonix text but still repainted, shifted, and reduced the central artwork rather than keeping the original 1200 x 901 composition at source scale; both genuine AI attempts are exhausted and deterministic exact-content side-fill now requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-05T14:15:25.0563435Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner supplied and explicitly approved codex-clipboard-54ce7255-1a8f-421d-a7ea-a612f4202db3.png with instruction install this one; exact staged preview SHA-256 A307377E559E24A9A76BF9D6F259EC9AEB8B68C3BCE6116E6828CE26FD777790. Approved preview SHA-256 A307377E559E24A9A76BF9D6F259EC9AEB8B68C3BCE6116E6828CE26FD777790. Installed SHA-256 0E81C0D648AA235FDF3F7E53CCCBA1B8C5EBA2A028AD4AD896F34814D39ED460 using normalized-render; rollback [ROUND H] - SING-bg.png.pre-upscale-20260805-071522.bak preserves original SHA-256 C391BFF9BE2DC7B3FC9935A911585527AA0ECA3FC098554C6D8FD6883DDC472B.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SING-807808961587545379A2B25F8EC0B1FC756DD2F7F0EDBCAD71DCBABEA89F80C9\\owner-approved\\Installed-Approved-0E81C0D648AA.png",
+                                                  "previewSha256":  "0E81C0D648AA235FDF3F7E53CCCBA1B8C5EBA2A028AD4AD896F34814D39ED460"
+                                              }
                                           ]
                   },
                   {
@@ -7745,7 +7946,7 @@
                   },
                   {
                       "songPath":  "Starry Eyed (Dexcell Remix)",
-                      "fingerprint":  "50A40FF9EFB42A3A361D737C9412D2F62D63B3AB85A7A849ADF1F9EB17ED99A3",
+                      "fingerprint":  "925D8C5A8CBBBF237F2D77EE1F731E53C4C6D3292C9D86436BC3B826D42D4C03",
                       "simfiles":  [
                                        {
                                            "path":  "Starry Eyed (Dexcell Remix).sm",
@@ -7761,36 +7962,55 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Starry Eyed (Dexcell Remix)-bg.png",
                       "sourcePath":  "Starry Eyed (Dexcell Remix)-bg.png",
-                      "sourceSha256":  "A60CE7B4E5404DA0B3721440A2D0D35995DC7EB0A2059B1F4DABDC9A5E13DED3",
-                      "sourceWidth":  640,
-                      "sourceHeight":  480,
+                      "sourceSha256":  "9DCF46F67410331CFCEBCC52C15D75A0BC6E49DEC278D8C6B65B337FE11258C4",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-05T14:16:27.9781822Z",
+                      "assessedAt":  "2026-08-05T14:16:27.9781822Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T14:16:26.6614234Z",
+                      "lastAttemptedAt":  "2026-08-05T14:16:01.9028331Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\50A40FF9EFB42A3A361D737C9412D2F62D63B3AB85A7A849ADF1F9EB17ED99A3\\Installed-Approved-9DCF46F67410.png",
+                      "previewSha256":  "9DCF46F67410331CFCEBCC52C15D75A0BC6E49DEC278D8C6B65B337FE11258C4",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-05T13:05:25.1508572Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 produced a valid opaque widescreen image, but it repainted and repositioned the central source composition, reduced the original wordmark relative to the artwork, and introduced prominent new eye forms; it was rejected before preview binding.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-05T13:06:57.5575549Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 2 produced a valid opaque widescreen image, but again regenerated and moved the original central artwork and wordmark instead of preserving the source rectangle and composition; it was rejected before preview binding. Both genuine AI attempts are exhausted, so deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-05T14:16:26.6614234Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly supplied and approved this exact uploaded Starry Eyed background by saying install this one; approved upload SHA-256 81C8A032244AB1A8497282E2EA4E614C3063CADA11CBC33C7DCEE1DA43158497. Approved preview SHA-256 81C8A032244AB1A8497282E2EA4E614C3063CADA11CBC33C7DCEE1DA43158497. Installed SHA-256 9DCF46F67410331CFCEBCC52C15D75A0BC6E49DEC278D8C6B65B337FE11258C4 using normalized-render; rollback Starry Eyed (Dexcell Remix)-bg.png.pre-upscale-20260805-071622.bak preserves original SHA-256 A60CE7B4E5404DA0B3721440A2D0D35995DC7EB0A2059B1F4DABDC9A5E13DED3.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\50A40FF9EFB42A3A361D737C9412D2F62D63B3AB85A7A849ADF1F9EB17ED99A3\\Installed-Approved-9DCF46F67410.png",
+                                                  "previewSha256":  "9DCF46F67410331CFCEBCC52C15D75A0BC6E49DEC278D8C6B65B337FE11258C4"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Stereo Love (Michael Mind Project Remix) [christalshizzle]",
-                      "fingerprint":  "9846EB0C15F285CFC4F08975606F871239E920D0E1EF69120536CD1657CBCBAE",
+                      "fingerprint":  "17E3EE85E9E9AFAF52FF97C23A1B00821B6D7F2901C187A050BD4D03A9963502",
                       "simfiles":  [
                                        {
                                            "path":  "Stere Love (Michael Mind Project Remix).sm",
@@ -7803,31 +8023,43 @@
                       "bgChangesState":  "empty",
                       "backgroundReference":  "Bg-Stereo.png",
                       "sourcePath":  "Bg-Stereo.png",
-                      "sourceSha256":  "932C7A47F44CA201BD4C9473B8DC08E9B3953D3688E693A4BA02E5467481ED55",
-                      "sourceWidth":  800,
-                      "sourceHeight":  600,
+                      "sourceSha256":  "8C427679E09B48FD8C370A9F11084ECD9CE61ED77E11824CA7700ACA00CE1C90",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  1,
-                      "qualityTier":  "aspect-mismatch",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "assessedAt":  "2026-08-02T20:59:16.8281850Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-05T20:11:49.8380744Z",
+                      "assessedAt":  "2026-08-05T20:11:49.8380744Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T20:11:48.3640055Z",
+                      "lastAttemptedAt":  "2026-08-05T17:09:20.7845480Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\9846EB0C15F285CFC4F08975606F871239E920D0E1EF69120536CD1657CBCBAE\\After-A-1920x1080.png",
+                      "previewSha256":  "8C427679E09B48FD8C370A9F11084ECD9CE61ED77E11824CA7700ACA00CE1C90",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-05T17:06:45.7525405Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "AI attempt 1 produced a valid widescreen image but changed the source composition by shifting the right-biased title block toward center and moving the Eiffel Tower inward; no installable preview was bound.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-05T20:11:48.3640055Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install after the sole task-local After A was displayed and hash-bound; approved exact preview SHA-256 8C427679E09B48FD8C370A9F11084ECD9CE61ED77E11824CA7700ACA00CE1C90. Approved preview SHA-256 8C427679E09B48FD8C370A9F11084ECD9CE61ED77E11824CA7700ACA00CE1C90. Installed SHA-256 8C427679E09B48FD8C370A9F11084ECD9CE61ED77E11824CA7700ACA00CE1C90 using byte-exact-copy; rollback Bg-Stereo.png.pre-upscale-20260805-131145.bak preserves original SHA-256 932C7A47F44CA201BD4C9473B8DC08E9B3953D3688E693A4BA02E5467481ED55.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\9846EB0C15F285CFC4F08975606F871239E920D0E1EF69120536CD1657CBCBAE\\After-A-1920x1080.png",
+                                                  "previewSha256":  "8C427679E09B48FD8C370A9F11084ECD9CE61ED77E11824CA7700ACA00CE1C90"
+                                              }
                                           ]
                   },
                   {
@@ -8597,6 +8829,51 @@
                                           ]
                   },
                   {
+                      "songPath":  "The One That Got Away",
+                      "fingerprint":  "FD0581DA580BF73104449647E08CC97325DBCDB06DB4C31EA82F658A21D574AB",
+                      "simfiles":  [
+                                       {
+                                           "path":  "The One That Got Away.sm",
+                                           "sha256":  "9AF312A9EF6466B999EBF109B7769C2A1BF7B2D647CB5B7785CFA83C2BBDC1CF"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+                                          {
+                                              "path":  "The One That Got Away.dwi",
+                                              "sha256":  "CF29D67D7445396F79B4791441493D218BF5877230573DAEAC8983943E4D2ED3"
+                                          }
+                                      ],
+                      "bgChangesState":  "populated",
+                      "backgroundReference":  "The One That Got Away-bg.png",
+                      "sourcePath":  "The One That Got Away-bg.png",
+                      "sourceSha256":  "8F8C27C4486C3698143A1A1F4BEBF76F2680FBD81B423E0088BD92C53B538C66",
+                      "sourceWidth":  640,
+                      "sourceHeight":  480,
+                      "sourceFrames":  1,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "assessedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "eligible":  false,
+                      "reason":  "BGCHANGES contains active content; changing or animated backgrounds are excluded.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
                       "songPath":  "The Purified",
                       "fingerprint":  "AC807DC3054ED7B854EC2F20C4A8D1EC845F3CD7D2DA7A11F7A9FC955B1D4C41",
                       "simfiles":  [
@@ -8999,6 +9276,51 @@
                                           ]
                   },
                   {
+                      "songPath":  "Travelling without moving",
+                      "fingerprint":  "DD222ECB5165E4C860287196EA69001ACF9A23AB4489C2E522523C21F55BAC65",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Travelling without moving.sm",
+                                           "sha256":  "B5E6D5C76B825B297C53F6D76DFDC895141D49A3590238A4FDD73C2D6F455500"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+                                          {
+                                              "path":  "Travelling without moving.dwi",
+                                              "sha256":  "BE59827A43B95D96E8D2735267595E28F9204F56057C1C0BB25B7F074C9B6FCB"
+                                          }
+                                      ],
+                      "bgChangesState":  "empty",
+                      "backgroundReference":  "travelling without moving-bg.png",
+                      "sourcePath":  "travelling without moving-bg.png",
+                      "sourceSha256":  "B00A365E7A7480C555610C65C8CC8536ECEAD3FF8F211FA1150ECD2DF121107C",
+                      "sourceWidth":  709,
+                      "sourceHeight":  706,
+                      "sourceFrames":  1,
+                      "qualityRank":  1,
+                      "qualityTier":  "aspect-mismatch",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "assessedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
                       "songPath":  "True Survivor",
                       "fingerprint":  "66F0A15BA9824BF70C0C0DDF4E6F02055AC339026A06D85025B21A4A63722D3A",
                       "simfiles":  [
@@ -9112,6 +9434,48 @@
                       "eligible":  false,
                       "reason":  "Static background meets the 1920 x 1080 16:9 baseline.",
                       "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "Two Is Better Than One (Mike Rizzo Remix)",
+                      "fingerprint":  "FF30F14045CCC6FB817E19131A0B99CC1D45AD967E7E2D0828D7BFDD98F48668",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Two Is Better Than One (Mike Rizzo Remix).sm",
+                                           "sha256":  "CA8F54303F505D31FD2D4A30DB31FE96650762A77EFE39C17866592EC647AE93"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "empty",
+                      "backgroundReference":  "Two Is Better Than One (Mike Rizzo Remix)-bg.png",
+                      "sourcePath":  "Two Is Better Than One (Mike Rizzo Remix)-bg.png",
+                      "sourceSha256":  "86B553F986BC4EAA59E7AB427088802818AA577DEF3D3513ADF7879704D6CFFB",
+                      "sourceWidth":  640,
+                      "sourceHeight":  480,
+                      "sourceFrames":  1,
+                      "qualityRank":  1,
+                      "qualityTier":  "aspect-mismatch",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "assessedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
                       "processedAt":  null,
                       "lastAttemptedAt":  null,
                       "pendingAction":  null,
@@ -9294,6 +9658,55 @@
                                            ],
                       "observedAt":  "2026-08-02T20:59:16.8281850Z",
                       "assessedAt":  "2026-08-02T20:59:16.8281850Z",
+                      "eligible":  false,
+                      "reason":  "Referenced background is missing; 1 plausible contained fallback candidate(s) require owner source confirmation.",
+                      "status":  "review-only",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "We Are Never Ever Getting Bad Blood",
+                      "fingerprint":  "B8B52F0D09404317DDFD52438A9787E0D0A32564CC6591EA1D11FC13515EEE5F",
+                      "simfiles":  [
+                                       {
+                                           "path":  "We Are Never Ever Getting Bad Blood.sm",
+                                           "sha256":  "4A40F9194BF42B493E01092C4527EC8FC6016A9EA972B47A7279405175768217"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "empty",
+                      "backgroundReference":  "wanbb-bg.png",
+                      "sourcePath":  null,
+                      "sourceSha256":  null,
+                      "sourceWidth":  null,
+                      "sourceHeight":  null,
+                      "sourceFrames":  null,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  "missing-reference-fallback",
+                      "reviewCandidates":  [
+                                               {
+                                                   "path":  "We Are Never Ever Getting Bad Blood-bg.png",
+                                                   "sha256":  "813E38E8FECE8EFEF1E402F79129737D720DD29E66F71985AC8077CDF151BF88",
+                                                   "width":  1596,
+                                                   "height":  718,
+                                                   "frames":  1,
+                                                   "extension":  ".png"
+                                               }
+                                           ],
+                      "observedAt":  "2026-08-05T17:03:49.1471069Z",
+                      "assessedAt":  "2026-08-05T17:03:49.1471069Z",
                       "eligible":  false,
                       "reason":  "Referenced background is missing; 1 plausible contained fallback candidate(s) require owner source confirmation.",
                       "status":  "review-only",
@@ -10800,6 +11213,83 @@
                                 "summary":  "Owner explicitly supplied and approved a clipboard-reencoded 1672 x 941 version of the previously rejected After B. The exact upload was rebound and safely normalized to opaque 1920 x 1080 for installation; this choice overrides the earlier fidelity rejection only for the supplied Selecta artifact and does not justify a reusable preference.",
                                 "songPath":  "Selecta",
                                 "fingerprint":  "3C400FDB2173738922D459DE90C4D71D0C51DBC9A3ECAAEF4A70AE505729921F",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T09:08:06.8441334Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Both faithful horizontal-outpaint attempts preserved readable S I N G and Pentatonix text but altered the source-specific central scale and composition; neither was bound. The exact fingerprint is pending awaiting explicit approval for deterministic exact-content side-fill.",
+                                "songPath":  "SING",
+                                "fingerprint":  "807808961587545379A2B25F8EC0B1FC756DD2F7F0EDBCAD71DCBABEA89F80C9",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T13:08:17.2116972Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this 640 x 480 4:3 neon artwork, two genuine AI horizontal-outpaint attempts changed the central composition and wordmark placement instead of preserving the source rectangle; deterministic exact-content fallback now requires owner approval.",
+                                "songPath":  "Starry Eyed (Dexcell Remix)",
+                                "fingerprint":  "50A40FF9EFB42A3A361D737C9412D2F62D63B3AB85A7A849ADF1F9EB17ED99A3",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T14:04:16.6883635Z",
+                                "scope":  "none",
+                                "summary":  "Bare install could not authorize a live write because the task-local Pentatonix — Sing fingerprint has no displayed or hash-bound installable preview and remains awaiting fallback approval; no queue decision or live song mutation was made.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T14:18:08.0471700Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected and supplied the previously automated-rejected first outpaint; the exact clipboard encoding was rebound and proof-installed after current source, simfile, process, backup, normalization, rollback, and live-hash validation. This is source-specific approval evidence and does not justify a reusable preference or workflow change.",
+                                "songPath":  "SING",
+                                "fingerprint":  "6DC237CCDD7C5E74D57FDD7A9AC149631099655CEC182803F445AB12628BFF9A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T14:18:34.7493390Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected and installed the first Starry Eyed outpaint despite the automated composition-fidelity rejection. Preserve this as exact-fingerprint feedback only; it does not establish a reusable tolerance for composition drift.",
+                                "songPath":  "Starry Eyed (Dexcell Remix)",
+                                "fingerprint":  "925D8C5A8CBBBF237F2D77EE1F731E53C4C6D3292C9D86436BC3B826D42D4C03",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T17:11:09.1789225Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this 800 x 600 4:3 Stereo Love source, AI attempt 1 shifted the title and Eiffel Tower inward and was rejected; attempt 2 preserved the right-weighted identity and exact visible wording closely enough to bind an opaque 1920 x 1080 candidate. Queue tests and exact source, simfile, and preview hash checks passed; no owner feedback or live mutation occurred.",
+                                "songPath":  "Stereo Love (Michael Mind Project Remix) [christalshizzle]",
+                                "fingerprint":  "9846EB0C15F285CFC4F08975606F871239E920D0E1EF69120536CD1657CBCBAE",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-05T20:15:45.3655895Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed Stereo Love After A with bare install and no broader aesthetic feedback. The proof-gated byte-exact install preserved the original in one verified sibling rollback, migrated to installed fingerprint 17E3EE85E9E9AFAF52FF97C23A1B00821B6D7F2901C187A050BD4D03A9963502, and passed live/proof hash, simfile, opacity, dimensions, queue, UTF-8, and closed-game validation; no reusable workflow change was justified.",
+                                "songPath":  "Stereo Love (Michael Mind Project Remix) [christalshizzle]",
+                                "fingerprint":  "17E3EE85E9E9AFAF52FF97C23A1B00821B6D7F2901C187A050BD4D03A9963502",
                                 "changedFiles":  {
 
                                                  },

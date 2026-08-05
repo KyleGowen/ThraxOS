@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Singles"
+  short_description: "Find family-fit individual ITG songs"
+  default_prompt: "Use $find-singles to find up to 10 non-installed individual songs that fit this household."

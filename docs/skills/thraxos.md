@@ -2,7 +2,7 @@
 
 Source: [`.agents/skills/thraxos/`](../../.agents/skills/thraxos/)
 
-Central specialist for ITGMania, GrooveStats, StepManiaX, backups, packs, play data, remote operation, and durable host context.
+Central specialist for ITGMania, handheld menu controllers, GrooveStats, StepManiaX, backups, packs, play data, remote operation, and durable host context.
 
 ## Components
 
@@ -10,6 +10,10 @@ Central specialist for ITGMania, GrooveStats, StepManiaX, backups, packs, play d
 - `scripts/Get-ThraxStatus.ps1`: redacted, read-only overall status.
 - `scripts/Test-BackupHealth.ps1`: redacted backup health.
 - `scripts/Set-GrooveStatsForProfile.ps1`: guarded, owner-approved mutation.
+- Routes handheld menu-controller pairing and mapping to the project-local `connect-controller` skill.
+- Routes individual-song installation for `Misc. Collected` to the project-local `add-song` skill while retaining `add-pack` for pack archives.
+- Routes household taste-matched individual-song discovery to `find-singles` while keeping that workflow read-only.
+- Routes current player difficulty inference from recent score records to `get-player-skill-levels`.
 - Depends on `AGENTS.md`, `memory/`, `docs/context/`, `docs/runbooks/`, PowerShell, ITGMania, Git, and optionally the separately installed backup system.
 
 ## Safety

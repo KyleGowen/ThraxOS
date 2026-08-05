@@ -1,12 +1,14 @@
 # Codex automation: `Hourly Misc Background Upscale Queue`
 
-Created 2026-08-02; live schedule re-observed 2026-08-03. Automation ID: `hourly-misc-background-upscale-queue`.
+Created 2026-08-02; live schedule re-observed 2026-08-05. Automation ID: `hourly-misc-background-upscale-queue`.
 
 ## Definition
 
 - Scheduler/status: active Codex cron automation.
 - Frequency: every four hours at 02:00, 06:00, 10:00, 14:00, 18:00, and 22:00, America/Los_Angeles.
 - Execution: local, scoped to the ThraxOS project working directory.
+- Model at observation: `gpt-5.6-sol`, high reasoning; availability is environment-specific.
+- Notifications: failed runs only.
 - Dependencies: `thraxos`, `upscale-background`, and `memory/background-upscale-queue.json`.
 - Live input: `C:\Games\ITGmania\Songs\Misc. Collected`. The skill may later accept other explicit folders, but this task must not expand scope automatically.
 - Concurrency: each invocation selects at most one non-pending fingerprint; pending items do not block unrelated work.

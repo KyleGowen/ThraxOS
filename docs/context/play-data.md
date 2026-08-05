@@ -11,6 +11,13 @@ Owner-approved estimate inputs: Kyle is a 42-year-old man, 6 ft 5 in tall, and 2
 - `Thraximundar-Backup` generates recent play-time and score summaries from backed-up data.
 - GrooveStats can provide online score history for configured profiles.
 
+## Dynamic player difficulty
+
+- Use the project-local `get-player-skill-levels` skill for current difficulty evidence.
+- It maps `Stats.xml` display names through `config/profile-common-name-map.json`, uses the 90 days ending at each profile's latest dated score, joins score keys to live simfiles for numeric meters, and reports the highest meter with at least two non-failed, non-disqualified resolved records as `stretchLevel`.
+- `Stats.xml` contains dated high-score records rather than a complete play log. Treat the result as recent recorded-score evidence and rerun it instead of preserving a static skill range.
+- Dynamic difficulty evidence must never be used to infer musical taste.
+
 ## Interpretation rules
 
 - Separate song time from wall-clock session duration and label which measure is used.

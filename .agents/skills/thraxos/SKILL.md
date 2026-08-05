@@ -19,8 +19,12 @@ Operate the dedicated Windows ITGMania host from live evidence and the repositor
 - For overall status, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .agents/skills/thraxos/scripts/Get-ThraxStatus.ps1`.
 - For backup health, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .agents/skills/thraxos/scripts/Test-BackupHealth.ps1` and read `docs/runbooks/backup-health.md`.
 - For ITGMania configuration, read `docs/context/itgmania.md` and `docs/runbooks/itgmania-change.md`.
+- For a wired or Bluetooth handheld controller used for ITGMania menus, use the project-local `connect-controller` skill.
 - For GrooveStats, read `docs/context/groovestats.md` and `docs/runbooks/groovestats.md`.
 - For pack discovery or installation, read `docs/context/song-sources.md` and `docs/runbooks/song-pack-install.md`.
+- For one individual song installed into `Misc. Collected`, use the project-local `add-song` skill.
+- For taste-matched discovery of individual songs not yet installed, use the project-local `find-singles` skill.
+- For current player difficulty evidence from recent `Stats.xml` records, use the project-local `get-player-skill-levels` skill.
 - For searches of the ITG Packs Release Spreadsheet, also use the project skill `itg-packs-search`.
 - For the stage, read `docs/context/stepmaniax.md`.
 - For remote access, read `docs/runbooks/remote-access.md`.

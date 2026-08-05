@@ -4,8 +4,8 @@ Assessed on 2026-08-01 and updated with owner-confirmed artist preferences on 20
 
 ## Recommendation policy
 
-- Prioritize pad-oriented packs with strong coverage in Kyle's ITG 8-11 range.
-- Award additional value when the same pack also serves Samantha at 5-9 and Eliza at 3-5.
+- Obtain every player's current difficulty evidence dynamically through `get-player-skill-levels`; this file intentionally stores no numeric skill ranges.
+- Keep dynamic difficulty evidence separate from musical taste. Played songs and scores do not establish preference.
 - Favor songs with nostalgia, memorable melodies, energetic tempo, and charts whose patterns express the music well.
 - Reject tracks with poor or inconsistent playback volume and badly shortened edits. A shorter edit is acceptable only when it sounds intentional and musically coherent.
 - Treat dubstep and anime-focused music as mild negatives, not exclusions.
@@ -46,7 +46,6 @@ DDR and ITG arcade-series packs are installed primarily for completeness and sho
 
 ### Chart preferences
 
-- Target difficulty: ITG 8-11.
 - Prefer straightforward, skill-based charts rather than gimmick-driven charts.
 - Do not recommend spins or gimmicks.
 - Mines are annoying but not a deal breaker.
@@ -54,7 +53,6 @@ DDR and ITG arcade-series packs are installed primarily for completeness and sho
 
 ## Samantha
 
-- Target difficulty: ITG 5-9.
 - Favors current Top 40 and pop.
 - Owner-confirmed artists include Sofi Tukker and P!nk.
 - Above & Beyond is also a representative artist, adding melodic trance and progressive electronic music to the broader pop, dance-pop, and house preference.
@@ -62,7 +60,6 @@ DDR and ITG arcade-series packs are installed primarily for completeness and sho
 
 ## Eliza
 
-- Target difficulty: ITG 3-5.
 - Owner-confirmed artists include Little Big, Dua Lipa, and P!nk.
 - Other representative artists and music include Taylor Swift, Katy Perry, Kesha, Karol G, Jennifer Lopez, and *KPop Demon Hunters*.
 - The installed `K-Pop Demon Hunters` pack is for Eliza and is not evidence of Kyle's taste.
@@ -70,7 +67,7 @@ DDR and ITG arcade-series packs are installed primarily for completeness and sho
 
 ## Shared-family fit
 
-A recommendation does not need to serve all three people. Kyle's musical and 8-11 chart fit is the primary ranking criterion, while good 5-9 and 3-5 coverage and alignment with Samantha's or Eliza's tastes increase its value. Explicit content is acceptable for family play.
+A recommendation does not need to serve all three people. Apply each player's current dynamic stretch evidence independently from the musical preferences recorded here. Explicit content is acceptable for family play.
 
 ## Assessment evidence
 

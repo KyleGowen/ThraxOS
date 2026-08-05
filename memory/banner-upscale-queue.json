@@ -1,8 +1,40 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-05T07:25:16.2803938Z",
+    "generatedAt":  "2026-08-05T20:12:07.4447599Z",
     "songs":  [
+                  {
+                      "songPath":  "[Prime Time] - Green Light (Chromeo Remix)",
+                      "fingerprint":  "E51D78E6F2DA2FFB2F97508DEEA1080F7C9A5F5C07D59D44548EFAA35DC6BD35",
+                      "simfiles":  [
+                                       {
+                                           "path":  "[Prime Time] - Green Light (Chromeo Remix).sm",
+                                           "sha256":  "BF641A2AE4CBC6E0C2657989A2504C422622FD11D4EFFFBB73564E2B6C436187"
+                                       }
+                                   ],
+                      "bannerReference":  "[Prime Time] - Green Light (Chromeo Remix)-bn.png",
+                      "sourcePath":  "[Prime Time] - Green Light (Chromeo Remix).png",
+                      "sourceSha256":  "F1089FA693D079D6C737FA39AFF4661E56180D27B35AFEACFC90F276736BCA0C",
+                      "sourceWidth":  515,
+                      "sourceHeight":  201,
+                      "usedFallback":  true,
+                      "observedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "assessedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
                   {
                       "songPath":  "80s Fitness",
                       "fingerprint":  "99E71968030E09A5C1DA25FE464947C84BF3B44D45FEF41B6D8106E4092F0608",
@@ -2928,6 +2960,38 @@
                       "previewSha256":  null
                   },
                   {
+                      "songPath":  "Houdini (Initial Talk Dua Goes Freestyle Remix)",
+                      "fingerprint":  "532382FE89687A58BA174166131A2126BBF46FFD4F935FD034399AD72585994E",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Houdini (Initial Talk Dua Goes Freestyle Remix).sm",
+                                           "sha256":  "F38021D15C672BEF7F51F7A55EA662BF19AABBF6A2D3E274D03742A363E89609"
+                                       }
+                                   ],
+                      "bannerReference":  null,
+                      "sourcePath":  null,
+                      "sourceSha256":  null,
+                      "sourceWidth":  null,
+                      "sourceHeight":  null,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-05T14:10:13.7108132Z",
+                      "assessedAt":  "2026-08-05T14:10:13.7108132Z",
+                      "eligible":  false,
+                      "reason":  "Simfiles have a missing, ambiguous, or inconsistent #BANNER reference.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
                       "songPath":  "Hypnodancer",
                       "fingerprint":  "C6C56BBB8F404032C1028040CD2369D5C67A3B31593BD8CD672D1810EC3B4566",
                       "simfiles":  [
@@ -3268,7 +3332,7 @@
                   },
                   {
                       "songPath":  "Kick Drums \u0026 Red Wine",
-                      "fingerprint":  "A2FCC074EF5E5B097D5CF6ABD1F304B032EC65C9B95023E2EE4478C26983A019",
+                      "fingerprint":  "BE080C5A575313D146974887363953904F0D2917FB794EE332B4B92DA068ACC0",
                       "simfiles":  [
                                        {
                                            "path":  "Kick Drums \u0026 Red Wine.sm",
@@ -3280,21 +3344,21 @@
                                        }
                                    ],
                       "bannerReference":  "kd_rw-bn.png",
-                      "sourcePath":  "Kick Drums \u0026 Red Wine.png",
-                      "sourceSha256":  "575FD5EDBCFDE4962CF204D83A0831924832DF9CF654C411BD68C6581F6BF617",
-                      "sourceWidth":  768,
-                      "sourceHeight":  240,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-05T07:25:16.2145811Z",
-                      "pendingAction":  "generate-preview",
-                      "previewPath":  null,
-                      "previewSha256":  null,
-                      "lastAttemptedAt":  "2026-08-05T07:25:16.2145811Z",
+                      "sourcePath":  "kd_rw-bn.png",
+                      "sourceSha256":  "B4D891300D5CEDD3BF5A27D50FCA4B99218925CE885DD32718927F9C71E6D529",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-05T07:39:07.6656831Z",
+                      "assessedAt":  "2026-08-05T07:39:07.6656831Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T07:38:50.4201205Z",
+                      "lastAttemptedAt":  "2026-08-05T07:30:34.5418208Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\A2FCC074EF5E5B097D5CF6ABD1F304B032EC65C9B95023E2EE4478C26983A019\\owner-retry-20260805-0025\\Kick Drums and Red Wine-after-ai-outpaint-836x328.png",
+                      "previewSha256":  "B4D891300D5CEDD3BF5A27D50FCA4B99218925CE885DD32718927F9C71E6D529",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-05T07:08:15.8285021Z",
@@ -3304,7 +3368,17 @@
                                                  "discardedPreviewPath":  null,
                                                  "discardedPreviewSha256":  null
                                              }
-                                         ]
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-05T07:38:50.4201205Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install for the exact labeled and queue-bound After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\A2FCC074EF5E5B097D5CF6ABD1F304B032EC65C9B95023E2EE4478C26983A019\\owner-retry-20260805-0025\\Kick Drums and Red Wine-after-ai-outpaint-836x328.png",
+                                                  "previewSha256":  "B4D891300D5CEDD3BF5A27D50FCA4B99218925CE885DD32718927F9C71E6D529"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "B4D891300D5CEDD3BF5A27D50FCA4B99218925CE885DD32718927F9C71E6D529"
                   },
                   {
                       "songPath":  "La Isla Bonita",
@@ -3333,7 +3407,7 @@
                   },
                   {
                       "songPath":  "Levitating",
-                      "fingerprint":  "19E775696D5C4E64AC90D9BAA3CCA415C8F582796CED8EC5B8FDC44449BF3ABF",
+                      "fingerprint":  "CC46000B49BEF5463B59992B2FDC8866FA38BBBC8438217175E18EC37F641E53",
                       "simfiles":  [
                                        {
                                            "path":  "Levitating.ssc",
@@ -3342,19 +3416,33 @@
                                    ],
                       "bannerReference":  "bn.png",
                       "sourcePath":  "bn.png",
-                      "sourceSha256":  "F7F704F00A2732424C4558CE08F3CF43E2DB9D084EA6629138442F1CDE1357BC",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "B40DF8F1A09B7F13DCF5ABF5D4709EB09ED2605F5B25709828CCEF2CFD3728F1",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-05T14:10:13.7108132Z",
+                      "assessedAt":  "2026-08-05T14:10:13.7108132Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T14:10:10.2303961Z",
+                      "lastAttemptedAt":  "2026-08-05T11:05:23.5468050Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-automation\\19E775696D5C4E64AC90D9BAA3CCA415C8F582796CED8EC5B8FDC44449BF3ABF\\Levitating-after-836x328.png",
+                      "previewSha256":  "B40DF8F1A09B7F13DCF5ABF5D4709EB09ED2605F5B25709828CCEF2CFD3728F1",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-05T14:10:10.2303961Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the exact displayed After with bare install; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-automation\\19E775696D5C4E64AC90D9BAA3CCA415C8F582796CED8EC5B8FDC44449BF3ABF\\Levitating-after-836x328.png",
+                                                  "previewSha256":  "B40DF8F1A09B7F13DCF5ABF5D4709EB09ED2605F5B25709828CCEF2CFD3728F1"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "B40DF8F1A09B7F13DCF5ABF5D4709EB09ED2605F5B25709828CCEF2CFD3728F1"
                   },
                   {
                       "songPath":  "Liebe- Ayla ATB Remix",
@@ -3383,7 +3471,7 @@
                   },
                   {
                       "songPath":  "Lift Me Up",
-                      "fingerprint":  "050A207A4EA43BD289FC855BAD230F806FDC2839BD33DA43C17386C5BCEC490A",
+                      "fingerprint":  "F7D22697ACBA54CA5BB91536AD5670DE24B5063189EE7D565F35599D19F6CA76",
                       "simfiles":  [
                                        {
                                            "path":  "Lift Me Up.sm",
@@ -3391,24 +3479,38 @@
                                        }
                                    ],
                       "bannerReference":  "lift.png",
-                      "sourcePath":  "Lift Me Up.png",
-                      "sourceSha256":  "B93B24703B66925D5FF8DE5B6276ED966BC877BFD7CAA20C0892B345BEB5F4C3",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "lift.png",
+                      "sourceSha256":  "4DA844019D6C5DE908170D887387EBBDD1B27469F92E9AA926640CFD59C84B20",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "assessedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T16:29:27.5299960Z",
+                      "lastAttemptedAt":  "2026-08-05T15:06:36.7932959Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale\\20260805-0803-lift-me-up\\Lift-Me-Up-after-836x328.png",
+                      "previewSha256":  "4DA844019D6C5DE908170D887387EBBDD1B27469F92E9AA926640CFD59C84B20",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-05T16:29:27.5299960Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install for the exact most recently displayed, explicitly labeled, queue-bound After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale\\20260805-0803-lift-me-up\\Lift-Me-Up-after-836x328.png",
+                                                  "previewSha256":  "4DA844019D6C5DE908170D887387EBBDD1B27469F92E9AA926640CFD59C84B20"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "4DA844019D6C5DE908170D887387EBBDD1B27469F92E9AA926640CFD59C84B20"
                   },
                   {
                       "songPath":  "Light Years",
-                      "fingerprint":  "E46FCD32E84E0513D4C38BE0C0FB0A78462145C8DB0FB6D720FB641E0AC5B21E",
+                      "fingerprint":  "87C32C8EF935DF52754994D41C0A88C73C13FF37EC8B132D1C1C8980E7F595AB",
                       "simfiles":  [
                                        {
                                            "path":  "Steps.ssc",
@@ -3417,19 +3519,33 @@
                                    ],
                       "bannerReference":  "BAN.png",
                       "sourcePath":  "BAN.png",
-                      "sourceSha256":  "BD9B3A6736ADB47CCDF3E8E1C9A6B5166F2A13E29F43E451BD7D7629068A401B",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
+                      "sourceSha256":  "39A5D46DBB323B0C01AF1F7FC7FFF32A32AF75B31752FF1723EC3F716C141CAD",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-05T20:12:07.4447599Z",
+                      "assessedAt":  "2026-08-05T20:12:07.4447599Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-05T20:11:46.5812619Z",
+                      "lastAttemptedAt":  "2026-08-05T19:07:51.1807238Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-automation\\E46FCD32E84E0513D4C38BE0C0FB0A78462145C8DB0FB6D720FB641E0AC5B21E\\Light-Years-after-836x328.png",
+                      "previewSha256":  "39A5D46DBB323B0C01AF1F7FC7FFF32A32AF75B31752FF1723EC3F716C141CAD",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-05T20:11:46.5812619Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install for the exact most recently displayed and queue-bound The Midnight - Light Years After preview SHA-256 39A5D46DBB323B0C01AF1F7FC7FFF32A32AF75B31752FF1723EC3F716C141CAD; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-automation\\E46FCD32E84E0513D4C38BE0C0FB0A78462145C8DB0FB6D720FB641E0AC5B21E\\Light-Years-after-836x328.png",
+                                                  "previewSha256":  "39A5D46DBB323B0C01AF1F7FC7FFF32A32AF75B31752FF1723EC3F716C141CAD"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "39A5D46DBB323B0C01AF1F7FC7FFF32A32AF75B31752FF1723EC3F716C141CAD"
                   },
                   {
                       "songPath":  "Little L (new)",
@@ -3671,6 +3787,38 @@
                       "pendingAction":  null,
                       "previewPath":  null,
                       "previewSha256":  null
+                  },
+                  {
+                      "songPath":  "Mi Cama",
+                      "fingerprint":  "4B094ED8C33C701F1A3D2A8DA709269D3AB72BE7274BB56DCD187361B53D0D4C",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Mi Cama.sm",
+                                           "sha256":  "422209EAB147419F247B65F6FFAED100FF89EDFAEDE42A1A937EB6BE7D9437BD"
+                                       }
+                                   ],
+                      "bannerReference":  "Mi Cama-bn.png",
+                      "sourcePath":  "Mi Cama.png",
+                      "sourceSha256":  "C22161EAB0C81499AAFE7EA08BD06BC4D5A5456037D6DB19D5D5562913927308",
+                      "sourceWidth":  1024,
+                      "sourceHeight":  400,
+                      "usedFallback":  true,
+                      "observedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "assessedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "Michael",
@@ -4318,6 +4466,38 @@
                       "pendingAction":  null,
                       "previewPath":  null,
                       "previewSha256":  null
+                  },
+                  {
+                      "songPath":  "Propane Nightmares (Celldweller Remix)",
+                      "fingerprint":  "7558FB93A6B862F0796973E21E25710EFA721C658CBBFF626558F1C38DA5C095",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Propane Nightmares (Celldweller Remix).sm",
+                                           "sha256":  "3E31CC3B686901E9FF476DDD7CFE06A4C96F52928788D6E1A13442D19D04C2B1"
+                                       }
+                                   ],
+                      "bannerReference":  "propane.png",
+                      "sourcePath":  "Propane Nightmares (Celldweller Remix).png",
+                      "sourceSha256":  "EBDBCA623F9F7AA08D5B9EB0CC24D8ACDAFD4FF38AB8C64CEBD12076009D1B85",
+                      "sourceWidth":  256,
+                      "sourceHeight":  80,
+                      "usedFallback":  true,
+                      "observedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "assessedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "Quick Man Stage",
@@ -5509,6 +5689,38 @@
                       "previewSha256":  null
                   },
                   {
+                      "songPath":  "The One That Got Away",
+                      "fingerprint":  "20329B79DC6FC870D3C72F223560F3E780483E6C18DE232DD70351A7B3227EAC",
+                      "simfiles":  [
+                                       {
+                                           "path":  "The One That Got Away.sm",
+                                           "sha256":  "9AF312A9EF6466B999EBF109B7769C2A1BF7B2D647CB5B7785CFA83C2BBDC1CF"
+                                       }
+                                   ],
+                      "bannerReference":  "The One That Got Away-bn.png",
+                      "sourcePath":  "The One That Got Away.png",
+                      "sourceSha256":  "9FD2A7BCDB1CCD7B2AB52C4F3388FAE28138622AC3E787CBF33250A56AB5F7B6",
+                      "sourceWidth":  512,
+                      "sourceHeight":  160,
+                      "usedFallback":  true,
+                      "observedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "assessedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
                       "songPath":  "The Purified",
                       "fingerprint":  "46758EBFF1C9C8FC15ACF3994FC3D15A7761E3BE8A48805A5130E33F0E43E1B5",
                       "simfiles":  [
@@ -5755,6 +5967,38 @@
                       "previewSha256":  null
                   },
                   {
+                      "songPath":  "Travelling without moving",
+                      "fingerprint":  "CA91D80AFDEA3E7AFF64F74A312DEAD9F9240B177426BC59CC368946AAE3B383",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Travelling without moving.sm",
+                                           "sha256":  "B5E6D5C76B825B297C53F6D76DFDC895141D49A3590238A4FDD73C2D6F455500"
+                                       }
+                                   ],
+                      "bannerReference":  "travelling without moving.png",
+                      "sourcePath":  "travelling without moving.png",
+                      "sourceSha256":  "97EA8DDB601675C049FB143D84B1FA36B374F74DB99CF876C30A232870206B3C",
+                      "sourceWidth":  256,
+                      "sourceHeight":  80,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "assessedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
                       "songPath":  "True Survivor",
                       "fingerprint":  "C3AB9AD65359DB6E3402B46A0491098B1298930B2A940197AA9D17D1FD8D9A4F",
                       "simfiles":  [
@@ -5828,6 +6072,38 @@
                       "pendingAction":  null,
                       "previewPath":  null,
                       "previewSha256":  null
+                  },
+                  {
+                      "songPath":  "Two Is Better Than One (Mike Rizzo Remix)",
+                      "fingerprint":  "991B6571DAAFD8D62D34AB69D6F249EB230BDF6255D754B0A5165D1F94086C91",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Two Is Better Than One (Mike Rizzo Remix).sm",
+                                           "sha256":  "CA8F54303F505D31FD2D4A30DB31FE96650762A77EFE39C17866592EC647AE93"
+                                       }
+                                   ],
+                      "bannerReference":  "Two Is Better Than One (Mike Rizzo Remix).png",
+                      "sourcePath":  "Two Is Better Than One (Mike Rizzo Remix).png",
+                      "sourceSha256":  "21715BF06C1DC22E86E575586194AECEECB4D81265542651E61A38DBE7E1A84C",
+                      "sourceWidth":  256,
+                      "sourceHeight":  80,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "assessedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "Vision",
@@ -5928,6 +6204,38 @@
                       "pendingAction":  null,
                       "previewPath":  null,
                       "previewSha256":  null
+                  },
+                  {
+                      "songPath":  "We Are Never Ever Getting Bad Blood",
+                      "fingerprint":  "0FD58D934181C049AC8A8A71818EDC1221D9DEE3C4E81CF663902ECABB996F1E",
+                      "simfiles":  [
+                                       {
+                                           "path":  "We Are Never Ever Getting Bad Blood.sm",
+                                           "sha256":  "4A40F9194BF42B493E01092C4527EC8FC6016A9EA972B47A7279405175768217"
+                                       }
+                                   ],
+                      "bannerReference":  "banner.png",
+                      "sourcePath":  "We Are Never Ever Getting Bad Blood.png",
+                      "sourceSha256":  "3DA4E81D2B729A477A93198BEF8A235903C472102CC23769335E0935648DD2FD",
+                      "sourceWidth":  465,
+                      "sourceHeight":  160,
+                      "usedFallback":  true,
+                      "observedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "assessedAt":  "2026-08-05T16:29:29.9312715Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "What is Love",

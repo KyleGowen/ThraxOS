@@ -1,0 +1,4 @@
+interface:
+  display_name: "Get Player Skill Levels"
+  short_description: "Infer stretch levels from recent play records"
+  default_prompt: "Use $get-player-skill-levels to infer each mapped player's current stretch level from recent Stats.xml records."

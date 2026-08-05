@@ -1,15 +1,18 @@
 # ThraxOS skill catalog
 
-Canonical migration index for every project-local skill under `.agents/skills/`. Copy each whole skill directory, including `SKILL.md`, `agents/`, `scripts/`, and `references/`. Observed and reconciled with the repository on 2026-08-02.
+Canonical migration index for every project-local skill under `.agents/skills/`. Copy each whole skill directory, including `SKILL.md`, `agents/`, `scripts/`, and `references/`. Reconciled with the repository on 2026-08-05.
 
 | Skill | Purpose | Migration guide |
 | --- | --- | --- |
 | `thraxos` | Safe router and operating contract for the host | [ThraxOS](thraxos.md) |
 | `connect-controller` | Pair and map handheld menu controllers with verified song-wheel submenu behavior | [Connect Controller](connect-controller.md) |
 | `add-pack` | Download, validate, scan, collision-check, and install packs | [Add Pack](add-pack.md) |
+| `add-song` | Resolve and safely install one song into `Misc. Collected`, then clean staging | [Add Song](add-song.md) |
+| `find-singles` | Find up to 10 family-fit individual songs with live-library deduplication | [Find Singles](find-singles.md) |
+| `get-player-skill-levels` | Infer current stretch levels from recent Stats.xml records and live chart meters | [Get Player Skill Levels](get-player-skill-levels.md) |
 | `itg-packs-search` | Search the live ITG Packs spreadsheet and compare local overlap | [ITG Packs Search](itg-packs-search.md) |
 | `research-itg-community` | Evidence-graded rhythm-game community research | [ITG Community Research](research-itg-community.md) |
-| `upscale-banner` | Reject inconsistent simfile banner references; verify, normalize, renderer-safely display and link full-resolution comparisons; hash-bind opacity-safe guarded installs; serialize queue updates; and preserve fingerprint history | [Upscale Banner](upscale-banner.md) |
+| `upscale-banner` | Reject inconsistent banner references; verify and normalize art; render external Before images through SHA-identical workspace display copies; hash-bind guarded installs; serialize queue updates; and preserve fingerprint history | [Upscale Banner](upscale-banner.md) |
 | `upscale-background` | Validate explicit backgrounds, stage faithful previews, render them through safe encoded Windows paths, and proof-complete exact hash-bound installs | [Upscale Background](upscale-background.md) |
 | `ship-all` | Review, commit, and push all safe intended work to `origin/main` | [Ship All](ship-all.md) |
 

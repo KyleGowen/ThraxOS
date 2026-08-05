@@ -4,6 +4,8 @@ Source: [`.agents/skills/add-pack/`](../../.agents/skills/add-pack/)
 
 Resolves an approved pack, downloads to staging, validates paths/layout, scans payloads, checks collisions, and installs into an approved song root.
 
+Use [`add-song`](add-song.md) instead when the source is one individual-song ZIP intended for `Misc. Collected`; its archive layout is deliberately validated differently.
+
 ## Components
 
 - `scripts/Get-PackArchive.ps1`: resumable download, redirect handling, ZIP signature, size, and SHA-256.

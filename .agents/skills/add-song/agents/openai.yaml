@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Song"
+  short_description: "Safely install one song into Misc. Collected"
+  default_prompt: "Use $add-song to download and safely install this individual simfile into Misc. Collected."

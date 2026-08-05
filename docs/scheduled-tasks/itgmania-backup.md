@@ -1,6 +1,6 @@
 # Windows task: `ITGManiaBackup`
 
-Observed live on 2026-08-02. Implementation and installation belong to `KyleGowen/itgmania-backup`, not ThraxOS.
+Observed live on 2026-08-05. Implementation and installation belong to `KyleGowen/itgmania-backup`, not ThraxOS.
 
 ## Effective behavior
 
