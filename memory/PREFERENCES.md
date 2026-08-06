@@ -8,6 +8,7 @@
 - **2026-07-31:** The owner is interested in understanding cardio expenditure during play.
 - **2026-08-01:** The canonical assessed music, household, difficulty, and chart preference model is maintained in `docs/context/family-music-taste.md`; use it for pack discovery and recommendations instead of the earlier broad taste summary.
 - **2026-08-03:** Eliza and Kyle both like Little Big and Dua Lipa; Samantha (Sam) and Kyle both like Sofi Tukker; Kyle likes Chromeo, Pendulum, and Jamiroquai; Samantha and Eliza both like P!nk. These are explicit artist preferences, not library-derived inference.
+- **2026-08-06:** Kyle's confirmed song preferences include The Midnight's `SUNSET (Michael Cassette Remix)`, Elton John & Dua Lipa's `Cold Heart (PNAU Remix)`, and Dua Lipa's `Physical`. Eliza's confirmed song preferences include `Cold Heart (PNAU Remix)` and `Physical`. The owner accepted these from recommendations explicitly associated with those players' musical tastes.
 - **2026-07-31:** Pack downloads require an explicit owner request or approval.
 - **2026-07-31:** Health checks should print their result only; no alerts or notifications are wanted.
 - **2026-08-01:** ITGMania Series should be based on genuine multi-pack lineages or collections. Do not create a Series containing only one installed pack.

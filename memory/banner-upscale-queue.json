@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-05T20:12:07.4447599Z",
+    "generatedAt":  "2026-08-06T19:18:14.7557813Z",
     "songs":  [
                   {
                       "songPath":  "[Prime Time] - Green Light (Chromeo Remix)",
@@ -1342,6 +1342,38 @@
                       "pendingAction":  null,
                       "previewPath":  null,
                       "previewSha256":  null
+                  },
+                  {
+                      "songPath":  "Cold Heart (PNAU Remix)",
+                      "fingerprint":  "9CE33240DA2E88F9F352868EBCB019785080A057B6A775C376902A9718EE04FB",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Cold Heart (PNAU Remix).sm",
+                                           "sha256":  "8E066874E899244C82597A5CF12E17D1AFF9F1CF75A2626672F0616C7F96CFA4"
+                                       }
+                                   ],
+                      "bannerReference":  "Cold Heart (PNAU Remix).png",
+                      "sourcePath":  "Cold Heart (PNAU Remix).png",
+                      "sourceSha256":  "800ED051A3D4173A3A9E7CD8EF52EE64A9DD392E9FC1A02EDDABC6E40DC8D7A0",
+                      "sourceWidth":  512,
+                      "sourceHeight":  160,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-06T15:03:38.9351465Z",
+                      "assessedAt":  "2026-08-06T15:03:38.9351465Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "Cream",
@@ -3595,15 +3627,35 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "status":  "skipped",
+                      "processedAt":  "2026-08-06T17:39:38.2611854Z",
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-05T23:04:55.0798802Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-05T23:04:55.0798802Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 was blocked at input moderation under public-figure. The one permitted narrower restoration-only retry was blocked at output moderation under other. Neither call produced a recoverable image. Source metadata and visible text were verified as Taylor Swift - Look What You Made Me Do; exact visible text is \"Look What You Made Me Do\" and \"Taylor Swift\". Preserve the sparse black-and-white portrait, hands, rings, Gothic text, black field, crop, and relative scale on any future owner-directed retry.",
+                                                 "priorProcessedAt":  "2026-08-05T23:02:58.5799409Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-06T17:39:38.2611854Z",
+                                                  "outcome":  "skipped",
+                                                  "note":  "Owner explicitly said \"skip this its fine as is\" for this exact fingerprint; the current banner is good as-is. No broader or permanent opt-out was requested.",
+                                                  "previewPath":  null,
+                                                  "previewSha256":  null
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "Love Again",
-                      "fingerprint":  "9CDCB83CCE3A4A6C650D5AC09CE439B592B65157FDD434E56430D72F11AD6470",
+                      "fingerprint":  "5F0C5D1251936B46F51602CFDA10ADC296D9CDF2B664535208E48F2426DC322E",
                       "simfiles":  [
                                        {
                                            "path":  "Love Again.ssc",
@@ -3612,23 +3664,37 @@
                                    ],
                       "bannerReference":  "bn.png",
                       "sourcePath":  "bn.png",
-                      "sourceSha256":  "81A41E42921325AD8F2EDABDE5CE991CB8D5707532B52811EA233E52879FA0CA",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "038026EB2141E44649DB7F6315FE1418DD27C0CE7C09920F0298C57BEEFDDB11",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-06T17:33:32.6415523Z",
+                      "assessedAt":  "2026-08-06T17:33:32.6415523Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-06T17:34:45.9566086Z",
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\9CDCB83CCE3A4A6C650D5AC09CE439B592B65157FDD434E56430D72F11AD6470\\Love Again-attempt2-836x328.png",
+                      "previewSha256":  "038026EB2141E44649DB7F6315FE1418DD27C0CE7C09920F0298C57BEEFDDB11",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-06T17:34:45.9566086Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved the exact displayed Love Again After by saying install the after; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\9CDCB83CCE3A4A6C650D5AC09CE439B592B65157FDD434E56430D72F11AD6470\\Love Again-attempt2-836x328.png",
+                                                  "previewSha256":  "038026EB2141E44649DB7F6315FE1418DD27C0CE7C09920F0298C57BEEFDDB11"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "038026EB2141E44649DB7F6315FE1418DD27C0CE7C09920F0298C57BEEFDDB11"
                   },
                   {
                       "songPath":  "Lovers (Pure Mix)",
-                      "fingerprint":  "79494021A7F96A7D4D21290F62075E8206BD4B2479E32A844AB779FB63C01E4B",
+                      "fingerprint":  "0342918D5FE27B961F8011ED4490D84C87C541F2BC68BBF3B0897AC1B0125948",
                       "simfiles":  [
                                        {
                                            "path":  "Lovers (Pure Mix).sm",
@@ -3641,23 +3707,44 @@
                                    ],
                       "bannerReference":  "Lovers (Pure Mix).png",
                       "sourcePath":  "Lovers (Pure Mix).png",
-                      "sourceSha256":  "0935A4A2FFDC7334CFD8D8D5D295A17DCC378E9CAED9B3E406CECDEB84E56C22",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "447AE66B9C4F95D5225260913C854F181FE9CC9B1AB13DFA037D2CD05BCF027D",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-06T17:40:32.2763316Z",
+                      "assessedAt":  "2026-08-06T17:40:32.2763316Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-06T17:40:23.0272713Z",
+                      "lastAttemptedAt":  "2026-08-06T17:36:02.2115088Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\79494021A7F96A7D4D21290F62075E8206BD4B2479E32A844AB779FB63C01E4B-selected-20260806-1034\\Lovers (Pure Mix)-owner-selected.png",
+                      "previewSha256":  "DD51CBA3FB1FCE048163F8AB25E14CD5B8AAD33BCC3F66B128133C6261F4B032",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-06T07:07:01.7758906Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restoration attempts produced recoverable exact-text outputs but failed source fidelity. Exact visible text is Lovers; (Pure Mix); Solarstone featuring Lemon. Attempt 1 materially enlarged the title/subtitle, raised the credit, and recomposed the central figures/background. The measured restoration-only retry narrowed the title and credit, made the foreground silhouettes much more prominent, and changed the sparse balance. Raw attempt SHA-256 values: 43AE98009B6C627AE901D14D8F9A288B181A3361FBB46F1B7BF6DF9A9D3E99E1 and 1FCA3EFF5F3357BD6CE66814D15F1D65D27F6504D5E5DB97AC350584CCA586DA. No viable preview was bound; no third attempt or deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-06T07:03:10.4734172Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-06T17:40:23.0272713Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner attached codex-clipboard-7790cdf7-53b3-40ad-a3c7-ca5e5c725e23.png and explicitly said install this one, selecting the pictured first generated result despite the prior automated fidelity rejection; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\79494021A7F96A7D4D21290F62075E8206BD4B2479E32A844AB779FB63C01E4B-selected-20260806-1034\\Lovers (Pure Mix)-owner-selected.png",
+                                                  "previewSha256":  "DD51CBA3FB1FCE048163F8AB25E14CD5B8AAD33BCC3F66B128133C6261F4B032"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "447AE66B9C4F95D5225260913C854F181FE9CC9B1AB13DFA037D2CD05BCF027D"
                   },
                   {
                       "songPath":  "Maawrio Twinz",
-                      "fingerprint":  "EC0529BD5545521888DABEEE8C283793DB18F000EA041B69E1D49FA8518ADAA2",
+                      "fingerprint":  "E270AA0F3793F3708F40D603D917E66722A516B2AE94C80E6F7B56F24B357AEE",
                       "simfiles":  [
                                        {
                                            "path":  "Maawrio Twinz.sm",
@@ -3670,19 +3757,33 @@
                                    ],
                       "bannerReference":  "Maawrio Twinz-bn.png",
                       "sourcePath":  "Maawrio Twinz-bn.png",
-                      "sourceSha256":  "7446838172CF18BB427AD95BB2E4C3DDDBB37D73AB79095F65193545B659046F",
-                      "sourceWidth":  418,
-                      "sourceHeight":  164,
+                      "sourceSha256":  "97B98918C900BA257D44C81F088820730978E385AC3186F2BD3087CB9B59B348",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-06T17:38:26.1268131Z",
+                      "assessedAt":  "2026-08-06T17:38:26.1268131Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-06T17:38:17.9561447Z",
+                      "lastAttemptedAt":  "2026-08-06T11:07:42.3945259Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\EC0529BD5545521888DABEEE8C283793DB18F000EA041B69E1D49FA8518ADAA2\\Maawrio Twinz-attempt1-836x328.png",
+                      "previewSha256":  "97B98918C900BA257D44C81F088820730978E385AC3186F2BD3087CB9B59B348",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-06T17:38:17.9561447Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install for the exact most recently displayed, explicitly labeled, queue-bound Maawrio Twinz After preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\EC0529BD5545521888DABEEE8C283793DB18F000EA041B69E1D49FA8518ADAA2\\Maawrio Twinz-attempt1-836x328.png",
+                                                  "previewSha256":  "97B98918C900BA257D44C81F088820730978E385AC3186F2BD3087CB9B59B348"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "97B98918C900BA257D44C81F088820730978E385AC3186F2BD3087CB9B59B348"
                   },
                   {
                       "songPath":  "Maneater",
@@ -3736,7 +3837,7 @@
                   },
                   {
                       "songPath":  "Master of Puppets",
-                      "fingerprint":  "E868F44927523315591C574792196C521A16CEE86A5429B33B20AFC29119EAF8",
+                      "fingerprint":  "7FF08095FBF0E9F9206C8237EF272DC8A644352ED8E0086B772FB1B30379A0A6",
                       "simfiles":  [
                                        {
                                            "path":  "[Falling Apart] - Master of Puppets.sm",
@@ -3749,23 +3850,37 @@
                                    ],
                       "bannerReference":  "[Falling Apart] - Master of Puppets.png",
                       "sourcePath":  "[Falling Apart] - Master of Puppets.png",
-                      "sourceSha256":  "82B78B738C804455D367582C40DD975F42B1BF43681E5F9D7D44B818013F5501",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "88F6353DE70D2E860D44EBC9289B2A564A1CE2C681170DC654688334FF781BDC",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-06T17:40:32.2763316Z",
+                      "assessedAt":  "2026-08-06T17:40:32.2763316Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-06T17:41:43.4695562Z",
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\E868F44927523315591C574792196C521A16CEE86A5429B33B20AFC29119EAF8-attachment-install\\Master of Puppets-owner-selected-836x328.png",
+                      "previewSha256":  "88F6353DE70D2E860D44EBC9289B2A564A1CE2C681170DC654688334FF781BDC",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-06T17:41:43.4695562Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner attached the selected Master of Puppets image and said install; no additional reason was provided. Proof recorded on the current installed-content fingerprint after a concurrent refresh replaced the pending record.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\E868F44927523315591C574792196C521A16CEE86A5429B33B20AFC29119EAF8-attachment-install\\Master of Puppets-owner-selected-836x328.png",
+                                                  "previewSha256":  "88F6353DE70D2E860D44EBC9289B2A564A1CE2C681170DC654688334FF781BDC"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "88F6353DE70D2E860D44EBC9289B2A564A1CE2C681170DC654688334FF781BDC"
                   },
                   {
                       "songPath":  "Masters of the Universe",
-                      "fingerprint":  "0760A581AF2959F31B388C464FF25F09DED4E85261822B52EF93CF5740BA088B",
+                      "fingerprint":  "32BD4E1C9EBBBC0A1AE89176C80D6E32E9D5209E906A43DCD6DB915AE4107DE6",
                       "simfiles":  [
                                        {
                                            "path":  "Masters of the Universe.sm",
@@ -3774,19 +3889,40 @@
                                    ],
                       "bannerReference":  "Masters of the Universe.png",
                       "sourcePath":  "Masters of the Universe.png",
-                      "sourceSha256":  "40AA020D741CC5F56C94B79C2A1A6A1173776612E02A6F7B5199427C70BE752A",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
+                      "sourceSha256":  "A3A0B485B64D0456C1221C01C319694D8F0D74D0DEE1F487D23E93E04D9D5850",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "observedAt":  "2026-08-06T19:18:14.7557813Z",
+                      "assessedAt":  "2026-08-06T19:18:14.7557813Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-06T19:18:14.2547088Z",
+                      "lastAttemptedAt":  "2026-08-06T19:17:15.8156063Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\0760A581AF2959F31B388C464FF25F09DED4E85261822B52EF93CF5740BA088B\\owner-selection-20260806-1217\\Masters-of-the-Universe-owner-selected-836x328.png",
+                      "previewSha256":  "A3A0B485B64D0456C1221C01C319694D8F0D74D0DEE1F487D23E93E04D9D5850",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-06T19:06:17.1790910Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 produced recoverable exact text but oversized both lines and clipped them at the right edge, materially changing the compact source layout. Attempt 2 preserved complete exact text but still materially enlarged and repositioned it, added heavy drop shadows, and redrew the abstract source background into a cloudscape. Both outputs failed faithful composition and typography review. Correct visible text is Masters of the Universe and Juno Reactor; retain the compact source scale, simple flat styling, and original abstract tech crop on any future attempt. Raw attempt SHA-256 values: C8BE4F7B958082D7584EB571C0B0D98A7CD0FE0AD825ECAB1E5B4EA7B0A5E708 and 15AC0BFA3FEA31ACEE664253E7862DEEED93140DBA34EF69CC80E4DE3790460A.",
+                                                 "priorProcessedAt":  "2026-08-06T19:03:30.8934994Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-06T19:18:14.2547088Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner attached the complete-text second generated result, explained that the first option cut off the text, and explicitly said install this one. No broader preference was stated.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\0760A581AF2959F31B388C464FF25F09DED4E85261822B52EF93CF5740BA088B\\owner-selection-20260806-1217\\Masters-of-the-Universe-owner-selected-836x328.png",
+                                                  "previewSha256":  "A3A0B485B64D0456C1221C01C319694D8F0D74D0DEE1F487D23E93E04D9D5850"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "A3A0B485B64D0456C1221C01C319694D8F0D74D0DEE1F487D23E93E04D9D5850"
                   },
                   {
                       "songPath":  "Mi Cama",
@@ -4254,6 +4390,38 @@
                       "pendingAction":  null,
                       "previewPath":  null,
                       "previewSha256":  null
+                  },
+                  {
+                      "songPath":  "Physical",
+                      "fingerprint":  "35B6224D6936CB854480FA336D21F0799F1B2FD1957F9DBECAED83ADAEA51FF9",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Physical.sm",
+                                           "sha256":  "45E86586FAF9AD600673B7304F5FB2F7C99D4B480F12289209D04D531BB943B8"
+                                       }
+                                   ],
+                      "bannerReference":  "Physical.png",
+                      "sourcePath":  "Physical.png",
+                      "sourceSha256":  "9A55B260DEBC7A660B0DCA23928FEAB58769C58C53BAC15FEC24E7F679CB0CFB",
+                      "sourceWidth":  512,
+                      "sourceHeight":  160,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-06T15:03:38.9351465Z",
+                      "assessedAt":  "2026-08-06T15:03:38.9351465Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "Picture to Burn",
@@ -5287,6 +5455,42 @@
                       "pendingAction":  null,
                       "previewPath":  null,
                       "previewSha256":  null
+                  },
+                  {
+                      "songPath":  "SUNSET (Michael Cassette Remix)",
+                      "fingerprint":  "A62D0BC0470BF5B86E52ADB97A7A7FB90A1C63AE72FCED8FA544D9F211443C36",
+                      "simfiles":  [
+                                       {
+                                           "path":  "SUNSET (Michael Cassette Remix).sm",
+                                           "sha256":  "C9B920FA4BEB3C4E74278DA18DEB05F9AD9B9C394C73D041A5083E264C79283C"
+                                       },
+                                       {
+                                           "path":  "SUNSET (Michael Cassette Remix).ssc",
+                                           "sha256":  "729F7409913442082067E206408EBD84D8310D711B7F67DACFBDDC8B1F870A80"
+                                       }
+                                   ],
+                      "bannerReference":  "SUNSET (Michael Cassette Remix).png",
+                      "sourcePath":  "SUNSET (Michael Cassette Remix).png",
+                      "sourceSha256":  "C43F03C15E38FD3D177F41F8D6F27F0040781BA1FCF08223E76859D25D876930",
+                      "sourceWidth":  512,
+                      "sourceHeight":  160,
+                      "usedFallback":  false,
+                      "observedAt":  "2026-08-06T15:03:38.9351465Z",
+                      "assessedAt":  "2026-08-06T15:03:38.9351465Z",
+                      "eligible":  true,
+                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
                   },
                   {
                       "songPath":  "Super Mario World - Boss Battle",
