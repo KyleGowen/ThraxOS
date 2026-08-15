@@ -1,6 +1,6 @@
 # Codex automation: `Hourly Misc Banner Upscale Queue`
 
-Observed live on 2026-08-05. Automation ID: `hourly-misc-banner-upscale-queue`.
+Observed live and reconciled on 2026-08-14. Automation ID: `hourly-misc-banner-upscale-queue`.
 
 ## Definition
 

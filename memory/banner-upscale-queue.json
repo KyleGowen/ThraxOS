@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-15T04:45:17.3554140Z",
+    "generatedAt":  "2026-08-15T11:08:19.6050708Z",
     "songs":  [
                   {
                       "songPath":  "[Prime Time] - Green Light (Chromeo Remix)",
@@ -6927,7 +6927,18 @@
                       "processedAt":  null,
                       "pendingAction":  null,
                       "previewPath":  null,
-                      "previewSha256":  null
+                      "previewSha256":  null,
+                      "lastAttemptedAt":  "2026-08-15T07:09:19.3641549Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-15T07:09:19.3641549Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 raw SHA-256 903B44467E2E032FBB8332150537337A3A53E85477D23873B66AC00CAC99CF9C / normalized F38EE0509EC62B5ECB01F4A567C3DC031E080B6BBDAA81FE3F632C1DE789503A compressed and reshaped the thin handwritten title, widened its relative x bounds from source 17.97-81.64% to 16.15-83.85%, and moved/shrank y bounds from 33.75-61.88% to 31.71-55.49%. Attempt 2 used exact-size layout reference SHA-256 DB95AD20AA6143122665A24F4C79EE9B4EDF735C009C20A527E7FE88EE18DF81; raw SHA-256 5B42E7083B547389D04B273D0EF8189CA52D124107B662AE8AA2BF9931823FED / normalized 529011DB4D63C815BF7E292EBEAE7E2AAA4507972DDA5CCE59EA15953E39E910 widened the text further to x 15.55-85.65%, moved/shrank it to y 31.10-57.62%, and again redrew the original irregular letterforms. Future attempt must preserve the exact source-relative text bounds, large word gap, thin stroke weight, individual letter shapes, and flat black field.",
+                                                 "priorProcessedAt":  "2026-08-15T07:03:28.9512697Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ]
                   },
                   {
                       "songPath":  "Too Shy",
@@ -6952,11 +6963,12 @@
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
                       "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T11:08:19.5870706Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\7754FFB89444D601013BE7BEA1E818FE498880E50C183EE542F8DD20D75E7340\\Too Shy-attempt-2-836x328.png",
+                      "previewSha256":  "D8E76E8A85D11B31B2E5808BEE7DFC06A2574E943515D36042569BC044BBA479",
+                      "lastAttemptedAt":  "2026-08-15T11:08:19.5870706Z"
                   },
                   {
                       "songPath":  "Too Shy_custom",

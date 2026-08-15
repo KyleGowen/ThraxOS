@@ -1,15 +1,15 @@
 # ITGMania context
 
-Observed locally and researched on 2026-07-31.
+Originally inventoried 2026-07-31; live configuration refreshed 2026-08-14 at 22:10 Pacific.
 
 ## Installed layout
 
 | Role | Path | Notes |
 | --- | --- | --- |
-| Program/install root | `C:\Games\ITGmania` | Installed version 1.0.2 |
-| Install songs | `C:\Games\ITGmania\Songs` | 63 pack directories observed |
+| Program/install root | `C:\Games\ITGmania` | Installed version 1.3.0 |
+| Install songs | `C:\Games\ITGmania\Songs` | 75 pack directories observed |
 | Portable save | `C:\Games\ITGmania\Save` | Present, but older than the active roaming save during inventory |
-| Active user root | `C:\Users\Player.NUCBOXG3_PLUS\AppData\Roaming\ITGmania` | Cache and Save updated on 2026-07-31 |
+| Active user root | `C:\Users\Player.NUCBOXG3_PLUS\AppData\Roaming\ITGmania` | Current active cache and Save root |
 | Active save | `...\AppData\Roaming\ITGmania\Save` | Preferences, profiles, uploads, and machine state |
 | Additional user songs | `...\AppData\Roaming\ITGmania\Songs` | One observed pack directory |
 
@@ -19,8 +19,8 @@ The agent must inspect both save roots but treat the roaming root as active unti
 
 - Theme: Simply Love.
 - Game: dance; default theme game mode: ITG.
-- Windowed: enabled.
-- Internal display setting: 1280×720 at 60 Hz with VSync.
+- Windowed: disabled (fullscreen).
+- Internal display setting: 1920 x 1080. Re-read live preferences before relying on refresh rate or VSync.
 - Songs per play: 3; coin mode: Home; event mode: off.
 - Seven local profiles were observed: elemwarr, Sarah, Kyle, Nicole, Crios, Sam, and Lizy.
 
@@ -28,7 +28,7 @@ These values are snapshots. Re-read the INI files before every configuration tas
 
 ## Version context
 
-The official site reported ITGMania 1.3.0 as current on 2026-07-31, while this host runs 1.0.2. The current release adds features including Series, engine-level Couples/Routine support, and a WASAPI audio option. Do not upgrade in place until a successful backup, release-note review, configuration diff, resync plan, and owner-approved maintenance window exist.
+The owner approved the upgrade on 2026-08-01. This host now runs ITGMania 1.3.0 with Simply Love 5.9.0; live status reconfirmed the engine version and active theme on 2026-08-14. Treat future upgrades as new configuration mutations requiring current backup evidence, release-note review, configuration comparison, a rollback plan, and owner approval.
 
 Primary references:
 

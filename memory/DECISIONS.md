@@ -1,5 +1,10 @@
 # Decisions
 
+## 2026-08-15 deferred hygiene follow-ups
+
+- **Owner-confirmed:** Defer inspection of the StepManiaX firmware, sensitivity setting, and physical modifications. Do not launch diagnostics or change stage settings without a later request and the existing approval boundary.
+- **Owner-confirmed:** Defer technical enforcement of the Kyle-only GrooveStats policy. Leave the pre-existing `elemwarr` and `Crios` credential files untouched unless the owner later requests a separately approved, recoverable configuration change.
+
 ## 2026-07-31 repository architecture
 
 - **Decision:** Use `AGENTS.md` for durable operating rules, `.agents/skills/thraxos` for `@ThraxOS`-style discovery, `.codex/agents/thraxos.toml` for the project custom agent, `docs/` for detailed context/runbooks, and `memory/` for reviewable persistence.

@@ -1,6 +1,6 @@
 # Backup project boundaries
 
-Observed locally and from GitHub on 2026-07-31.
+Originally inventoried locally and from GitHub on 2026-07-31; live configuration and log evidence refreshed 2026-08-14 at 22:10 Pacific.
 
 ## `KyleGowen/itgmania-backup`
 
@@ -33,8 +33,9 @@ Source: [Thraximundar-Backup](https://github.com/KyleGowen/Thraximundar-Backup).
 - Schedule: `0 3 * * *`, Pacific Standard Time.
 - Songs: excluded.
 - Credential: present; value not inspected or stored.
-- Scheduled task: `ITGManiaBackup`, ready, last result `0x0`.
-- Latest inspected log: 2026-07-31; completed successfully and pushed commit `15c85cb` to `main`.
+- Scheduled task: `ITGManiaBackup`. Direct Task Scheduler inspection was access-denied on 2026-08-14, so current state and last-result visibility are degraded.
+- Latest inspected log: `Backup_2026-08-14.log`, modified at 03:02 Pacific with a same-day success marker.
+- Health interpretation: successful current log evidence and Songs remain excluded, but report degraded scheduler visibility rather than claiming a fully verified healthy task.
 
 ## ThraxOS responsibility
 

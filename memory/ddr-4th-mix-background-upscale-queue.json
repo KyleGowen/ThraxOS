@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
-    "generatedAt":  "2026-08-15T05:00:13.5660422Z",
+    "generatedAt":  "2026-08-15T13:59:43.0020547Z",
     "songs":  [
                   {
                       "songPath":  ".59",
@@ -909,14 +909,27 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T05:53:07.3689650Z",
+                      "lastAttemptedAt":  "2026-08-15T05:53:07.3689650Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T05:51:58.0067452Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt A produced opaque one-frame 1672 x 941 output SHA-256 597C3B149CEBFC7A5C5B8876BEB67ECA4AFA7EBF446F57D95DE5A8AAE290E2A5, but invented a human silhouette at the tunnel light and materially reframed the original center; rejected for fidelity.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T05:53:07.3689650Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt B produced opaque one-frame 1672 x 941 output SHA-256 F09DBF836E9A4780E623140BAF1277F8DFA0B78E938263345CE1DF528F62196C, but again invented a human-like figure at the tunnel light and added an unfaithful left-side light while reframing the source; both genuine AI attempts are exhausted and deterministic exact-content fallback needs owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -951,14 +964,27 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T06:54:03.0170801Z",
+                      "lastAttemptedAt":  "2026-08-15T06:54:03.0170801Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T06:52:39.7496363Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Attempt 1 produced an opaque one-frame 1672 x 941 image (SHA-256 90D33BDD763D9F8CDC17416856BA19C43935F6D0F817B2B89A1EB07B08B1F8EF) but was rejected because it enlarged and repositioned the title, substantially rebuilt the foreground rock geometry, and introduced a long new island instead of preserving the original central composition.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T06:54:03.0170801Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 2 produced an opaque one-frame 1672 x 941 image (SHA-256 038F048AB97F5E0330BF11BCC75C66534EC2447F0117F11409A9079F56FA78DA) but again rebuilt the foreground rock geometry, added a detached landform, and changed the title scale and placement despite the center-preservation constraint. Both genuine AI attempts are exhausted; deterministic exact-content 1920 x 1080 fallback now requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -993,14 +1019,27 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T07:53:55.8191074Z",
+                      "lastAttemptedAt":  "2026-08-15T07:53:55.8191074Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T07:52:38.7028732Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Attempt 1 (C52B2824EBEEB81927E5D273F44FB51717FF0E5D791B8AEE198366DF239B07EB) was technically decodable and opaque but rejected for fidelity: it enlarged and redrew the dartboard, changed dart geometry, enlarged the GOTCHA title, and duplicated the smaller subtitle text.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T07:53:55.8191074Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 2 (CF44EB25B90557A451AEADC67F1E748BE5A8FF40B469E2ECCAF823E60B928DFF) was technically decodable and opaque but rejected for fidelity: despite the central-pixels-locked correction, it repainted and rescaled the dartboard, changed dart geometry, changed title visibility, and duplicated the smaller subtitle text. Both genuine AI attempts are exhausted; deterministic exact-content 1920 x 1080 fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1035,14 +1074,27 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T08:55:31.4570401Z",
+                      "lastAttemptedAt":  "2026-08-15T08:55:31.4570401Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T08:54:16.5644919Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt A SHA-256 C3307023C3BC3730E3AB916954BA176680452772228740CF4262AF3F23704E66 returned a technically decodable wide image but substantially repainted and enlarged the identity-critical blue head, rebuilt the locked central rings and raster texture, and changed the source composition instead of limiting new content to horizontal side outpaint.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T08:55:31.4570401Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt B SHA-256 857D552648EF82D405916EFBF9D185F27B4CB9D84F23A7763058BC3E8DEC8AC1 returned a technically decodable wide image but again repainted and enlarged the blue head, re-rendered the exact title and remix label, and replaced the original central ring geometry despite an immutable-center instruction. Both genuine AI attempts are exhausted; deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1077,14 +1129,27 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T09:54:20.5397719Z",
+                      "lastAttemptedAt":  "2026-08-15T09:54:20.5397719Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T09:52:59.9211714Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Attempt A produced an opaque one-frame 1672 x 941 image (SHA-256 3A4D084B8A0748CEDD931A1B5CF0C6FDF2924026C7C5EA9E9BC8CB018DA21BAE), but it enlarged and repainted the central HERO logo, changed letter geometry, and corrupted the HAPPY GRANDALE MIX subtitle with extra punctuation.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T09:54:20.5397719Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Attempt B produced an opaque one-frame 1672 x 941 image (SHA-256 1FD01FA3574D711851194F89EE6596E1BBCF9501EF551355F503D2EB83BAC40D), but it again rescaled and redrew the HERO wordmark and changed the HAPPY GRANDALE MIX subtitle by adding parentheses and altering letter forms. Two genuine AI attempts are now exhausted; a deterministic exact-content 1920 x 1080 fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1119,14 +1184,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T10:54:27.5324842Z",
+                      "lastAttemptedAt":  "2026-08-15T10:54:27.5324842Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T10:54:27.5324842Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine identity-preserving side-outpaint attempts were rejected. Attempt A SHA-256 D0D7DC9218FAADAAA577FD82458C3DA031AA034ACAA722E1FBFEAD7D9EF50131 enlarged and re-typeset HIGHER, reshaped the white rising motif, and rebuilt cloud geometry inside the original center. Attempt B SHA-256 C75D23E0F3DBAC902BF6304D4D6EC003EF076D1039EBB15D849344ED2CE021FC repeated those center changes despite a central-75-percent pixel-lock instruction. Deterministic exact-content 1920 x 1080 fallback now requires explicit owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1161,14 +1232,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T11:55:57.5403433Z",
+                      "lastAttemptedAt":  "2026-08-15T11:55:57.5403433Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T11:55:57.5403433Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two faithful side-only outpaint attempts produced opaque one-frame 1672 x 941 images but both repainted and enlarged the identity-critical central figure, changed its pose/details, re-rendered and moved the Holic wordmark, and rebuilt center-region rays/grid instead of preserving the original rectangle. Rejected SHA-256: Attempt A 755B6AEE72CB9EF0D1BD302787247AB77CC0772665CD022D646D65151F413D28; Attempt B 64D07C043AFFF14729E1A530D25A50DF5F0DDACE15848B5031C95F070EC570DF. Deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1203,14 +1280,27 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T12:57:41.2251645Z",
+                      "lastAttemptedAt":  "2026-08-15T12:57:41.2251645Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T12:57:38.3729712Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt A produced opaque 1672 x 941 output SHA-256 349983019D6A50D3F857491AAFBDF2BA98283F7D54333E0CE44DA49C59894FBB but enlarged and repainted the face, rebuilt the central lattice and rays, and re-rendered the title.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T12:57:41.2251645Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt B produced opaque 1672 x 941 output SHA-256 D70958D7F6C8FDA25F9A8629E0C6F35C1793941E90E8BB7C80FDA97D022893F8 but again enlarged and repainted the face, replaced central geometry, and changed the title scale and placement; both genuine AI attempts are exhausted and deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1245,14 +1335,27 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T13:57:48.1644855Z",
+                      "lastAttemptedAt":  "2026-08-15T13:57:48.1644855Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T13:56:30.5011717Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt A produced an opaque one-frame 1672 x 941 image but enlarged and repainted the original center, changed the central outlined 190 motif, and misspelled HYSTERIA as HYSILRIA; rejected during visual fidelity review. Rejected output SHA-256 0EB7993AA819608F3E9F4695AD33BAFCADBC096F87ABDB54433ECDA07750BAF7.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T13:57:48.1644855Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt B produced an opaque one-frame 1672 x 941 image but again enlarged and repainted the original center and eye/ring, rebuilt the cloud geometry, changed the outlined 190 motif, and misspelled HYSTERIA as HYSILRIA; rejected during visual fidelity review. Rejected output SHA-256 9E881FB00CE08A21BDC4B354AAAA50A91971E643D1D294FE45D903C835C14674. Both genuine AI attempts are exhausted; deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -3215,6 +3318,105 @@
                                 "summary":  "Owner approved the sole exact task-local After A for TaQ - era (nostalmix) with bare install. Fresh game, backup-log, source, simfile, and preview gates passed; byte-exact installation, unique verified rollback, installed-content fingerprint migration, opacity and presentation checks, and no-restart validation succeeded. No reusable workflow, scheduled behavior, or owner-wide aesthetic preference change was justified.",
                                 "songPath":  "era (nostalmix)",
                                 "fingerprint":  "2439DBA552583C58C4818C8AE85D3D3655F83E2F75C5322C1B4DECF2238AEB29",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T05:54:26.1446760Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Both permitted faithful outpaint prompts generated technically valid 1672 x 941 images but invented a human-like figure at the abstract tunnel light; the second also added an unfaithful left-side light. Preserve this as source-specific evidence and require explicit deterministic exact-content fallback approval before any further preview.",
+                                "songPath":  "FURUHATA\u0027S THEME",
+                                "fingerprint":  "5FFDA554B58941B3917A1F0F895B088BEFE21D2CC20E560293405EFDC2F11AB5",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T06:55:13.7876127Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this exact 320 x 240 4:3 source, both faithful horizontal-outpaint attempts produced opaque one-frame near-16:9 images but changed the centered title scale or placement, substantially rebuilt foreground rock geometry, and added new landforms. Preserve these source-specific correction constraints; the fingerprint now awaits explicit deterministic fallback approval.",
+                                "songPath":  "Get me in your sight (AMD CANCUN MIX)",
+                                "fingerprint":  "EDE7A35DC8A5FA5BEFA6A0B78351D0EC5560E9A19171283D6AB049A3026D6F51",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T07:54:54.9857761Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Two faithful horizontal-outpaint attempts repainted the locked central dartboard, dart geometry, and title treatment; this source requires owner approval before a deterministic exact-content fallback.",
+                                "songPath":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH)",
+                                "fingerprint":  "2D5E3E7C966B7C6D02BF1934FD6E0403810E95707401EAAA2BF26C55B2A3B2A7",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T08:56:15.2301301Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this 320 x 240 source, both wide edit attempts repainted the identity-critical blue head, title treatment, and central ring geometry instead of preserving the original 4:3 core; deterministic exact-content fallback now requires owner approval.",
+                                "songPath":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)",
+                                "fingerprint":  "7E813F9EFA6FACFD182F0B5C1BC9C24CB5BD9CCBCF4D3F04138E5814958096FB",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T09:54:21.6226147Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Both faithful horizontal-outpaint attempts for this 320 x 240 HERO source repainted and rescaled the identity-critical wordmark and altered the HAPPY GRANDALE MIX subtitle; keep the fingerprint pending for owner-approved deterministic exact-content fallback.",
+                                "songPath":  "HERO (HAPPY GRANDALE MIX)",
+                                "fingerprint":  "7B511DA81DD84CB62AA202C1594CB71553E26ABE3C271B8C8104E23F75A5A6C1",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T10:55:20.8113805Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For NM feat. SUNNY - HIGHER, both permitted faithful horizontal-outpaint attempts repainted the identity-critical HIGHER wordmark, white rising motif, and original-center cloud geometry; keep this exact fingerprint pending for explicit deterministic exact-content fallback approval. No reusable workflow change was justified.",
+                                "songPath":  "HIGHER",
+                                "fingerprint":  "6D7FFB16B216DCDAF39AEB172D21B936A51F4D553CB7EA7C5D008C9E9C5E73FF",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T11:56:07.2995887Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For TaQ - Holic, two source-specific side-only outpaint prompts still enlarged and repainted the central figure, changed pose/details, re-rendered the Holic wordmark, and rebuilt center rays/grid; preserve the exact fingerprint pending for owner-approved deterministic exact-content fallback.",
+                                "songPath":  "Holic",
+                                "fingerprint":  "716FE9F546A212CE188B640FB8A1FBD896CD38505469E9C7E0BD832A1B2BC4FF",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T12:59:29.0649741Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For BLUE DESTROYERS - HYPNOTIC CRISIS, two side-only outpaint attempts both repainted identity-critical center content: the face, geometric lattice and rays, and title scale or placement. Keep this source awaiting explicit deterministic exact-content fallback approval; no reusable workflow change is supported by this single fingerprint.",
+                                "songPath":  "HYPNOTIC CRISIS",
+                                "fingerprint":  "264D7BA8348F8244D1F867297D62C33359C9C9AF3799EAAA241187E2A0E8FFD7",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T13:59:43.0020547Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Both faithful side-only AI outpaints for NAOKI 190 - HYSTERIA rewrote HYSTERIA as HYSILRIA and enlarged or repainted the central eye and outlined 190 motif; the exact fingerprint now awaits owner approval for deterministic exact-content fallback.",
+                                "songPath":  "HYSTERIA",
+                                "fingerprint":  "85150E54CA07D174AAA978B0DC9BC357DAA51C30E5745C0E735D035F0EE737D2",
                                 "changedFiles":  {
 
                                                  },
