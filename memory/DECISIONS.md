@@ -175,6 +175,7 @@
 
 - **Decision:** Protect StepManiaX gameplay bindings from handheld-controller arrivals by keeping `AutoMapOnJoyChange=0`. Restore the pad's verified Player 1 button bindings first; use the second binding slots for reliable keyboard menu controls when a handheld controller is not enumerated by ITGMania.
 - **Rationale:** ITGMania retains only two bindings per action. Its current session exposed StepManiaX but not the paired NES controller, so a three-way pad/NES/keyboard direction map is impossible and would risk breaking the gameplay pad again.
+- **Decision applied:** When the NES controller is present as `Joy2`, use its Select button as the second Player 1 Left and Right binding to emit the song-wheel submenu chord. Keep StepManiaX as the first binding on those actions; move keyboard A/D to dedicated menu-left/menu-right instead of replacing a pad binding.
 
 ## 2026-08-14 missing-banner queue routing
 

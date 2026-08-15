@@ -3400,6 +3400,12 @@
 - **Observed:** The live ITGMania log enumerated only `StepManiaX` as `Joy1`; the paired NES controller did not appear as a DirectInput game device. The active mapping still contained NES inputs, while the known-good pre-NES rollback showed the pad uses buttons 2/4/6/8. The one shared button 6 explained the isolated Right behavior.
 - **Applied:** With `ITGManiaBackup` ready and returning `0x0`, restored the four StepManiaX direction bindings and added keyboard W/A/S/D as their second slots. Set keyboard Enter to Start/confirm and Q to Back, cleared stale NES Select/dedicated-menu bindings, and set `AutoMapOnJoyChange=0`. Both writes were hash-gated, validated, and protected by fresh sibling rollback copies; ITGMania remained closed and was not launched.
 
+## 2026-08-14 22:03 Pacific - NES Select bound to song-wheel submenu without pad regression
+
+- **Owner-confirmed:** Requested that the NES Select button alone open the song-wheel submenu and required that the change not affect the StepManiaX pad.
+- **Observed:** With ITGMania closed, Windows exposed the paired NES controller as the second game controller and the owner-configured map identified it as `Joy2`; Select is `Joy2_B9`. Backup state was `Ready` / `0x0`.
+- **Applied:** Added `Joy2_B9` as the second binding of Player 1 Left and Right, preserving the StepManiaX first bindings `Joy1_B4` and `Joy1_B6`. The Select action remains separately mapped. Keyboard A/D moved to dedicated menu-left/menu-right; W/S, Enter, and Escape remain keyboard navigation/confirm/back. The hash-gated writer created and verified a sibling rollback, the updated file parsed exactly, `AutoMapOnJoyChange=0` remained set, and ITGMania was not launched.
+
 ## 2026-08-14 17:05 Pacific - JOGA - DAM DARIRAM (KCP MIX) background installed
 
 - **Owner-confirmed:** Replied bare `install`, approving the sole displayed and exact hash-bound After A for `JOGA - DAM DARIRAM (KCP MIX)`, SHA-256 `9F6C4FFC50E3E0E44A6E7507ED9F100AEB18AA5DCAE9FBC3876D2E56A5E73722`.
