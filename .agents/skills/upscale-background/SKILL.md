@@ -1,6 +1,6 @@
 ---
 name: upscale-background
-description: Resolve, assess, faithfully restore, upscale, outpaint, preview, and safely install a static ITGMania or StepMania song background in an explicitly specified folder. Use when asked to repair, regenerate, enlarge, replace, or improve a song background, compare Before and After presentation details, approve a staged result, or process a Misc. Collected queue selection. Accept empty BGCHANGES metadata while excluding active changes, missing or conflicting references, video, animation, and unconfirmed legacy artwork.
+description: Resolve, assess, faithfully restore, upscale, outpaint, preview, and safely install a static ITGMania or StepMania song background in an explicitly specified folder. Use when asked to repair, regenerate, enlarge, replace, or improve a song background, compare Before and After presentation details, approve a staged result, or process a pack-scoped queue selection. Accept empty BGCHANGES metadata while excluding active changes, missing or conflicting references, video, animation, and unconfirmed legacy artwork.
 ---
 
 # Restore a static song background
@@ -9,7 +9,7 @@ Load `thraxos` and follow its operating contract. Keep preview and installation 
 
 ## Resolve and assess
 
-1. Read required memory, inspect live state, and operate only in the explicitly supplied folder. Scheduled scope is initially `C:\Games\ITGmania\Songs\Misc. Collected`.
+1. Read required memory, inspect live state, and operate only in the explicitly supplied folder. The live scheduled scope is `C:\Games\ITGmania\Songs\DDR 4th Mix`; the completed `Misc. Collected` ledger remains preserved separately.
 2. Run `scripts/Inspect-Background.ps1 -Simfile <path>`. Across all `.sm`/`.ssc` files, require one consistent, explicit, contained `#BACKGROUND` static image; a missing or blank `#BACKGROUND` in any companion simfile fails automatic eligibility. Treat `#BGCHANGES:;` containing only whitespace as empty metadata.
 3. Exclude populated or malformed `BGCHANGES`, disagreement, video/unsupported extensions, traversal, undecodable content, and animation. Classify plausible `*-bg`/`background` images behind missing references or implicit `.dwi` content as `review-only`; never select, generate from, or install those candidates without a later owner-confirmed source-resolution workflow.
 4. Visually inspect the source. Process broken/tiny, aspect-mismatched, SD-or-smaller, and sub-HD tiers even when the source is otherwise clean. A clean near-16:9 image may be skipped solely for adequate runtime quality only in the `soft-review` tier (at least 1280 x 720); record the factual reason.
@@ -26,6 +26,7 @@ Load `thraxos` and follow its operating contract. Keep preview and installation 
 ## Use the durable queue
 
 - Maintain `memory/background-upscale-queue.json` with `scripts/Update-BackgroundQueue.ps1`.
+- Use a distinct queue ledger for every pack. For any non-default pack, pass the exact `-PackPath` and `-QueuePath` to every update, learning, and completion helper call; never repurpose another pack's ledger.
 - Queue helpers must read and write the ledger explicitly as UTF-8 without a BOM and serialize every read/modify/write cycle with the per-queue cross-process mutex. Do not use Windows PowerShell's implicit `Get-Content` decoding or direct JSON edits; repeated rewrites can corrupt non-ASCII history, inflate the ledger, or lose a concurrent transition.
 - Refresh/select with `-Refresh -SelectNext`. Rank broken/tiny, aspect-mismatched, SD-or-smaller, sub-HD, then soft-review candidates; preserve never-attempted-before-returned and least-recently-attempted rotation within each tier. Stage at most one candidate per scheduled run. Pending and `review-only` records do not block or enter selection.
 - Preserve status, attempt history, and decision history when assessment-rule changes alter a fingerprint but the explicit reference, source hash, and simfile hashes are unchanged. Treat genuinely different content as a fresh assessment; preserve installed state when the live source exactly matches its approved preview hash.
@@ -37,6 +38,7 @@ Load `thraxos` and follow its operating contract. Keep preview and installation 
 
 1. Install only after the owner approves an exact displayed candidate in the same task. If exactly one installable candidate was displayed and hash-bound, `install` or its explicit label such as `Install A` approves that sole candidate. If several were displayed, require its label (`Install A`, `Install B`, and so on) and reject bare `install`. Never resolve approval from global pending order or an unlabeled artifact. A later explicit labeled choice may override the latest candidate or a prior rejection only after rebinding and rechecking that exact file. Recheck current backup evidence before any live write.
 2. Prefer one proof-gated call to `scripts/Complete-ApprovedBackgroundInstall.ps1 -Simfile <path> -SongPath <relative path> -Fingerprint <hash> -Approved -BackupVerified -DecisionNote <owner approval>`. It holds the queue mutex, consumes the exact pending preview/source/simfile hashes, invokes the guarded installer, records the installed proof without shell-quoting the decision, refreshes the fingerprint, and validates one terminal `installed` record.
+   For a non-default pack, also pass its exact `-PackPath` and `-QueuePath`.
 3. Use `scripts/Install-ApprovedBackground.ps1` only as the lower-level installer. Pass expected preview, live-source, and simfile SHA-256 values. It refuses an open game or hash drift, rechecks immediately before the write, verifies a unique sibling rollback, preserves target encoding, and returns structured hashes plus Before/After dimensions and aspect ratios. A matching opaque 1920 x 1080 preview uses a byte-exact same-format fast path; other formats use deterministic normalization and the completion wrapper binds an exact installed proof copy.
 4. Leave ITGMania closed. Never edit simfiles, BGCHANGES, audio, charts, scores, profiles, timestamps, signatures, or GrooveStats data.
 

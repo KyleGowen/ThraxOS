@@ -4,6 +4,7 @@ param(
     [Parameter(Mandatory)][string]$Preview,
     [Parameter(Mandatory)][switch]$Approved,
     [string]$FallbackOriginal,
+    [switch]$SourceLessGeneration,
     [string]$ExpectedPreviewSha256,
     [string]$ExpectedSourceSha256,
     [string]$ExpectedSimfileSha256,
@@ -60,30 +61,36 @@ $source = (Resolve-Path -LiteralPath $Preview).Path
 $target = $inspect.BannerPath
 $beforeReference = $inspect.BannerReference
 $targetExisted = Test-Path -LiteralPath $target -PathType Leaf
-$backupSource = $target
+$backupSource = if ($targetExisted) { $target } else { $null }
+$rollbackAction = if ($targetExisted) { 'RestoreBackup' } else { 'RemoveCreatedTarget' }
 
 if (-not $targetExisted) {
-    if ([string]::IsNullOrWhiteSpace($FallbackOriginal)) {
-        throw 'The referenced banner is missing; -FallbackOriginal is required for a recoverable installation.'
+    if (-not [string]::IsNullOrWhiteSpace($FallbackOriginal)) {
+        $fallback = (Resolve-Path -LiteralPath $FallbackOriginal).Path
+        $songRoot = [IO.Path]::GetFullPath((Split-Path -Parent $inspect.Simfile)).TrimEnd('\') + '\'
+        if (-not $fallback.StartsWith($songRoot, [StringComparison]::OrdinalIgnoreCase)) {
+            throw 'Fallback original is outside the song directory.'
+        }
+        $backupSource = $fallback
+    } elseif (-not $SourceLessGeneration) {
+        throw 'A missing banner target requires either -FallbackOriginal or explicit -SourceLessGeneration.'
+    } elseif (-not [string]::IsNullOrWhiteSpace($ExpectedSourceSha256)) {
+        throw 'No original banner or fallback exists, so -ExpectedSourceSha256 must be omitted.'
     }
-    $fallback = (Resolve-Path -LiteralPath $FallbackOriginal).Path
-    $songRoot = [IO.Path]::GetFullPath((Split-Path -Parent $inspect.Simfile)).TrimEnd('\') + '\'
-    if (-not $fallback.StartsWith($songRoot, [StringComparison]::OrdinalIgnoreCase)) {
-        throw 'Fallback original is outside the song directory.'
-    }
-    $backupSource = $fallback
+} elseif ($SourceLessGeneration) {
+    throw '-SourceLessGeneration is only valid when the referenced banner target does not exist.'
 }
 
 $previewSha256 = Get-Sha256 $source
-$originalSha256 = Get-Sha256 $backupSource
+$originalSha256 = if ($backupSource) { Get-Sha256 $backupSource } else { $null }
 $simfileSha256 = Get-Sha256 $inspect.Simfile
 Assert-ExpectedSha256 $previewSha256 $ExpectedPreviewSha256 'Approved preview'
 Assert-ExpectedSha256 $originalSha256 $ExpectedSourceSha256 'Live source'
 Assert-ExpectedSha256 $simfileSha256 $ExpectedSimfileSha256 'Simfile'
 
 $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'
-$backup = "$target.pre-upscale-$stamp.bak"
-if (Test-Path -LiteralPath $backup) {
+$backup = if ($backupSource) { "$target.pre-upscale-$stamp.bak" } else { $null }
+if ($backup -and (Test-Path -LiteralPath $backup)) {
     $backup = "$target.pre-upscale-$stamp-$([guid]::NewGuid().ToString('N').Substring(0, 8)).bak"
 }
 $temp = Join-Path (Split-Path -Parent $target) ('.banner-install-' + [guid]::NewGuid().ToString('N') + '.png')
@@ -124,12 +131,17 @@ try {
         throw 'The simfile banner reference changed after preflight.'
     }
     Assert-ExpectedSha256 $prewriteSimfileSha256 $simfileSha256 'Simfile'
-    $prewriteSourceSha256 = Get-Sha256 $backupSource
-    Assert-ExpectedSha256 $prewriteSourceSha256 $originalSha256 'Live source'
+    if ($backupSource) {
+        $prewriteSourceSha256 = Get-Sha256 $backupSource
+        Assert-ExpectedSha256 $prewriteSourceSha256 $originalSha256 'Live source'
+    }
 
-    Copy-Item -LiteralPath $backupSource -Destination $backup
-    $backupSha256 = Get-Sha256 $backup
-    if ($backupSha256 -cne $originalSha256) { throw 'Rollback backup hash does not match the original source.' }
+    $backupSha256 = $null
+    if ($backupSource) {
+        Copy-Item -LiteralPath $backupSource -Destination $backup
+        $backupSha256 = Get-Sha256 $backup
+        if ($backupSha256 -cne $originalSha256) { throw 'Rollback backup hash does not match the original source.' }
+    }
 
     Move-Item -LiteralPath $temp -Destination $target -Force
     $after = & $inspectScript -Simfile $Simfile
@@ -151,6 +163,7 @@ try {
         Simfile = $after.Simfile
         SimfileSha256 = $afterSimfileSha256
         CreatedMissingTarget = (-not $targetExisted)
+        RollbackAction = $rollbackAction
         Width = $after.Width
         Height = $after.Height
         OutputOpaque = ($targetPixelFormat -eq [Drawing.Imaging.PixelFormat]::Format24bppRgb)

@@ -1,6 +1,6 @@
 # ThraxOS skill catalog
 
-Canonical migration index for every project-local skill under `.agents/skills/`. Copy each whole skill directory, including `SKILL.md`, `agents/`, `scripts/`, and `references/`. Reconciled with the repository on 2026-08-05.
+Canonical migration index for every project-local skill under `.agents/skills/`. Copy each whole skill directory, including `SKILL.md`, `agents/`, `scripts/`, and `references/`. Reconciled with the repository on 2026-08-14.
 
 | Skill | Purpose | Migration guide |
 | --- | --- | --- |
@@ -12,8 +12,10 @@ Canonical migration index for every project-local skill under `.agents/skills/`.
 | `get-player-skill-levels` | Infer current stretch levels from recent Stats.xml records and live chart meters | [Get Player Skill Levels](get-player-skill-levels.md) |
 | `itg-packs-search` | Search the live ITG Packs spreadsheet and compare local overlap | [ITG Packs Search](itg-packs-search.md) |
 | `research-itg-community` | Evidence-graded rhythm-game community research | [ITG Community Research](research-itg-community.md) |
-| `upscale-banner` | Reject inconsistent banner references; verify and normalize art; render external Before images through SHA-identical workspace display copies; hash-bind guarded installs; serialize queue updates; and preserve fingerprint history | [Upscale Banner](upscale-banner.md) |
-| `upscale-background` | Validate explicit backgrounds, stage faithful previews, render them through safe encoded Windows paths, and proof-complete exact hash-bound installs | [Upscale Background](upscale-background.md) |
+| `generate-banner` | Research authentic release art and stage original 836 x 328 previews for redesigns or entirely missing referenced banners | [Generate Banner](generate-banner.md) |
+| `generate-background` | Research authentic release art and stage original opaque 1920 x 1080 cover-inspired background previews | [Generate Background](generate-background.md) |
+| `upscale-banner` | Reject inconsistent references; restore existing art or route source-less targets through `generate-banner`; render exact approval evidence; hash-bind installs; and preserve UTF-8 fingerprint history | [Upscale Banner](upscale-banner.md) |
+| `upscale-background` | Validate explicit pack-scoped backgrounds with separate ledgers, stage faithful previews, render them through safe encoded Windows paths, and proof-complete exact hash-bound installs | [Upscale Background](upscale-background.md) |
 | `ship-all` | Review, commit, and push all safe intended work to `origin/main` | [Ship All](ship-all.md) |
 
 ## Migration order

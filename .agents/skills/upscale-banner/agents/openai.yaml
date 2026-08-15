@@ -1,4 +1,4 @@
 interface:
   display_name: "Upscale ITGMania Banner"
-  short_description: "Restore and safely install song banners"
-  default_prompt: "Use $upscale-banner to restore this banner, show exact full-resolution comparisons, and perform only a hash-bound, queue-serialized install after exact-preview approval."
+  short_description: "Restore, create, and safely install song banners"
+  default_prompt: "Use $upscale-banner to restore existing art or route an entirely missing referenced banner through $generate-banner, preserve canonical credits, show exact approval evidence, and install only after exact-preview approval."

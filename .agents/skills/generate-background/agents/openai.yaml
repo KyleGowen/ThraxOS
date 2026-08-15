@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Background"
+  short_description: "Research cover art and create ITG backgrounds"
+  default_prompt: "Use $generate-background to research authentic release artwork and create a new 1920x1080 ITGMania background preview."

@@ -141,6 +141,7 @@ function Get-Assessment([IO.DirectoryInfo]$Song, [string]$PackRoot, [string]$Now
     $sourcePath = $null
     $sourceInfo = $null
     $usedFallback = $false
+    $generationMode = $null
     $reason = $null
     $eligible = $false
 
@@ -165,13 +166,19 @@ function Get-Assessment([IO.DirectoryInfo]$Song, [string]$PackRoot, [string]$Now
                 $usedFallback = $true
                 $eligible = $true
                 $reason = 'Referenced banner is missing; a decodable banner-shaped fallback is available.'
-            } else { $reason = 'Referenced banner is missing and no decodable banner-shaped fallback was found.' }
+            } else {
+                $eligible = $true
+                $generationMode = 'generate-banner'
+                $reason = 'Referenced banner is missing and no decodable banner-shaped fallback was found; generate a new banner from verified release art.'
+            }
         }
     }
 
     $sourceRelative = if ($sourcePath) { Get-RelativePath $Song.FullName $sourcePath } else { $null }
     $sourceHash = if ($sourcePath) { Get-Sha256 $sourcePath } else { $null }
-    $fingerprintText = @($relative, ($simParts -join '|'), $bannerReference, $sourceRelative, $sourceHash) -join "`n"
+    $fingerprintParts = @($relative, ($simParts -join '|'), $bannerReference, $sourceRelative, $sourceHash)
+    if ($generationMode) { $fingerprintParts += "generation-mode:$generationMode:v1" }
+    $fingerprintText = $fingerprintParts -join "`n"
     $bytes = [Text.Encoding]::UTF8.GetBytes($fingerprintText)
     $sha = [Security.Cryptography.SHA256]::Create()
     try { $fingerprint = ([BitConverter]::ToString($sha.ComputeHash($bytes))).Replace('-', '') } finally { $sha.Dispose() }
@@ -186,6 +193,7 @@ function Get-Assessment([IO.DirectoryInfo]$Song, [string]$PackRoot, [string]$Now
         sourceWidth = if ($sourceInfo) { $sourceInfo.Width } else { $null }
         sourceHeight = if ($sourceInfo) { $sourceInfo.Height } else { $null }
         usedFallback = $usedFallback
+        generationMode = $generationMode
         observedAt = $Now
         assessedAt = $Now
         eligible = $eligible
@@ -222,7 +230,7 @@ try {
 
 $existing = $null
 if (Test-Path -LiteralPath $queueFile -PathType Leaf) {
-    $existing = Get-Content -LiteralPath $queueFile -Raw | ConvertFrom-Json
+    $existing = [IO.File]::ReadAllText($queueFile, [Text.UTF8Encoding]::new($false)) | ConvertFrom-Json
 }
 if (-not $existing) { $existing = [pscustomobject]@{ schemaVersion = 1; packPath = 'C:\Games\ITGmania\Songs\Misc. Collected'; generatedAt = $null; songs = @() } }
 
@@ -291,14 +299,22 @@ if ($SetStatus) {
     if ($SetStatus -eq 'installed') {
         $songDirectory = [IO.Path]::GetFullPath((Join-Path $pack $record.songPath)).TrimEnd('\')
         if (-not (Test-Path -LiteralPath $songDirectory -PathType Container)) { throw 'The installed song directory no longer exists.' }
-        if ([string]::IsNullOrWhiteSpace($record.sourcePath)) { throw 'The installed record has no contained source path.' }
+        $sourceMissingBeforeInstall = [string]::IsNullOrWhiteSpace($record.sourcePath) -and
+            ($record.PSObject.Properties.Name -contains 'generationMode') -and
+            $record.generationMode -ceq 'generate-banner'
+        if ([string]::IsNullOrWhiteSpace($record.sourcePath) -and -not $sourceMissingBeforeInstall) {
+            throw 'The installed record has no contained source path or approved source-less generation mode.'
+        }
         $freshInstalled = Get-Assessment (Get-Item -LiteralPath $songDirectory) $pack ((Get-Date).ToUniversalTime().ToString('o'))
         $simfilesUnchanged = ((@($freshInstalled.simfiles) | ConvertTo-Json -Compress) -ceq (@($record.simfiles) | ConvertTo-Json -Compress))
         $fallbackBecameReferencedTarget = $record.usedFallback -and -not $freshInstalled.usedFallback -and
             $freshInstalled.sourcePath -ceq $freshInstalled.bannerReference -and
             $freshInstalled.bannerReference -ceq $record.bannerReference
+        $generatedMissingTarget = $sourceMissingBeforeInstall -and
+            $freshInstalled.sourcePath -ceq $freshInstalled.bannerReference -and
+            $freshInstalled.bannerReference -ceq $record.bannerReference
         if ($freshInstalled.bannerReference -cne $record.bannerReference -or -not $simfilesUnchanged -or
-            ($freshInstalled.sourcePath -cne $record.sourcePath -and -not $fallbackBecameReferencedTarget)) {
+            ($freshInstalled.sourcePath -cne $record.sourcePath -and -not $fallbackBecameReferencedTarget -and -not $generatedMissingTarget)) {
             throw 'The simfile or banner reference changed before the installed-content decision could be recorded.'
         }
         $installedSource = [IO.Path]::GetFullPath((Join-Path $songDirectory $freshInstalled.sourcePath))

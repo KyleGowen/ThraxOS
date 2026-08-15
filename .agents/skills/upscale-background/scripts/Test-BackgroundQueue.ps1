@@ -93,6 +93,7 @@ try {
 
     $document = Read-Queue $queue
     Assert ($document.schemaVersion -eq 2) 'queue schema should be version 2'
+    Assert ($document.packPath -eq (Resolve-Path -LiteralPath $pack).Path) 'queue should retain the exact explicitly supplied pack path'
     $empty = $document.songs | Where-Object songPath -eq 'Empty SD'
     Assert ($empty.status -eq 'eligible') 'empty BGCHANGES metadata should remain eligible'
     Assert ($empty.bgChangesState -eq 'empty') 'empty BGCHANGES metadata should be recorded as empty'

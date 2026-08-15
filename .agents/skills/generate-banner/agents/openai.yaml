@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Banner"
+  short_description: "Research release art and create missing banners"
+  default_prompt: "Use $generate-banner to research authentic release artwork and create a new 836x328 ITGMania banner preview, including when the referenced banner and every fallback are missing."

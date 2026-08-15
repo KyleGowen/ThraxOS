@@ -67,11 +67,20 @@
 - **Decision:** Queue selection is round-robin. Never-attempted eligible fingerprints precede returned items; returned items retain their last-attempt time and cannot recur until every less-recently attempted eligible fingerprint has had its turn. Ordinary preview declines rotate; explicit good-as-is feedback becomes fingerprint-scoped `skipped`, while terminal denial is reserved for an explicit permanent opt-out of that fingerprint.
 - **Rationale:** Durable fingerprint state prevents duplicate work while allowing changed source content to be reassessed without weakening exact-preview approval.
 
+## 2026-08-11 cover-inspired banner generation workflow
+
+- **Owner-confirmed:** Create the project-local `generate-banner` skill for from-scratch banner redesigns after the owner rejects an original or asks for authentic release-art inspiration.
+- **Decision:** Discover with one focused Google Images query, then verify the selected image on Discogs, an official artist or label page, Bandcamp, Apple Music, Spotify, MusicBrainz/Cover Art Archive, or another established music catalog before using it as inspiration.
+- **Decision:** Generate an original opaque 836 x 328 composition from verified palette, era, typography category, motifs, materials, and layout rhythm. Do not copy sleeve layouts, logos, label names, catalog numbers, watermarks, identifiable people, or noncanonical credits.
+- **Decision:** Reuse `upscale-banner` fingerprint reservation, canonical metadata, two-attempt, normalization, presentation, exact-preview approval, queue rotation, and guarded-install boundaries. `generate-banner` never installs during generation.
+- **Rationale:** Cover research supports a stronger replacement when faithful restoration is unwanted while preserving release identity, canonical text, owner approval, and live-library safety.
+
 ## 2026-08-03 banner installation hardening
 
 - **Decision:** Bare `install` refers only to the most recently displayed, explicitly labeled, queue-bound After in the same task; never resolve it from global pending order or an unlabeled artifact.
 - **Decision:** Pass expected preview, live-source, and simfile hashes into the guarded banner installer. The installer must refuse an open game or hash drift, verify the sibling rollback, and return hashes for the preview, original, backup, installed file, and unchanged simfile.
 - **Decision:** Serialize banner-queue helper read/modify/write cycles with a per-queue cross-process mutex. Verify exact installed-item invariants after refresh instead of relying on mutable global counts, and never duplicate a decision while recovering from a legacy concurrent rewrite.
+- **Decision:** Read and write the banner queue explicitly as UTF-8 without a BOM. Windows PowerShell implicit decoding is prohibited because it can corrupt non-ASCII attempt and decision history during otherwise valid atomic transitions.
 - **Decision:** Treat backup result `0x41301` as an active-run degraded state, not a completed failure. Banner installation may proceed in that state only with a same-day successful log, confirmed Songs exclusion, and guarded local rollback.
 - **Decision:** Preserve opaque approved previews as fully opaque installed output, and use the identical pixel-format-aware renderer for live installation and queue proof.
 - **Decision:** When a banner source outside the repository opens through its native link but cannot render inline, use a SHA-verified, byte-identical full-resolution workspace display copy only for presentation. Keep the authoritative path/hash, native link, preview approval, and queue binding unchanged.
@@ -147,3 +156,29 @@
 - **Owner-confirmed:** Maintain a portable common-name map seeded as Kyle=`kyle`, Samantha=`sam`, Eliza=`lizy`, Quinn=`elemwarr`, and Rich=`crios`.
 - **Decision:** Match only trimmed, Unicode case-insensitive exact `Stats/GeneralData/DisplayName` aliases; omit and report unmapped profiles. Store no profile paths or GUIDs. Join Stats song directory, StepsType, and Difficulty to current simfiles and report unresolved or ambiguous records rather than guessing.
 - **Decision:** Treat `Stats.xml` as dated high-score evidence, not a complete play log. Regenerate skill output for every consumer and keep numeric skill levels out of the musical-taste context.
+
+## 2026-08-13 cover-inspired background generation workflow
+
+- **Owner-confirmed:** Create the project-local `generate-background` skill from the successful scratch-background workflow for owner-requested redesigns and display-maximized replacements.
+- **Decision:** Verify authentic release art through one focused image search plus an official or established music source, then generate an original opaque single-frame 1920 x 1080 composition from high-level palette, era, typography, texture, motif, lighting, and compositional evidence without copying the cover, logos, watermarks, identifiable people, or release marks.
+- **Decision:** Reuse `upscale-background` exact-source resolution, serialized fingerprint history, two-attempt ceiling, presentation, hash-bound approval, proof-gated installation, and once-only learning record. Preserve raw outputs and normalize only near-16:9 generations with the tested helper; material aspect mismatch requires regeneration or outpainting rather than stretching.
+- **Rationale:** This makes the successful release-research and original-generation method reproducible while preserving the existing static-background queue and live-library safety model.
+
+## 2026-08-14 DDR 4th Mix hourly background queue
+
+- **Owner-confirmed:** Retarget the existing background-preview automation from `Misc. Collected` to `C:\Games\ITGmania\Songs\DDR 4th Mix` and run it hourly.
+- **Decision:** Preserve `memory/background-upscale-queue.json` as the completed `Misc. Collected` ledger. Use the separate `memory/ddr-4th-mix-background-upscale-queue.json` ledger for DDR 4th Mix, and pass its exact pack and queue paths to every update, learning, and completion helper.
+- **Decision:** Keep the stable automation ID `hourly-misc-background-upscale-queue` for continuity while renaming the displayed task to `Hourly DDR 4th Mix Background Upscale Queue`.
+- **Rationale:** Separate pack-scoped ledgers preserve prior fingerprint decisions and prevent a refresh of one pack from replacing another pack's durable history.
+
+## 2026-08-14 controller coexistence
+
+- **Decision:** Protect StepManiaX gameplay bindings from handheld-controller arrivals by keeping `AutoMapOnJoyChange=0`. Restore the pad's verified Player 1 button bindings first; use the second binding slots for reliable keyboard menu controls when a handheld controller is not enumerated by ITGMania.
+- **Rationale:** ITGMania retains only two bindings per action. Its current session exposed StepManiaX but not the paired NES controller, so a three-way pad/NES/keyboard direction map is impossible and would risk breaking the gameplay pad again.
+
+## 2026-08-14 missing-banner queue routing
+
+- **Owner-confirmed:** Expand the `Misc. Collected` banner queue to find entirely missing banner files and route them directly through the project-local `generate-banner` workflow.
+- **Decision:** A source-less banner is selectable only when every `.sm` and `.ssc` agrees on one identical, nonblank, contained `#BANNER` target, that file is absent, and no decodable banner-shaped fallback exists. Record it as `generationMode=generate-banner` with null source evidence. Blank, absent, inconsistent, ambiguous, or escaping declarations remain ineligible; the workflow never guesses a filename or edits a simfile.
+- **Decision:** A source-less preview shows a factual missing Before state, not fabricated or substituted artwork. Scheduled runs remain preview-only. A later exact-preview installation requires explicit `-SourceLessGeneration`, creates only the unchanged declared target, and records `RollbackAction=RemoveCreatedTarget` because target absence is the recoverable prior state.
+- **Rationale:** This adds missing artwork without weakening fingerprint selection, owner approval, live-write, or rollback boundaries.

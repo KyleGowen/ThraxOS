@@ -1,21 +1,22 @@
-# Codex automation: `Hourly Misc Background Upscale Queue`
+# Codex automation: `Hourly DDR 4th Mix Background Upscale Queue`
 
-Created 2026-08-02; live schedule re-observed 2026-08-05. Automation ID: `hourly-misc-background-upscale-queue`.
+Created 2026-08-02; scope and hourly schedule owner-updated 2026-08-14. The stable automation ID remains `hourly-misc-background-upscale-queue` for continuity.
 
 ## Definition
 
 - Scheduler/status: active Codex cron automation.
-- Frequency: every four hours at 02:00, 06:00, 10:00, 14:00, 18:00, and 22:00, America/Los_Angeles.
+- Frequency: once per hour, America/Los_Angeles.
 - Execution: local, scoped to the ThraxOS project working directory.
 - Model at observation: `gpt-5.6-sol`, high reasoning; availability is environment-specific.
 - Notifications: failed runs only.
-- Dependencies: `thraxos`, `upscale-background`, and `memory/background-upscale-queue.json`.
-- Live input: `C:\Games\ITGmania\Songs\Misc. Collected`. The skill may later accept other explicit folders, but this task must not expand scope automatically.
+- Dependencies: `thraxos`, `upscale-background`, and `memory/ddr-4th-mix-background-upscale-queue.json`.
+- Live input: `C:\Games\ITGmania\Songs\DDR 4th Mix`. The task must not expand scope automatically.
+- Retained prior state: `memory/background-upscale-queue.json` remains the completed `Misc. Collected` ledger and must not be reused or overwritten by this automation.
 - Concurrency: each invocation selects at most one non-pending fingerprint; pending items do not block unrelated work.
 
 ## Per-run contract
 
-All queue and retrospective JSON reads and writes must use explicit UTF-8 without a BOM. Do not substitute Windows PowerShell's implicit text decoding; the durable history may contain non-ASCII text and must remain byte-stable across hourly rewrites.
+All queue and retrospective JSON reads and writes must use explicit UTF-8 without a BOM. Every update or retrospective call must pass the exact DDR 4th Mix pack and queue paths above. Do not substitute Windows PowerShell's implicit text decoding; the durable history may contain non-ASCII text and must remain byte-stable across hourly rewrites.
 
 Load safety/context and refresh the ledger so added or changed songs receive new fingerprint assessments. Require the same nonblank explicit `#BACKGROUND` in every `.sm`/`.ssc`; a blank or missing companion tag cannot enter automatic selection. Treat whitespace-only `#BGCHANGES:;` as empty metadata; exclude populated or malformed changes, video, GIF/animation, conflicts, traversal, and undecodable images. Put plausible implicit DWI art and missing-reference fallbacks into the non-selectable `review-only` lane. Select one explicit static candidate by quality tier—broken/tiny, aspect mismatch, SD-or-smaller, sub-HD, then soft-review—then by round-robin history within that tier.
 
@@ -32,6 +33,6 @@ Finish every run by invoking `Record-BackgroundLearning.ps1` exactly once. Use `
 ## Reproduce and verify
 
 1. Migrate and validate `thraxos` and `upscale-background`.
-2. Run `Test-BackgroundQueue.ps1` and `Test-BackgroundInstallWorkflow.ps1`, validate the skill, then initialize the queue with `Update-BackgroundQueue.ps1 -Refresh`. Confirm blank companion `#BACKGROUND` tags fail automatic eligibility, Unicode history survives repeated rewrites, formatter fixtures with spaces, parentheses, and `#` produce forward-slash percent-encoded inline paths, mutex serialization works, stale hashes fail closed, and exact/normalized installs preserve terminal proof.
-3. Create a local project Codex cron named `Hourly Misc Background Upscale Queue`, every four hours at 02:00, 06:00, 10:00, 14:00, 18:00, and 22:00 in the host timezone, using the behavioral contract above.
+2. Run `Test-BackgroundQueue.ps1` and `Test-BackgroundInstallWorkflow.ps1`, validate the skill, then initialize the dedicated queue with `Update-BackgroundQueue.ps1 -PackPath 'C:\Games\ITGmania\Songs\DDR 4th Mix' -QueuePath '<repo>\memory\ddr-4th-mix-background-upscale-queue.json' -Refresh`. Confirm the ledger records the exact resolved pack path, blank companion `#BACKGROUND` tags fail automatic eligibility, Unicode history survives repeated rewrites, formatter fixtures with spaces, parentheses, and `#` produce forward-slash percent-encoded inline paths, mutex serialization works, stale hashes fail closed, and exact/normalized installs preserve terminal proof.
+3. Create a local project Codex cron named `Hourly DDR 4th Mix Background Upscale Queue`, once per hour in the host timezone, using the behavioral contract above. Preserve the existing automation ID when updating an installed copy.
 4. Test one preview-only run. Confirm empty-tag acceptance, active-change exclusion, review-only nonselection, severity-first ordering, one selected fingerprint, formatter-produced labeled source/result rendering with dimensions and reduced-plus-decimal aspect ratios plus working native links, canonical artist/title plus useful identification metadata in the approval message and inbox item, recorded preview hash, no live write, `Install` acceptance only for one displayed hash-bound candidate, label-required `Install A`/`Install B` choices when several exist, and that skipped or attempt-exhausted fingerprints do not re-enter selection unless their content or owner decision changes.

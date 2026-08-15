@@ -1,16 +1,20 @@
 # ThraxOS scheduled-task catalog
 
-Canonical catalog of recurring ThraxOS work across Windows Task Scheduler and Codex automations. Live state reconciled 2026-08-05 (America/Los_Angeles).
+Canonical catalog of recurring ThraxOS work across Windows Task Scheduler and Codex automations. Live state reconciled 2026-08-14 (America/Los_Angeles).
 
 | Scheduler | Task | Purpose | Guide |
 | --- | --- | --- | --- |
 | Windows Task Scheduler | `ITGManiaBackup` | Poll backup cron runner every minute; configured backup runs daily at 03:00 Pacific | [ITGManiaBackup](itgmania-backup.md) |
-| Codex cron automation | `Hourly Misc Banner Upscale Queue` | Every four hours from midnight, retain fingerprint history, render external Before art through SHA-identical workspace display copies, and support hash-bound opacity-safe installs | [Banner queue](hourly-misc-banner-upscale-queue.md) |
-| Codex cron automation | `Hourly Misc Background Upscale Queue` | Every four hours from 02:00, severity-rank static backgrounds, render safe encoded comparisons, and request exact approval with canonical metadata | [Background queue](hourly-misc-background-upscale-queue.md) |
+| Codex cron automation | `Hourly Misc Banner Upscale Queue` | Every four hours from midnight, restore undersized banners and route consistently referenced source-less targets through `generate-banner`, retaining exact approval and queue history | [Banner queue](hourly-misc-banner-upscale-queue.md) |
+| Codex cron automation | `Hourly DDR 4th Mix Background Upscale Queue` | Hourly, severity-rank explicit static DDR 4th Mix backgrounds, render safe encoded comparisons, and request exact approval with canonical metadata | [Background queue](hourly-misc-background-upscale-queue.md) |
 
 No other root-level Windows task was identified as part of ThraxOS. Standard Windows and vendor tasks are excluded.
 
 `connect-controller` is an on-demand skill, not a scheduled task; it creates no Task Scheduler or Codex automation entry.
+
+`generate-banner` is also on-demand for owner-requested redesigns and is an automatic preview-only dependency when the banner queue selects a consistently referenced target with no banner or fallback. It does not create a separate scheduler entry or let the scheduled run install live content.
+
+`generate-background` is also on-demand. It may service an owner-authorized scratch redesign of an exact background fingerprint, but it adds no scheduler entry, does not change the hourly queue behavior, and keeps generation preview-only.
 
 ## Documentation contract
 

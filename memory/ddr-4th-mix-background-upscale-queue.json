@@ -1,0 +1,3224 @@
+{
+    "schemaVersion":  2,
+    "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
+    "generatedAt":  "2026-08-15T05:00:13.5660422Z",
+    "songs":  [
+                  {
+                      "songPath":  ".59",
+                      "fingerprint":  "A213158B318126502CC3F7A9B3C977912A1152DEBDC4C9303F4E57F0230EEAE4",
+                      "simfiles":  [
+                                       {
+                                           "path":  ".59.sm",
+                                           "sha256":  "A520F2314E821FA6DF7A6C035557CFE70A901A5FD6DDF259CACA5CF166EBF32E"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  ".59-bg.png",
+                      "sourcePath":  ".59-bg.png",
+                      "sourceSha256":  "7B6D65FEB8BBEB87B6C3FD4CAF1B9548280E0D37BFA977D17D17C95685B53CB9",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T20:16:32.4612889Z",
+                      "assessedAt":  "2026-08-14T20:16:32.4612889Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-14T20:16:32.3136806Z",
+                      "lastAttemptedAt":  "2026-08-14T20:16:21.8171802Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00139-0d43-7970-abdb-de640872d4c4\\Installed-Approved-7B6D65FEB8BB.png",
+                      "previewSha256":  "7B6D65FEB8BBEB87B6C3FD4CAF1B9548280E0D37BFA977D17D17C95685B53CB9",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-14T20:06:22.4187840Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt A materially redrew the centered emblem as a more literal humanoid figure and altered the distinctive central .59-like mark, so it was rejected for source-identity drift.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-14T20:07:18.0483037Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt B again anthropomorphized the abstract centered crest and converted the thin glowing central mark into more literal numeral-like shapes, so it was rejected for identity drift after the second genuine AI attempt.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-14T20:16:32.3136806Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected and approved exec-b9356702-32c8-44f4-a962-7731d85e3c8c.png for dj TAKA .59 after reviewing the generated image. Approved preview SHA-256 2B040A97421A7528439351733E4B158A9312463E787B3CB5611DD0F1FCD7559A. Installed SHA-256 7B6D65FEB8BBEB87B6C3FD4CAF1B9548280E0D37BFA977D17D17C95685B53CB9 using normalized-render; rollback .59-bg.png.pre-upscale-20260814-131631.bak preserves original SHA-256 10B8BCCC19992B4173F0AE5C718BA9919BC2F276936AF6FAE23DB5AF8E0F9E36.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00139-0d43-7970-abdb-de640872d4c4\\Installed-Approved-7B6D65FEB8BB.png",
+                                                  "previewSha256":  "7B6D65FEB8BBEB87B6C3FD4CAF1B9548280E0D37BFA977D17D17C95685B53CB9"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "1,2,3,4, 007",
+                      "fingerprint":  "C0F284F9EE3E5BF31B1D3FEECC1F187F699FFD90B54DFF1AAB3AED7CD7EFE306",
+                      "simfiles":  [
+                                       {
+                                           "path":  "1,2,3,4, 007.sm",
+                                           "sha256":  "7739310FEC5C8B4457F5BD6E98CA83DC5E892B9F9677274A52E176CFD21F8DF0"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "1,2,3,4, 007-bg.png",
+                      "sourcePath":  "1,2,3,4, 007-bg.png",
+                      "sourceSha256":  "84CFCBCA68E3E8BA8775EC1379AF28A70815BFE28FE798F09B58747605C4B292",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T20:28:51.0097937Z",
+                      "assessedAt":  "2026-08-14T20:28:51.0097937Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-14T20:28:50.8659922Z",
+                      "lastAttemptedAt":  "2026-08-14T20:21:20.4837428Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\1-2-3-4-007-85A67C1FB0FF\\After-A-1920x1080.png",
+                      "previewSha256":  "84CFCBCA68E3E8BA8775EC1379AF28A70815BFE28FE798F09B58747605C4B292",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-14T20:28:50.8659922Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied install it for the sole displayed and hash-bound After A for NI-NI - 1,2,3,4, 007. Approved preview SHA-256 84CFCBCA68E3E8BA8775EC1379AF28A70815BFE28FE798F09B58747605C4B292. Installed SHA-256 84CFCBCA68E3E8BA8775EC1379AF28A70815BFE28FE798F09B58747605C4B292 using byte-exact-copy; rollback 1,2,3,4, 007-bg.png.pre-upscale-20260814-132850.bak preserves original SHA-256 D7D3770D9937F5ED3C8C3C237A2A75C75972B3FD6F337062B73A3F21B05836C8.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\1-2-3-4-007-85A67C1FB0FF\\After-A-1920x1080.png",
+                                                  "previewSha256":  "84CFCBCA68E3E8BA8775EC1379AF28A70815BFE28FE798F09B58747605C4B292"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "B4U",
+                      "fingerprint":  "D70C2654AF80ED1C8187DD63A7869F3F150C3C1D966396FDCFCBB7C5005E6776",
+                      "simfiles":  [
+                                       {
+                                           "path":  "B4U.sm",
+                                           "sha256":  "987DD069ADF2AC613376A2B5CE8DAD407A7F8B3F8EA86E460BCF4784A4DA9CE3"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "B4U-bg.png",
+                      "sourcePath":  "B4U-bg.png",
+                      "sourceSha256":  "9BFDF37E0563F54C70559D2991CE4CAA4F87C69EA06C088758A08BA426B3D18D",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T20:39:35.1854611Z",
+                      "assessedAt":  "2026-08-14T20:39:35.1854611Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-14T20:39:35.0313634Z",
+                      "lastAttemptedAt":  "2026-08-14T20:35:03.8915460Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\B4U-D60C73863678\\After-A-1920x1080.png",
+                      "previewSha256":  "9BFDF37E0563F54C70559D2991CE4CAA4F87C69EA06C088758A08BA426B3D18D",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-14T20:39:35.0313634Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied install for the sole displayed and hash-bound After A for NAOKI - B4U. Approved preview SHA-256 9BFDF37E0563F54C70559D2991CE4CAA4F87C69EA06C088758A08BA426B3D18D. Installed SHA-256 9BFDF37E0563F54C70559D2991CE4CAA4F87C69EA06C088758A08BA426B3D18D using byte-exact-copy; rollback B4U-bg.png.pre-upscale-20260814-133934.bak preserves original SHA-256 075564A48F7A8CC25F9D92866E287EF64CC5253050E82CC5DE84782B31BF249E.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\B4U-D60C73863678\\After-A-1920x1080.png",
+                                                  "previewSha256":  "9BFDF37E0563F54C70559D2991CE4CAA4F87C69EA06C088758A08BA426B3D18D"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "BABY BABY GIMME YOUR LOVE",
+                      "fingerprint":  "157CA5123954D37F26B26E40F40AE7EA636857C52D7E1E40AA879AFD14B8365C",
+                      "simfiles":  [
+                                       {
+                                           "path":  "BABY BABY GIMME YOUR LOVE.sm",
+                                           "sha256":  "69C10D97F9B0C4CD0668AED7166985756112EA3B8CD9D9F0E6F5824E2408C78C"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "BABY BABY GIMME YOUR LOVE-bg.png",
+                      "sourcePath":  "BABY BABY GIMME YOUR LOVE-bg.png",
+                      "sourceSha256":  "39E3BF3C366A8609F4F416E0C471FD37CF4231DEEF45507F72A9387E66069A2D",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T21:04:45.2867845Z",
+                      "assessedAt":  "2026-08-14T21:04:45.2867845Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-14T21:04:45.0529748Z",
+                      "lastAttemptedAt":  "2026-08-14T20:58:14.9444422Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\BABY-BABY-GIMME-YOUR-LOVE-D9A6866DF8A9\\After-C-1920x1080.png",
+                      "previewSha256":  "39E3BF3C366A8609F4F416E0C471FD37CF4231DEEF45507F72A9387E66069A2D",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-14T20:49:43.4870289Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner rejected After A because it appeared merely scaled up rather than sharper. Owner requested a genuinely sharper retry and directed that illegible text be omitted.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\BABY-BABY-GIMME-YOUR-LOVE-D9A6866DF8A9\\After-A-1920x1080.png",
+                                                 "discardedPreviewSha256":  "C2C0E34F58139580538C7B0F3C4F3687E5904808EEDFE01ACEA2120782958753"
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-14T21:04:45.0529748Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner said awesome, install it, and these are results I like, approving the sole displayed After C with exact SHA-256 39E3BF3C366A8609F4F416E0C471FD37CF4231DEEF45507F72A9387E66069A2D. Approved preview SHA-256 39E3BF3C366A8609F4F416E0C471FD37CF4231DEEF45507F72A9387E66069A2D. Installed SHA-256 39E3BF3C366A8609F4F416E0C471FD37CF4231DEEF45507F72A9387E66069A2D using byte-exact-copy; rollback BABY BABY GIMME YOUR LOVE-bg.png.pre-upscale-20260814-140444.bak preserves original SHA-256 CF747546168501020A00E13C5D423489B8A8A48C55E092A1EB11874C55B1A807.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\BABY-BABY-GIMME-YOUR-LOVE-D9A6866DF8A9\\After-C-1920x1080.png",
+                                                  "previewSha256":  "39E3BF3C366A8609F4F416E0C471FD37CF4231DEEF45507F72A9387E66069A2D"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "BOYS (EURO MIX)",
+                      "fingerprint":  "8249D42ABE68A63FBCF75972F4850FBF99383A2F16985126DBA3B002516BA807",
+                      "simfiles":  [
+                                       {
+                                           "path":  "BOYS (EURO MIX).sm",
+                                           "sha256":  "FEBEC613959E33029A2A8E649B2EE635363CD6668E19DCE6ACDD81A47D579B01"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "BOYS (EURO MIX)-bg.png",
+                      "sourcePath":  "BOYS (EURO MIX)-bg.png",
+                      "sourceSha256":  "E366B62DCD7FCC29A2DDE1F017FC42EB51806AA359C63CA09C0697B44F31EDF9",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "pending",
+                      "processedAt":  "2026-08-14T20:47:55.7736238Z",
+                      "lastAttemptedAt":  "2026-08-14T20:47:55.7736238Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\BOYS-EURO-MIX\\After-A-1920x1080.png",
+                      "previewSha256":  "A22C5781DFF99CE93E3361F79695E30A047EAF3A78A6CA2E1D1D8F3A23E7367D",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "BURNIN\u0027 THE FLOOR",
+                      "fingerprint":  "5C772C1BDA517F5EFE8938B45269B7CD78BB974264EE242978009E387276285B",
+                      "simfiles":  [
+                                       {
+                                           "path":  "BURNIN\u0027 THE FLOOR.sm",
+                                           "sha256":  "6F6C0B2EFD9D718D6CE86CF6E96352398CEE3E6DDB52E23A4620CF65866252D7"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "populated",
+                      "backgroundReference":  "BURNIN\u0027 THE FLOOR-bg.png",
+                      "sourcePath":  "BURNIN\u0027 THE FLOOR-bg.png",
+                      "sourceSha256":  "7A8A8A7213FEAB9781E99063AFA5A92F24471D6CDE195ADA059EAFA0BE3C6BA3",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  false,
+                      "reason":  "BGCHANGES contains active content; changing or animated backgrounds are excluded.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "CAFE",
+                      "fingerprint":  "13B618ED265727E6A3FB898504A6D90D12701382C2680F98449659F936E5C571",
+                      "simfiles":  [
+                                       {
+                                           "path":  "CAFE.sm",
+                                           "sha256":  "3DEA5360C207BD04514753EBC3FC7E5CE41933B7AE8FDDC91C5485366A7FB804"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "CAFE-bg.png",
+                      "sourcePath":  "CAFE-bg.png",
+                      "sourceSha256":  "A27664AC121DC91BC2B94351BC249108ABD826580FE6696A2448BFF9F13D54D1",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "pending",
+                      "processedAt":  "2026-08-14T21:48:52.4973581Z",
+                      "lastAttemptedAt":  "2026-08-14T21:48:52.4973581Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\DDR-4th-Mix\\CAFE\\13B618ED265727E6A3FB898504A6D90D1\\CAFE-After-A-1920x1080.png",
+                      "previewSha256":  "A069BDA572FF8F3B0D0D441D91FCF5C92001B839F63E6BD8FAAC0306B60F85C7",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "CAN\u0027T STOP FALLIN\u0027 IN LOVE",
+                      "fingerprint":  "A64CEB64705C8DC46E2B865BB33B60D66E674CCB51CB38FD16C34911960AEDFC",
+                      "simfiles":  [
+                                       {
+                                           "path":  "CAN\u0027T STOP FALLIN\u0027 IN LOVE.sm",
+                                           "sha256":  "83B2ADB83EA9D9DE472DBD2146DA418ABCD0570BAE19F51D9357D84971E5A246"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "CAN\u0027T STOP FALLIN\u0027 IN LOVE-bg.png",
+                      "sourcePath":  "CAN\u0027T STOP FALLIN\u0027 IN LOVE-bg.png",
+                      "sourceSha256":  "875C0DF573C7AE645EC5400BFA9826C9D55FF1B046B87147B5DD388372B2C5B1",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T22:07:25.2625974Z",
+                      "assessedAt":  "2026-08-14T22:07:25.2625974Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-14T22:07:25.0044241Z",
+                      "lastAttemptedAt":  "2026-08-14T22:02:25.7971217Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\bg\\NAOKI-CANTSTOP-A-1920x1080.png",
+                      "previewSha256":  "875C0DF573C7AE645EC5400BFA9826C9D55FF1B046B87147B5DD388372B2C5B1",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-14T22:07:25.0044241Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed After A with install and run again. Approved preview SHA-256 875C0DF573C7AE645EC5400BFA9826C9D55FF1B046B87147B5DD388372B2C5B1. Installed SHA-256 875C0DF573C7AE645EC5400BFA9826C9D55FF1B046B87147B5DD388372B2C5B1 using byte-exact-copy; rollback CAN\u0027T STOP FALLIN\u0027 IN LOVE-bg.png.pre-upscale-20260814-150724.bak preserves original SHA-256 A0084C78171B0D78581829D2CF5E5BC089E46235163250C7B5D695E3030D055B.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\bg\\NAOKI-CANTSTOP-A-1920x1080.png",
+                                                  "previewSha256":  "875C0DF573C7AE645EC5400BFA9826C9D55FF1B046B87147B5DD388372B2C5B1"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "CAT\u0027S EYE (Ventura Mix)",
+                      "fingerprint":  "3B647CD6579EC71EEF4A4D19904F72316C692C745FA3B890D7CA5E6A76B69D8D",
+                      "simfiles":  [
+                                       {
+                                           "path":  "CAT\u0027S EYE (Ventura Mix).sm",
+                                           "sha256":  "13E4670801D75BDFC9D74D6732068449594B55BFB3BBF7DA5259F33EC18ED9A1"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "CAT\u0027S EYE (Ventura Mix)-bg.png",
+                      "sourcePath":  "CAT\u0027S EYE (Ventura Mix)-bg.png",
+                      "sourceSha256":  "5FB61129CF39E3C9420595854A6C553955117AD46A3ACB485C9A03B86829E2CF",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T22:22:01.4363718Z",
+                      "assessedAt":  "2026-08-14T22:22:01.4363718Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-14T22:22:01.2873685Z",
+                      "lastAttemptedAt":  "2026-08-14T22:09:52.6544652Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\bg\\EROTIC-CATSEYE-A-1920x1080.png",
+                      "previewSha256":  "5FB61129CF39E3C9420595854A6C553955117AD46A3ACB485C9A03B86829E2CF",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-14T22:22:01.2873685Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed After A with install. Approved preview SHA-256 5FB61129CF39E3C9420595854A6C553955117AD46A3ACB485C9A03B86829E2CF. Installed SHA-256 5FB61129CF39E3C9420595854A6C553955117AD46A3ACB485C9A03B86829E2CF using byte-exact-copy; rollback CAT\u0027S EYE (Ventura Mix)-bg.png.pre-upscale-20260814-152200.bak preserves original SHA-256 2775F116D22946F403180597203BBB4DFED64770A33E41D729338A9565CE4F4B.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\bg\\EROTIC-CATSEYE-A-1920x1080.png",
+                                                  "previewSha256":  "5FB61129CF39E3C9420595854A6C553955117AD46A3ACB485C9A03B86829E2CF"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "CELEBRATE NITE",
+                      "fingerprint":  "6416321B56207AF6F76337261AD9E04D3FA6EEB17B0DBBB4CD0ADE122775CBCB",
+                      "simfiles":  [
+                                       {
+                                           "path":  "CELEBRATE NITE.sm",
+                                           "sha256":  "04D2E0063FF9B8B276092B6F96ACED75BC5CEC290F2BF042C664B576A85D007E"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "CELEBRATE NITE-bg.png",
+                      "sourcePath":  "CELEBRATE NITE-bg.png",
+                      "sourceSha256":  "A8489A9EEED71A0776A6E7FCA8E89B5D073217B5D968C703AC11AE16A4C29E3A",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-15T00:03:55.9100692Z",
+                      "assessedAt":  "2026-08-15T00:03:55.9100692Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-15T00:03:55.7479453Z",
+                      "lastAttemptedAt":  "2026-08-14T22:51:10.5932925Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\CELEBRATE NITE\\EE74B13D8E99DEEF166EE593A0714F2933D137AF28B7595712A416E6675A9E19\\After-A-1920x1080.png",
+                      "previewSha256":  "A8489A9EEED71A0776A6E7FCA8E89B5D073217B5D968C703AC11AE16A4C29E3A",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-14T22:51:08.4855486Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "Direct PowerShell script invocation was blocked by execution policy before preview binding; no model call, artifact change, queue binding, or live-song mutation occurred.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-15T00:03:55.7479453Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed After A with bare install. Approved preview SHA-256 A8489A9EEED71A0776A6E7FCA8E89B5D073217B5D968C703AC11AE16A4C29E3A. Installed SHA-256 A8489A9EEED71A0776A6E7FCA8E89B5D073217B5D968C703AC11AE16A4C29E3A using byte-exact-copy; rollback CELEBRATE NITE-bg.png.pre-upscale-20260814-170355.bak preserves original SHA-256 D6CD3F18881B6FC6B676194403F3318E77E141C02B83B5CDAFE9F1076FE7129A.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\CELEBRATE NITE\\EE74B13D8E99DEEF166EE593A0714F2933D137AF28B7595712A416E6675A9E19\\After-A-1920x1080.png",
+                                                  "previewSha256":  "A8489A9EEED71A0776A6E7FCA8E89B5D073217B5D968C703AC11AE16A4C29E3A"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "CONGA FEELING",
+                      "fingerprint":  "38C5B897A9880E59051027D74F290D40C461271D298610FE6E4DE19FE0552C26",
+                      "simfiles":  [
+                                       {
+                                           "path":  "CONGA FEELING.sm",
+                                           "sha256":  "59FFB344417B0284C73EB32D9B32D39F9A6B56DD273E1D0942B4300182F77576"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "populated",
+                      "backgroundReference":  "CONGA FEELING-bg.png",
+                      "sourcePath":  "CONGA FEELING-bg.png",
+                      "sourceSha256":  "E343E4D268C4069160C39D4636D59BD567312867FF8985CC10223C44FE094901",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  false,
+                      "reason":  "BGCHANGES contains active content; changing or animated backgrounds are excluded.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "DAM DARIRAM (KCP MIX)",
+                      "fingerprint":  "ACD9EDB84AD8F8F9175A5F3B7219157F08E80257A82D250AFBD7357A88080D2C",
+                      "simfiles":  [
+                                       {
+                                           "path":  "DAM DARIRAM (KCP MIX).sm",
+                                           "sha256":  "F02A55F4DB7914203A9D67784692A17F2881CE08CCED0CFBD62EB2168597CE9A"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "DAM DARIRAM (KCP MIX)-bg.png",
+                      "sourcePath":  "DAM DARIRAM (KCP MIX)-bg.png",
+                      "sourceSha256":  "9F6C4FFC50E3E0E44A6E7507ED9F100AEB18AA5DCAE9FBC3876D2E56A5E73722",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-15T00:04:38.6254422Z",
+                      "assessedAt":  "2026-08-15T00:04:38.6254422Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-15T00:04:38.4382477Z",
+                      "lastAttemptedAt":  "2026-08-14T23:51:55.6647248Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\DAM DARIRAM (KCP MIX)\\5CE9AB7413A277C117D3497739A399817E8E76AB459E6E9BCE3805453822E657\\After-A-1920x1080.png",
+                      "previewSha256":  "9F6C4FFC50E3E0E44A6E7507ED9F100AEB18AA5DCAE9FBC3876D2E56A5E73722",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-14T23:49:46.0058341Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "First deterministic normalization command failed before creating an After file because PowerShell could not bind the Bitmap pixel-format enum; the valid raw AI output was retained unchanged.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-15T00:04:38.4382477Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install, approving the sole displayed and hash-bound After A for JOGA - DAM DARIRAM (KCP MIX). Approved preview SHA-256 9F6C4FFC50E3E0E44A6E7507ED9F100AEB18AA5DCAE9FBC3876D2E56A5E73722. Installed SHA-256 9F6C4FFC50E3E0E44A6E7507ED9F100AEB18AA5DCAE9FBC3876D2E56A5E73722 using byte-exact-copy; rollback DAM DARIRAM (KCP MIX)-bg.png.pre-upscale-20260814-170437.bak preserves original SHA-256 DF2E79F42E3C010F37B1AF86580AEC3B3A4FBEE2D93F56694B8E5BD0B42B4B77.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\DAM DARIRAM (KCP MIX)\\5CE9AB7413A277C117D3497739A399817E8E76AB459E6E9BCE3805453822E657\\After-A-1920x1080.png",
+                                                  "previewSha256":  "9F6C4FFC50E3E0E44A6E7507ED9F100AEB18AA5DCAE9FBC3876D2E56A5E73722"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "DO ME (H.I.G.E.O. MIX)",
+                      "fingerprint":  "95393E44687388FFD66FA4ABB1A1AC6DA5BEF1C83909BADDA601EE0D0BC27729",
+                      "simfiles":  [
+                                       {
+                                           "path":  "DO ME (H.I.G.E.O. MIX).sm",
+                                           "sha256":  "0B5F789B8CE62410D057D52795761ADB44142F42AC90393FD20ABFC152F6551D"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "DO ME (H.I.G.E.O. MIX)-bg.png",
+                      "sourcePath":  "DO ME (H.I.G.E.O. MIX)-bg.png",
+                      "sourceSha256":  "1115EE98ABBE55BDDA23EE40C67131F6D235D21CEA9AF51AABE59B484F803D7D",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-15T04:55:43.1496439Z",
+                      "assessedAt":  "2026-08-15T04:55:43.1496439Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-15T04:55:42.9961393Z",
+                      "lastAttemptedAt":  "2026-08-15T04:55:30.6967385Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\DDR4-DO-ME-0CF56953\\after-a-1920x1080.png",
+                      "previewSha256":  "1115EE98ABBE55BDDA23EE40C67131F6D235D21CEA9AF51AABE59B484F803D7D",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-15T00:51:28.7356307Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine faithful-outpaint attempts were rejected: both reinterpreted identity-critical character faces, skin colors, poses, and proportions; the second also introduced a top border absent from the source. No preview was bound. Owner approval is required before a deterministic exact-source fallback.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-15T04:55:42.9961393Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly approved the exact generated image exec-c1b5b696-3171-44f4-ab67-d532a91c9636.png with nice. install this; it is byte-identical to preserved raw attempt 1 and the displayed normalized After A bound at SHA-256 1115EE98ABBE55BDDA23EE40C67131F6D235D21CEA9AF51AABE59B484F803D7D. Approved preview SHA-256 1115EE98ABBE55BDDA23EE40C67131F6D235D21CEA9AF51AABE59B484F803D7D. Installed SHA-256 1115EE98ABBE55BDDA23EE40C67131F6D235D21CEA9AF51AABE59B484F803D7D using byte-exact-copy; rollback DO ME (H.I.G.E.O. MIX)-bg.png.pre-upscale-20260814-215542.bak preserves original SHA-256 57A67DB28EEBEA47B898228FB62AA56B4D83A54277A19A724473140BE67F66B0.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\DDR4-DO-ME-0CF56953\\after-a-1920x1080.png",
+                                                  "previewSha256":  "1115EE98ABBE55BDDA23EE40C67131F6D235D21CEA9AF51AABE59B484F803D7D"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "Don\u0027t Stop!~AMD 2nd MIX~",
+                      "fingerprint":  "23737EE7ADAEE3FADCBCDD8903E969070042F13DF1B6096161472434C7039400",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Don\u0027t Stop!~AMD 2nd MIX~.sm",
+                                           "sha256":  "5DFE7C6A47222878F613833BBC3745BF4739AAB80F3AE4E8026ACB794F074F9A"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "Don\u0027t Stop!~AMD 2nd MIX~-bg.png",
+                      "sourcePath":  "Don\u0027t Stop!~AMD 2nd MIX~-bg.png",
+                      "sourceSha256":  "343CEB92867E09B03BB1B7A5823D664CFB8740E04D769807F7B85C1F5E987BF5",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-15T04:50:41.3243555Z",
+                      "assessedAt":  "2026-08-15T04:50:41.3243555Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-15T04:50:41.1193743Z",
+                      "lastAttemptedAt":  "2026-08-15T01:52:22.4523850Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-previews\\EFD490D9F6CF48274E096BC9A60994185E66657ED526CDF915B5ACB50F1C6692\\after-a-1920x1080.png",
+                      "previewSha256":  "343CEB92867E09B03BB1B7A5823D664CFB8740E04D769807F7B85C1F5E987BF5",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-15T04:50:41.1193743Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed After A with bare install in this task. Approved preview SHA-256 343CEB92867E09B03BB1B7A5823D664CFB8740E04D769807F7B85C1F5E987BF5. Installed SHA-256 343CEB92867E09B03BB1B7A5823D664CFB8740E04D769807F7B85C1F5E987BF5 using byte-exact-copy; rollback Don\u0027t Stop!~AMD 2nd MIX~-bg.png.pre-upscale-20260814-215040.bak preserves original SHA-256 B308D430F2318D02EB7591C4EDB67F1599B2906724450669114B44C24C61389A.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-previews\\EFD490D9F6CF48274E096BC9A60994185E66657ED526CDF915B5ACB50F1C6692\\after-a-1920x1080.png",
+                                                  "previewSha256":  "343CEB92867E09B03BB1B7A5823D664CFB8740E04D769807F7B85C1F5E987BF5"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "DREAM A DREAM",
+                      "fingerprint":  "57F73D28645CFBAC407662FA57026386D96DA958280C295DB7720C6197FB664F",
+                      "simfiles":  [
+                                       {
+                                           "path":  "DREAM A DREAM.sm",
+                                           "sha256":  "56B37ED44301799C59C07A2AC8406E962FD648191DEEB8BADD32CDEE8F8342C4"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "populated",
+                      "backgroundReference":  "DREAM A DREAM-bg.png",
+                      "sourcePath":  "DREAM A DREAM-bg.png",
+                      "sourceSha256":  "7344E18C15CBC43935DB35BD3733E28F681C525143AD59BD54BDAB3386C9872A",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  false,
+                      "reason":  "BGCHANGES contains active content; changing or animated backgrounds are excluded.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "DROP OUT",
+                      "fingerprint":  "6A5505A6D989A9C1343B6CBCD3E80EF8E0DCC4C4844AC0FA27E52D4481BE7B2D",
+                      "simfiles":  [
+                                       {
+                                           "path":  "DROP OUT.sm",
+                                           "sha256":  "EE08412CFF276CAC1003A9A506F7368C3795C35D78B723E0CD116BB32925C0C9"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "DROP OUT-bg.png",
+                      "sourcePath":  "DROP OUT-bg.png",
+                      "sourceSha256":  "24C65D7C5FAB0E1820A9976E16B8D6B8A8388492105DD8C729C4042D1EBF972E",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-15T04:55:27.0768484Z",
+                      "assessedAt":  "2026-08-15T04:55:27.0768484Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-15T04:55:26.7983491Z",
+                      "lastAttemptedAt":  "2026-08-15T02:51:45.8631556Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\DROP-OUT-5E61A126C780\\After-A-1920x1080.png",
+                      "previewSha256":  "24C65D7C5FAB0E1820A9976E16B8D6B8A8388492105DD8C729C4042D1EBF972E",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-15T04:55:26.7983491Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed and exact task-local After A with bare install. Approved preview SHA-256 24C65D7C5FAB0E1820A9976E16B8D6B8A8388492105DD8C729C4042D1EBF972E. Installed SHA-256 24C65D7C5FAB0E1820A9976E16B8D6B8A8388492105DD8C729C4042D1EBF972E using byte-exact-copy; rollback DROP OUT-bg.png.pre-upscale-20260814-215526.bak preserves original SHA-256 440BFB77F4AA8257B419B23A02AD9392F8AD643AA163D7CA96213EA7448FADF0.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\DROP-OUT-5E61A126C780\\After-A-1920x1080.png",
+                                                  "previewSha256":  "24C65D7C5FAB0E1820A9976E16B8D6B8A8388492105DD8C729C4042D1EBF972E"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "EAT YOU UP",
+                      "fingerprint":  "8EB9AE5877B46B70F2E969F47A89DA48E5F39CEB9ED26646B63BC2F2B3296FEF",
+                      "simfiles":  [
+                                       {
+                                           "path":  "EAT YOU UP.sm",
+                                           "sha256":  "30A9A0351DAA5E31C0C60AD2DAD3743E94783EF722C0BA19BF2059739C7E3D46"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "EAT YOU UP-bg.png",
+                      "sourcePath":  "EAT YOU UP-bg.png",
+                      "sourceSha256":  "D60FEF3ACA19438CB2A5E6D6944B1665EDD890D9126716FFB8C5F98C74E8391B",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-15T04:41:33.1829155Z",
+                      "assessedAt":  "2026-08-15T04:41:33.1829155Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-15T04:41:33.0211362Z",
+                      "lastAttemptedAt":  "2026-08-15T03:53:30.2832002Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\EAT YOU UP\\FD32BC13205CC9C7AA8BBFFC6F6BC50F4237D0629997E4080B5B5F2E9CC33862\\after-a-1920x1080.png",
+                      "previewSha256":  "D60FEF3ACA19438CB2A5E6D6944B1665EDD890D9126716FFB8C5F98C74E8391B",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-15T03:51:17.7355971Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Attempt 1 added a translucent rectangular panel behind the title and substantially repainted the original focal area; it did not preserve the source composition closely enough for installation.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-15T04:41:33.0211362Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed and exact hash-bound After A with bare install. Approved preview SHA-256 D60FEF3ACA19438CB2A5E6D6944B1665EDD890D9126716FFB8C5F98C74E8391B. Installed SHA-256 D60FEF3ACA19438CB2A5E6D6944B1665EDD890D9126716FFB8C5F98C74E8391B using byte-exact-copy; rollback EAT YOU UP-bg.png.pre-upscale-20260814-214132.bak preserves original SHA-256 E451DEA11DB1FFB87D8C71A630C31884C3105EAA7553C698CFF8CD2136E4EE91.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\EAT YOU UP\\FD32BC13205CC9C7AA8BBFFC6F6BC50F4237D0629997E4080B5B5F2E9CC33862\\after-a-1920x1080.png",
+                                                  "previewSha256":  "D60FEF3ACA19438CB2A5E6D6944B1665EDD890D9126716FFB8C5F98C74E8391B"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "era (nostalmix)",
+                      "fingerprint":  "2439DBA552583C58C4818C8AE85D3D3655F83E2F75C5322C1B4DECF2238AEB29",
+                      "simfiles":  [
+                                       {
+                                           "path":  "era (nostalmix).sm",
+                                           "sha256":  "599C3512C10D763013280256934CB3C187805FF672CEAFADD14DD2745D8C522E"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "era (nostalmix)-bg.png",
+                      "sourcePath":  "era (nostalmix)-bg.png",
+                      "sourceSha256":  "0ECEB638E17FC86653611F8915032724EDE2A2B4745EEE54754189954717BB45",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
+                      "sourceFrames":  1,
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-15T04:59:05.4598064Z",
+                      "assessedAt":  "2026-08-15T04:59:05.4598064Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-15T04:59:05.3442672Z",
+                      "lastAttemptedAt":  "2026-08-15T04:52:42.6148287Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale-hourly\\ddr4-era-nostalmix-31B14664\\After-A-1920x1080.png",
+                      "previewSha256":  "0ECEB638E17FC86653611F8915032724EDE2A2B4745EEE54754189954717BB45",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-15T04:59:05.3442672Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install, approving the sole displayed and exact task-local After A for TaQ - era (nostalmix), SHA-256 0ECEB638E17FC86653611F8915032724EDE2A2B4745EEE54754189954717BB45. Approved preview SHA-256 0ECEB638E17FC86653611F8915032724EDE2A2B4745EEE54754189954717BB45. Installed SHA-256 0ECEB638E17FC86653611F8915032724EDE2A2B4745EEE54754189954717BB45 using byte-exact-copy; rollback era (nostalmix)-bg.png.pre-upscale-20260814-215904.bak preserves original SHA-256 04E7BF1C84BE5152D09A4887AA79B3BD4CFD7194BE1B048C888C491E85065323.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale-hourly\\ddr4-era-nostalmix-31B14664\\After-A-1920x1080.png",
+                                                  "previewSha256":  "0ECEB638E17FC86653611F8915032724EDE2A2B4745EEE54754189954717BB45"
+                                              }
+                                          ]
+                  },
+                  {
+                      "songPath":  "FURUHATA\u0027S THEME",
+                      "fingerprint":  "5FFDA554B58941B3917A1F0F895B088BEFE21D2CC20E560293405EFDC2F11AB5",
+                      "simfiles":  [
+                                       {
+                                           "path":  "FURUHATA\u0027S THEME.sm",
+                                           "sha256":  "5E64398E77AD8146BB1B97D5263E2F199616AA18B1A924E06109BA0156464B7F"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "FURUHATA\u0027S THEME-bg.png",
+                      "sourcePath":  "FURUHATA\u0027S THEME-bg.png",
+                      "sourceSha256":  "3A207379C306C643B0C02D9AA22C4F9ED965379D78EBC05AFEF034332821CC64",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "Get me in your sight (AMD CANCUN MIX)",
+                      "fingerprint":  "EDE7A35DC8A5FA5BEFA6A0B78351D0EC5560E9A19171283D6AB049A3026D6F51",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Get me in your sight (AMD CANCUN MIX).sm",
+                                           "sha256":  "4619B2EE50B100EFD1D278AB00FA322F900912E972750A1FB8BC0886F79CB4FF"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "Get me in your sight (AMD CANCUN MIX)-bg.png",
+                      "sourcePath":  "Get me in your sight (AMD CANCUN MIX)-bg.png",
+                      "sourceSha256":  "1F6CFD50CDB8997CCA37193BABCE6507780071CB67AD48C2ADC25505BC8D83FB",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH)",
+                      "fingerprint":  "2D5E3E7C966B7C6D02BF1934FD6E0403810E95707401EAAA2BF26C55B2A3B2A7",
+                      "simfiles":  [
+                                       {
+                                           "path":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH).sm",
+                                           "sha256":  "E79C68957D1281BB9E5F738F8C050DCFB526AB6C555F0209D453B0877114CA95"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH)-bg.png",
+                      "sourcePath":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH)-bg.png",
+                      "sourceSha256":  "11B867DE142D6A20F20FF0EC7DFFFE895BB4DF7DE0329858F19F52A417FFAB9C",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)",
+                      "fingerprint":  "7E813F9EFA6FACFD182F0B5C1BC9C24CB5BD9CCBCF4D3F04138E5814958096FB",
+                      "simfiles":  [
+                                       {
+                                           "path":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX).sm",
+                                           "sha256":  "6C5F9D0B3801E5555A4C519EC94373EDFE0667A4D5E1CC8A58D5DDED5BEBC69D"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)-bg.png",
+                      "sourcePath":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)-bg.png",
+                      "sourceSha256":  "A49438D2BC0CB574947CC27156CBF64104CE6F38495DC6A2AF9B488BC0BC3BE9",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "HERO (HAPPY GRANDALE MIX)",
+                      "fingerprint":  "7B511DA81DD84CB62AA202C1594CB71553E26ABE3C271B8C8104E23F75A5A6C1",
+                      "simfiles":  [
+                                       {
+                                           "path":  "HERO (HAPPY GRANDALE MIX).sm",
+                                           "sha256":  "D38FA98ADEDD5071B86C15932FB372A0FE8E9A2D632A3A5CBB648BF3818C5C8C"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "HERO (HAPPY GRANDALE MIX)-bg.png",
+                      "sourcePath":  "HERO (HAPPY GRANDALE MIX)-bg.png",
+                      "sourceSha256":  "D8FCAB976B702F5659C6BBE2590A89CC211E1974BCBF25C3FD8E94CCBA9956F0",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "HIGHER",
+                      "fingerprint":  "6D7FFB16B216DCDAF39AEB172D21B936A51F4D553CB7EA7C5D008C9E9C5E73FF",
+                      "simfiles":  [
+                                       {
+                                           "path":  "HIGHER.sm",
+                                           "sha256":  "8665BBD8A407EF268C6565374981CB4749B863EA9E875FE3E209B0E062DAB199"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "HIGHER-bg.png",
+                      "sourcePath":  "HIGHER-bg.png",
+                      "sourceSha256":  "D41F2DBA856172431D74CEED29BCB0131454ECC0D45D75829B35CCD2958CE630",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "Holic",
+                      "fingerprint":  "716FE9F546A212CE188B640FB8A1FBD896CD38505469E9C7E0BD832A1B2BC4FF",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Holic.sm",
+                                           "sha256":  "BEE04FD7C4786D0DE388AF1333446E8590096F5E6695BF642D0CE93ED2F8FE80"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "Holic-bg.png",
+                      "sourcePath":  "Holic-bg.png",
+                      "sourceSha256":  "3B24C4A97CF302452AB8E502371BB82FFA39AC335EC6026366221E2B70223B0B",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "HYPNOTIC CRISIS",
+                      "fingerprint":  "264D7BA8348F8244D1F867297D62C33359C9C9AF3799EAAA241187E2A0E8FFD7",
+                      "simfiles":  [
+                                       {
+                                           "path":  "HYPNOTIC CRISIS.sm",
+                                           "sha256":  "0E55F1C81AA8663CF52376BA7E23B7575FC6988DDF0DF20C642AA112679B21E3"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "HYPNOTIC CRISIS-bg.png",
+                      "sourcePath":  "HYPNOTIC CRISIS-bg.png",
+                      "sourceSha256":  "C14CC41EC23B9B1FB5C28D57164DDAC7AA7FD0BA0ED8836F74C14A1A70119F02",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "HYSTERIA",
+                      "fingerprint":  "85150E54CA07D174AAA978B0DC9BC357DAA51C30E5745C0E735D035F0EE737D2",
+                      "simfiles":  [
+                                       {
+                                           "path":  "HYSTERIA.sm",
+                                           "sha256":  "043B734067B845F41C65D87FF34B3E06BBF60C08FCCE2F27211B09F7F687E864"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "HYSTERIA-bg.png",
+                      "sourcePath":  "HYSTERIA-bg.png",
+                      "sourceSha256":  "F308DECA4D2D5F6343A298C7CB8FFC47449641C6C5001F94DE776D0B9B4CFBA0",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "IF YOU WERE HERE (B4 ZA BEAT MIX)",
+                      "fingerprint":  "B5F3DE91949BB4A35614C2392585750C25BE0EB236EBE32DA039B5AC2A5D8D4D",
+                      "simfiles":  [
+                                       {
+                                           "path":  "IF YOU WERE HERE (B4 ZA BEAT MIX).sm",
+                                           "sha256":  "45AC1C96098E847070C71A197661378D2B6B2FAB08FB0164C6B2485A9E0FEBBD"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "IF YOU WERE HERE (B4 ZA BEAT MIX)-bg.png",
+                      "sourcePath":  "IF YOU WERE HERE (B4 ZA BEAT MIX)-bg.png",
+                      "sourceSha256":  "26AFFF91FAC94F42BE0AF395D2A3266C31D82535FF7CB6CCA9C9A82F8E1CA565",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "IN THE HEAT OF THE NIGHT",
+                      "fingerprint":  "44EB64E6814F41CA57640EFC163A4BC72A9A1DCB876A8935E32CA463888E03D9",
+                      "simfiles":  [
+                                       {
+                                           "path":  "IN THE HEAT OF THE NIGHT.sm",
+                                           "sha256":  "197A686EFB8AFCEE55084175D25AEB33AA6503B2245BC9B363A56CD9122C2DDA"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "populated",
+                      "backgroundReference":  "IN THE HEAT OF THE NIGHT-bg.png",
+                      "sourcePath":  "IN THE HEAT OF THE NIGHT-bg.png",
+                      "sourceSha256":  "9162EB07EF8DEB1796360C2CFDA56BF31160E28E4E0E2704026F9A98A6DB33B4",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  false,
+                      "reason":  "BGCHANGES contains active content; changing or animated backgrounds are excluded.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "KICK THE CAN",
+                      "fingerprint":  "DBE1819971C0DE8179CE2307B780B0634ABFDB8515CAE2209049C26FCE09BE74",
+                      "simfiles":  [
+                                       {
+                                           "path":  "KICK THE CAN.sm",
+                                           "sha256":  "4F6F83BB3547FBEB00E679503A66EB75DA7B0D27D207AAF5CAD946AB9CE2BEAE"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "KICK THE CAN-bg.png",
+                      "sourcePath":  "KICK THE CAN-bg.png",
+                      "sourceSha256":  "B05EFB16E4B39724241DCA2AE76733A68890C21708674B6A1078D7FCC78A2DFC",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "LEADING CYBER",
+                      "fingerprint":  "3422A91B1631593C4E3BC4387331B21191AB163FBCB90800551B149481527844",
+                      "simfiles":  [
+                                       {
+                                           "path":  "LEADING CYBER.sm",
+                                           "sha256":  "4FEC7A0BB0E84D64CF7F01AA286C5EAE448CF811B8EF9F96D8BF825C6A3354DD"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "LEADING CYBER-bg.png",
+                      "sourcePath":  "LEADING CYBER-bg.png",
+                      "sourceSha256":  "2A1BFC2E1BDC7F35DB74E57FC3DD61BEDC0A065F4BC52B6A5EAD34D22EE2F8A6",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "Let the beat hit em!",
+                      "fingerprint":  "1C85669390309879E8098A58231A52FC40B125ECF07EF0C8DBB69CB575ECC6B2",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Let the beat hit em!.sm",
+                                           "sha256":  "20A0A748DBF9626AF82C57810ADD0ACD9A0E363C3F418A7C666C288FCEB2E976"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "Let the beat hit em!-bg.png",
+                      "sourcePath":  "Let the beat hit em!-bg.png",
+                      "sourceSha256":  "506F5F199C911B573EE55919631DB4ECB02617955A79BFE1F55357CDD936D2C1",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "Let\u0027s talk it over",
+                      "fingerprint":  "AE2A221D80574D9E9662460D6FE062CCC170A37B193737ACF9EA655013B44831",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Let\u0027s talk it over.sm",
+                                           "sha256":  "8686FC98BB457093E0E883C1CFF030B35686D4C92623EA98E7D93CA3FE48A291"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "Let\u0027s talk it over-bg.png",
+                      "sourcePath":  "Let\u0027s talk it over-bg.png",
+                      "sourceSha256":  "75AF82DCD3E192360F36289C1718B9DF65ABD6AD094039576A0D98C0E99ADDC4",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "LIVIN\u0027 LA VIDA LOCA",
+                      "fingerprint":  "F9022AB5E663D7EF8E1F050A31111EBCC0ABBEABCDC56ABCD1D22E037BF4E318",
+                      "simfiles":  [
+                                       {
+                                           "path":  "LIVIN\u0027 LA VIDA LOCA.sm",
+                                           "sha256":  "24821A80D9BF3D98570E967D2E0F4DA1A046846A645F06ADA04A3631062066C2"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "LIVIN\u0027 LA VIDA LOCA-bg.png",
+                      "sourcePath":  "LIVIN\u0027 LA VIDA LOCA-bg.png",
+                      "sourceSha256":  "46D41C036F65C5BF9D5638D2485AE5B96958CCBD234B8C4FCC179CF92EC974C4",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "LOVE AGAIN TONIGHT~For Melissa MIX~",
+                      "fingerprint":  "F34AB82283E23439DC1900C9BD8A236C944A44629BEE1AEDDF6D50553D207B45",
+                      "simfiles":  [
+                                       {
+                                           "path":  "LOVE AGAIN TONIGHT~For Melissa MIX~.sm",
+                                           "sha256":  "CD7F7275CCEBFEDFEB109A10796818C2B8FFAF8C72285BD634EF065583FB8FC2"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "LOVE AGAIN TONIGHT~For Melissa MIX~-bg.png",
+                      "sourcePath":  "LOVE AGAIN TONIGHT~For Melissa MIX~-bg.png",
+                      "sourceSha256":  "057F55FD3D56916498B764FE994F17948F1AFB32727F21641445D411515B85CA",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "Lupin the 3rd \u002778",
+                      "fingerprint":  "F93485F7BFEBD86CFE267BE4159B45E1F68644E25555C16945062EAB9A8A62D2",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Lupin the 3rd \u002778.sm",
+                                           "sha256":  "0476804EDA660156F3B3C0D279AE5EC586B7A1F3DDD3F5A018B18134C1AFDD16"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "Lupin the 3rd \u002778-bg.png",
+                      "sourcePath":  "Lupin the 3rd \u002778-bg.png",
+                      "sourceSha256":  "3FA5E7BB444093AA66BD29CD928693693FD925D3B028513231B669A43CDA19D0",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "Make Your Move",
+                      "fingerprint":  "3D8E66031B538707DA9FB1B65C6313B460217BA65B4F22312AFE8DADEF1EFD8B",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Make Your Move.sm",
+                                           "sha256":  "A687919A00D8917987BF44834B78EF6D2C3606B3656F031AEC1246C5F8FA46EB"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "Make Your Move-bg.png",
+                      "sourcePath":  "Make Your Move-bg.png",
+                      "sourceSha256":  "E573BCB418397A5DACF859F366AEE2C280180F3A2A4EC0E138BAA73B40714C52",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "MUSIC",
+                      "fingerprint":  "413201B59CAFCE0E6A9DEAA28CA3521D368C86A2C216787F18E10C7635136EF1",
+                      "simfiles":  [
+                                       {
+                                           "path":  "MUSIC.sm",
+                                           "sha256":  "222E73ACC606B877E0B411FF680503F5A0896EC96E065B823DA352410B0EDEA6"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "MUSIC-bg.png",
+                      "sourcePath":  "MUSIC-bg.png",
+                      "sourceSha256":  "34AFEBF11F31D3FF6A08C3CA20F717FF2A3BD14E05220A8F4724874E5D9D9688",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "MY SUMMER LOVE",
+                      "fingerprint":  "8E781D32D0F0B64708702C9E03FC5B16B5E5D1123DA990C2C3486F6E0E39A603",
+                      "simfiles":  [
+                                       {
+                                           "path":  "MY SUMMER LOVE.sm",
+                                           "sha256":  "9B821CCCAD28FDCEADEF134E46442D2D5F1A2110AC93B4E4C2EEB1DFA5ED57B9"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "MY SUMMER LOVE-bg.png",
+                      "sourcePath":  "MY SUMMER LOVE-bg.png",
+                      "sourceSha256":  "B5114977ED748D7120894A70257EDBF616725DAE24ADB1B9F55533F047750148",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "NA-NA",
+                      "fingerprint":  "09EA347FC6FC3D5ADC05909CCDCBAE73E4713EC6E88561DDA560E10140509A0A",
+                      "simfiles":  [
+                                       {
+                                           "path":  "NA-NA.sm",
+                                           "sha256":  "8E1251C2ACE4FD4C9BCC2487091641524C2C46C9C75E5CAB20D7D43B1C63AA7D"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "NA-NA-bg.png",
+                      "sourcePath":  "NA-NA-bg.png",
+                      "sourceSha256":  "98D036EFB1E1078A5205AB7894F280D477BEEE46C2909605F475E19BE76AEAD2",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)",
+                      "fingerprint":  "84D3ECDD74406B895787AF5E7A0B74D48500CF36BEBA7D0B5A1A20A22F0A988F",
+                      "simfiles":  [
+                                       {
+                                           "path":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX).sm",
+                                           "sha256":  "CACCBB6CC22BAAD1D240F00BBD34CB911F128818749E0D11DA57D938EE1BBB1A"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)-bg.png",
+                      "sourcePath":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)-bg.png",
+                      "sourceSha256":  "477D5B28A904F9F0FD0734541AA8320ED0D5B97FB7675F4473C74CCD54899B3E",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "never let you down",
+                      "fingerprint":  "D54D592D5D9380414AD09930D2F153DF102EE0E631519352951A61898629D074",
+                      "simfiles":  [
+                                       {
+                                           "path":  "never let you down.sm",
+                                           "sha256":  "AD996D066B26A6F8BFD62D97685ACEE77BB14F39875D69A73544233F1459FD14"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "never let you down-bg.png",
+                      "sourcePath":  "never let you down-bg.png",
+                      "sourceSha256":  "6FD08E5A910664278354A6FF11C077608BAF1083C99AFD97703F0EF615208647",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "NIGHT IN MOTION",
+                      "fingerprint":  "63A570FB76500A96C3D3E059370F7C7241F1BC931639710D1140C4E64E646BFF",
+                      "simfiles":  [
+                                       {
+                                           "path":  "NIGHT IN MOTION.sm",
+                                           "sha256":  "ACB3ED6F8CAA6F97F966C9695BD5C0C2FE81E89537E6483FA25AB66CF89CA21F"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "NIGHT IN MOTION-bg.png",
+                      "sourcePath":  "NIGHT IN MOTION-bg.png",
+                      "sourceSha256":  "07062B45E287E35C499173D6271A0F0A875281B975935B73EF86368134340888",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "ONE TWO (LITTLE BITCH)",
+                      "fingerprint":  "46C221CBC457C93719A1551492EF43F2CCE0D36210048400EC2292A3D4A32AE8",
+                      "simfiles":  [
+                                       {
+                                           "path":  "ONE TWO (LITTLE BITCH).sm",
+                                           "sha256":  "25A37BD6054E3EEA5EEA688E3C6738FD1E57F0CD3CC4A297C17154CBBF3A932F"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "ONE TWO (LITTLE BITCH)-bg.png",
+                      "sourcePath":  "ONE TWO (LITTLE BITCH)-bg.png",
+                      "sourceSha256":  "ED96C7D2890D95278316741D57D6640741E506B7B8AB2E7F0A2AB0DF2C10BD28",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "ONLY YOU",
+                      "fingerprint":  "05AB4296D60E10197E116A0B36A9345C3501B6189F130D6E4316B4FFA3039742",
+                      "simfiles":  [
+                                       {
+                                           "path":  "ONLY YOU.sm",
+                                           "sha256":  "4B2D17CED35E3CBB64E9E436023526587E85E24B6BCD67A41A5621664FD3812F"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "populated",
+                      "backgroundReference":  "ONLY YOU-bg.png",
+                      "sourcePath":  "ONLY YOU-bg.png",
+                      "sourceSha256":  "25859D8ADD7CEF4274D14178FDDB762B662194CDA57B6CC055D786F9370D0AAB",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  false,
+                      "reason":  "BGCHANGES contains active content; changing or animated backgrounds are excluded.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "ORION.78(AMeuro-MIX)",
+                      "fingerprint":  "452063D00F68E137175E86F0960D717DE5C4E467B9A4690D374A256F2EB87E8E",
+                      "simfiles":  [
+                                       {
+                                           "path":  "ORION.78(AMeuro-MIX).sm",
+                                           "sha256":  "063A02D0C87C729B40D610FD108C84A577E0DA19BFA6434587CBFD4C4474BDBF"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "ORION.78(AMeuro-MIX)-bg.png",
+                      "sourcePath":  "ORION.78(AMeuro-MIX)-bg.png",
+                      "sourceSha256":  "76276396DE0BA2492D743025A3309252D9C316103E7D3635E20C56E17AEB925E",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "PARANOIA EVOLUTION",
+                      "fingerprint":  "C72F3EE7BE19BAB74A05FBCF2BD7844B1A1FBF2C774FF25ED84397FBDA1D0C20",
+                      "simfiles":  [
+                                       {
+                                           "path":  "PARANOIA EVOLUTION.sm",
+                                           "sha256":  "35A3201715EB5606A3775B6B394AD81DC3929118BFF006B945B7A6260859036F"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "PARANOIA EVOLUTION-bg.png",
+                      "sourcePath":  "PARANOIA EVOLUTION-bg.png",
+                      "sourceSha256":  "0CCFC3D51C11B10FF225BF736E025F5299F6B5AB6E9F7B906CF64AE4D00A7520",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "PETIT LOVE",
+                      "fingerprint":  "B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2",
+                      "simfiles":  [
+                                       {
+                                           "path":  "PETIT LOVE.sm",
+                                           "sha256":  "85104A3E00F7F48E4DF81F11ADA79973B161B583B4269C98DD8E43D9CEAAC193"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "PETIT LOVE-bg.png",
+                      "sourcePath":  "PETIT LOVE-bg.png",
+                      "sourceSha256":  "A28952B924F586FA64EC263343FF6C3EE763BCE28C566829764E1BAA0D4DE2E2",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "PINK DINOSAUR",
+                      "fingerprint":  "BFA03A476C01AE1844A4E7EE6A702C88E0053E01500A04F0238C710CA26E51D6",
+                      "simfiles":  [
+                                       {
+                                           "path":  "PINK DINOSAUR.sm",
+                                           "sha256":  "44EDD67853F40E775B19F2D91CF040D5A03B2CAE4DE5F10E1AA2F7B8A9215720"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "PINK DINOSAUR-bg.png",
+                      "sourcePath":  "PINK DINOSAUR-bg.png",
+                      "sourceSha256":  "210D8D72719F194E25BCED5EBA17FBF19CFC7189A67A9515131F1F6C65CC8072",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "RHYTHM AND POLICE (K.O.G G3 Mix)",
+                      "fingerprint":  "7E7D3CDD642B47D37DABA57631EA3330ADD62149A81D16EAFEB7810645B03197",
+                      "simfiles":  [
+                                       {
+                                           "path":  "RHYTHM AND POLICE (K.O.G G3 Mix).sm",
+                                           "sha256":  "DC67B7439F0BD39690549C69A37E4D66787B920E015C730FF65559CEEFE4ADA1"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "RHYTHM AND POLICE (K.O.G G3 Mix)-bg.png",
+                      "sourcePath":  "RHYTHM AND POLICE (K.O.G G3 Mix)-bg.png",
+                      "sourceSha256":  "545D779CE32AD67A8A91C8B81A9087688D4E1EF49E4E0077EF8B337A176FEC07",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "SAINT GOES MARCHING (REMIX)",
+                      "fingerprint":  "5A4D32262A265802FC24719FB5AD30C7D5AE313D88F118967FAA795F45EFFE97",
+                      "simfiles":  [
+                                       {
+                                           "path":  "SAINT GOES MARCHING (REMIX).sm",
+                                           "sha256":  "D8AE3C0C07F936AD1E939EF8BA18E328C022BA0E8C744FDB82F9C46A2D7AF107"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "SAINT GOES MARCHING (REMIX)-bg.png",
+                      "sourcePath":  "SAINT GOES MARCHING (REMIX)-bg.png",
+                      "sourceSha256":  "339824F370D206965238FF8FC98A691DC523CE535B7E6A99F2683CA406147A5A",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "SEXY PLANET",
+                      "fingerprint":  "6AF88DB2606294CC1E3010DBD574E50222E9EC2F7B54A8D134DE50FAB429493A",
+                      "simfiles":  [
+                                       {
+                                           "path":  "SEXY PLANET.sm",
+                                           "sha256":  "80F38C4D1F0C70E86CA0C6E2370E4A6F3A8E2CCEF600CC68FC702051CDCC6B03"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "populated",
+                      "backgroundReference":  "SEXY PLANET-bg.png",
+                      "sourcePath":  "SEXY PLANET-bg.png",
+                      "sourceSha256":  "3873048B1D9AC93408867F6D6759DBDC5BDDD35492659F880826C1E05CA741F4",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  null,
+                      "qualityTier":  null,
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  false,
+                      "reason":  "BGCHANGES contains active content; changing or animated backgrounds are excluded.",
+                      "status":  "ineligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "SHAKE YOUR BOOTY",
+                      "fingerprint":  "B5CD393F1C78654538C26BD65303346179E677BC245C30ED7D6FCEF8F79E0559",
+                      "simfiles":  [
+                                       {
+                                           "path":  "SHAKE YOUR BOOTY.sm",
+                                           "sha256":  "35DABB6F15BC27FF1A35867E74F8A78685100054F85E43D0CE1EA65B52DC4FA6"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "SHAKE YOUR BOOTY-bg.png",
+                      "sourcePath":  "SHAKE YOUR BOOTY-bg.png",
+                      "sourceSha256":  "DF5B458D72EB51AAEB90CDC4EDBAE6C24088D93E418CFB48E3FA9FC525367E0C",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "SHOOTING STAR",
+                      "fingerprint":  "21D61CD6C5DB835DD278E1997238B881C0EBD0926D4967DA9CEB8EE40156DFE0",
+                      "simfiles":  [
+                                       {
+                                           "path":  "SHOOTING STAR.sm",
+                                           "sha256":  "C27B99EEC20FC8ACA4BEA6A91364B12567AD57C57B86FB121571D4D6943A2DC8"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "SHOOTING STAR-bg.png",
+                      "sourcePath":  "SHOOTING STAR-bg.png",
+                      "sourceSha256":  "2A4DF324989FC89E18DEA8D7C5B5683C57F23FF0005C0CA420F5C1D083E50266",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "SKY HIGH",
+                      "fingerprint":  "DB8B5929619157A13737F3D73282D919D8D8FDABAA8C5707E4A457EF68F1FC4A",
+                      "simfiles":  [
+                                       {
+                                           "path":  "SKY HIGH.sm",
+                                           "sha256":  "E6C9D8C64F086E5B09237E5856353620795A2DE09AF005C3AD56684AFF55E2D5"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "SKY HIGH-bg.png",
+                      "sourcePath":  "SKY HIGH-bg.png",
+                      "sourceSha256":  "5A352739B7ACFA1FEC1CB55C12749EE295B093165A329F8EEF305CDF063C3B9A",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "SUPER STAR",
+                      "fingerprint":  "C56D637EC065CCF56EC88969EC65BBF1AAB8C017B9C2D85F01B555141E69CB79",
+                      "simfiles":  [
+                                       {
+                                           "path":  "SUPER STAR.sm",
+                                           "sha256":  "ABEB6081B1483C079A142D49B3B674EA85464B2035519043DD6E273AF18E616A"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "SUPER STAR-bg.png",
+                      "sourcePath":  "SUPER STAR-bg.png",
+                      "sourceSha256":  "CF5FACF072D696DFF9BC2A95754AAC5199F284D843C0628B61A32B9886ECA9BF",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix)",
+                      "fingerprint":  "C7F71660164CEDD664A953D77FA16AB387F1BFE76C82FBC9B79BC621783113EB",
+                      "simfiles":  [
+                                       {
+                                           "path":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix).sm",
+                                           "sha256":  "5DC1FDE9B2A762E19CEE54E1D4A91B205908CD9C63B9948D797C8ADFA536ACC7"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix)-bg.png",
+                      "sourcePath":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix)-bg.png",
+                      "sourceSha256":  "1097C7AB2FD895453B72A3E0736F0FE8441DA5F69DFE040414066FC4719CC2C8",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "THE 7 JUMP",
+                      "fingerprint":  "2350DC4F5EB7634FB6F02F0D3CAFBCC5B651205AED26B009F664B99E87293030",
+                      "simfiles":  [
+                                       {
+                                           "path":  "THE 7 JUMP.sm",
+                                           "sha256":  "EFCD9747B55471225EC4931768188F8EAACEA72B11C93C2CAC96184DB1D689EA"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "THE 7 JUMP-bg.png",
+                      "sourcePath":  "THE 7 JUMP-bg.png",
+                      "sourceSha256":  "501044E5885ACA8AAB0E24052276CB6B994EB03A50B3D0ED9D215DABA884D81A",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "THEME FROM ENTER THE DRAGON (notorious mix)",
+                      "fingerprint":  "6E7D9CBEF0A16C4F1CBE264464A80DC4A64C7D1D3454CD25C0320E67E4878BE9",
+                      "simfiles":  [
+                                       {
+                                           "path":  "THEME FROM ENTER THE DRAGON (notorious mix).sm",
+                                           "sha256":  "D24A8A002040DA3AF2AB755C8C78B7F3B5AC084C95F039E026B6AE845479D2C7"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "THEME FROM ENTER THE DRAGON (notorious mix)-bg.png",
+                      "sourcePath":  "THEME FROM ENTER THE DRAGON (notorious mix)-bg.png",
+                      "sourceSha256":  "7EC03E44AE5524A1FE0A99252C86B926862C6F71D5D98B309BADE1B070F35DB5",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "TRIP MACHINE CLIMAX",
+                      "fingerprint":  "A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B",
+                      "simfiles":  [
+                                       {
+                                           "path":  "TRIP MACHINE CLIMAX.sm",
+                                           "sha256":  "473DED09A633E490030803142DB305ED552FC3E7E5309E1641F3172280255B28"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "TRIP MACHINE CLIMAX-bg.png",
+                      "sourcePath":  "TRIP MACHINE CLIMAX-bg.png",
+                      "sourceSha256":  "251D71323621909376C67C3BCB5CBA4F05905E2266F3A4E321FF99109E357C37",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "WALKIE TALKIE",
+                      "fingerprint":  "6265A87FE0D5218778C22C44766BE6F6EE4A814163A3661E5CB160BD65B817BB",
+                      "simfiles":  [
+                                       {
+                                           "path":  "WALKIE TALKIE.sm",
+                                           "sha256":  "CFC949D0201046B96782B128C32DA498EF6A0286B4E1DC613400DD6E5600C59B"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "WALKIE TALKIE-bg.png",
+                      "sourcePath":  "WALKIE TALKIE-bg.png",
+                      "sourceSha256":  "76A81F4C0DD1B5DB183A121E30AF1271F07DEF9DB2A7D6DB313337E42BBA6712",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "WILD RUSH",
+                      "fingerprint":  "679182BC3F5E730DBE435AEF6A800A1AFFC69BBA3D82C8E802657BAE327826D0",
+                      "simfiles":  [
+                                       {
+                                           "path":  "WILD RUSH.sm",
+                                           "sha256":  "CEBAE9E8A9080373DCC730637F0DDF97FD526E4507955CF578DAD0AF1F7C4771"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "WILD RUSH-bg.png",
+                      "sourcePath":  "WILD RUSH-bg.png",
+                      "sourceSha256":  "22D1610AEB2E4D0E12689DDCDE63233F1ED6C4C3F866D6E677DF25FBC5DB7050",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "WONDA (SPEED K MIX)",
+                      "fingerprint":  "C8CF01C858F3E32AA4C51AD702590F423E9B67F7E02098C2F36F3FC1F105FDC3",
+                      "simfiles":  [
+                                       {
+                                           "path":  "WONDA (SPEED K MIX).sm",
+                                           "sha256":  "5E21E10F253E8BA1EC74951FBD3C89B6B8E15A6819716506F8BD85102935FE06"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "WONDA (SPEED K MIX)-bg.png",
+                      "sourcePath":  "WONDA (SPEED K MIX)-bg.png",
+                      "sourceSha256":  "3C356789F9B2D2F3E4574DDF0ED6F2533C9E829A7DA3024267F704C8D327827F",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "Young Forever",
+                      "fingerprint":  "7803453474700CD531C2001A651C3B4D3A1E41E3967DD4A72A728F918FF3851D",
+                      "simfiles":  [
+                                       {
+                                           "path":  "Young Forever.sm",
+                                           "sha256":  "DAC152671CBA648D0700BA810EBD03E1A6FEF3C6FB4561535E72D10575890E4B"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "Young Forever-bg.png",
+                      "sourcePath":  "Young Forever-bg.png",
+                      "sourceSha256":  "9D6A9AF335A1B357928296E6A161770733D268ADA8F050ED015F4BAE0A0316E6",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  },
+                  {
+                      "songPath":  "YOUR LOVE",
+                      "fingerprint":  "C6CB439A52CA4B1259D8769BA4343962EB37EFFDC67DC8F05D62EF281068631C",
+                      "simfiles":  [
+                                       {
+                                           "path":  "YOUR LOVE.sm",
+                                           "sha256":  "77B260C615465577362522A8AB301A7B3DA9AB759360E09D693C6BEF5DE83B6A"
+                                       }
+                                   ],
+                      "legacyFiles":  [
+
+                                      ],
+                      "bgChangesState":  "none",
+                      "backgroundReference":  "YOUR LOVE-bg.png",
+                      "sourcePath":  "YOUR LOVE-bg.png",
+                      "sourceSha256":  "D00966B20B47E84FFA30CDE7EC9FE10B4C7AA97D0A0088576A7A2B3036B2DD73",
+                      "sourceWidth":  320,
+                      "sourceHeight":  240,
+                      "sourceFrames":  1,
+                      "qualityRank":  0,
+                      "qualityTier":  "broken-or-tiny",
+                      "reviewCategory":  null,
+                      "reviewCandidates":  [
+
+                                           ],
+                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
+                      "eligible":  true,
+                      "reason":  "Static background is not 16:9 and needs fit review.",
+                      "status":  "eligible",
+                      "processedAt":  null,
+                      "lastAttemptedAt":  null,
+                      "pendingAction":  null,
+                      "previewPath":  null,
+                      "previewSha256":  null,
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+
+                                          ]
+                  }
+              ],
+    "learningHistory":  [
+                            {
+
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T19:49:19.1687898Z",
+                                "scope":  "reusable",
+                                "summary":  "Owner retargeted the scheduled background queue to DDR 4th Mix hourly; dedicated per-pack ledgers must retain the exact supplied pack path and every non-default helper call must pass PackPath and QueuePath.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  [
+                                                     ".agents/skills/upscale-background/SKILL.md",
+                                                     ".agents/skills/upscale-background/scripts/Update-BackgroundQueue.ps1",
+                                                     ".agents/skills/upscale-background/scripts/Test-BackgroundQueue.ps1",
+                                                     "docs/skills/README.md",
+                                                     "docs/skills/upscale-background.md",
+                                                     "docs/scheduled-tasks/README.md",
+                                                     "docs/scheduled-tasks/hourly-misc-background-upscale-queue.md",
+                                                     "memory/DECISIONS.md",
+                                                     "memory/OPERATIONS_LOG.md",
+                                                     "memory/ddr-4th-mix-background-upscale-queue.json"
+                                                 ],
+                                "validationResult":  "Skill is valid; Background queue tests passed; background install workflow PASS; DDR ledger exact pack path, UTF-8 no BOM, 59 eligible and 6 ineligible records verified."
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:07:59.4666913Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For dj TAKA - .59 fingerprint 697863DFF39412009C94407D840A608EFAF087C20779A75D68AC5445CA1E2ECA, both faithful outpaint attempts anthropomorphized the abstract centered crest and materially redrew the distinctive glowing central mark; deterministic fallback now requires owner approval.",
+                                "songPath":  ".59",
+                                "fingerprint":  "697863DFF39412009C94407D840A608EFAF087C20779A75D68AC5445CA1E2ECA",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:17:21.6111730Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected previously rejected attempt B for dj TAKA - .59 by naming exec-b9356702-32c8-44f4-a962-7731d85e3c8c.png and saying install; the exact file was rebound, hash-verified, normalized to opaque 1920 x 1080, and installed with rollback proof. This preference applies only to this fingerprint.",
+                                "songPath":  ".59",
+                                "fingerprint":  "A213158B318126502CC3F7A9B3C977912A1152DEBDC4C9303F4E57F0230EEAE4",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:22:39.7181275Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For NI-NI - 1,2,3,4, 007 fingerprint 85A67C1FB0FFBFE799ECE6AB16F8CDBB1953618900ADEEE0B22A400DA7D866E3, the first faithful outpaint preserved the red radial tunnel, center-right blue-and-white emblem, silhouette, and exact 1.2.3.4. / 007 identity; deterministic near-16:9 normalization produced the sole opaque 1920 x 1080 After A.",
+                                "songPath":  "1,2,3,4, 007",
+                                "fingerprint":  "85A67C1FB0FFBFE799ECE6AB16F8CDBB1953618900ADEEE0B22A400DA7D866E3",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:30:11.7670509Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed After A for NI-NI - 1,2,3,4, 007; the exact opaque 1920 x 1080 preview was installed byte-for-byte with matching queue proof, unchanged simfile, and a verified rollback preserving the original 320 x 240 source.",
+                                "songPath":  "1,2,3,4, 007",
+                                "fingerprint":  "C0F284F9EE3E5BF31B1D3FEECC1F187F699FFD90B54DFF1AAB3AED7CD7EFE306",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:36:11.6469504Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For NAOKI - B4U fingerprint D60C73863678ED7EF32C4B4062A44ADD21CE2DF013A18BC6DCEAEF29EA3CEE55, the first faithful outpaint preserved the gold-and-blue robot, raised fists, green energy field, and exact B4U title; deterministic normalization produced sole opaque 1920 x 1080 After A. A byte-identical short display copy was used after local inspection forwarding failed on the exact candidate.",
+                                "songPath":  "B4U",
+                                "fingerprint":  "D60C73863678ED7EF32C4B4062A44ADD21CE2DF013A18BC6DCEAEF29EA3CEE55",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:40:55.4145182Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed After A for NAOKI - B4U; the exact opaque 1920 x 1080 preview was installed byte-for-byte with matching queue proof, unchanged simfile, and a verified rollback preserving the original 320 x 240 source.",
+                                "songPath":  "B4U",
+                                "fingerprint":  "D70C2654AF80ED1C8187DD63A7869F3F150C3C1D966396FDCFCBB7C5005E6776",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:45:43.9099474Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful horizontal outpaint preserved the centered goggles, orange-purple palette, CRT scanlines, and exact single title text; deterministic normalization yielded the sole opaque 1920 x 1080 candidate C2C0E34F58139580538C7B0F3C4F3687E5904808EEDFE01ACEA2120782958753.",
+                                "songPath":  "BABY BABY GIMME YOUR LOVE",
+                                "fingerprint":  "D9A6866DF8A944A7CBF6B878D9963082A8713DD88048F775528EEDA7088127AC",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:48:41.2353905Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful horizontal-outpaint attempt preserved the central neon silhouettes, instruments, green radial field, and exact BOYS (EURO MIX) logo; deterministic near-16:9 normalization produced the sole opaque 1920 x 1080 candidate. Long-path and short-path local viewer decoding both failed, but the short display copy is byte-identical and formatter-safe; this was presentation handling, not another model attempt.",
+                                "songPath":  "BOYS (EURO MIX)",
+                                "fingerprint":  "8249D42ABE68A63FBCF75972F4850FBF99383A2F16985126DBA3B002516BA807",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T20:51:56.8637946Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner rejected After A as a soft enlargement and requested a sharper retry with illegible text omitted. Attempt two produced a materially sharper text-free restoration, normalized and bound as After B with SHA-256 284299BEA366AB3C3312D417350EBB2B102AE312DCAFC29404BD42FC9A177DAC.",
+                                "songPath":  "BABY BABY GIMME YOUR LOVE",
+                                "fingerprint":  "D9A6866DF8A944A7CBF6B878D9963082A8713DD88048F775528EEDA7088127AC",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T21:01:41.8459348Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner loved the sharp After B artwork and requested the exact song title be restored crisply. A targeted edit added one legible BABY BABY GIMME YOUR LOVE title while preserving the sharp composition; normalized After C is bound with SHA-256 39E3BF3C366A8609F4F416E0C471FD37CF4231DEEF45507F72A9387E66069A2D.",
+                                "songPath":  "BABY BABY GIMME YOUR LOVE",
+                                "fingerprint":  "D9A6866DF8A944A7CBF6B878D9963082A8713DD88048F775528EEDA7088127AC",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T21:05:42.1637379Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly approved the sharp faithful restoration with the exact crisp title and said these are results they like. After C installed byte-for-byte with SHA-256 39E3BF3C366A8609F4F416E0C471FD37CF4231DEEF45507F72A9387E66069A2D; rollback preserves original SHA-256 CF747546168501020A00E13C5D423489B8A8A48C55E092A1EB11874C55B1A807.",
+                                "songPath":  "BABY BABY GIMME YOUR LOVE",
+                                "fingerprint":  "157CA5123954D37F26B26E40F40AE7EA636857C52D7E1E40AA879AFD14B8365C",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T21:50:29.3936578Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For D.D.SOUND - CAFE, one faithful horizontal outpaint preserved the exact single CAFE title, centered cup and saucer emblem, checkerboard perspective, reflections, amber and olive palette, and dark arcade-CGI framing. The raw opaque 1672 x 941 output normalized successfully to the sole opaque 1920 x 1080 After A, SHA-256 A069BDA572FF8F3B0D0D441D91FCF5C92001B839F63E6BD8FAAC0306B60F85C7. Exact-path viewing failed, and a short-path byte-identical display copy also failed only in the local viewer; formatter output and native links remain available. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "CAFE",
+                                "fingerprint":  "13B618ED265727E6A3FB898504A6D90D12701382C2680F98449659F936E5C571",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T21:57:04.1101992Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed D.D.SOUND - CAFE After A with bare install. Fresh preflight confirmed the exact source, simfile, and preview hashes, but ITGMania was running, so the guarded installation did not proceed and the application was not terminated. The exact pending preview binding remains unchanged for a later closed-game install retry; no reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "CAFE",
+                                "fingerprint":  "13B618ED265727E6A3FB898504A6D90D12701382C2680F98449659F936E5C571",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T22:03:16.8876187Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For NAOKI - CAN\u0027T STOP FALLIN\u0027 IN LOVE, one faithful horizontal outpaint preserved the exact single title, centered glossy pink heart, purple ribbon, blue halo, and cyan-blue-lime radial arcade composition. The viable opaque 1672 x 941 raw PNG normalized successfully to the sole opaque one-frame 1920 x 1080 After A, SHA-256 875C0DF573C7AE645EC5400BFA9826C9D55FF1B046B87147B5DD388372B2C5B1. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "CAN\u0027T STOP FALLIN\u0027 IN LOVE",
+                                "fingerprint":  "CA1E1F2371AF59814D229C7477CDA1B9D30D71033AD357566A2B125B6FF8492C",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T22:07:42.9175838Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed NAOKI - CAN\u0027T STOP FALLIN\u0027 IN LOVE After A and requested another queue run. Guarded installation completed by byte-exact copy: live and approved-preview SHA-256 are 875C0DF573C7AE645EC5400BFA9826C9D55FF1B046B87147B5DD388372B2C5B1; the verified rollback preserves original SHA-256 A0084C78171B0D78581829D2CF5E5BC089E46235163250C7B5D695E3030D055B; simfile SHA-256 remained 83B2ADB83EA9D9DE472DBD2146DA418ABCD0570BAE19F51D9357D84971E5A246. ITGMania stayed closed and was not restarted. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "CAN\u0027T STOP FALLIN\u0027 IN LOVE",
+                                "fingerprint":  "A64CEB64705C8DC46E2B865BB33B60D66E674CCB51CB38FD16C34911960AEDFC",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T22:10:34.4392611Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For E-ROTIC - CAT\u0027S EYE (Ventura Mix), one faithful horizontal restoration preserved the exact single CAT\u0027S EYE title, exact (Ventura Mix) label, stacked italic white serif typography with pink glow, neon yellow-green eye mark with white highlight and red-orange accent, and sparse diagonal navy gradient composition. The viable opaque 1672 x 941 raw PNG normalized successfully to the sole opaque one-frame 1920 x 1080 After A, SHA-256 5FB61129CF39E3C9420595854A6C553955117AD46A3ACB485C9A03B86829E2CF. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "CAT\u0027S EYE (Ventura Mix)",
+                                "fingerprint":  "4B39AE219A2095F7915C44D7A1E7F0CAE5A56F17D64F23F328ADBD66F6F74F35",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T22:22:19.0525684Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed E-ROTIC - CAT\u0027S EYE (Ventura Mix) After A. Guarded installation completed by byte-exact copy: live and approved-preview SHA-256 are 5FB61129CF39E3C9420595854A6C553955117AD46A3ACB485C9A03B86829E2CF; the verified rollback preserves original SHA-256 2775F116D22946F403180597203BBB4DFED64770A33E41D729338A9565CE4F4B; simfile SHA-256 remained 13E4670801D75BDFC9D74D6732068449594B55BFB3BBF7DA5259F33EC18ED9A1. ITGMania stayed closed and was not restarted. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "CAT\u0027S EYE (Ventura Mix)",
+                                "fingerprint":  "3B647CD6579EC71EEF4A4D19904F72316C692C745FA3B890D7CA5E6A76B69D8D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T22:52:00.2859997Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For N.M.R - CELEBRATE NITE, one faithful horizontal restoration preserved the exact single title, metallic pillar perspective, palette, and arcade-CGI identity. A direct PowerShell binding invocation was blocked before mutation and recovered through the execution-policy-bypass path without another model attempt; the exact candidate was then bound and validated.",
+                                "songPath":  "CELEBRATE NITE",
+                                "fingerprint":  "EE74B13D8E99DEEF166EE593A0714F2933D137AF28B7595712A416E6675A9E19",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-14T23:52:46.6111251Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For JOGA - DAM DARIRAM (KCP MIX), one faithful horizontal restoration preserved the exact two-line cyan title and magenta-blue spiral identity; the valid 1672 x 941 raw result normalized to opaque 1920 x 1080 After A. A first local normalization command failed before After creation and was recovered without a second model attempt.",
+                                "songPath":  "DAM DARIRAM (KCP MIX)",
+                                "fingerprint":  "5CE9AB7413A277C117D3497739A399817E8E76AB459E6E9BCE3805453822E657",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T00:05:03.9373601Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed N.M.R - CELEBRATE NITE After A with bare install. The exact opaque 1920 x 1080 preview was installed byte-for-byte after closed-game and same-day backup-log verification; the original 320 x 240 source is preserved in the verified sibling rollback, and the simfile remained unchanged.",
+                                "songPath":  "CELEBRATE NITE",
+                                "fingerprint":  "6416321B56207AF6F76337261AD9E04D3FA6EEB17B0DBBB4CD0ADE122775CBCB",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T00:06:00.2718507Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approval installed the sole hash-bound JOGA - DAM DARIRAM (KCP MIX) After A by byte-exact copy. Live, preview, and queue proof hashes match; one verified rollback preserves the original 320 x 240 source, the simfile is unchanged, and ITGMania remained closed. No reusable workflow or owner-wide aesthetic preference was established.",
+                                "songPath":  "DAM DARIRAM (KCP MIX)",
+                                "fingerprint":  "ACD9EDB84AD8F8F9175A5F3B7219157F08E80257A82D250AFBD7357A88080D2C",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T00:52:45.6997731Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Two source-specific faithful-outpaint attempts for MUSTACHE MEN - DO ME (H.I.G.E.O. MIX) were technically valid but rejected because both changed identity-critical character faces, skin colors, poses, and proportions; the second also invented a top border. The exact fingerprint remains pending awaiting deterministic fallback approval, with no preview bound. No owner feedback, reusable lesson, skill change, or scheduled-behavior change occurred.",
+                                "songPath":  "DO ME (H.I.G.E.O. MIX)",
+                                "fingerprint":  "0CF56953A2BCCB5E4E0FC387E7A6BBE35CFFFC89FBFA38591A4342EEDBED56C9",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T01:53:24.1965467Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful AI horizontal-outpaint attempt preserved the single exact two-line title and green-yellow vortex identity; raw 1672 x 941 output normalized to an opaque one-frame 1920 x 1080 candidate, and a short-path display copy was verified byte-identical after local viewer rendering failed. No reusable workflow change was justified.",
+                                "songPath":  "Don\u0027t Stop!~AMD 2nd MIX~",
+                                "fingerprint":  "EFD490D9F6CF48274E096BC9A60994185E66657ED526CDF915B5ACB50F1C6692",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T02:52:54.3047828Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful horizontal outpaint preserved the exact DROP OUT wordmark, purple falling-figure identity, sparse composition, and red-to-black palette; deterministic normalization produced the sole opaque 1920 x 1080 candidate. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "DROP OUT",
+                                "fingerprint":  "5E61A126C780DBDBA5CB2F7658C9316EC136596FD0E2EE407817958FA98B4A4C",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T03:54:53.5871484Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Attempt 1 was rejected because it added an unfaithful translucent title panel and repainted the focal area. Attempt 2 preserved the exact EAT YOU UP title without a panel and retained the red-orange scanlined abstract identity closely enough to bind as the sole 1920 x 1080 candidate. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "EAT YOU UP",
+                                "fingerprint":  "FD32BC13205CC9C7AA8BBFFC6F6BC50F4237D0629997E4080B5B5F2E9CC33862",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T04:42:42.1947140Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole exact hash-bound After A. The proof-gated byte-exact install preserved the original in a unique sibling rollback, kept the simfile unchanged, left ITGMania closed, and migrated the decision to the installed-content fingerprint. No reusable workflow, scheduled behavior, or owner-wide preference change was justified.",
+                                "songPath":  "EAT YOU UP",
+                                "fingerprint":  "8EB9AE5877B46B70F2E969F47A89DA48E5F39CEB9ED26646B63BC2F2B3296FEF",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T04:52:05.3720435Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole exact hash-bound After A with bare install. Fresh game, backup-log, source, simfile, and preview gates passed; byte-exact installation, unique verified rollback, installed-content fingerprint migration, and no-restart validation succeeded. No reusable workflow or owner-wide preference change was justified.",
+                                "songPath":  "Don\u0027t Stop!~AMD 2nd MIX~",
+                                "fingerprint":  "23737EE7ADAEE3FADCBCDD8903E969070042F13DF1B6096161472434C7039400",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T04:54:22.0710536Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For TaQ - era (nostalmix), one faithful horizontal-outpaint attempt preserved the single exact wordmark, blue radial tunnel, cyan starburst, magenta flare and rings, palette, and sparse arcade composition. The opaque one-frame 1672 x 941 raw output normalized deterministically to the sole opaque 1920 x 1080 After A, SHA-256 0ECEB638E17FC86653611F8915032724EDE2A2B4745EEE54754189954717BB45. Queue binding and tests passed; no reusable workflow, skill, documentation, or scheduled-behavior change was justified.",
+                                "songPath":  "era (nostalmix)",
+                                "fingerprint":  "31B14664C22B0EF695BC6BFD01308FEEDDCA912DFF5B6C8FDFABC7CA0435C18F",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T04:56:35.4957849Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole task-local After A with bare install. Exact preview, source, and simfile hashes remained stable; the guarded byte-exact install, unique rollback, terminal installed proof, and closed-game verification all passed. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "DROP OUT",
+                                "fingerprint":  "6A5505A6D989A9C1343B6CBCD3E80EF8E0DCC4C4844AC0FA27E52D4481BE7B2D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T04:57:13.8735805Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner called the exact selected generated attempt nice and requested installation. The malformed attachment path was corrected, its raw hash matched preserved attempt one, and the previously displayed normalized 1920 x 1080 candidate was rebound and installed byte-exact with current backup, game-closed, source, simfile, rollback, queue-proof, opacity, and presentation checks. This approval is fingerprint-specific; no reusable workflow, scheduled behavior, or owner-wide preference change was justified.",
+                                "songPath":  "DO ME (H.I.G.E.O. MIX)",
+                                "fingerprint":  "95393E44687388FFD66FA4ABB1A1AC6DA5BEF1C83909BADDA601EE0D0BC27729",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T05:00:13.5660422Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole exact task-local After A for TaQ - era (nostalmix) with bare install. Fresh game, backup-log, source, simfile, and preview gates passed; byte-exact installation, unique verified rollback, installed-content fingerprint migration, opacity and presentation checks, and no-restart validation succeeded. No reusable workflow, scheduled behavior, or owner-wide aesthetic preference change was justified.",
+                                "songPath":  "era (nostalmix)",
+                                "fingerprint":  "2439DBA552583C58C4818C8AE85D3D3655F83E2F75C5322C1B4DECF2238AEB29",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            }
+                        ]
+}
