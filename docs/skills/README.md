@@ -4,7 +4,7 @@ Canonical migration index for every project-local skill under `.agents/skills/`.
 
 | Skill | Purpose | Migration guide |
 | --- | --- | --- |
-| `thraxos` | Safe router and operating contract for the host | [ThraxOS](thraxos.md) |
+| `thraxos` | Safe router, AgentOS inheritance status, and operating contract for the host | [ThraxOS](thraxos.md) |
 | `connect-controller` | Pair and map handheld menu controllers with verified song-wheel submenu behavior | [Connect Controller](connect-controller.md) |
 | `add-pack` | Download, validate, scan, collision-check, and install packs | [Add Pack](add-pack.md) |
 | `add-song` | Resolve and safely install one song into `Misc. Collected`, then clean staging | [Add Song](add-song.md) |
@@ -24,8 +24,9 @@ Canonical migration index for every project-local skill under `.agents/skills/`.
 2. Adapt non-secret paths in `config/` and context files. Never copy credentials, profile GUIDs, score data, serial numbers, Windows SIDs, or full device instance IDs.
 3. Install or locate ITGMania, PowerShell, Git, Windows Security, and capability-specific dependencies.
 4. Keep `.codex/agents/thraxos.toml` with the checkout and make project skills discoverable in the target Codex environment.
-5. Run read-only validation before authorizing mutations.
-6. Recreate recurring work from the [scheduled-task catalog](../scheduled-tasks/README.md).
+5. Configure the non-secret AgentOS checkout in `config/paths.json`; retain the durable GitHub URL and checked-in `memory/AGENTOS_INHERITANCE.md` fallback.
+6. Run read-only validation before authorizing mutations.
+7. Recreate recurring work from the [scheduled-task catalog](../scheduled-tasks/README.md).
 
 ## Documentation contract
 

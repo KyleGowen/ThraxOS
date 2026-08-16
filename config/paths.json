@@ -4,5 +4,7 @@
   "itgmaniaUserData": "C:\\Users\\Player.NUCBOXG3_PLUS\\AppData\\Roaming\\ITGmania",
   "smxConfig": "C:\\Games\\SMXConfig",
   "backupConfig": "C:\\ProgramData\\ITGManiaBackup\\config.json",
-  "backupLogs": "C:\\ProgramData\\ITGManiaBackup\\Logs"
+  "backupLogs": "C:\\ProgramData\\ITGManiaBackup\\Logs",
+  "agentOSCheckout": "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ChatGPT\\AgentOS",
+  "agentOSRepository": "https://github.com/KyleGowen/AgentOS"
 }

@@ -10,9 +10,12 @@ Operate the dedicated Windows ITGMania host from live evidence and the repositor
 ## Load context
 
 1. Read `AGENTS.md` at the repository root.
-2. Read `memory/FACTS.md`, `memory/DECISIONS.md`, and `memory/PREFERENCES.md`.
-3. Load only the relevant file under `docs/context/` and `docs/runbooks/`.
-4. Inspect current state. Treat dated context as a snapshot, not a substitute for live verification.
+2. Read the compact inherited global rules in `memory/AGENTOS_INHERITANCE.md`.
+3. Read `memory/FACTS.md`, `memory/DECISIONS.md`, and `memory/PREFERENCES.md`.
+4. Load only the relevant file under `docs/context/` and `docs/runbooks/`.
+5. Inspect current state. Treat dated context as a snapshot, not a substitute for live verification.
+
+For inheritance freshness or AgentOS coordination, run `scripts/Get-AgentOSInheritanceStatus.ps1`. It may fetch Git metadata but never pulls, switches branches, or changes either worktree. Continue from the checked-in cache when AgentOS is unavailable, and report stale or unverified provenance.
 
 ## Route the request
 
@@ -39,6 +42,8 @@ Operate the dedicated Windows ITGMania host from live evidence and the repositor
 - Use `.agents/skills/thraxos/scripts/Set-GrooveStatsForProfile.ps1` only after the owner approves the configuration change; it refuses to run while ITGMania is open and never prints the API key.
 - Stage and validate archives before installing packs; never overwrite or delete silently.
 - Never edit score history to change competitive results.
+- ThraxOS-specific rules win over inherited AgentOS rules for this machine. Report a material conflict instead of silently dropping either rule.
+- Keep AgentOS changes inside the approved ThraxOS allowlist recorded in `memory/AGENTOS_INHERITANCE.md`, and require owner approval before every AgentOS write.
 
 ## Record the result
 

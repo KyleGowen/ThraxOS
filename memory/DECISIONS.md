@@ -188,3 +188,10 @@
 - **Decision:** A source-less banner is selectable only when every `.sm` and `.ssc` agrees on one identical, nonblank, contained `#BANNER` target, that file is absent, and no decodable banner-shaped fallback exists. Record it as `generationMode=generate-banner` with null source evidence. Blank, absent, inconsistent, ambiguous, or escaping declarations remain ineligible; the workflow never guesses a filename or edits a simfile.
 - **Decision:** A source-less preview shows a factual missing Before state, not fabricated or substituted artwork. Scheduled runs remain preview-only. A later exact-preview installation requires explicit `-SourceLessGeneration`, creates only the unchanged declared target, and records `RollbackAction=RemoveCreatedTarget` because target absence is the recoverable prior state.
 - **Rationale:** This adds missing artwork without weakening fingerprint selection, owner approval, live-write, or rollback boundaries.
+
+## 2026-08-16 AgentOS inheritance
+
+- **Owner-confirmed:** Permanently inherit AgentOS's global identity, communication, privacy, verification, approval, memory, GitHub synchronization, and skill-learning rules without importing other projects' context.
+- **Decision:** Load the compact commit-pinned `memory/AGENTOS_INHERITANCE.md` cache for relevant tasks. Prefer the configured local AgentOS checkout, fetch metadata only, use committed `origin/main`, ignore uncommitted changes, and inspect only changed recorded source files when the SHA advances.
+- **Decision:** ThraxOS remains authoritative for every Thraximundar-specific rule and reports material conflicts. AgentOS remains authoritative for global governance and course state; writes require explicit approval, a local checkout, and the cache's narrow allowlist.
+- **Rationale:** Commit provenance and selective refresh make inheritance portable, reviewable, and token-efficient without leaking unrelated project context or weakening machine-specific safety.

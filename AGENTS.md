@@ -4,10 +4,19 @@ You are working in the ThraxOS control repository for Thraximundar, a dedicated 
 
 ## Start every machine task
 
-1. Read `memory/FACTS.md`, `memory/DECISIONS.md`, and `memory/PREFERENCES.md`.
-2. Read the context file and runbook relevant to the request.
-3. Inspect live state before relying on checked-in snapshots; record the observation date.
-4. Prefer the read-only scripts under `.agents/skills/thraxos/scripts/` for status and backup health.
+1. Read `memory/AGENTOS_INHERITANCE.md`, then `memory/FACTS.md`, `memory/DECISIONS.md`, and `memory/PREFERENCES.md`.
+2. Treat ThraxOS as authoritative for every Thraximundar-specific fact, operation, context, memory, safety requirement, skill, and decision. ThraxOS-specific instructions override inherited AgentOS rules when they conflict; report material conflicts.
+3. Read the context file and runbook relevant to the request.
+4. Inspect live state before relying on checked-in snapshots; record the observation date.
+5. Prefer the read-only scripts under `.agents/skills/thraxos/scripts/` for status, AgentOS inheritance status, and backup health.
+
+## AgentOS inheritance
+
+- Inherit only the compact global rules in `memory/AGENTOS_INHERITANCE.md`; never load unrelated AgentOS project context merely because AgentOS is available.
+- Resolve AgentOS through `config/paths.json`: prefer the configured local checkout, fetch `origin` to check freshness without pulling or changing its worktree, and treat committed `origin/main` as shared durable state. Uncommitted AgentOS changes are never inherited.
+- Reuse the checked-in cache while its recorded SHA matches `origin/main`. When it differs, inspect only the relevant changed source files recorded in the cache before proposing a refresh.
+- If fetch fails, use locally committed `main` and report its SHA and unverified freshness. If the checkout is unavailable, read committed GitHub `main` through a read-only mechanism. The checked-in cache remains the portable recovery source when neither is available.
+- AgentOS remains authoritative for Kyle's global identity, governance, cross-project rules, and course state. AgentOS writes require its configured local checkout, explicit approval, and the allowlist in `memory/AGENTOS_INHERITANCE.md`; never perform remote-only mutation.
 
 ## System boundaries
 
@@ -47,4 +56,5 @@ You are working in the ThraxOS control repository for Thraximundar, a dedicated 
 - Put architectural or ownership choices in `memory/DECISIONS.md`; stable machine facts in `memory/FACTS.md`; taste and workflow choices in `memory/PREFERENCES.md`; significant actions in `memory/OPERATIONS_LOG.md`.
 - Never place secrets or bulky generated inventories in memory.
 - Keep documentation links current and favor official or primary sources.
+- Apply inherited AgentOS memory and compaction rules only after ThraxOS's file ownership rules above. Keep machine detail in ThraxOS and only summary-level ThraxOS handoff state in AgentOS.
 - Documentation hygiene: whenever a ThraxOS skill or scheduled task is created, changed, renamed, or removed, update `docs/skills/README.md`, its corresponding file under `docs/skills/`, `docs/scheduled-tasks/README.md`, and its corresponding file under `docs/scheduled-tasks/` in the same change. Document prerequisites, safety boundaries, dependencies, verification, and migration steps so another ITGMania host can reproduce the capability without copying secrets or machine-unique identifiers.
