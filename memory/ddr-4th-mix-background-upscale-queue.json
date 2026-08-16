@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
-    "generatedAt":  "2026-08-16T17:28:09.6872980Z",
+    "generatedAt":  "2026-08-16T21:08:51.1658079Z",
     "songs":  [
                   {
                       "songPath":  ".59",
@@ -2347,7 +2347,7 @@
                   },
                   {
                       "songPath":  "PINK DINOSAUR",
-                      "fingerprint":  "BFA03A476C01AE1844A4E7EE6A702C88E0053E01500A04F0238C710CA26E51D6",
+                      "fingerprint":  "11BBBBFECAF05221BEC7100ACAEC84147C85BAA9DC14FF71398861DC6A46869A",
                       "simfiles":  [
                                        {
                                            "path":  "PINK DINOSAUR.sm",
@@ -2360,31 +2360,37 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "PINK DINOSAUR-bg.png",
                       "sourcePath":  "PINK DINOSAUR-bg.png",
-                      "sourceSha256":  "210D8D72719F194E25BCED5EBA17FBF19CFC7189A67A9515131F1F6C65CC8072",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "5E8A1595B12E2C0E807BA412DBBDF8AD837322253C2F83541AB824F674D9C0B7",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T10:10:25.1218172Z",
+                      "observedAt":  "2026-08-16T18:16:41.9741395Z",
+                      "assessedAt":  "2026-08-16T18:16:41.9741395Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T18:16:41.7915828Z",
                       "lastAttemptedAt":  "2026-08-16T10:10:25.1218172Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PINK DINOSAUR\\BFA03A476C01AE1844A4E7EE6A702C88E0053E01500A04F0238C710CA26E51D6\\After-A-1920x1080.png",
                       "previewSha256":  "5E8A1595B12E2C0E807BA412DBBDF8AD837322253C2F83541AB824F674D9C0B7",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T18:16:41.7915828Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install, approving the sole task-local displayed After A for PAPAYA - PINK DINOSAUR, SHA-256 5E8A1595B12E2C0E807BA412DBBDF8AD837322253C2F83541AB824F674D9C0B7. Approved preview SHA-256 5E8A1595B12E2C0E807BA412DBBDF8AD837322253C2F83541AB824F674D9C0B7. Installed SHA-256 5E8A1595B12E2C0E807BA412DBBDF8AD837322253C2F83541AB824F674D9C0B7 using byte-exact-copy; rollback PINK DINOSAUR-bg.png.pre-upscale-20260816-111640.bak preserves original SHA-256 210D8D72719F194E25BCED5EBA17FBF19CFC7189A67A9515131F1F6C65CC8072.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PINK DINOSAUR\\BFA03A476C01AE1844A4E7EE6A702C88E0053E01500A04F0238C710CA26E51D6\\After-A-1920x1080.png",
+                                                  "previewSha256":  "5E8A1595B12E2C0E807BA412DBBDF8AD837322253C2F83541AB824F674D9C0B7"
+                                              }
                                           ]
                   },
                   {
@@ -2719,7 +2725,7 @@
                   },
                   {
                       "songPath":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix)",
-                      "fingerprint":  "C7F71660164CEDD664A953D77FA16AB387F1BFE76C82FBC9B79BC621783113EB",
+                      "fingerprint":  "4BC7BA46087260AC86D3B8155FAD728F4B045C3E16C833DE7E05B0E2A5F7FBC3",
                       "simfiles":  [
                                        {
                                            "path":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix).sm",
@@ -2732,36 +2738,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix)-bg.png",
                       "sourcePath":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix)-bg.png",
-                      "sourceSha256":  "1097C7AB2FD895453B72A3E0736F0FE8441DA5F69DFE040414066FC4719CC2C8",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T17:21:02.2862159Z",
+                      "observedAt":  "2026-08-16T18:14:43.4392714Z",
+                      "assessedAt":  "2026-08-16T18:14:43.4392714Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T18:14:43.0147517Z",
                       "lastAttemptedAt":  "2026-08-16T17:21:02.2862159Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SYNCHRONIZED LOVE (Red Monster Hyper Mix)\\C7F71660164CEDD664A953D77FA16AB387F1BFE76C82FBC9B79BC621783113EB\\After-A-1920x1080-v2.png",
                       "previewSha256":  "6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T18:14:43.0147517Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install on 2026-08-16, approving the sole displayed and queue-bound After A SHA-256 6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0. The malformed attachment identified rejected unbound raw attempt 1 and was not installed or substituted. Approved preview SHA-256 6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0. Installed SHA-256 6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0 using byte-exact-copy; rollback SYNCHRONIZED LOVE (Red Monster Hyper Mix)-bg.png.pre-upscale-20260816-111442.bak preserves original SHA-256 1097C7AB2FD895453B72A3E0736F0FE8441DA5F69DFE040414066FC4719CC2C8.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SYNCHRONIZED LOVE (Red Monster Hyper Mix)\\C7F71660164CEDD664A953D77FA16AB387F1BFE76C82FBC9B79BC621783113EB\\After-A-1920x1080-v2.png",
+                                                  "previewSha256":  "6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "THE 7 JUMP",
-                      "fingerprint":  "2350DC4F5EB7634FB6F02F0D3CAFBCC5B651205AED26B009F664B99E87293030",
+                      "fingerprint":  "DE0828C6C2BC382AA18FCF0DCDFC7AFF6E7367CEF77CBBCC6EA2F5906D21BCCF",
                       "simfiles":  [
                                        {
                                            "path":  "THE 7 JUMP.sm",
@@ -2774,36 +2786,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "THE 7 JUMP-bg.png",
                       "sourcePath":  "THE 7 JUMP-bg.png",
-                      "sourceSha256":  "501044E5885ACA8AAB0E24052276CB6B994EB03A50B3D0ED9D215DABA884D81A",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "ABDF9622B1A02B27C6BA2E7B0AC7CD53112A198B3E6A5F0BEE271EDA4C8281DC",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-16T21:06:06.6322173Z",
+                      "assessedAt":  "2026-08-16T21:06:06.6322173Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T21:06:02.8473997Z",
+                      "lastAttemptedAt":  "2026-08-16T18:21:21.6436514Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\THE 7 JUMP\\2350DC4F5EB7634FB6F02F0D3CAFBCC5B651205AED26B009F664B99E87293030\\After-A-1920x1080.png",
+                      "previewSha256":  "ABDF9622B1A02B27C6BA2E7B0AC7CD53112A198B3E6A5F0BEE271EDA4C8281DC",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T21:06:02.8473997Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install, approving the sole task-local displayed After A at SHA-256 ABDF9622B1A02B27C6BA2E7B0AC7CD53112A198B3E6A5F0BEE271EDA4C8281DC. Approved preview SHA-256 ABDF9622B1A02B27C6BA2E7B0AC7CD53112A198B3E6A5F0BEE271EDA4C8281DC. Installed SHA-256 ABDF9622B1A02B27C6BA2E7B0AC7CD53112A198B3E6A5F0BEE271EDA4C8281DC using byte-exact-copy; rollback THE 7 JUMP-bg.png.pre-upscale-20260816-140557.bak preserves original SHA-256 501044E5885ACA8AAB0E24052276CB6B994EB03A50B3D0ED9D215DABA884D81A.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\THE 7 JUMP\\2350DC4F5EB7634FB6F02F0D3CAFBCC5B651205AED26B009F664B99E87293030\\After-A-1920x1080.png",
+                                                  "previewSha256":  "ABDF9622B1A02B27C6BA2E7B0AC7CD53112A198B3E6A5F0BEE271EDA4C8281DC"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "THEME FROM ENTER THE DRAGON (notorious mix)",
-                      "fingerprint":  "6E7D9CBEF0A16C4F1CBE264464A80DC4A64C7D1D3454CD25C0320E67E4878BE9",
+                      "fingerprint":  "8BE52D3301656207332FE0D004F7AD4D827FEDD60D277C44DC79B0EDA3B9AFA4",
                       "simfiles":  [
                                        {
                                            "path":  "THEME FROM ENTER THE DRAGON (notorious mix).sm",
@@ -2816,31 +2834,43 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "THEME FROM ENTER THE DRAGON (notorious mix)-bg.png",
                       "sourcePath":  "THEME FROM ENTER THE DRAGON (notorious mix)-bg.png",
-                      "sourceSha256":  "7EC03E44AE5524A1FE0A99252C86B926862C6F71D5D98B309BADE1B070F35DB5",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "35A6CFE517AB385C1503A2EAA2A9D07EE7A4650235A71D3D255A1512182BAC73",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-16T20:57:31.5315114Z",
+                      "assessedAt":  "2026-08-16T20:57:31.5315114Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T20:57:31.0613551Z",
+                      "lastAttemptedAt":  "2026-08-16T20:56:36.6414421Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\THEME FROM ENTER THE DRAGON (notorious mix)\\6E7D9CBEF0A16C4F1CBE264464A80DC4A64C7D1D3454CD25C0320E67E4878BE9\\Installed-Approved-35A6CFE517AB.png",
+                      "previewSha256":  "35A6CFE517AB385C1503A2EAA2A9D07EE7A4650235A71D3D255A1512182BAC73",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T20:56:29.8004375Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner explicitly selected raw attempt 1 SHA-256 D0BC0B66F775064C545E9DCA24E422F70D737DBBA4C6431CB50597867CCCCACD for installation instead of the bound exact-center After A; the superseded After A remains uninstalled.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\THEME FROM ENTER THE DRAGON (notorious mix)\\6E7D9CBEF0A16C4F1CBE264464A80DC4A64C7D1D3454CD25C0320E67E4878BE9\\After-A-1920x1080-v4.png",
+                                                 "discardedPreviewSha256":  "4E318A6AF714A3C28CE40E6519A0E46542422B5BB86ADFCC31424FBEA21E2D3E"
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T20:57:31.0613551Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected generated file exec-082587e5-6351-4e97-8d0d-602ba38fe0c8.png for installation; exact selected preview SHA-256 D0BC0B66F775064C545E9DCA24E422F70D737DBBA4C6431CB50597867CCCCACD. Approved preview SHA-256 D0BC0B66F775064C545E9DCA24E422F70D737DBBA4C6431CB50597867CCCCACD. Installed SHA-256 35A6CFE517AB385C1503A2EAA2A9D07EE7A4650235A71D3D255A1512182BAC73 using normalized-render; rollback THEME FROM ENTER THE DRAGON (notorious mix)-bg.png.pre-upscale-20260816-135727.bak preserves original SHA-256 7EC03E44AE5524A1FE0A99252C86B926862C6F71D5D98B309BADE1B070F35DB5.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\THEME FROM ENTER THE DRAGON (notorious mix)\\6E7D9CBEF0A16C4F1CBE264464A80DC4A64C7D1D3454CD25C0320E67E4878BE9\\Installed-Approved-35A6CFE517AB.png",
+                                                  "previewSha256":  "35A6CFE517AB385C1503A2EAA2A9D07EE7A4650235A71D3D255A1512182BAC73"
+                                              }
                                           ]
                   },
                   {
@@ -2872,14 +2902,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T21:05:10.0551127Z",
+                      "lastAttemptedAt":  "2026-08-16T21:05:10.0551127Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\TRIP MACHINE CLIMAX\\A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B\\After-B-1920x1080.png",
+                      "previewSha256":  "DF7380125E8A443C9674152289F0DA615063F3AB8C8436E91D7831E812234646",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T21:02:24.1319432Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner rejected After A because the original red geometry is clearly a continuous spiral, while the generated peripheral extension reads as a clipped spiral enclosed within added circular or concentric ring geometry. Retry must preserve the source spiral topology and must not add an enclosing circle.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\TRIP MACHINE CLIMAX\\A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B\\After-A-1920x1080.png",
+                                                 "discardedPreviewSha256":  "62FF887F28A076F3B90CBF848D9B358DA73ABA6827B3C285F79F5CC54C668755"
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -3951,6 +3987,83 @@
                                 "summary":  "Owner approved the sole displayed After A for CJ CREW feat. CHRISTIAN D - RHYTHM AND POLICE (K.O.G G3 Mix). Current AgentOS inheritance, backup, closed-game, source, simfile, and preview proof checks passed; the proof-gated byte-exact install preserved the original in one verified sibling rollback, migrated the queue to installed-content proof, and left ITGMania closed. Existing workflow guidance fully covered the install, so no reusable lesson or scheduled-behavior change was justified.",
                                 "songPath":  null,
                                 "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T18:16:31.8307448Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner bare install approved the sole displayed and queue-bound After A SHA-256 6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0. The malformed attachment identified rejected unbound raw attempt one SHA-256 87528DA90949DCC0AEB055CAA56203083919D3D49E76D72BEBA538F28C61A70D and was not substituted. Proof-gated byte-exact installation created a verified rollback of the original, preserved the simfile, migrated terminal installed proof, and left ITGMania closed. This is exact-fingerprint evidence; no reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix)",
+                                "fingerprint":  "C7F71660164CEDD664A953D77FA16AB387F1BFE76C82FBC9B79BC621783113EB",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T18:18:23.9252041Z",
+                                "scope":  "none",
+                                "summary":  "Owner bare-install approval resolved unambiguously to the sole task-local hash-bound PAPAYA - PINK DINOSAUR After A. Fresh AgentOS relevance review, current source/simfile/preview hashes, closed-game state, degraded-but-current successful backup-log evidence, proof-gated byte-exact installation, sole rollback verification, installed-content queue migration, opacity/presentation checks, and no-restart safeguards all passed. Existing guidance fully covered the operation; no fingerprint-specific or reusable lesson and no scheduled-behavior change were justified.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T18:23:25.3884702Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One horizontal outpaint repainted the locked center but supplied usable side-extension material. A deterministic composite restored the complete nearest-neighbor source-derived 1440 x 1080 center with 1,555,200 pixels verified equal, confined generated content and mirrored-edge feathering to the two 240-pixel side extensions, and bound opaque one-frame 1920 x 1080 After A at SHA-256 ABDF9622B1A02B27C6BA2E7B0AC7CD53112A198B3E6A5F0BEE271EDA4C8281DC.",
+                                "songPath":  "THE 7 JUMP",
+                                "fingerprint":  "2350DC4F5EB7634FB6F02F0D3CAFBCC5B651205AED26B009F664B99E87293030",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T19:26:28.7375114Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Attempt 1 repainted the locked dragon, typography, and geometry and introduced duplicate side anatomy; attempt 2 supplied clean wallpaper-only side material. The bound preview uses a 2x crop-scale of attempt 2 only in the two 240-pixel side extensions around a nearest-neighbor source-derived 1440x1080 center verified equal across all 1,555,200 center pixels. This evidence is specific to the exact source; no reusable workflow change was justified.",
+                                "songPath":  "THEME FROM ENTER THE DRAGON (notorious mix)",
+                                "fingerprint":  "6E7D9CBEF0A16C4F1CBE264464A80DC4A64C7D1D3454CD25C0320E67E4878BE9",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T20:21:47.8069902Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The first faithful side-outpaint supplied usable cyan and red peripheral extensions but enlarged and repainted the locked repeated title and concentric center. A deterministic finishing pass restored the full source-derived 4:3 center and confined a narrow blend to the outer side regions; the resulting sole candidate preserved the exact typography, ring geometry, palette, and composition at 1920 x 1080. The earlier local compositing command failed before creating a candidate because of a Bitmap constructor invocation error; its corrected rerun reused the same AI output and consumed no second model attempt.",
+                                "songPath":  "TRIP MACHINE CLIMAX",
+                                "fingerprint":  "A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T20:59:46.9886912Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected raw attempt 1 SHA-256 D0BC0B66F775064C545E9DCA24E422F70D737DBBA4C6431CB50597867CCCCACD instead of the source-preserving exact-center preview. The exact-file choice overrides the automated fidelity rejection only for source fingerprint 6E7D9CBEF0A16C4F1CBE264464A80DC4A64C7D1D3454CD25C0320E67E4878BE9; the installed normalized proof is SHA-256 35A6CFE517AB385C1503A2EAA2A9D07EE7A4650235A71D3D255A1512182BAC73. No reusable guidance or owner-wide preference was inferred.",
+                                "songPath":  "THEME FROM ENTER THE DRAGON (notorious mix)",
+                                "fingerprint":  "8BE52D3301656207332FE0D004F7AD4D827FEDD60D277C44DC79B0EDA3B9AFA4",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T21:08:51.1658079Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner rejected After A because its peripheral geometry enclosed the source spiral within circular or concentric ring forms. For this fingerprint, preserve the red form as one continuous open-ended spiral: separated turns wind outward from the central curl, and the outer sweep continues through the side extension and exits the wide frame. The second and final AI attempt followed that topology; deterministic finishing restored the complete source-derived center and used only the generated peripheral spiral extension. After B is the sole bound candidate.",
+                                "songPath":  "TRIP MACHINE CLIMAX",
+                                "fingerprint":  "A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B",
                                 "changedFiles":  {
 
                                                  },

@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-16T16:27:00.5219221Z",
+    "generatedAt":  "2026-08-16T20:56:45.1932288Z",
     "songs":  [
                   {
                       "songPath":  "[Prime Time] - Green Light (Chromeo Remix)",
@@ -7315,7 +7315,7 @@
                   },
                   {
                       "songPath":  "Voodoo People (Pendelum Remix)",
-                      "fingerprint":  "5B5C14AEDC6C61C1CCD9949AE565BAD9D446C33BCB1D120FEE6ACFFCA4A04DC9",
+                      "fingerprint":  "46131B97F955FCFB87FE42AE27E9AAD9E76648963002DDA3A134166C80BF0A32",
                       "simfiles":  [
                                        {
                                            "path":  "Voodoo People (Pendelum Remix).sm",
@@ -7323,21 +7323,22 @@
                                        }
                                    ],
                       "bannerReference":  "Voodoo People-bn.png",
-                      "sourcePath":  "Voodoo People (Pendelum Remix).png",
-                      "sourceSha256":  "1A9F01328E27BC0D7BAA06AB63DEB08C4E5E6E338918CD685EBF810DA4E1F222",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
+                      "sourcePath":  "Voodoo People-bn.png",
+                      "sourceSha256":  "AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T19:01:57.1880635Z",
+                      "assessedAt":  "2026-08-16T19:01:57.1880635Z",
+                      "eligible":  false,
                       "reason":  "The exact owner-approved preview is installed.",
                       "status":  "installed",
                       "processedAt":  "2026-08-16T16:27:00.5014019Z",
+                      "lastAttemptedAt":  "2026-08-16T16:26:12.2466335Z",
                       "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-generate-owner\\5B5C14AEDC6C61C1CCD9949AE565BAD9D446C33BCB1D120FEE6ACFFCA4A04DC9-release-inspired-20260816\\Voodoo People-release-inspired-attempt-1-836x328.png",
                       "previewSha256":  "AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71",
-                      "lastAttemptedAt":  "2026-08-16T16:26:12.2466335Z",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T03:07:09.0501516Z",
@@ -7380,7 +7381,6 @@
                                                  "discardedPreviewSha256":  "C8F1282A87EE8FCECD58CD12029D589F85B09EA32546AE88CE3B29B5658EAE2F"
                                              }
                                          ],
-                      "installedSourceSha256":  "AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71",
                       "decisionHistory":  [
                                               {
                                                   "recordedAt":  "2026-08-16T16:27:00.5014019Z",
@@ -7389,7 +7389,8 @@
                                                   "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-generate-owner\\5B5C14AEDC6C61C1CCD9949AE565BAD9D446C33BCB1D120FEE6ACFFCA4A04DC9-release-inspired-20260816\\Voodoo People-release-inspired-attempt-1-836x328.png",
                                                   "previewSha256":  "AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71"
                                               }
-                                          ]
+                                          ],
+                      "installedSourceSha256":  "AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71"
                   },
                   {
                       "songPath":  "Waters of Nazareth",
@@ -7592,7 +7593,7 @@
                   },
                   {
                       "songPath":  "Woodman Stage (Megaman 2)",
-                      "fingerprint":  "7F8C90EFA5A982DE3110BCA2F2FD5EC2A7837882BFB1DE59EE55FB7E079ABF36",
+                      "fingerprint":  "2CD1ADE9DF97DE3A75257EC48762A52E1427037DD8DB1F400A7D22168450BD73",
                       "simfiles":  [
                                        {
                                            "path":  "Woodman Stage (Megaman 2).sm",
@@ -7604,20 +7605,42 @@
                                        }
                                    ],
                       "bannerReference":  "wood-bn.png",
-                      "sourcePath":  "Woodman Stage (Megaman 2).png",
-                      "sourceSha256":  "117F5022E7ED86375DCB1B33916E5FB892E8FCBA360142DB4410B65859E6B18D",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "wood-bn.png",
+                      "sourceSha256":  "9034991DB5B6030F8C8778E9C08392B092D586DC0D7888CA45653EEB5349432E",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T20:56:45.1932288Z",
+                      "assessedAt":  "2026-08-16T20:56:45.1932288Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T20:56:40.1599876Z",
+                      "lastAttemptedAt":  "2026-08-16T20:55:26.2388022Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\7F8C90EFA5A982DE3110BCA2F2FD5EC2A7837882BFB1DE59EE55FB7E079ABF36-owner-selected-20260816\\Woodman Stage-owner-selected-after-836x328.png",
+                      "previewSha256":  "9034991DB5B6030F8C8778E9C08392B092D586DC0D7888CA45653EEB5349432E",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-16T19:06:02.5008161Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two permitted GPT Image 2 restorations decoded and normalized to opaque 836 x 328 but failed source fidelity. Attempt 1 raw/normalized SHA-256 4292EFD4A4545358FCD347C509E310A972CBA7DC12248C3EF33B0B07A47DD0D4 / 5D5D5F350D90AABFA76B9CF60340F60A62A50C570939AD1493150149D3418166 enlarged and redesigned the framed Wood Man portrait and center robot, removed/changed the distinct offset silhouette, re-typeset/enlarged both layered text bands, and added a blue gradient. Attempt 2 used exact 836 x 328 layout reference SHA-256 CBE9C2C8D05DB1C5E521298C6A89AE6DCCA761E6A730B3B556D98AFEA8D65796; raw/normalized SHA-256 1BD495E0A63FEF3231F14CAC13C6585A7D2A29A285E9171751FC76BFEC40A803 / 9034991DB5B6030F8C8778E9C08392B092D586DC0D7888CA45653EEB5349432E repeated those failures. Future attempts must preserve the original 512 x 160 rectangle scaled to about 836 x 261 at y=33, exact portrait/frame and foreground-plus-offset-silhouette sprite bounds, exact layered Woodman and Megaman 2 glyph silhouettes/overlap/footprint, hard pixel geometry, and flat light-blue bands with no gradient.",
+                                                 "priorProcessedAt":  "2026-08-16T19:02:12.5196944Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T20:56:40.1599876Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected generated file exec-05d20285-bfff-4b22-bf0b-7f4ed7d50298.png and requested installation; exact-file selection overrides the earlier automated fidelity rejection only for this fingerprint. No additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\7F8C90EFA5A982DE3110BCA2F2FD5EC2A7837882BFB1DE59EE55FB7E079ABF36-owner-selected-20260816\\Woodman Stage-owner-selected-after-836x328.png",
+                                                  "previewSha256":  "9034991DB5B6030F8C8778E9C08392B092D586DC0D7888CA45653EEB5349432E"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "9034991DB5B6030F8C8778E9C08392B092D586DC0D7888CA45653EEB5349432E"
                   },
                   {
                       "songPath":  "World In Motion",
