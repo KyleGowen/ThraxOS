@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
-    "generatedAt":  "2026-08-16T16:19:29.9145382Z",
+    "generatedAt":  "2026-08-16T17:28:09.6872980Z",
     "songs":  [
                   {
                       "songPath":  ".59",
@@ -2389,7 +2389,7 @@
                   },
                   {
                       "songPath":  "RHYTHM AND POLICE (K.O.G G3 Mix)",
-                      "fingerprint":  "7E7D3CDD642B47D37DABA57631EA3330ADD62149A81D16EAFEB7810645B03197",
+                      "fingerprint":  "CAC8392C5E55F3EE6694CE1252E50AF024B4FB25361C174DB3E3505B526D4DD4",
                       "simfiles":  [
                                        {
                                            "path":  "RHYTHM AND POLICE (K.O.G G3 Mix).sm",
@@ -2402,36 +2402,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "RHYTHM AND POLICE (K.O.G G3 Mix)-bg.png",
                       "sourcePath":  "RHYTHM AND POLICE (K.O.G G3 Mix)-bg.png",
-                      "sourceSha256":  "545D779CE32AD67A8A91C8B81A9087688D4E1EF49E4E0077EF8B337A176FEC07",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "82185E8601FEF76AB0CE470D9BBFD1ED23EE7956F73549D5A06C4E0FDA529E64",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T11:10:14.4113890Z",
+                      "observedAt":  "2026-08-16T17:27:04.5476454Z",
+                      "assessedAt":  "2026-08-16T17:27:04.5476454Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T17:27:04.3193110Z",
                       "lastAttemptedAt":  "2026-08-16T11:10:14.4113890Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\RHYTHM AND POLICE (K.O.G G3 Mix)\\7E7D3CDD642B47D37DABA57631EA3330ADD62149A81D16EAFEB7810645B03197\\After-A-1920x1080-v2.png",
                       "previewSha256":  "82185E8601FEF76AB0CE470D9BBFD1ED23EE7956F73549D5A06C4E0FDA529E64",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T17:27:04.3193110Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied install for the sole displayed After A candidate in this task. Approved preview SHA-256 82185E8601FEF76AB0CE470D9BBFD1ED23EE7956F73549D5A06C4E0FDA529E64. Installed SHA-256 82185E8601FEF76AB0CE470D9BBFD1ED23EE7956F73549D5A06C4E0FDA529E64 using byte-exact-copy; rollback RHYTHM AND POLICE (K.O.G G3 Mix)-bg.png.pre-upscale-20260816-102703.bak preserves original SHA-256 545D779CE32AD67A8A91C8B81A9087688D4E1EF49E4E0077EF8B337A176FEC07.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\RHYTHM AND POLICE (K.O.G G3 Mix)\\7E7D3CDD642B47D37DABA57631EA3330ADD62149A81D16EAFEB7810645B03197\\After-A-1920x1080-v2.png",
+                                                  "previewSha256":  "82185E8601FEF76AB0CE470D9BBFD1ED23EE7956F73549D5A06C4E0FDA529E64"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "SAINT GOES MARCHING (REMIX)",
-                      "fingerprint":  "5A4D32262A265802FC24719FB5AD30C7D5AE313D88F118967FAA795F45EFFE97",
+                      "fingerprint":  "4B37CBB3804E7DD92BF14A4D53B0E4D8A92424786DD552678104288386BEB3BA",
                       "simfiles":  [
                                        {
                                            "path":  "SAINT GOES MARCHING (REMIX).sm",
@@ -2444,31 +2450,37 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "SAINT GOES MARCHING (REMIX)-bg.png",
                       "sourcePath":  "SAINT GOES MARCHING (REMIX)-bg.png",
-                      "sourceSha256":  "339824F370D206965238FF8FC98A691DC523CE535B7E6A99F2683CA406147A5A",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "2F8EB67322325056A758E15EDBC054CC7996A6E67E48C565DCD7BF34A59C067D",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T12:14:47.0804849Z",
+                      "observedAt":  "2026-08-16T16:37:57.6066838Z",
+                      "assessedAt":  "2026-08-16T16:37:57.6066838Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:37:57.1147772Z",
                       "lastAttemptedAt":  "2026-08-16T12:14:47.0804849Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SAINT GOES MARCHING (REMIX)\\5A4D32262A265802FC24719FB5AD30C7D5AE313D88F118967FAA795F45EFFE97\\After-A-1920x1080.png",
                       "previewSha256":  "2F8EB67322325056A758E15EDBC054CC7996A6E67E48C565DCD7BF34A59C067D",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:37:57.1147772Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied install, approving the sole displayed and queue-bound After A with SHA-256 2F8EB67322325056A758E15EDBC054CC7996A6E67E48C565DCD7BF34A59C067D. The attached raw generated image was not the bound candidate and was not substituted. Approved preview SHA-256 2F8EB67322325056A758E15EDBC054CC7996A6E67E48C565DCD7BF34A59C067D. Installed SHA-256 2F8EB67322325056A758E15EDBC054CC7996A6E67E48C565DCD7BF34A59C067D using byte-exact-copy; rollback SAINT GOES MARCHING (REMIX)-bg.png.pre-upscale-20260816-093755.bak preserves original SHA-256 339824F370D206965238FF8FC98A691DC523CE535B7E6A99F2683CA406147A5A.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SAINT GOES MARCHING (REMIX)\\5A4D32262A265802FC24719FB5AD30C7D5AE313D88F118967FAA795F45EFFE97\\After-A-1920x1080.png",
+                                                  "previewSha256":  "2F8EB67322325056A758E15EDBC054CC7996A6E67E48C565DCD7BF34A59C067D"
+                                              }
                                           ]
                   },
                   {
@@ -2515,7 +2527,7 @@
                   },
                   {
                       "songPath":  "SHAKE YOUR BOOTY",
-                      "fingerprint":  "B5CD393F1C78654538C26BD65303346179E677BC245C30ED7D6FCEF8F79E0559",
+                      "fingerprint":  "2AD6C597106EEA8B78758D1645F214958A328341A3C081D69BE684DCA1D17A5C",
                       "simfiles":  [
                                        {
                                            "path":  "SHAKE YOUR BOOTY.sm",
@@ -2528,36 +2540,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "SHAKE YOUR BOOTY-bg.png",
                       "sourcePath":  "SHAKE YOUR BOOTY-bg.png",
-                      "sourceSha256":  "DF5B458D72EB51AAEB90CDC4EDBAE6C24088D93E418CFB48E3FA9FC525367E0C",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T13:13:17.9615532Z",
+                      "observedAt":  "2026-08-16T16:32:50.8543813Z",
+                      "assessedAt":  "2026-08-16T16:32:50.8543813Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:32:50.6561858Z",
                       "lastAttemptedAt":  "2026-08-16T13:13:17.9615532Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SHAKE YOUR BOOTY\\B5CD393F1C78654538C26BD65303346179E677BC245C30ED7D6FCEF8F79E0559\\After-A-1920x1080-v3.png",
                       "previewSha256":  "42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:32:50.6561858Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed After A by replying install in this task on 2026-08-16; exact preview SHA-256 42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9. Approved preview SHA-256 42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9. Installed SHA-256 42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9 using byte-exact-copy; rollback SHAKE YOUR BOOTY-bg.png.pre-upscale-20260816-093250.bak preserves original SHA-256 DF5B458D72EB51AAEB90CDC4EDBAE6C24088D93E418CFB48E3FA9FC525367E0C.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SHAKE YOUR BOOTY\\B5CD393F1C78654538C26BD65303346179E677BC245C30ED7D6FCEF8F79E0559\\After-A-1920x1080-v3.png",
+                                                  "previewSha256":  "42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "SHOOTING STAR",
-                      "fingerprint":  "21D61CD6C5DB835DD278E1997238B881C0EBD0926D4967DA9CEB8EE40156DFE0",
+                      "fingerprint":  "B46503C27980F5668B5B93E24EDF5CFA3B7F45DA523317AB744DF9166B080376",
                       "simfiles":  [
                                        {
                                            "path":  "SHOOTING STAR.sm",
@@ -2570,36 +2588,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "SHOOTING STAR-bg.png",
                       "sourcePath":  "SHOOTING STAR-bg.png",
-                      "sourceSha256":  "2A4DF324989FC89E18DEA8D7C5B5683C57F23FF0005C0CA420F5C1D083E50266",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "D569D273A8EF87A591A624ACCCFD0F2C8F9D1258257856E52D59D74AFA77D0C6",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T14:19:24.7928425Z",
+                      "observedAt":  "2026-08-16T16:33:04.6692342Z",
+                      "assessedAt":  "2026-08-16T16:33:04.6692342Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:33:04.4998772Z",
                       "lastAttemptedAt":  "2026-08-16T14:19:24.7928425Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SHOOTING STAR\\21D61CD6C5DB835DD278E1997238B881C0EBD0926D4967DA9CEB8EE40156DFE0\\After-A-1920x1080-v3.png",
                       "previewSha256":  "D569D273A8EF87A591A624ACCCFD0F2C8F9D1258257856E52D59D74AFA77D0C6",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:33:04.4998772Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole task-local displayed After A by replying install. Approved preview SHA-256 D569D273A8EF87A591A624ACCCFD0F2C8F9D1258257856E52D59D74AFA77D0C6. Installed SHA-256 D569D273A8EF87A591A624ACCCFD0F2C8F9D1258257856E52D59D74AFA77D0C6 using byte-exact-copy; rollback SHOOTING STAR-bg.png.pre-upscale-20260816-093303.bak preserves original SHA-256 2A4DF324989FC89E18DEA8D7C5B5683C57F23FF0005C0CA420F5C1D083E50266.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SHOOTING STAR\\21D61CD6C5DB835DD278E1997238B881C0EBD0926D4967DA9CEB8EE40156DFE0\\After-A-1920x1080-v3.png",
+                                                  "previewSha256":  "D569D273A8EF87A591A624ACCCFD0F2C8F9D1258257856E52D59D74AFA77D0C6"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "SKY HIGH",
-                      "fingerprint":  "DB8B5929619157A13737F3D73282D919D8D8FDABAA8C5707E4A457EF68F1FC4A",
+                      "fingerprint":  "B5F73633BF23240DF0D5DF84B86D9B61BE1FE99DAB5186844B5B9C4646FD26B0",
                       "simfiles":  [
                                        {
                                            "path":  "SKY HIGH.sm",
@@ -2612,36 +2636,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "SKY HIGH-bg.png",
                       "sourcePath":  "SKY HIGH-bg.png",
-                      "sourceSha256":  "5A352739B7ACFA1FEC1CB55C12749EE295B093165A329F8EEF305CDF063C3B9A",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "D3BB08CE1AA80D982B90DF35C1C777D11A9B1C4DAE96063BE850C1B794F021FB",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T15:18:57.0965014Z",
+                      "observedAt":  "2026-08-16T16:33:29.1604735Z",
+                      "assessedAt":  "2026-08-16T16:33:29.1604735Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:33:28.7979675Z",
                       "lastAttemptedAt":  "2026-08-16T15:18:57.0965014Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SKY HIGH\\DB8B5929619157A13737F3D73282D919D8D8FDABAA8C5707E4A457EF68F1FC4A\\After-A-1920x1080-v3.png",
                       "previewSha256":  "D3BB08CE1AA80D982B90DF35C1C777D11A9B1C4DAE96063BE850C1B794F021FB",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:33:28.7979675Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved Install for the sole displayed task-local After A. The attached rejected raw attempt was not substituted. Approved preview SHA-256 D3BB08CE1AA80D982B90DF35C1C777D11A9B1C4DAE96063BE850C1B794F021FB. Installed SHA-256 D3BB08CE1AA80D982B90DF35C1C777D11A9B1C4DAE96063BE850C1B794F021FB using byte-exact-copy; rollback SKY HIGH-bg.png.pre-upscale-20260816-093328.bak preserves original SHA-256 5A352739B7ACFA1FEC1CB55C12749EE295B093165A329F8EEF305CDF063C3B9A.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SKY HIGH\\DB8B5929619157A13737F3D73282D919D8D8FDABAA8C5707E4A457EF68F1FC4A\\After-A-1920x1080-v3.png",
+                                                  "previewSha256":  "D3BB08CE1AA80D982B90DF35C1C777D11A9B1C4DAE96063BE850C1B794F021FB"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "SUPER STAR",
-                      "fingerprint":  "C56D637EC065CCF56EC88969EC65BBF1AAB8C017B9C2D85F01B555141E69CB79",
+                      "fingerprint":  "78A2804589BD38104E03A718906F231971FE107E6F61C6FC62CA88FDE280568D",
                       "simfiles":  [
                                        {
                                            "path":  "SUPER STAR.sm",
@@ -2654,31 +2684,37 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "SUPER STAR-bg.png",
                       "sourcePath":  "SUPER STAR-bg.png",
-                      "sourceSha256":  "CF5FACF072D696DFF9BC2A95754AAC5199F284D843C0628B61A32B9886ECA9BF",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T16:17:37.5115526Z",
+                      "observedAt":  "2026-08-16T16:33:17.8734999Z",
+                      "assessedAt":  "2026-08-16T16:33:17.8734999Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:33:17.2468746Z",
                       "lastAttemptedAt":  "2026-08-16T16:17:37.5115526Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SUPER STAR\\C56D637EC065CCF56EC88969EC65BBF1AAB8C017B9C2D85F01B555141E69CB79\\After-A-1920x1080-v2.png",
                       "previewSha256":  "E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:33:17.2468746Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install, approving the sole displayed and exact task-local After A for D.J.RICH feat. TAILBROS. - SUPER STAR, SHA-256 E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14. Same-day successful backup-log evidence was verified at 2026-08-16 03:02 Pacific; scheduled-task inspection was access-denied, and the log remained stable with no git process. Approved preview SHA-256 E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14. Installed SHA-256 E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14 using byte-exact-copy; rollback SUPER STAR-bg.png.pre-upscale-20260816-093316.bak preserves original SHA-256 CF5FACF072D696DFF9BC2A95754AAC5199F284D843C0628B61A32B9886ECA9BF.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SUPER STAR\\C56D637EC065CCF56EC88969EC65BBF1AAB8C017B9C2D85F01B555141E69CB79\\After-A-1920x1080-v2.png",
+                                                  "previewSha256":  "E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14"
+                                              }
                                           ]
                   },
                   {
@@ -2710,12 +2746,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T17:21:02.2862159Z",
+                      "lastAttemptedAt":  "2026-08-16T17:21:02.2862159Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SYNCHRONIZED LOVE (Red Monster Hyper Mix)\\C7F71660164CEDD664A953D77FA16AB387F1BFE76C82FBC9B79BC621783113EB\\After-A-1920x1080-v2.png",
+                      "previewSha256":  "6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0",
                       "attemptHistory":  [
 
                                          ],
@@ -3838,6 +3874,83 @@
                                 "summary":  "SUPER STAR source-specific retrospective: the faithful horizontal-outpaint prompt produced usable peripheral repeated-typography texture but repainted and enlarged the locked central wordmark and arrow geometry (raw SHA-256 E793C3A2ED473BA9043E7A26D1AC699141345977E59F61C17FAECF6EBD7F6698). One local seam correction reused that same model output; the selected candidate SHA-256 E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14 restores the complete source-derived 1440 x 1080 center with 1,555,200 pixels verified equal and confines generated material to side extensions. Queue, hashes, presentation, opacity/frame count, UTF-8/no-BOM, formatter, display-copy equality, and closed-game checks passed. No owner feedback or reusable workflow change occurred.",
                                 "songPath":  "SUPER STAR",
                                 "fingerprint":  "C56D637EC065CCF56EC88969EC65BBF1AAB8C017B9C2D85F01B555141E69CB79",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T16:35:07.3188816Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole task-local displayed After A by replying install. Current backup, closed-game, source, simfile, and exact preview binding checks passed; the installer used a byte-exact copy, preserved the original in one verified sibling rollback, migrated installed proof, and left ITGMania closed. This approval is specific to the installed SHOOTING STAR fingerprint and establishes no reusable workflow change.",
+                                "songPath":  "SHOOTING STAR",
+                                "fingerprint":  "B46503C27980F5668B5B93E24EDF5CFA3B7F45DA523317AB744DF9166B080376",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T16:35:27.3305985Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner typo instal;l resolved to the sole displayed task-local SKY HIGH After A. The attached rejected raw attempt remained non-authoritative and was not substituted. Exact preview, source, and simfile hashes matched; byte-exact installation created a verified sibling rollback and terminal installed proof while ITGMania stayed closed.",
+                                "songPath":  "SKY HIGH",
+                                "fingerprint":  "B5F73633BF23240DF0D5DF84B86D9B61BE1FE99DAB5186844B5B9C4646FD26B0",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T16:36:13.0641983Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole task-local SHAKE YOUR BOOTY After A by replying install. The proof-gated wrapper completed a byte-exact PNG install with live/preview SHA-256 42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9, preserved the original source in the sole verified sibling rollback with SHA-256 DF5B458D72EB51AAEB90CDC4EDBAE6C24088D93E418CFB48E3FA9FC525367E0C, left the simfile unchanged, and kept ITGMania closed. This exact install adds no reusable workflow or owner-wide aesthetic preference.",
+                                "songPath":  "SHAKE YOUR BOOTY",
+                                "fingerprint":  "2AD6C597106EEA8B78758D1645F214958A328341A3C081D69BE684DCA1D17A5C",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T16:38:43.3835829Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed SUPER STAR After A with bare install. Proof-gated byte-exact installation produced live opaque one-frame 1920 x 1080 SHA-256 E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14, preserved original 320 x 240 SHA-256 CF5FACF072D696DFF9BC2A95754AAC5199F284D843C0628B61A32B9886ECA9BF in rollback SUPER STAR-bg.png.pre-upscale-20260816-093316.bak, and left simfile SHA-256 ABEB6081B1483C079A142D49B3B674EA85464B2035519043DD6E273AF18E616A unchanged. Scheduled-task visibility was access-denied, but the stable same-day 03:02 successful push log and absent Git process supplied degraded current backup evidence. Queue proof, hashes, rollback uniqueness, opacity/frame count, UTF-8/no-BOM, and closed-game checks passed. Approval is source-specific; no reusable workflow or scheduled behavior changed.",
+                                "songPath":  "SUPER STAR",
+                                "fingerprint":  "78A2804589BD38104E03A718906F231971FE107E6F61C6FC62CA88FDE280568D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T16:39:13.7959910Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner bare install approval resolved only to the sole displayed and queue-bound After A, SHA-256 2F8EB67322325056A758E15EDBC054CC7996A6E67E48C565DCD7BF34A59C067D. The malformed attached path identified the unbound raw generated outpaint and did not override or substitute the approved candidate. Current source, simfile, preview, backup, and closed-game gates passed; byte-exact installation, rollback proof, installed-content migration, and no-restart verification succeeded. This is fingerprint-specific and justifies no reusable workflow or scheduled-behavior change.",
+                                "songPath":  "SAINT GOES MARCHING (REMIX)",
+                                "fingerprint":  "4B37CBB3804E7DD92BF14A4D53B0E4D8A92424786DD552678104288386BEB3BA",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T17:23:02.0793754Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Two genuine outpaint edits repainted the locked central dancers and wordmark; raw attempt SHA-256 values were 87528DA90949DCC0AEB055CAA56203083919D3D49E76D72BEBA538F28C61A70D and 246F9FBC01F29AC991B0BCCBA371E22360F4464E161B6E5291887539042A4E03. Attempt 2 supplied cleaner period-matched side material. The bound opaque 1920x1080 composite SHA-256 6C257FB00B1DB6D3C8BA1E7950D8234EC0ECA5253D252133857F1D0224787CF0 restores a nearest-neighbor source-derived 1440x1080 center with verified pixel equality and confines generated material plus a 120-pixel source-mirror feather to the two side extensions. Queue tests passed; no reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "SYNCHRONIZED LOVE (Red Monster Hyper Mix)",
+                                "fingerprint":  "C7F71660164CEDD664A953D77FA16AB387F1BFE76C82FBC9B79BC621783113EB",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T17:28:09.6872980Z",
+                                "scope":  "none",
+                                "summary":  "Owner approved the sole displayed After A for CJ CREW feat. CHRISTIAN D - RHYTHM AND POLICE (K.O.G G3 Mix). Current AgentOS inheritance, backup, closed-game, source, simfile, and preview proof checks passed; the proof-gated byte-exact install preserved the original in one verified sibling rollback, migrated the queue to installed-content proof, and left ITGMania closed. Existing workflow guidance fully covered the install, so no reusable lesson or scheduled-behavior change was justified.",
+                                "songPath":  null,
+                                "fingerprint":  null,
                                 "changedFiles":  {
 
                                                  },
