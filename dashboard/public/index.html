@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>ThraxOS Arcade Console</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="hero">
+    <div class="brand-mark" aria-hidden="true"><span>▲</span><span>◀</span><span>▼</span><span>▶</span></div>
+    <div><p class="eyebrow">THRAXIMUNDAR // LOCAL CONTROL</p><h1>Arcade Console</h1><p class="lede">Every move, clearly mapped. Every dangerous step, approval-gated.</p></div>
+    <div class="local-pill"><i></i> PRIVATE CONTROL PLANE</div>
+  </header>
+  <main>
+    <section class="stats" aria-label="System overview">
+      <div><b id="skillCount">—</b><span>Capabilities</span></div><div><b id="taskCount">—</b><span>Recurring tasks</span></div><div><b>0</b><span>Arbitrary commands</span></div>
+    </section>
+    <nav class="tabs" aria-label="Dashboard sections"><button class="active" data-tab="skills">Skills</button><button data-tab="tasks">Scheduled tasks</button><button data-tab="activity">Activity</button></nav>
+    <section id="skills" class="panel active">
+      <div class="section-head"><div><p class="eyebrow">SELECT YOUR SONG</p><h2>Capability library</h2></div><label class="search"><span>Search</span><input id="search" type="search" placeholder="Search skills, uses, categories…"></label></div>
+      <div id="filters" class="filters"></div><div id="skillGrid" class="skill-grid"></div>
+    </section>
+    <section id="tasks" class="panel">
+      <div class="section-head"><div><p class="eyebrow">KEEP THE BEAT</p><h2>Scheduled tasks</h2></div><button id="newSchedule" class="primary">＋ Schedule task</button></div>
+      <p class="notice">Dashboard schedules run only while this local service is open. Existing system schedules are shown read-only.</p>
+      <div id="taskList" class="task-list"></div><h3 class="subhead">Dashboard schedules</h3><div id="scheduleList" class="task-list"></div>
+    </section>
+    <section id="activity" class="panel"><div class="section-head"><div><p class="eyebrow">STAGE RESULTS</p><h2>Recent activity</h2></div></div><div id="history" class="history"></div></section>
+  </main>
+  <dialog id="actionDialog"><form method="dialog"><button class="close" value="cancel" aria-label="Close">×</button></form><div id="dialogBody"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

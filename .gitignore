@@ -27,3 +27,7 @@ out/
 # Windows noise
 Thumbs.db
 Desktop.ini
+# ThraxOS Arcade Console runtime records
+dashboard/data/history.jsonl
+dashboard/data/requests/
+dashboard/data/schedules.json

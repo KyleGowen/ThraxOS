@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-15T11:08:19.6050708Z",
+    "generatedAt":  "2026-08-16T16:27:00.5219221Z",
     "songs":  [
                   {
                       "songPath":  "[Prime Time] - Green Light (Chromeo Remix)",
@@ -6902,7 +6902,7 @@
                   },
                   {
                       "songPath":  "Them Changes",
-                      "fingerprint":  "4307F47B9EF9A77CD528BA66D04F4AEE9A7710DBB602CECE438D3FFD37B76D00",
+                      "fingerprint":  "DE1B2C4D3E7E7A2408956B2F2F83B8749705D30D4D546299D66187DF677FC99F",
                       "simfiles":  [
                                        {
                                            "path":  "Them Changes.sm",
@@ -6914,21 +6914,22 @@
                                        }
                                    ],
                       "bannerReference":  "Them Changes-banner.png",
-                      "sourcePath":  "Them Changes.png",
-                      "sourceSha256":  "82E7CF338D4EED7571AB3B6EDA7CE242DEEE0D931DCF1C2E13485116528A6739",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "Them Changes-banner.png",
+                      "sourceSha256":  "D025C29A804045FEB18ACB6733978597CBC2EE476C291C399E1DE912A29FBD2F",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T16:04:05.3968398Z",
+                      "assessedAt":  "2026-08-16T16:04:05.3968398Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:03:36.3394552Z",
+                      "lastAttemptedAt":  "2026-08-16T16:02:44.0035391Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
-                      "lastAttemptedAt":  "2026-08-15T07:09:19.3641549Z",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\4307F47B9EF9A77CD528BA66D04F4AEE9A7710DBB602CECE438D3FFD37B76D00-generate-banner-20260815\\Them Changes-owner-selected-exec-941e5b0d-836x328.png",
+                      "previewSha256":  "D025C29A804045FEB18ACB6733978597CBC2EE476C291C399E1DE912A29FBD2F",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T07:09:19.3641549Z",
@@ -6937,12 +6938,38 @@
                                                  "priorProcessedAt":  "2026-08-15T07:03:28.9512697Z",
                                                  "discardedPreviewPath":  null,
                                                  "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T14:28:27.8893964Z",
+                                                 "outcome":  "prompt-error",
+                                                 "note":  "Owner explicitly invoked generate-banner after the faithful restoration attempts failed. Create a new release-inspired design from verified Thundercat artwork, with exact canonical visible text Them Changes and Thundercat; do not edit from or preserve the rejected sparse fallback composition.",
+                                                 "priorProcessedAt":  "2026-08-15T14:28:21.9507028Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-15T14:32:02.4595340Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Release research: official Thundercat SoundCloud track page https://m.soundcloud.com/thundercat-official/them-changes (2015 exact artist/title), reference SHA-256 190017A4FEF825FCDD95639EC7C553C21D96D6817B5C0AD6B4544FCA3CE3E9E1; exact Spotify track page https://open.spotify.com/track/4a3k8LyQje1ZY1Rtgv5YlU, reference SHA-256 7D21D80F3113C4001954BB3CACF36F7C4FA25922AAECD5B7880A5D6C2166C201. Attempt 1 raw SHA-256 1658844FF039794B7FB1A7D00489D98D6A6992AF32C8B56CD23EE3DD9D98D179 / normalized D025C29A804045FEB18ACB6733978597CBC2EE476C291C399E1DE912A29FBD2F was otherwise viable but rendered THEM CHANGES and THUNDERCAT in all caps, violating exact canonical capitalization Them Changes and Thundercat. Correct only capitalization; retain the original person-free golden haze, prismatic bass strings, fragmented color motif, safe layout, and no unrelated words.",
+                                                 "priorProcessedAt":  "2026-08-15T14:28:37.4072683Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
                                              }
-                                         ]
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:03:36.3394552Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected generated file exec-941e5b0d-05fd-4249-a0a9-eb33f5fb03ac.png and requested install. This exact-file selection overrides the earlier automatic canonical-capitalization rejection only for fingerprint 4307F47B9EF9A77CD528BA66D04F4AEE9A7710DBB602CECE438D3FFD37B76D00; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\4307F47B9EF9A77CD528BA66D04F4AEE9A7710DBB602CECE438D3FFD37B76D00-generate-banner-20260815\\Them Changes-owner-selected-exec-941e5b0d-836x328.png",
+                                                  "previewSha256":  "D025C29A804045FEB18ACB6733978597CBC2EE476C291C399E1DE912A29FBD2F"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "D025C29A804045FEB18ACB6733978597CBC2EE476C291C399E1DE912A29FBD2F"
                   },
                   {
                       "songPath":  "Too Shy",
-                      "fingerprint":  "7754FFB89444D601013BE7BEA1E818FE498880E50C183EE542F8DD20D75E7340",
+                      "fingerprint":  "54CABDD102941B35758932ED5EEBAC7031D7790412BC3006F20768D523648D2F",
                       "simfiles":  [
                                        {
                                            "path":  "Too Shy.sm",
@@ -6955,20 +6982,41 @@
                                    ],
                       "bannerReference":  "tooshy-bn.jpg",
                       "sourcePath":  "tooshy-bn.jpg",
-                      "sourceSha256":  "7D1C580547DFC132C18037025D1B8E7CBC809199A1A6F4338BC250E41B5A6A20",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "770676EC84EB9D155DB0161671F86E61AA32C3AA067A0C5DF21B7B4BD857ECD7",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T11:08:19.5870706Z",
-                      "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\7754FFB89444D601013BE7BEA1E818FE498880E50C183EE542F8DD20D75E7340\\Too Shy-attempt-2-836x328.png",
-                      "previewSha256":  "D8E76E8A85D11B31B2E5808BEE7DFC06A2574E943515D36042569BC044BBA479",
-                      "lastAttemptedAt":  "2026-08-15T11:08:19.5870706Z"
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T15:57:33.8726925Z",
+                      "assessedAt":  "2026-08-16T15:57:33.8726925Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T15:57:29.4773917Z",
+                      "lastAttemptedAt":  "2026-08-15T14:32:16.1854160Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-generate-owner\\7754FFB89444D601013BE7BEA1E818FE498880E50C183EE542F8DD20D75E7340-release-inspired-20260815\\Too Shy-release-inspired-after-836x328.png",
+                      "previewSha256":  "770676EC84EB9D155DB0161671F86E61AA32C3AA067A0C5DF21B7B4BD857ECD7",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-15T14:29:02.1169913Z",
+                                                 "outcome":  "prompt-error",
+                                                 "note":  "Owner explicitly invoked generate-banner for this exact Too Shy fingerprint after the faithful restoration preview, requesting a brand-new release-inspired composition from scratch. No additional rejection reason was provided.",
+                                                 "priorProcessedAt":  "2026-08-15T11:08:19.5870706Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\7754FFB89444D601013BE7BEA1E818FE498880E50C183EE542F8DD20D75E7340\\Too Shy-attempt-2-836x328.png",
+                                                 "discardedPreviewSha256":  "D8E76E8A85D11B31B2E5808BEE7DFC06A2574E943515D36042569BC044BBA479"
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T15:57:29.4773917Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied \u0027install\u0027 while referencing the raw generated image that corresponds to this exact queue-bound normalized preview; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-generate-owner\\7754FFB89444D601013BE7BEA1E818FE498880E50C183EE542F8DD20D75E7340-release-inspired-20260815\\Too Shy-release-inspired-after-836x328.png",
+                                                  "previewSha256":  "770676EC84EB9D155DB0161671F86E61AA32C3AA067A0C5DF21B7B4BD857ECD7"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "770676EC84EB9D155DB0161671F86E61AA32C3AA067A0C5DF21B7B4BD857ECD7"
                   },
                   {
                       "songPath":  "Too Shy_custom",
@@ -7051,7 +7099,7 @@
                   },
                   {
                       "songPath":  "True Survivor",
-                      "fingerprint":  "C3AB9AD65359DB6E3402B46A0491098B1298930B2A940197AA9D17D1FD8D9A4F",
+                      "fingerprint":  "9A0A0687E85C96DBABB3AD10A28FE894C726D6BC4E6716A706064106F678E365",
                       "simfiles":  [
                                        {
                                            "path":  "True Survivor.ssc",
@@ -7060,23 +7108,45 @@
                                    ],
                       "bannerReference":  "ban.png",
                       "sourcePath":  "ban.png",
-                      "sourceSha256":  "BF7D691AE388437CAFFAAE4770682FBF46E043B05B9D1FE1D4562262710DAE2A",
-                      "sourceWidth":  634,
-                      "sourceHeight":  198,
+                      "sourceSha256":  "4DCD52926491639505AB5E682454180F49F246756810430B638C6F71EEB5115D",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T15:53:48.7381437Z",
+                      "assessedAt":  "2026-08-16T15:53:48.7381437Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T15:53:44.9961278Z",
+                      "lastAttemptedAt":  "2026-08-16T15:52:40.9283326Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\C3AB9AD65359DB6E3402B46A0491098B1298930B2A940197AA9D17D1FD8D9A4F-owner-selected-20260816\\True Survivor-owner-selected-after-836x328.png",
+                      "previewSha256":  "4DCD52926491639505AB5E682454180F49F246756810430B638C6F71EEB5115D",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-15T15:07:49.0302415Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 removed both source edge portrait crops, materially enlarged and repositioned exact DAVID HASSELHOFF / True Survivor text, multiplied palms and buildings, and recomposed the explosion/city scene; raw/normalized SHA-256 FE5FF199B6C249D1293473D47B54A2203F9FE346B87DAEC1EDBD2C3B9B550E70 / 7CFDF052D5FDF2A80F5036B0599D169BCE834C0ECC843D0EA550853412745AEC. Attempt 2 used exact opaque 836 x 328 layout reference SHA-256 923F52767551074D7FF695102542951BE73BBF75B540F4958E6E237705F9C8C5 but revealed more of both portraits, enlarged/lowered the True Survivor wordmark, added palms and buildings, and changed the source crop/object count; raw/normalized SHA-256 DA6DC248CF8B7A4AA3481F27A0D9BC4ADC10DC6168384F23D0414EF16DA33B7E / 4DCD52926491639505AB5E682454180F49F246756810430B638C6F71EEB5115D. A future restoration must retain the original 634 x 198 content as the centered 836 x 261 band at y=33 with unchanged text, portrait, explosion, palm, cracked-glass, and city footprints, extending only adjacent background texture into the top/bottom bands. Both GPT Image 2 attempts were exhausted; no deterministic fallback was approved.",
+                                                 "priorProcessedAt":  "2026-08-15T15:02:10.6851650Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T15:53:44.9961278Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected exec-3da23d53-d66f-4cc0-82e9-553bfb3f1d13.png and requested installation; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\C3AB9AD65359DB6E3402B46A0491098B1298930B2A940197AA9D17D1FD8D9A4F-owner-selected-20260816\\True Survivor-owner-selected-after-836x328.png",
+                                                  "previewSha256":  "4DCD52926491639505AB5E682454180F49F246756810430B638C6F71EEB5115D"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "4DCD52926491639505AB5E682454180F49F246756810430B638C6F71EEB5115D"
                   },
                   {
                       "songPath":  "Turbo Killer",
-                      "fingerprint":  "E4F86AB3F30262FDE7B341AB5AF73169F3296586435A4F711A20D413A4A9E3CD",
+                      "fingerprint":  "7041D19A9BCBE20B7D9A39E8A6DF15EA7DF71162F897A00177A2249BC0F89D75",
                       "simfiles":  [
                                        {
                                            "path":  "Carpenter Brut - Turbo Killer.ssc",
@@ -7085,19 +7155,41 @@
                                    ],
                       "bannerReference":  "BAN.png",
                       "sourcePath":  "BAN.png",
-                      "sourceSha256":  "5D3D0B46A56C2C325C282020C3E420852A674761F57E4FD68B070F89684E1736",
-                      "sourceWidth":  512,
-                      "sourceHeight":  180,
+                      "sourceSha256":  "AA006D8308873D00403BADCC3BC86C36D9FF8378221F6EE8245C965E9BB6CEF5",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T16:06:13.6076788Z",
+                      "assessedAt":  "2026-08-16T16:06:13.6076788Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:05:47.2887235Z",
+                      "lastAttemptedAt":  "2026-08-16T15:56:07.2956910Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\E4F86AB3F30262FDE7B341AB5AF73169F3296586435A4F711A20D413A4A9E3CD-selected-20260816\\Turbo Killer-owner-selected-836x328.png",
+                      "previewSha256":  "AA006D8308873D00403BADCC3BC86C36D9FF8378221F6EE8245C965E9BB6CEF5",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-15T19:07:38.2542041Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two recoverable GPT Image 2 restoration attempts were normalized and rejected for source-fidelity drift. Attempt 1 raw/normalized SHA-256 B4226EFFB5BE35D2EB3818BA9D99BA326D9794C5C4279129029D4845BE265EEC / 81BE4342E162DE253317880883C55C6F16F62D4715C7D9DEE5BA4B735BB0483F enlarged the TURBO KILLER wordmark, transformed the simple flat black cross into a detailed structure, changed the letter/cross overlap, and expanded/recomposed the energy halo. The measured restoration-only retry raw/normalized SHA-256 B66A2A40834F6D3CEDBFBB6B21A5A0EB58BB524F0DAD1BDDD7FB6F23F0005713 / AA006D8308873D00403BADCC3BC86C36D9FF8378221F6EE8245C965E9BB6CEF5 again enlarged/repositioned the wordmark, changed its source-relative spacing/footprint and cross overlap, altered the simple cross silhouette, and made the halo dominant. Future work must preserve the exact 512x180 source rectangle uniformly at 836x294 centered vertically with only 17-pixel-equivalent top/bottom extension, retaining the narrow once-only wordmark, original central cross geometry, halo size, horizontal crop, and sparse star field. No third model call or deterministic fallback was used.",
+                                                 "priorProcessedAt":  "2026-08-15T19:04:31.1190479Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:05:47.2887235Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected generated file exec-9d339c59-8ede-40ce-a393-f02294dccd8e.png and requested installation; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\E4F86AB3F30262FDE7B341AB5AF73169F3296586435A4F711A20D413A4A9E3CD-selected-20260816\\Turbo Killer-owner-selected-836x328.png",
+                                                  "previewSha256":  "AA006D8308873D00403BADCC3BC86C36D9FF8378221F6EE8245C965E9BB6CEF5"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "AA006D8308873D00403BADCC3BC86C36D9FF8378221F6EE8245C965E9BB6CEF5"
                   },
                   {
                       "songPath":  "Turn Me On",
@@ -7158,7 +7250,7 @@
                   },
                   {
                       "songPath":  "Vision",
-                      "fingerprint":  "176702D6AFA733BD0DF65927D2993FC9181EAE4A6A49484A39C1603EC8F7A0F2",
+                      "fingerprint":  "B15B20ED3BAA2CBD9AC0C9622EE306519B70B3BCCC971465CBFDFED6BB7714C9",
                       "simfiles":  [
                                        {
                                            "path":  "Vision.sm",
@@ -7167,19 +7259,34 @@
                                    ],
                       "bannerReference":  "Vision.png",
                       "sourcePath":  "Vision.png",
-                      "sourceSha256":  "DFD15B37532E6B490D1D5F57402883FEB7B2D0C005E7235BC7D808ABB18CEE21",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "876198D403178469E2853019D40650C2F64EBE84D3994B7E93EAD7233B290E88",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T15:52:25.4501962Z",
+                      "assessedAt":  "2026-08-16T15:52:25.4501962Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T15:53:35.5432201Z",
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-install\\Vision-176702D6-20260816\\Vision-selected-after-836x328.png",
+                      "previewSha256":  "876198D403178469E2853019D40650C2F64EBE84D3994B7E93EAD7233B290E88",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T15:53:35.5432201Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected exec-1f256519-92ef-44b5-99a0-141363c3e85e.png and requested install; no additional reason was provided. Corrected the malformed /C:/ attachment path to its native Windows path. Exact-file selection overrides the prior fidelity rejection only for this fingerprint.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-install\\Vision-176702D6-20260816\\Vision-selected-after-836x328.png",
+                                                  "previewSha256":  "876198D403178469E2853019D40650C2F64EBE84D3994B7E93EAD7233B290E88"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "876198D403178469E2853019D40650C2F64EBE84D3994B7E93EAD7233B290E88"
                   },
                   {
                       "songPath":  "Vision (BetweenUs Remix)",
@@ -7224,12 +7331,65 @@
                       "observedAt":  "2026-08-02T07:38:29.8360394Z",
                       "assessedAt":  "2026-08-02T07:38:29.8360394Z",
                       "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:27:00.5014019Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-generate-owner\\5B5C14AEDC6C61C1CCD9949AE565BAD9D446C33BCB1D120FEE6ACFFCA4A04DC9-release-inspired-20260816\\Voodoo People-release-inspired-attempt-1-836x328.png",
+                      "previewSha256":  "AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71",
+                      "lastAttemptedAt":  "2026-08-16T16:26:12.2466335Z",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-16T03:07:09.0501516Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restoration edits were recoverable and normalized opaque 836 x 328 but failed source fidelity. Attempt 1 materially enlarged and re-typeset all three text bands and rebuilt the red-black flame field; raw SHA-256 5A7B0521E631175210C5CB716274BEE0EC24DECA5385DF2390A4F17B0BF07E6A, normalized SHA-256 5CC49DBB2C8758CBD2423BC04C9900FBBC80F5E3746DF268FD6E7EF1E352B80D. Attempt 2 used exact layout reference SHA-256 CCC55659C98D7B8CA76C8B031E657E048E2293F111B21D45510F271B0F57D9F5 but still shifted all three text bands upward, reshaped the irregular Voodoo People wordmark, and materially rebuilt the flame and corner-fragment geometry; raw SHA-256 773FBB83BABD1BBE41498AF9253D5EC22E4FC9B14DC1DD2BC8C2EA18AD1FA1F8, normalized SHA-256 D10D4B88EFCDC8D777D5754DDAA7373788F5A9D4FE5BBD37283F00360CD68057. Future restoration must preserve the exact 256 x 80 source rectangle scaled to 836 x 261 at y=33, including exact letter silhouettes, baselines, red-black flame placements, and white corner crops; extend only the narrow top and bottom bands.",
+                                                 "priorProcessedAt":  "2026-08-16T03:03:23.1084648Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-16T15:50:41.8872906Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner explicitly rejected generated raw file exec-b176b079-a560-4042-bc6f-85554ac9f860.png, SHA-256 773FBB83BABD1BBE41498AF9253D5EC22E4FC9B14DC1DD2BC8C2EA18AD1FA1F8, because the typography is illegible and requested a retry of that exact composition. Preserve its red-black flame composition but replace the text with clearly readable canonical copy: Voodoo People, (Pendulum Remix), and The Prodigy; no fused or ambiguous letterforms.",
+                                                 "priorProcessedAt":  "2026-08-16T15:50:35.3530295Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-16T16:01:51.6235366Z",
+                                                 "outcome":  "prompt-error",
+                                                 "note":  "Owner explicitly invoked generate-banner after the readable typography preview, directing a separate release-inspired scratch design for this exact fingerprint. Supersede bound preview SHA-256 58AF22C6DBC2C560A1577990DEB53A17F13D4A670EA7B4E9BA90E86924080D97 without installing it. No additional rejection reason was provided. Preserve canonical visible copy Voodoo People, (Pendulum Remix), and The Prodigy.",
+                                                 "priorProcessedAt":  "2026-08-16T15:54:43.6051034Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\5B5C14AEDC6C61C1CCD9949AE565BAD9D446C33BCB1D120FEE6ACFFCA4A04DC9-readable-20260816\\Voodoo People-readable-after-836x328.png",
+                                                 "discardedPreviewSha256":  "58AF22C6DBC2C560A1577990DEB53A17F13D4A670EA7B4E9BA90E86924080D97"
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-16T16:04:39.4536274Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Generate-banner attempt 1 used verified Apple Music release Voodoo People / Out of Space - Single by The Prodigy, 3 October 2005, URL https://music.apple.com/us/song/1450125140, reference SHA-256 48CED95059B40DA0156A99C1B20EC1DB782EB74B7E6A89B89CA267B43F211AE0. The original beige-black-red stitched xerox composition was viable and all copy readable, but the model changed every required canonical string to all caps: VOODOO PEOPLE, (PENDULUM REMIX), and THE PRODIGY. Raw SHA-256 8A369289C3924446C057C18CA3F436BA310C8FB3BDB62517B84B1EFAE82A707D; normalized opaque 836 x 328 SHA-256 AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71. Corrected retry must render exact title-case Voodoo People, (Pendulum Remix), and The Prodigy once each with no other text while retaining the original scratch composition.",
+                                                 "priorProcessedAt":  "2026-08-16T16:01:54.7235835Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-16T16:26:09.0562917Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner explicitly selected generated raw file exec-0c6fa535-e459-4136-b325-8c4e61b57ef9.png, SHA-256 8A369289C3924446C057C18CA3F436BA310C8FB3BDB62517B84B1EFAE82A707D, and requested installation. This exact-file selection overrides the prior all-caps canonical-capitalization rejection only for this fingerprint and supersedes bound mixed-case preview SHA-256 C8F1282A87EE8FCECD58CD12029D589F85B09EA32546AE88CE3B29B5658EAE2F; no additional reason was provided.",
+                                                 "priorProcessedAt":  "2026-08-16T16:06:54.1520328Z",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-generate-owner\\5B5C14AEDC6C61C1CCD9949AE565BAD9D446C33BCB1D120FEE6ACFFCA4A04DC9-release-inspired-20260816\\Voodoo People-release-inspired-after-836x328.png",
+                                                 "discardedPreviewSha256":  "C8F1282A87EE8FCECD58CD12029D589F85B09EA32546AE88CE3B29B5658EAE2F"
+                                             }
+                                         ],
+                      "installedSourceSha256":  "AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71",
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:27:00.5014019Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected generated file exec-0c6fa535-e459-4136-b325-8c4e61b57ef9.png and requested installation. This exact-file selection overrides the prior all-caps canonical-capitalization rejection only for this fingerprint; no additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-generate-owner\\5B5C14AEDC6C61C1CCD9949AE565BAD9D446C33BCB1D120FEE6ACFFCA4A04DC9-release-inspired-20260816\\Voodoo People-release-inspired-attempt-1-836x328.png",
+                                                  "previewSha256":  "AEBD73087B8E364E6343440544A06265CA900178C255909FC3BA32FF5FEB5E71"
+                                              }
+                                          ]
                   },
                   {
                       "songPath":  "Waters of Nazareth",
@@ -7290,7 +7450,7 @@
                   },
                   {
                       "songPath":  "What is Love",
-                      "fingerprint":  "D859C192533A2E5A068CDB32D65EEB30499E2C333149EA488BB3B52C0433E647",
+                      "fingerprint":  "2527DCD4FD188353303A982F8B0A91531F9438698B62F5D133A336B1A46DFE0E",
                       "simfiles":  [
                                        {
                                            "path":  "What is Love.sm",
@@ -7302,24 +7462,39 @@
                                        }
                                    ],
                       "bannerReference":  "whatislovebn.png",
-                      "sourcePath":  "What is Love.png",
-                      "sourceSha256":  "DAD09CB8279280C38D3EAC67DEB2A3D5641F1B5F2FF749B12CA2A3205B82B9C5",
-                      "sourceWidth":  416,
-                      "sourceHeight":  164,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "whatislovebn.png",
+                      "sourceSha256":  "FE429CFAD23E8393BFEAF513EFA155123A7863F47430A2A969E79D0C1078188A",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T15:52:25.4501962Z",
+                      "assessedAt":  "2026-08-16T15:52:25.4501962Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T15:53:31.8309452Z",
+                      "lastAttemptedAt":  null,
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\D859C192533A2E5A068CDB32D65EEB30499E2C333149EA488BB3B52C0433E647-owner-selected-20260816-0850\\What-is-Love-owner-selected-after-836x328.png",
+                      "previewSha256":  "FE429CFAD23E8393BFEAF513EFA155123A7863F47430A2A969E79D0C1078188A",
+                      "attemptHistory":  [
+
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T15:53:31.8309452Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected exact generated file exec-54364220-147c-4992-b5c7-cd0f076546a5.png and requested installation; no additional reason was provided. This exact-artifact choice overrides the automated fidelity rejection only for this fingerprint.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\D859C192533A2E5A068CDB32D65EEB30499E2C333149EA488BB3B52C0433E647-owner-selected-20260816-0850\\What-is-Love-owner-selected-after-836x328.png",
+                                                  "previewSha256":  "FE429CFAD23E8393BFEAF513EFA155123A7863F47430A2A969E79D0C1078188A"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "FE429CFAD23E8393BFEAF513EFA155123A7863F47430A2A969E79D0C1078188A"
                   },
                   {
                       "songPath":  "White and Nerdy",
-                      "fingerprint":  "D9D090354C4D3B30006F68BDA77C2F2A1FB153DA68F02E8F1A1F45C697CCE264",
+                      "fingerprint":  "E3FB506E70E669419E1E5DA35EFD7540868D656AD8EB8B6A8E12E3960E6A62AD",
                       "simfiles":  [
                                        {
                                            "path":  "White and Nerdy.sm",
@@ -7327,24 +7502,46 @@
                                        }
                                    ],
                       "bannerReference":  "White and Nerdy-bn.png",
-                      "sourcePath":  "White and Nerdy.png",
-                      "sourceSha256":  "D057C6B3C3501D25307C713A8FB51822E75D0B84A7C1253300BF1557598F30DD",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "White and Nerdy-bn.png",
+                      "sourceSha256":  "D7FBEE3ECD99E8000578D699E4DABE14F0B8EDA108852AE66AC46BB85A539BA6",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T15:52:25.4501962Z",
+                      "assessedAt":  "2026-08-16T15:52:25.4501962Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T15:52:21.3643159Z",
+                      "lastAttemptedAt":  "2026-08-16T15:50:52.2765392Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\D9D090354C4D3B30006F68BDA77C2F2A1FB153DA68F02E8F1A1F45C697CCE264-selected-install-20260816\\White-and-Nerdy-owner-selected-after-836x328.png",
+                      "previewSha256":  "D7FBEE3ECD99E8000578D699E4DABE14F0B8EDA108852AE66AC46BB85A539BA6",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-16T11:07:20.0999850Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restorations decoded and normalized opaque 836 x 328 but failed source fidelity. Attempt 1 raw/normalized SHA-256: 6FBD924BAC9028A80E613FDE3A674938660C3654880B3B74042192C6A7602E81 / 45066733D7B9E4D809DE2C4670C504E042E6F77C53FAED01A8054D5CC03BF970; it massively enlarged/re-typeset the exact visible \"WEIRD AL\" / YANKOVIC block lettering and white \u0026 nerdy script, enlarged and moved the person, changed face and hand geometry, revealed much more body/background, and altered source objects. Attempt 2 used exact 836 x 328 layout reference CE7AB0F0D62F77BDF7A6043B1BD77EA42E6FBE5F053E7A62C1FFACABB82DFE2C; raw/normalized SHA-256: 623EBA56B3F57638251857AF6FEF145E3967744838928F412182600978C29D3A / D7FBEE3ECD99E8000578D699E4DABE14F0B8EDA108852AE66AC46BB85A539BA6. It again enlarged/re-typeset and moved all visible copy and the person, changed the recognizable face and both hands, changed the handwritten line, and invented PRESIDENT on the jacket where the source reads SARCASM. Future work must preserve the exact original letter silhouettes, quote shapes, orange edging, source-relative text bounds, white \u0026 nerdy script, recognizable person/face/hands/pose/crop, SARCASM patch, scooter, seams, and background geometry. No viable After was bound; no deterministic fallback was authorized.",
+                                                 "priorProcessedAt":  "2026-08-16T11:03:54.8776236Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T15:52:21.3643159Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected exec-77a8453b-3eb0-48d3-8967-9249f213848a.png and said install; corrected the malformed /C:/ attachment path to its native Windows path. No additional reason was provided. This exact-file selection overrides the prior fidelity rejection only for this fingerprint.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\D9D090354C4D3B30006F68BDA77C2F2A1FB153DA68F02E8F1A1F45C697CCE264-selected-install-20260816\\White-and-Nerdy-owner-selected-after-836x328.png",
+                                                  "previewSha256":  "D7FBEE3ECD99E8000578D699E4DABE14F0B8EDA108852AE66AC46BB85A539BA6"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "D7FBEE3ECD99E8000578D699E4DABE14F0B8EDA108852AE66AC46BB85A539BA6"
                   },
                   {
                       "songPath":  "Wily Stages 1+2",
-                      "fingerprint":  "13DE785EBBBAA12916407A9903E32CC3BF942FEBC899E9445BCF4EF88AFED4DD",
+                      "fingerprint":  "39BF3281E4F6390E157C858825DE604AD3568D7DD0DDF10904A521787A53A02D",
                       "simfiles":  [
                                        {
                                            "path":  "Wily Stages 1+2.sm",
@@ -7356,20 +7553,42 @@
                                        }
                                    ],
                       "bannerReference":  "Wily Stage.png",
-                      "sourcePath":  "Wily Stages 1+2.png",
-                      "sourceSha256":  "80C1CED8E1E83312235D7D24A406A48EEA0ED8A0B6E411A9766A30F181E26874",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "Wily Stage.png",
+                      "sourceSha256":  "3C31BF3A3BEEB9033E30684E1F9237EE3281759A27BA82CAD3B193D99D5790A3",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-16T15:58:13.8721856Z",
+                      "assessedAt":  "2026-08-16T15:58:13.8721856Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T15:58:12.3301741Z",
+                      "lastAttemptedAt":  "2026-08-16T15:52:39.1796754Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\13DE785EBBBAA12916407A9903E32CC3BF942FEBC899E9445BCF4EF88AFED4DD\\owner-retry-20260816-0849\\attempt-1-836x328.png",
+                      "previewSha256":  "3C31BF3A3BEEB9033E30684E1F9237EE3281759A27BA82CAD3B193D99D5790A3",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-16T15:05:55.6238554Z",
+                                                 "outcome":  "prompt-error",
+                                                 "note":  "Attempt 1 prompt incorrectly described the small upper-right pixel-art gray-haired scientist in a white coat against orange rail/stripe geometry as being in a hovering or skull-faced machine; the authoritative source contains no such machine. The generated output also enlarged and re-typeset all exact copy and the S.S.H. badge, enlarged and repositioned the scientist, and rebuilt the foliage/platform scene. Raw SHA-256 7144C97D27FE98FFF55657DBDBD43D8B6E37D99F0C9126FBA17F3BA50C13ED79; normalized opaque 836x328 SHA-256 6DF09FDFA60C07C080EAEEA6671808641F2ABDB7102E2B37EF769F741A11E997. Future prompt must say the source visibly reads Wily Stage 1+2, (S.S.H. Remix), and S.S.H.; lock their original silhouettes/scale/placement and the compact scientist/rail crop. No retry or deterministic fallback was used after detecting the prompt error.",
+                                                 "priorProcessedAt":  "2026-08-16T15:03:36.7866386Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-16T15:58:12.3301741Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the exact labeled After preview by replying install; no additional reason was provided. The malformed /C:/ raw-generation attachment path was not used; installation used the queue-bound normalized preview SHA-256 3C31BF3A3BEEB9033E30684E1F9237EE3281759A27BA82CAD3B193D99D5790A3.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\13DE785EBBBAA12916407A9903E32CC3BF942FEBC899E9445BCF4EF88AFED4DD\\owner-retry-20260816-0849\\attempt-1-836x328.png",
+                                                  "previewSha256":  "3C31BF3A3BEEB9033E30684E1F9237EE3281759A27BA82CAD3B193D99D5790A3"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "3C31BF3A3BEEB9033E30684E1F9237EE3281759A27BA82CAD3B193D99D5790A3"
                   },
                   {
                       "songPath":  "Woodman Stage (Megaman 2)",

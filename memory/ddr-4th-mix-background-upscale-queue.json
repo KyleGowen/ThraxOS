@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
-    "generatedAt":  "2026-08-15T13:59:43.0020547Z",
+    "generatedAt":  "2026-08-16T16:19:29.9145382Z",
     "songs":  [
                   {
                       "songPath":  ".59",
@@ -1253,7 +1253,7 @@
                   },
                   {
                       "songPath":  "HYPNOTIC CRISIS",
-                      "fingerprint":  "264D7BA8348F8244D1F867297D62C33359C9C9AF3799EAAA241187E2A0E8FFD7",
+                      "fingerprint":  "336540AFDF31429F9C86F0FC08482FCA4427D74114BAFEF19352D4D06B0316BD",
                       "simfiles":  [
                                        {
                                            "path":  "HYPNOTIC CRISIS.sm",
@@ -1266,26 +1266,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "HYPNOTIC CRISIS-bg.png",
                       "sourcePath":  "HYPNOTIC CRISIS-bg.png",
-                      "sourceSha256":  "C14CC41EC23B9B1FB5C28D57164DDAC7AA7FD0BA0ED8836F74C14A1A70119F02",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "B67363E12DFB7D04E8337A4A37106F9FB5ED2702AC9753EF8904D5ED58CE8C89",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T12:57:41.2251645Z",
-                      "lastAttemptedAt":  "2026-08-15T12:57:41.2251645Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-16T16:15:26.2327687Z",
+                      "assessedAt":  "2026-08-16T16:15:26.2327687Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T16:15:26.0633748Z",
+                      "lastAttemptedAt":  "2026-08-16T16:15:03.1450030Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\264D7BA8348F8244D1F867297D62C33359C9C9AF3799EAAA241187E2A0E8FFD7\\Installed-Approved-B67363E12DFB.png",
+                      "previewSha256":  "B67363E12DFB7D04E8337A4A37106F9FB5ED2702AC9753EF8904D5ED58CE8C89",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T12:57:38.3729712Z",
@@ -1303,12 +1303,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T16:15:26.0633748Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected exec-48aebd92-7569-4e7b-9555-be01985d0281.png and requested install, overriding the earlier fidelity rejection for this fingerprint; the malformed /C:/ attachment path was corrected and its bytes were verified against the hash-bound workspace copy. Approved preview SHA-256 349983019D6A50D3F857491AAFBDF2BA98283F7D54333E0CE44DA49C59894FBB. Installed SHA-256 B67363E12DFB7D04E8337A4A37106F9FB5ED2702AC9753EF8904D5ED58CE8C89 using normalized-render; rollback HYPNOTIC CRISIS-bg.png.pre-upscale-20260816-091525.bak preserves original SHA-256 C14CC41EC23B9B1FB5C28D57164DDAC7AA7FD0BA0ED8836F74C14A1A70119F02.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\264D7BA8348F8244D1F867297D62C33359C9C9AF3799EAAA241187E2A0E8FFD7\\Installed-Approved-B67363E12DFB.png",
+                                                  "previewSha256":  "B67363E12DFB7D04E8337A4A37106F9FB5ED2702AC9753EF8904D5ED58CE8C89"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "HYSTERIA",
-                      "fingerprint":  "85150E54CA07D174AAA978B0DC9BC357DAA51C30E5745C0E735D035F0EE737D2",
+                      "fingerprint":  "62C34A338205F400C926EAB2CE1C30D5520F42E8461F2BE069F171CB558489A6",
                       "simfiles":  [
                                        {
                                            "path":  "HYSTERIA.sm",
@@ -1321,26 +1327,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "HYSTERIA-bg.png",
                       "sourcePath":  "HYSTERIA-bg.png",
-                      "sourceSha256":  "F308DECA4D2D5F6343A298C7CB8FFC47449641C6C5001F94DE776D0B9B4CFBA0",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "70C8AA1F2F7D4DA3901A26FE234BB82A60B1BD58C115BE1CC034C8523834E301",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T13:57:48.1644855Z",
-                      "lastAttemptedAt":  "2026-08-15T13:57:48.1644855Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-15T14:29:42.8038252Z",
+                      "assessedAt":  "2026-08-15T14:29:42.8038252Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-15T14:29:42.4504619Z",
+                      "lastAttemptedAt":  "2026-08-15T14:29:26.3549075Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\HYSTERIA\\85150E54CA07D174AAA978B0DC9BC357DAA51C30E5745C0E735D035F0EE737D2\\Installed-Approved-70C8AA1F2F7D.png",
+                      "previewSha256":  "70C8AA1F2F7D4DA3901A26FE234BB82A60B1BD58C115BE1CC034C8523834E301",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T13:56:30.5011717Z",
@@ -1358,7 +1364,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-15T14:29:42.4504619Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner named exec-3788e4f1-6ba0-42bc-abb3-f04cd70910a8.png and said install, explicitly overriding the prior fidelity rejection. Approved preview SHA-256 9E881FB00CE08A21BDC4B354AAAA50A91971E643D1D294FE45D903C835C14674. Installed SHA-256 70C8AA1F2F7D4DA3901A26FE234BB82A60B1BD58C115BE1CC034C8523834E301 using normalized-render; rollback HYSTERIA-bg.png.pre-upscale-20260815-072940.bak preserves original SHA-256 F308DECA4D2D5F6343A298C7CB8FFC47449641C6C5001F94DE776D0B9B4CFBA0.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\HYSTERIA\\85150E54CA07D174AAA978B0DC9BC357DAA51C30E5745C0E735D035F0EE737D2\\Installed-Approved-70C8AA1F2F7D.png",
+                                                  "previewSha256":  "70C8AA1F2F7D4DA3901A26FE234BB82A60B1BD58C115BE1CC034C8523834E301"
+                                              }
                                           ]
                   },
                   {
@@ -1390,14 +1402,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T14:58:21.7181630Z",
+                      "lastAttemptedAt":  "2026-08-15T14:58:21.7181630Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T14:58:21.7181630Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two faithful horizontal-outpaint attempts produced opaque one-frame 1672 x 941 images but both repainted and enlarged the identity-critical center, altered the blue title/remix lettering and layout, changed the red-green figure, and rebuilt original bubble geometry. Rejected SHA-256: 8D9BE945C176D89F30D8FF630A8D177B9188E74A14B8C33AF9CD0E491B8BAF0D and 83AE67F5389CBFE82E2B9BC2765CF84AD38CBAA971AF5A54BDA5845D81B61B2E. Deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1474,14 +1492,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T15:59:15.6194198Z",
+                      "lastAttemptedAt":  "2026-08-15T15:59:15.6194198Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T15:59:15.6194198Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine side-only outpaint attempts produced opaque one-frame 1672 x 941 outputs but both enlarged and repainted the locked central character and cans, rebuilt original composition, and inserted an extra white square before the KICK THE CAN title. Rejected SHA-256 values: 6E15212E6ADD525272B4D493119339F219CDA49FFCC742D80FF5C8443E5FD664 and 536EECE7B3E7A2614E2587B8945A3ECDED90C9C41808CB78B001D9D0D43BC001. Deterministic exact-content 1920 x 1080 fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1516,14 +1540,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T16:59:52.4013499Z",
+                      "lastAttemptedAt":  "2026-08-15T16:59:52.4013499Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T16:59:52.4013499Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two faithful horizontal-outpaint attempts were rejected. Attempt A SHA-256 60C47E085D3571F55B9DC624D04A0129ACCE96583653A6A57C976E57C0414BB9 and Attempt B SHA-256 D0BDF93024EA64A0508288230175C9335544329B1BA1BCD6996A13C1F7A13F66 were opaque one-frame 1672 x 941 images, but both enlarged and repainted the locked central figures and star geometry and re-typeset the LEADING CYBER wordmark. Deterministic exact-content 1920 x 1080 fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1558,14 +1588,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T18:03:07.5566130Z",
+                      "lastAttemptedAt":  "2026-08-15T18:03:07.5566130Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Let the beat hit em!\\1C85669390309879E8098A58231A52FC40B125ECF07EF0C8DBB69CB575ECC6B2\\After-A-1920x1080.png",
+                      "previewSha256":  "1F00A34980612092AB6EBD69B6A34083D1BE550A5ED988140BB77D31C718FB80",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T18:03:05.8584019Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "Initial local seam-feather pass distorted the title and was discarded before binding; corrected deterministic compositing reused the same AI outpaint, preserving the exact central source and consuming no second model attempt.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1600,12 +1636,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T19:03:45.7972493Z",
+                      "lastAttemptedAt":  "2026-08-15T19:03:45.7972493Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Let\u0027s talk it over\\AE2A221D80574D9E9662460D6FE062CCC170A37B193737ACF9EA655013B44831\\After-A-1920x1080.png",
+                      "previewSha256":  "5C926DECF13200B3834F767559A4B0CBF8B36465B6B65D8E97793DF900EBAA32",
                       "attemptHistory":  [
 
                                          ],
@@ -1642,14 +1678,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T20:02:29.5381493Z",
+                      "lastAttemptedAt":  "2026-08-15T20:02:29.5381493Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T20:02:29.5381493Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine side-only outpaint attempts returned opaque one-frame 1672 x 941 outputs, but both enlarged and repainted the locked central man, face, clothing, diagonal LIVIN\u0027 LA VIDA LOCA lettering, and original polygon geometry. Rejected SHA-256: attempt 1 89B0472DEEE105E450624B83314E730E8A8665F39085C7CD445829D7EB9441E5; attempt 2 DFC44AB0AFC24F59EE48A9C52DE8B13FA0D82FD9A5E12A52C8E82873F0E03471. Deterministic exact-content center preservation with side fill requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1684,14 +1726,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T21:02:13.0753835Z",
+                      "lastAttemptedAt":  "2026-08-15T21:02:13.0753835Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T21:02:13.0753835Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine side-only outpaint attempts produced opaque one-frame 1672 x 941 images but reconstructed and enlarged the mirrored women, faces, hair, shoulders, title pixels, central ring, scanlines, sparks, and grid instead of preserving the locked 320 x 240 source rectangle. Rejected SHA-256: 65E5F65DD2304A3C1512AD4117151224A6EECE9B13DC32EA5DD95979FA16CE13 and E048D27214A513181E44D2C6E4916526C3521FDC166E33EDEA270BA6E654C187. Deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1726,14 +1774,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T22:01:41.7463516Z",
+                      "lastAttemptedAt":  "2026-08-15T22:01:41.7463516Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T22:01:41.7463516Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine horizontal-outpaint attempts produced valid opaque 1672 x 941 images but both zoomed, repainted, and rearranged the locked Lupin The 3rd wordmark and central metallic-blue geometry instead of preserving the source composition. Rejected output SHA-256 values: 7FD4A3D012425AB73D7EF33E764C09E55A92E92BAEAECCF312EFBBEEC74A2D8B and F571589DC0D6BE4923E98326FC07DF1830EE49DB2B2FB7362E2F4EA3145F3BAE.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1768,14 +1822,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-15T23:01:25.1281241Z",
+                      "lastAttemptedAt":  "2026-08-15T23:01:25.1281241Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-15T23:01:25.1281241Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine AI side-only outpaint attempts produced opaque one-frame 1672 x 941 images but both enlarged and repainted the identity-critical central \u0027Make Your Move\u0027 lettering, repeated word stack, yellow swoosh, and original halftone geometry instead of preserving the 320 x 240 source rectangle. Rejected SHA-256: CDE2F7F5B6EDF2E998D85786A898D7B5699FBEF8F7D0DB32564473C9C68B988F and 1A6C9C339B859B9808307673777363718D0B4885ABA0C1077DC461AA71099AF4. Deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1810,14 +1870,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T00:03:21.8322515Z",
+                      "lastAttemptedAt":  "2026-08-16T00:03:21.8322515Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T00:03:21.8322515Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two faithful side-only outpaint attempts produced opaque one-frame 1672 x 941 outputs but both enlarged and repainted the locked original 320 x 240 center. Attempt A SHA-256 334342A84C617414F538FBDFF27ECC385AA3B7F8DFE5D5696C2E5A02CB3296C4 changed category labels, the MUSIC wordmark, arrows, and lower interface text. Attempt B SHA-256 D13F8EE8FAD29B6CB96162B43433988C71954E63EF11402C3D9B59346885E73A misspelled category labels and likewise changed the MUSIC wordmark and lower text. Deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1852,14 +1918,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T01:03:23.8330298Z",
+                      "lastAttemptedAt":  "2026-08-16T01:03:23.8330298Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T01:03:23.8330298Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine side-only outpaint attempts produced opaque one-frame 1672 x 941 images, but both enlarged and repainted the locked 320 x 240 center: the arced MY SUMMER LOVE title, small figure, central circular geometry, water pattern, palette, and pixel texture changed. Rejected SHA-256 values: attempt A A5B296472A8ADC08C64BE9E75479D7EAD22E70DB806830BDB716419D377AD5AC; attempt B 53252108FDDBAC2706C70744D9C0B4A209A664045AB4DE3C18E1FBD236F34186. Deterministic exact-content 1920 x 1080 fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1894,14 +1966,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T02:03:39.5635694Z",
+                      "lastAttemptedAt":  "2026-08-16T02:03:39.5635694Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T02:03:39.5635694Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine side-only outpaint attempts produced opaque one-frame 1672 x 941 outputs but were unfaithful. Attempt A enlarged and repainted the locked NA-NA wordmark, seven circular icons, rails, and central composition (SHA-256 3F275AA2ED5D79F967B6BA3AE9BCCD8FE38192381F3E03C1EA0B3ECD781777E8). Attempt B resized and repainted the same locked elements, changed rail geometry, and introduced a gradient field (SHA-256 2E12C967A5F8B8C7E1EEFF7340977DB45748986711A32B3C9955EC06939661AB). Deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1936,14 +2014,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T03:03:36.2374426Z",
+                      "lastAttemptedAt":  "2026-08-16T03:03:36.2374426Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T03:03:36.2374426Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine side-only outpaint attempts were rejected. Attempt 1 (SHA-256 1B3FE1C2CD8B99945BF766CF13D0356F6EC0F67AE776A8F96AD10BA0092E0078) enlarged and repainted the female silhouette, pose, flare geometry, and title. Attempt 2 (SHA-256 2FF334474D37CCA795B644F850C70AE4D5A03494C80BFF2D94821C517D6BBF19) introduced a framed inset and new radial geometry while redrawing the locked silhouette and title. Deterministic exact-content 1920 x 1080 fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -1978,14 +2062,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T04:04:03.4784120Z",
+                      "lastAttemptedAt":  "2026-08-16T04:04:03.4784120Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T04:04:03.4784120Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 produced an opaque 1672 x 941 image (SHA-256 8E31F262B5BD0422328C12D3556E32573A48EA1713FEAA88D0C15F77AE86C785) but enlarged and repainted the locked stacked title and introduced new line-burst and gradient detail. Attempt 2 produced an opaque 1672 x 941 image (SHA-256 D4710CCB0C251FDF93D017D226065B62D1E7A0B7D965AC90E7433852B806FB56) but again enlarged and repainted the exact letterforms and central radial/polygon geometry. Both faithful AI attempts are exhausted; deterministic exact-content fallback requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -2020,14 +2110,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T05:05:40.1723741Z",
+                      "lastAttemptedAt":  "2026-08-16T05:05:40.1723741Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T05:05:40.1723741Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Attempt 1 (SHA-256 A61A33796E5DA0FDE3C8CFAC247DF1A9B6124D2C541E9A478A35481EE90AF212) and attempt 2 (SHA-256 DFD2834F66C8FDF7B6898F0DC74A5054DD380C50613E48F858E3C09B5414C08D) were opaque one-frame 1672 x 941 outpaints, but both enlarged and repainted the locked faceted humanoid, pose, hands, and exact NIGHT IN MOTION wordmark. Attempt 2 also replaced straight horizontal bands with curved tunnel geometry. Both were rejected; deterministic exact-content center preservation with side fill requires owner approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -2062,12 +2158,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T06:11:14.8644495Z",
+                      "lastAttemptedAt":  "2026-08-16T06:11:14.8644495Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ONE TWO (LITTLE BITCH)\\46C221CBC457C93719A1551492EF43F2CCE0D36210048400EC2292A3D4A32AE8\\After-A-1920x1080.png",
+                      "previewSha256":  "5EEE620741AA7AB2BD5882EB01864453FFD54B12D847069D9B9C36A8296741D8",
                       "attemptHistory":  [
 
                                          ],
@@ -2146,12 +2242,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T07:12:21.1299495Z",
+                      "lastAttemptedAt":  "2026-08-16T07:12:21.1299495Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ORION.78(AMeuro-MIX)\\452063D00F68E137175E86F0960D717DE5C4E467B9A4690D374A256F2EB87E8E\\After-A-1920x1080.png",
+                      "previewSha256":  "A62F1659A2E6E4024B17BA18414F94FBFE00A1B813058EB865D6FEE90DD99EF3",
                       "attemptHistory":  [
 
                                          ],
@@ -2188,14 +2284,20 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T08:06:34.7548552Z",
+                      "lastAttemptedAt":  "2026-08-16T08:06:34.7548552Z",
+                      "pendingAction":  "awaiting-fallback-approval",
                       "previewPath":  null,
                       "previewSha256":  null,
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T08:06:34.7548552Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Two genuine faithful side-outpaint attempts produced opaque one-frame 1672 x 941 outputs but changed locked source identity. Attempt 1 enlarged and repainted the face, body, title, circular frame, grid, and composition (SHA-256 D7ED0804C609FE58112695A53509B28CDA079ED022C5CABD24CEB695F428E0CF). Attempt 2 again enlarged and repainted the person, title, circular frame, grid, scanlines, code textures, and composition (SHA-256 9DC769548EC0D8DE34D998E55E3AA6F902523227EEF0B0E660235AA2E707FA0E). A deterministic exact-content 1920 x 1080 fallback requires explicit owner approval before creation; any resulting preview would still require separate installation approval.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -2230,12 +2332,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T09:14:41.4737530Z",
+                      "lastAttemptedAt":  "2026-08-16T09:14:41.4737530Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PETIT LOVE\\B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2\\After-A-1920x1080-v3.png",
+                      "previewSha256":  "80AEAF388FA217474F660B8DEB08036CC67A78FA37B0651F83043105753B44EC",
                       "attemptHistory":  [
 
                                          ],
@@ -2272,12 +2374,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T10:10:25.1218172Z",
+                      "lastAttemptedAt":  "2026-08-16T10:10:25.1218172Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PINK DINOSAUR\\BFA03A476C01AE1844A4E7EE6A702C88E0053E01500A04F0238C710CA26E51D6\\After-A-1920x1080.png",
+                      "previewSha256":  "5E8A1595B12E2C0E807BA412DBBDF8AD837322253C2F83541AB824F674D9C0B7",
                       "attemptHistory":  [
 
                                          ],
@@ -2314,12 +2416,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T11:10:14.4113890Z",
+                      "lastAttemptedAt":  "2026-08-16T11:10:14.4113890Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\RHYTHM AND POLICE (K.O.G G3 Mix)\\7E7D3CDD642B47D37DABA57631EA3330ADD62149A81D16EAFEB7810645B03197\\After-A-1920x1080-v2.png",
+                      "previewSha256":  "82185E8601FEF76AB0CE470D9BBFD1ED23EE7956F73549D5A06C4E0FDA529E64",
                       "attemptHistory":  [
 
                                          ],
@@ -2356,12 +2458,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T12:14:47.0804849Z",
+                      "lastAttemptedAt":  "2026-08-16T12:14:47.0804849Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SAINT GOES MARCHING (REMIX)\\5A4D32262A265802FC24719FB5AD30C7D5AE313D88F118967FAA795F45EFFE97\\After-A-1920x1080.png",
+                      "previewSha256":  "2F8EB67322325056A758E15EDBC054CC7996A6E67E48C565DCD7BF34A59C067D",
                       "attemptHistory":  [
 
                                          ],
@@ -2440,12 +2542,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T13:13:17.9615532Z",
+                      "lastAttemptedAt":  "2026-08-16T13:13:17.9615532Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SHAKE YOUR BOOTY\\B5CD393F1C78654538C26BD65303346179E677BC245C30ED7D6FCEF8F79E0559\\After-A-1920x1080-v3.png",
+                      "previewSha256":  "42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9",
                       "attemptHistory":  [
 
                                          ],
@@ -2482,12 +2584,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T14:19:24.7928425Z",
+                      "lastAttemptedAt":  "2026-08-16T14:19:24.7928425Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SHOOTING STAR\\21D61CD6C5DB835DD278E1997238B881C0EBD0926D4967DA9CEB8EE40156DFE0\\After-A-1920x1080-v3.png",
+                      "previewSha256":  "D569D273A8EF87A591A624ACCCFD0F2C8F9D1258257856E52D59D74AFA77D0C6",
                       "attemptHistory":  [
 
                                          ],
@@ -2524,12 +2626,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T15:18:57.0965014Z",
+                      "lastAttemptedAt":  "2026-08-16T15:18:57.0965014Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SKY HIGH\\DB8B5929619157A13737F3D73282D919D8D8FDABAA8C5707E4A457EF68F1FC4A\\After-A-1920x1080-v3.png",
+                      "previewSha256":  "D3BB08CE1AA80D982B90DF35C1C777D11A9B1C4DAE96063BE850C1B794F021FB",
                       "attemptHistory":  [
 
                                          ],
@@ -2566,12 +2668,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T16:17:37.5115526Z",
+                      "lastAttemptedAt":  "2026-08-16T16:17:37.5115526Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\SUPER STAR\\C56D637EC065CCF56EC88969EC65BBF1AAB8C017B9C2D85F01B555141E69CB79\\After-A-1920x1080-v2.png",
+                      "previewSha256":  "E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14",
                       "attemptHistory":  [
 
                                          ],
@@ -3417,6 +3519,325 @@
                                 "summary":  "Both faithful side-only AI outpaints for NAOKI 190 - HYSTERIA rewrote HYSTERIA as HYSILRIA and enlarged or repainted the central eye and outlined 190 motif; the exact fingerprint now awaits owner approval for deterministic exact-content fallback.",
                                 "songPath":  "HYSTERIA",
                                 "fingerprint":  "85150E54CA07D174AAA978B0DC9BC357DAA51C30E5745C0E735D035F0EE737D2",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T14:26:54.4131722Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner replied bare install after two displayed HYPNOTIC CRISIS outputs had been explicitly rejected and the exact fingerprint had no bound preview path or hash. Bare install cannot authorize a rejected artifact or resolve another song from global pending order, so no live write or queue-state transition occurred; explicit deterministic fallback approval is still required.",
+                                "songPath":  "HYPNOTIC CRISIS",
+                                "fingerprint":  "264D7BA8348F8244D1F867297D62C33359C9C9AF3799EAAA241187E2A0E8FFD7",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T14:31:22.5874438Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected the previously rejected Attempt B file by exact filename and said install; the exact raw SHA-256 9E881FB00CE08A21BDC4B354AAAA50A91971E643D1D294FE45D903C835C14674 was rebound and normalized to installed SHA-256 70C8AA1F2F7D4DA3901A26FE234BB82A60B1BD58C115BE1CC034C8523834E301 with a verified rollback. This override applies only to HYSTERIA.",
+                                "songPath":  "HYSTERIA",
+                                "fingerprint":  "62C34A338205F400C926EAB2CE1C30D5520F42E8461F2BE069F171CB558489A6",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T14:59:43.8349533Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this exact 320 x 240 source, both faithful horizontal-outpaint attempts repainted and enlarged the locked title, remix label, red-green figure, and original bubble field; neither output is installable, so deterministic exact-content fallback needs explicit owner approval.",
+                                "songPath":  "IF YOU WERE HERE (B4 ZA BEAT MIX)",
+                                "fingerprint":  "B5F3DE91949BB4A35614C2392585750C25BE0EB236EBE32DA039B5AC2A5D8D4D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T16:00:07.6152110Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Both scheduled AI side-only outpaint attempts for BUS★STOP - KICK THE CAN preserved neither the locked center composition nor exact title treatment; each repainted the character/cans and inserted an extra white square before the title. The exact source needs owner-approved deterministic 1920 x 1080 fallback; no reusable workflow change is supported.",
+                                "songPath":  "KICK THE CAN",
+                                "fingerprint":  "DBE1819971C0DE8179CE2307B780B0634ABFDB8515CAE2209049C26FCE09BE74",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T17:01:28.9599023Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For the exact LEADING CYBER fingerprint, two strict horizontal-outpaint prompts produced valid opaque 1672 x 941 stills but both repainted and enlarged the identity-critical central figures, star geometry, and LEADING CYBER wordmark. The fingerprint was safely left pending with awaiting-fallback-approval and no preview binding; no reusable workflow change or owner feedback was inferred.",
+                                "songPath":  "LEADING CYBER",
+                                "fingerprint":  "3422A91B1631593C4E3BC4387331B21191AB163FBCB90800551B149481527844",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T18:04:20.4545402Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this exact 320 x 240 source, the raw side-outpaint repainted the identity-critical face and enlarged the title; retaining only its side extensions and deterministically restoring the full central source with narrow seam feathering produced a faithful candidate without consuming a second model attempt.",
+                                "songPath":  "Let the beat hit em!",
+                                "fingerprint":  "1C85669390309879E8098A58231A52FC40B125ECF07EF0C8DBB69CB575ECC6B2",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T19:05:56.1553421Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this 320 x 240 clock artwork, the first AI outpaint supplied usable 16:9 peripheral extensions but repainted the central clock and title. Restoring the full exact source over the center and using a smooth, widened side blend produced the faithful opaque 1920 x 1080 candidate; the initial black-frame and narrow-seam artifacts were local compositing corrections, not additional model attempts.",
+                                "songPath":  "Let\u0027s talk it over",
+                                "fingerprint":  "AE2A221D80574D9E9662460D6FE062CCC170A37B193737ACF9EA655013B44831",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T20:03:40.0306055Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this 320 x 240 source, both strict side-only outpaint attempts repainted the identity-critical central man, diagonal title lettering, clothing, and original polygon geometry; retain exact-content deterministic fallback as a separate owner decision.",
+                                "songPath":  "LIVIN\u0027 LA VIDA LOCA",
+                                "fingerprint":  "F9022AB5E663D7EF8E1F050A31111EBCC0ABBEABCDC56ABCD1D22E037BF4E318",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T21:03:41.8997565Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this 320 x 240 source, two strict horizontal-outpaint attempts produced valid opaque 1672 x 941 outputs but reconstructed the mirrored women, faces, hair, shoulders, title pixels, central ring, scanlines, sparks, and grid. Preserve both rejected hashes and require owner approval before a deterministic exact-content fallback; no reusable workflow change is justified without broader evidence.",
+                                "songPath":  "LOVE AGAIN TONIGHT~For Melissa MIX~",
+                                "fingerprint":  "F34AB82283E23439DC1900C9BD8A236C944A44629BEE1AEDDF6D50553D207B45",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T22:02:21.0967665Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this source, two strict horizontal-outpaint attempts zoomed, repainted, and rearranged the locked Lupin The 3rd wordmark and central metallic-blue geometry. Preserve both rejected hashes and require explicit owner approval before creating a deterministic exact-content fallback.",
+                                "songPath":  "Lupin the 3rd \u002778",
+                                "fingerprint":  "F93485F7BFEBD86CFE267BE4159B45E1F68644E25555C16945062EAB9A8A62D2",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-15T23:02:29.8548353Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this source, two side-only AI outpaint prompts still enlarged and repainted the locked central Make Your Move lettering, yellow swoosh, and halftone geometry; keep the exact fingerprint pending for owner-approved deterministic exact-content fallback, with separate preview and install approval.",
+                                "songPath":  "Make Your Move",
+                                "fingerprint":  "3D8E66031B538707DA9FB1B65C6313B460217BA65B4F22312AFE8DADEF1EFD8B",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T00:05:08.9908964Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For HABEGALE - MUSIC, two strict side-only outpaint attempts on the explicit 320 x 240 source both repainted identity-critical central typography, category labels, arrows, and lower interface text; keep this fingerprint pending for owner-approved deterministic exact-content fallback. No reusable workflow change was justified.",
+                                "songPath":  "MUSIC",
+                                "fingerprint":  "413201B59CAFCE0E6A9DEAA28CA3521D368C86A2C216787F18E10C7635136EF1",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T01:04:19.2940033Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For MITSU-O! with GEILA - MY SUMMER LOVE, two strict side-only outpaint prompts produced valid opaque one-frame 1672 x 941 outputs but both enlarged and repainted the locked arced title, small figure, central circular geometry, water pattern, palette, and pixel texture. Preserve the rejected hashes and keep this exact fingerprint pending for owner-approved deterministic exact-content fallback; no reusable workflow change or owner feedback was inferred.",
+                                "songPath":  "MY SUMMER LOVE",
+                                "fingerprint":  "8E781D32D0F0B64708702C9E03FC5B16B5E5D1123DA990C2C3486F6E0E39A603",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T02:05:01.4426745Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this 320 x 240 NA-NA source, both strict side-only outpaint attempts altered the identity-critical wordmark, seven-icon arrangement, rails, and flat pixel-art field; preserve those elements as fingerprint-specific locked content and require owner-approved deterministic exact-content fallback.",
+                                "songPath":  "NA-NA",
+                                "fingerprint":  "09EA347FC6FC3D5ADC05909CCDCBAE73E4713EC6E88561DDA560E10140509A0A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T03:04:21.5713301Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this source, both side-only AI attempts changed identity-critical silhouette, flare, typography, or composition; keep the fingerprint pending for explicit deterministic exact-content fallback approval.",
+                                "songPath":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)",
+                                "fingerprint":  "84D3ECDD74406B895787AF5E7A0B74D48500CF36BEBA7D0B5A1A20A22F0A988F",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T04:04:56.2166647Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For good-cool feat. JP miles - never let you down, both strict side-only outpaint attempts produced valid opaque one-frame 1672 x 941 outputs but enlarged and repainted the locked stacked title and central radial/polygon geometry; keep the exact fingerprint pending for owner-approved deterministic exact-content fallback, with any resulting preview still requiring separate install approval.",
+                                "songPath":  "never let you down",
+                                "fingerprint":  "D54D592D5D9380414AD09930D2F153DF102EE0E631519352951A61898629D074",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T05:06:05.7613298Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The 320 x 240 source locks a faceted humanoid, exact pose and hands, straight blue bands, and the NIGHT IN MOTION wordmark. Both permitted outpaints enlarged and repainted those elements; deterministic exact-content center preservation with side fill needs owner approval before any fallback preview.",
+                                "songPath":  "NIGHT IN MOTION",
+                                "fingerprint":  "63A570FB76500A96C3D3E059370F7C7241F1BC931639710D1140C4E64E646BFF",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T06:13:18.1151438Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One side-outpaint supplied usable red-bokeh peripheral material but repainted the locked title and center. Restoring the exact scaled source center and transitioning the side extensions through reflected source-edge strips removed visible seams without a second model attempt.",
+                                "songPath":  "ONE TWO (LITTLE BITCH)",
+                                "fingerprint":  "46C221CBC457C93719A1551492EF43F2CCE0D36210048400EC2292A3D4A32AE8",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T07:14:04.3958917Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful AI outpaint supplied usable peripheral ring and texture extensions but repainted the locked central typography. The final After A restored the exact source-derived center and used a widened peripheral seam blend; two rejected local finishing passes were not bound and did not consume another model attempt.",
+                                "songPath":  "ORION.78(AMeuro-MIX)",
+                                "fingerprint":  "452063D00F68E137175E86F0960D717DE5C4E467B9A4690D374A256F2EB87E8E",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T08:07:48.2341613Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Both faithful side-outpaint attempts produced valid wide stills but repainted the locked person, PARANOIA EVOLUTION typography, circular frame, grid, scanlines, and composition; this exact source now requires owner approval before a deterministic exact-content 1920 x 1080 fallback.",
+                                "songPath":  "PARANOIA EVOLUTION",
+                                "fingerprint":  "C72F3EE7BE19BAB74A05FBCF2BD7844B1A1FBF2C774FF25ED84397FBDA1D0C20",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T09:16:13.1639331Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this PETIT LOVE source, the raw horizontal outpaint supplied usable object-free pink floral side material but repainted the locked grid and title. Deterministic compositing restored the source-derived 4:3 center, kept seam correction outside that center, and a SHA-identical short-path display copy resolved inconsistent long-path rendering. One opaque 1920 x 1080 candidate was bound; no reusable workflow change was justified.",
+                                "songPath":  "PETIT LOVE",
+                                "fingerprint":  "B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T10:11:51.0139318Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Attempt 1 produced usable object-free neon side material but repainted and enlarged the locked dinosaur, heart plates, typography, outlines, texture, and central composition. Deterministic exact-center compositing restored the complete source-derived 4:3 center at 1440 x 1080, confined generated material and seam feathering to the 240-pixel side extensions, and yielded sole opaque one-frame 1920 x 1080 preview SHA-256 5E8A1595B12E2C0E807BA412DBBDF8AD837322253C2F83541AB824F674D9C0B7. Exact queue, source, simfile, hash, opacity, presentation, UTF-8/no-BOM, duplicate-path, and closed-game validations passed; no reusable workflow change was justified.",
+                                "songPath":  "PINK DINOSAUR",
+                                "fingerprint":  "BFA03A476C01AE1844A4E7EE6A702C88E0053E01500A04F0238C710CA26E51D6",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T11:11:14.0018297Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One genuine horizontal-outpaint attempt supplied suitable object-free purple ray and star material but repainted and enlarged the locked silhouettes, shield, title typography, remix text, and central composition. Deterministic compositing restored the complete nearest-neighbor source-derived 1440 x 1080 center with pixel equality and confined generated material plus source-edge feathering to the 240-pixel side extensions. Bound opaque one-frame 1920 x 1080 candidate SHA-256 82185E8601FEF76AB0CE470D9BBFD1ED23EE7956F73549D5A06C4E0FDA529E64; no second AI attempt or reusable workflow change was justified.",
+                                "songPath":  "RHYTHM AND POLICE (K.O.G G3 Mix)",
+                                "fingerprint":  "7E7D3CDD642B47D37DABA57631EA3330ADD62149A81D16EAFEB7810645B03197",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T12:15:33.2993093Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful horizontal outpaint supplied usable blue and cyan radial side material but repainted and enlarged the locked circular chrome lettering and center. Deterministic compositing restored the complete nearest-neighbor source-derived 1440 x 1080 center with verified pixel equality and confined generated material plus a narrow source-edge blend to the 240-pixel side extensions. The first local blend created a visible reflected geometry strip and was corrected before binding without another model attempt. Long-path image viewing produced stale or partial renders, so the exact PNG was hash-verified and a short-path byte-identical display copy plus a decoded QA view confirmed the full candidate. No owner feedback was received in this scheduled run; no reusable rule or automation change is justified.",
+                                "songPath":  "SAINT GOES MARCHING (REMIX)",
+                                "fingerprint":  "5A4D32262A265802FC24719FB5AD30C7D5AE313D88F118967FAA795F45EFFE97",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T13:14:10.4998982Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For this 320x240 SHAKE YOUR BOOTY source, attempt 1 supplied usable magenta spiral side material but repainted and enlarged the locked typography, dancer silhouettes, and center. A deterministic composite restored the complete nearest-neighbor source-derived 1440x1080 center with verified pixel equality, reduced the generated extensions to the source visual scale, and feathered reflected source-edge pixels into only the two 240-pixel side regions; no second model attempt was needed. Raw SHA-256 225CCF6806461A7953D423F9374862679E428175E894998E83E0078EEADAB392; bound After A SHA-256 42DD350672D47081F33346B83613982E080185A3F09E74E32FDED6F996191EA9.",
+                                "songPath":  "SHAKE YOUR BOOTY",
+                                "fingerprint":  "B5CD393F1C78654538C26BD65303346179E677BC245C30ED7D6FCEF8F79E0559",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T14:19:35.3081543Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Attempt 1 supplied usable blue-purple star-field side material but repainted and enlarged the locked title and center. A task-local reflected-edge composite restored the complete nearest-neighbor 1440 x 1080 source-derived center with pixel equality and confined generated material to the 240-pixel side extensions; no second AI attempt was needed.",
+                                "songPath":  "SHOOTING STAR",
+                                "fingerprint":  "21D61CD6C5DB835DD278E1997238B881C0EBD0926D4967DA9CEB8EE40156DFE0",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T15:19:38.3917595Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Two genuine seam-aware outpaint attempts repainted the locked SKY HIGH figure, wings, title, and center. Attempt 2 supplied scale-aligned side material; deterministic compositing restored the complete nearest-neighbor source-derived 1440 x 1080 center with verified pixel equality and confined generated content plus narrow source-edge feathering to the two 240-pixel side extensions. The short display copy is byte-identical to the exact bound candidate.",
+                                "songPath":  "SKY HIGH",
+                                "fingerprint":  "DB8B5929619157A13737F3D73282D919D8D8FDABAA8C5707E4A457EF68F1FC4A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T16:16:39.5441685Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected the original Attempt A file for BLUE DESTROYERS - HYPNOTIC CRISIS and requested installation, overriding the prior fidelity rejection only for the predecessor fingerprint. Corrected-path recovery, byte-identical workspace staging, normalized 1920 x 1080 installation, rollback proof, and installed-fingerprint migration succeeded; this supplies no reusable workflow or owner-wide aesthetic preference.",
+                                "songPath":  "HYPNOTIC CRISIS",
+                                "fingerprint":  "336540AFDF31429F9C86F0FC08482FCA4427D74114BAFEF19352D4D06B0316BD",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T16:19:29.9145382Z",
+                                "scope":  "fingerprint",
+                                "summary":  "SUPER STAR source-specific retrospective: the faithful horizontal-outpaint prompt produced usable peripheral repeated-typography texture but repainted and enlarged the locked central wordmark and arrow geometry (raw SHA-256 E793C3A2ED473BA9043E7A26D1AC699141345977E59F61C17FAECF6EBD7F6698). One local seam correction reused that same model output; the selected candidate SHA-256 E76E56BA0F2648CBC99FB19C36BB3BE8FE10C9B133994875EA6540BA46C71C14 restores the complete source-derived 1440 x 1080 center with 1,555,200 pixels verified equal and confines generated material to side extensions. Queue, hashes, presentation, opacity/frame count, UTF-8/no-BOM, formatter, display-copy equality, and closed-game checks passed. No owner feedback or reusable workflow change occurred.",
+                                "songPath":  "SUPER STAR",
+                                "fingerprint":  "C56D637EC065CCF56EC88969EC65BBF1AAB8C017B9C2D85F01B555141E69CB79",
                                 "changedFiles":  {
 
                                                  },
