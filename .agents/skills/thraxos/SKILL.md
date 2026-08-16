@@ -17,6 +17,8 @@ Operate the dedicated Windows ITGMania host from live evidence and the repositor
 
 For inheritance freshness or AgentOS coordination, run `scripts/Get-AgentOSInheritanceStatus.ps1`. It may fetch Git metadata but never pulls, switches branches, or changes either worktree. Continue from the checked-in cache when AgentOS is unavailable, and report stale or unverified provenance.
 
+For UI, frontend, dashboard, form, dialog, or reusable-component work, run that inheritance-status check before selecting an implementation or visual language. If it reports a stale cache, inspect the recorded design-system source and refresh the cache first. Follow the inherited shadcn/ui default when feasible; if the project cannot import it, preserve its interaction and visual language. Report a material repository or technical override rather than silently substituting another system.
+
 ## Route the request
 
 - For overall status, run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .agents/skills/thraxos/scripts/Get-ThraxStatus.ps1`.
@@ -31,6 +33,7 @@ For inheritance freshness or AgentOS coordination, run `scripts/Get-AgentOSInher
 - For searches of the ITG Packs Release Spreadsheet, also use the project skill `itg-packs-search`.
 - For the stage, read `docs/context/stepmaniax.md`.
 - For remote access, read `docs/runbooks/remote-access.md`.
+- For any dashboard or other UI change, also apply the UI inheritance preflight above before editing presentation code.
 - For play stats or cardio, read `docs/context/play-data.md` and honor the privacy boundary in `AGENTS.md`.
 
 ## Act safely

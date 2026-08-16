@@ -196,6 +196,13 @@
 - **Decision:** ThraxOS remains authoritative for every Thraximundar-specific rule and reports material conflicts. AgentOS remains authoritative for global governance and course state; writes require explicit approval, a local checkout, and the cache's narrow allowlist.
 - **Rationale:** Commit provenance and selective refresh make inheritance portable, reviewable, and token-efficient without leaking unrelated project context or weakening machine-specific safety.
 
+## 2026-08-16 global UI inheritance safeguard
+
+- **Owner-confirmed:** Persist a safeguard so future ThraxOS UI work inherits Kyle's AgentOS design-system preference before implementation begins.
+- **Decision:** Include committed AgentOS `os/context/design-system.md` in the compact inheritance cache and its staleness source list. Before any ThraxOS UI, frontend, dashboard, form, dialog, or reusable-component change, run the inheritance-status check and refresh a stale cache before selecting a library or visual language.
+- **Decision:** Use shadcn/ui by default when the host can support it; otherwise preserve its accessible interaction and visual language. A technical or repository-specific exception must be visible, not silently inferred from a themed request.
+- **Rationale:** A DDR or StepManiaX treatment can coexist with a coherent cross-project component system. The preflight closes the gap that let a stale cache and a missing source-list entry bypass that preference.
+
 ## 2026-08-16 Arcade Console capability and schedule board
 
 - **Owner-confirmed:** Provide a StepManiaX/DDR-themed, user-friendly web console that shows every ThraxOS skill and current recurring work, collects only predefined inputs, and can schedule allowlisted future work.

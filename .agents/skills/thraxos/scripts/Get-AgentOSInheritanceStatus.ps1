@@ -20,6 +20,7 @@ $relevantSources = @(
     'PLAYBOOK.md',
     'os/agents/os-thought-partner.md',
     'os/context/communication-style.md',
+    'os/context/design-system.md',
     'os/context/identity.md',
     'os/memory/README.md',
     'os/memory/agentos-memory.md',
@@ -51,8 +52,16 @@ if (-not $checkout -or -not (Test-Path -LiteralPath (Join-Path $checkout '.git')
 
 $result.CheckoutAvailable = $true
 if (-not $SkipFetch) {
-    & git -C $checkout fetch origin 2>&1 | Out-Null
-    $result.FetchSucceeded = ($LASTEXITCODE -eq 0)
+    # A failed metadata refresh is an expected degraded-mode condition, not a
+    # status-script failure. Suppress Git's stderr and retain the fallback path.
+    $savedErrorActionPreference = $ErrorActionPreference
+    $ErrorActionPreference = 'Continue'
+    try {
+        & git -C $checkout fetch origin 2>$null | Out-Null
+        $result.FetchSucceeded = ($LASTEXITCODE -eq 0)
+    } finally {
+        $ErrorActionPreference = $savedErrorActionPreference
+    }
 }
 
 if ($SkipFetch -or $result.FetchSucceeded) {

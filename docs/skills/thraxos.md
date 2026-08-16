@@ -8,7 +8,7 @@ Central specialist for ITGMania, handheld menu controllers, GrooveStats, StepMan
 
 - `SKILL.md`: routing, safety, recording, and documentation rules.
 - `scripts/Get-ThraxStatus.ps1`: redacted, read-only overall status.
-- `scripts/Get-AgentOSInheritanceStatus.ps1`: fetch-aware, worktree-preserving inheritance provenance and staleness status.
+- `scripts/Get-AgentOSInheritanceStatus.ps1`: fetch-aware, worktree-preserving inheritance provenance and staleness status, including the global UI design-system source.
 - `scripts/Test-BackupHealth.ps1`: redacted backup health.
 - `scripts/Set-GrooveStatsForProfile.ps1`: guarded, owner-approved mutation.
 - Routes handheld menu-controller pairing and mapping to the project-local `connect-controller` skill.
@@ -19,11 +19,13 @@ Central specialist for ITGMania, handheld menu controllers, GrooveStats, StepMan
 
 ## AgentOS inheritance
 
-ThraxOS loads the compact checked-in cache instead of rereading AgentOS on every task. The cache contains only Kyle's global identity, communication, privacy, verification, approval, memory, GitHub synchronization, and skill-learning rules, with an upstream commit and category-level source provenance. It deliberately excludes every unrelated AgentOS project's context and operations.
+ThraxOS loads the compact checked-in cache instead of rereading AgentOS on every task. The cache contains only Kyle's global identity, communication, UI design-system preference, privacy, verification, approval, memory, GitHub synchronization, and skill-learning rules, with an upstream commit and category-level source provenance. It deliberately excludes every unrelated AgentOS project's context and operations.
 
 The configured local checkout is preferred. The status script may run `git fetch origin`, but it never pulls, merges, rebases, switches branches, resets, or changes either worktree. Committed `origin/main` is authoritative shared state and uncommitted AgentOS files are ignored. A matching SHA reuses the cache; a changed SHA returns only relevant changed source files for review.
 
 If fetch fails, the script reports locally committed `main` and unverified freshness. If the checkout is missing, use committed GitHub `main` read-only; if that is also unavailable, continue from the portable cache and report possible staleness. ThraxOS rules control Thraximundar conflicts, while AgentOS remains authoritative for global governance and course state. The cache records the exact AgentOS write allowlist and approval boundary.
+
+Before changing a ThraxOS page, dashboard, frontend, form, dialog, or reusable component, run the inheritance-status script. If the cache is stale, inspect and refresh the recorded `os/context/design-system.md` source before selecting the implementation. The default is shadcn/ui; where that library cannot reasonably be imported, preserve its accessible component language and report any material technical or repository-specific override.
 
 ## Safety
 

@@ -41,6 +41,16 @@ local subnet. Never port-forward this service or expose it to the public interne
 - Responses omit credentials, profile IDs, serial numbers, and full USB instance
   identifiers.
 
+## UI inheritance preflight
+
+Before changing this dashboard's pages, forms, dialogs, cards, or reusable
+components, run the `thraxos` AgentOS inheritance-status helper. Refresh a
+stale cache before selecting a visual language or component library. shadcn/ui
+is the inherited default; this no-build host may instead preserve its accessible
+component and interaction language when importing the library is not reasonable.
+A StepManiaX/DDR treatment complements that default and is not, by itself, an
+override.
+
 The dashboard reads only installed Codex automations scoped to the ThraxOS
 repository, plus the documented backup schedule. It translates known cron rules
 into local-time descriptions. Windows Task Scheduler visibility may be degraded

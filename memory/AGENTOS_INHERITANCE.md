@@ -6,7 +6,7 @@ This compact cache is the only AgentOS content loaded by default in ThraxOS task
 
 - Durable repository: <https://github.com/KyleGowen/AgentOS>.
 - Upstream ref: committed `origin/main`.
-- Upstream commit: `fa0b607c94d36bd69107cb0203b93946bc37f7bf`.
+- Upstream commit: `bd0e3bf474cacece4a65a66f866053b84bcdce26`.
 - Built: 2026-08-16.
 - Configured local checkout: `config/paths.json` key `agentOSCheckout`.
 - Freshness check: `.agents/skills/thraxos/scripts/Get-AgentOSInheritanceStatus.ps1`.
@@ -28,6 +28,15 @@ Sources: `os/context/identity.md`.
 - Be clear, direct, casual, friendly, evidence-backed, action-oriented, and explicit about uncertainty.
 - Keep work and home context separated. Work practices may improve home projects, but home context must not influence work reasoning.
 - Do not assume custom tools or configuration exist unless they are documented.
+
+### UI and frontend design system
+
+Sources: `os/context/design-system.md`, `os/context/identity.md`, `AGENTS.md`.
+
+- Use shadcn/ui as the default component and design system for pages, application shells, navigation, forms, dialogs, tables, cards, dashboards, feedback states, and reusable components.
+- Prefer actual shadcn/ui components when the framework and dependency constraints allow them. When they cannot reasonably be imported, preserve the same quiet, polished, accessible interaction language with consistent tokens and spacing, restrained borders and radii, clear hierarchy, predictable states, and responsive behavior.
+- Before selecting a UI implementation or visual language in ThraxOS, run the inheritance-status check. A stale cache must be refreshed from the recorded design-system source before proceeding.
+- A repository-specific design system, customer requirement, technical constraint, or explicit owner instruction may override this default only when the material override is reported or recorded; a themed visual treatment is not by itself an override.
 
 ### Communication
 
@@ -91,7 +100,7 @@ Sources: `os/memory/patterns.md`, `os/agents/os-thought-partner.md`.
 1. Prefer the configured local checkout and run `git fetch origin`; fetching may update Git metadata only.
 2. Use committed `origin/main`, never its uncommitted worktree, as the durable shared source.
 3. If the SHA matches this cache, reuse the cache without rereading AgentOS.
-4. If the SHA changed, inspect the status script's relevant changed-file list, then review only those cache source files before proposing a cache refresh.
+4. If the SHA changed, inspect the status script's relevant changed-file list, then review only those cache source files before proposing a cache refresh. For UI work, this check and any necessary cache refresh are required before selecting a component library or visual language.
 5. If fetch fails, use locally committed `main`, report its SHA, and state that freshness is unverified.
 6. If the checkout is absent, use read-only GitHub `main`. If that is unavailable too, continue from this cache and report its SHA and possible staleness.
 7. Never pull, merge, rebase, switch branches, reset, or change either worktree as part of refresh.

@@ -16,6 +16,8 @@ No other root-level Windows task was identified as part of ThraxOS. Standard Win
 
 `generate-background` is also on-demand. It may service an owner-authorized scratch redesign of an exact background fingerprint, but it adds no scheduler entry, does not change the hourly queue behavior, and keeps generation preview-only.
 
+Any change to a scheduled task's dashboard, form, or other user-facing interface must first pass the `thraxos` AgentOS UI inheritance preflight. The visual treatment may be StepManiaX/DDR-themed, but the inherited shadcn/ui component and interaction default remains in force unless a material override is recorded.
+
 ## Documentation contract
 
 A task change is incomplete until this index and its guide are updated. Record scheduler, owner, trigger, action, working directory, environment, concurrency, safety limits, dependencies, state, reproduction, and verification. Use placeholders for accounts/project IDs; never commit tokens, Windows SIDs, or unique identifiers.
