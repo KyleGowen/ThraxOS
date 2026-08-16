@@ -19,5 +19,6 @@ foreach ($skill in $catalog.skills) {
 $server = Get-Content -Raw (Join-Path $root 'Start-ThraxDashboard.ps1')
 if ($server -notmatch 'acknowledged -ne \$true') { throw 'Dashboard schedule creation must require acknowledgement.' }
 if ($server -notmatch 'repoPattern') { throw 'Automation discovery must be scoped to the ThraxOS repository.' }
+if ($server -notmatch 'scopeText') { throw 'Automation discovery must normalize configured checkout paths before matching.' }
 foreach ($asset in 'public\index.html','public\styles.css','public\app.js') { if (-not (Test-Path (Join-Path $root $asset))) { throw "Missing $asset" } }
 'Dashboard validation passed: 15 unique allowlisted capabilities, constrained fields, schedule acknowledgement, ThraxOS-only automation discovery, valid PowerShell syntax, and required assets.'

@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
-    "generatedAt":  "2026-08-16T21:11:03.9899227Z",
+    "generatedAt":  "2026-08-16T21:24:54.4298569Z",
     "songs":  [
                   {
                       "songPath":  ".59",
@@ -2257,7 +2257,7 @@
                   },
                   {
                       "songPath":  "PARANOIA EVOLUTION",
-                      "fingerprint":  "C72F3EE7BE19BAB74A05FBCF2BD7844B1A1FBF2C774FF25ED84397FBDA1D0C20",
+                      "fingerprint":  "01A752FF787DCD593884A439F07FDB56043AA7CDD3B816FD0A0BB3586DCBF75B",
                       "simfiles":  [
                                        {
                                            "path":  "PARANOIA EVOLUTION.sm",
@@ -2270,26 +2270,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "PARANOIA EVOLUTION-bg.png",
                       "sourcePath":  "PARANOIA EVOLUTION-bg.png",
-                      "sourceSha256":  "0CCFC3D51C11B10FF225BF736E025F5299F6B5AB6E9F7B906CF64AE4D00A7520",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "EB9FB7592028502E10D1E65F86B848C4EA42EA28261FB1D9E7DEAF94F6195DB6",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T08:06:34.7548552Z",
-                      "lastAttemptedAt":  "2026-08-16T08:06:34.7548552Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-16T21:13:01.3730014Z",
+                      "assessedAt":  "2026-08-16T21:13:01.3730014Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T21:13:01.2125752Z",
+                      "lastAttemptedAt":  "2026-08-16T21:11:22.1003205Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PARANOIA EVOLUTION\\C72F3EE7BE19BAB74A05FBCF2BD7844B1A1FBF2C774FF25ED84397FBDA1D0C20\\Installed-Approved-EB9FB7592028.png",
+                      "previewSha256":  "EB9FB7592028502E10D1E65F86B848C4EA42EA28261FB1D9E7DEAF94F6195DB6",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T08:06:34.7548552Z",
@@ -2300,12 +2300,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T21:13:01.2125752Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly requested installation of the exact generated image exec-c1512df5-e223-4c34-9013-61302cf74535.png with SHA-256 D7ED0804C609FE58112695A53509B28CDA079ED022C5CABD24CEB695F428E0CF, overriding the earlier fidelity rejection. Approved preview SHA-256 D7ED0804C609FE58112695A53509B28CDA079ED022C5CABD24CEB695F428E0CF. Installed SHA-256 EB9FB7592028502E10D1E65F86B848C4EA42EA28261FB1D9E7DEAF94F6195DB6 using normalized-render; rollback PARANOIA EVOLUTION-bg.png.pre-upscale-20260816-141300.bak preserves original SHA-256 0CCFC3D51C11B10FF225BF736E025F5299F6B5AB6E9F7B906CF64AE4D00A7520.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PARANOIA EVOLUTION\\C72F3EE7BE19BAB74A05FBCF2BD7844B1A1FBF2C774FF25ED84397FBDA1D0C20\\Installed-Approved-EB9FB7592028.png",
+                                                  "previewSha256":  "EB9FB7592028502E10D1E65F86B848C4EA42EA28261FB1D9E7DEAF94F6195DB6"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "PETIT LOVE",
-                      "fingerprint":  "B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2",
+                      "fingerprint":  "71CA6FA1E203B415367C98C56F87CB6B59AB9B6A537E211BDAF8CEACE468C980",
                       "simfiles":  [
                                        {
                                            "path":  "PETIT LOVE.sm",
@@ -2318,26 +2324,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "PETIT LOVE-bg.png",
                       "sourcePath":  "PETIT LOVE-bg.png",
-                      "sourceSha256":  "A28952B924F586FA64EC263343FF6C3EE763BCE28C566829764E1BAA0D4DE2E2",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "635127666B9E2A4E7A1D03DA0E47D921265DBCFDE13F36345856CC9670CC4999",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T21:11:03.9899227Z",
+                      "observedAt":  "2026-08-16T21:12:12.6902100Z",
+                      "assessedAt":  "2026-08-16T21:12:12.6902100Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-16T21:12:12.5817904Z",
                       "lastAttemptedAt":  "2026-08-16T21:11:03.9899227Z",
-                      "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PETIT LOVE\\B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2\\Owner-Selected-7EBA82E45312.png",
-                      "previewSha256":  "7EBA82E45312A9F34CDEA541B69B3FAB8EACA7DDA704D4DB139B5B1DA5649B3F",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PETIT LOVE\\B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2\\Installed-Approved-635127666B9E.png",
+                      "previewSha256":  "635127666B9E2A4E7A1D03DA0E47D921265DBCFDE13F36345856CC9670CC4999",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T21:11:01.2734446Z",
@@ -2348,7 +2354,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-16T21:12:12.5817904Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected generated file exec-179c14d2-8959-49ee-bff7-0cb62c4b1c24.png and requested install this. The exact selected and rebound preview SHA-256 is 7EBA82E45312A9F34CDEA541B69B3FAB8EACA7DDA704D4DB139B5B1DA5649B3F. Approved preview SHA-256 7EBA82E45312A9F34CDEA541B69B3FAB8EACA7DDA704D4DB139B5B1DA5649B3F. Installed SHA-256 635127666B9E2A4E7A1D03DA0E47D921265DBCFDE13F36345856CC9670CC4999 using normalized-render; rollback PETIT LOVE-bg.png.pre-upscale-20260816-141211.bak preserves original SHA-256 A28952B924F586FA64EC263343FF6C3EE763BCE28C566829764E1BAA0D4DE2E2.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PETIT LOVE\\B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2\\Installed-Approved-635127666B9E.png",
+                                                  "previewSha256":  "635127666B9E2A4E7A1D03DA0E47D921265DBCFDE13F36345856CC9670CC4999"
+                                              }
                                           ]
                   },
                   {
@@ -2956,12 +2968,12 @@
                       "assessedAt":  "2026-08-14T19:43:07.8016404Z",
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
-                      "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "status":  "pending",
+                      "processedAt":  "2026-08-16T21:23:41.4102042Z",
+                      "lastAttemptedAt":  "2026-08-16T21:23:41.4102042Z",
+                      "pendingAction":  "awaiting-install-decision",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WALKIE TALKIE\\6265A87FE0D5218778C22C44766BE6F6EE4A814163A3661E5CB160BD65B817BB\\After-A-1920x1080.png",
+                      "previewSha256":  "4C2B451063137FC4B947AE0ECB1DC526DCEA6314F3C5B01B445C16820799AA40",
                       "attemptHistory":  [
 
                                          ],
@@ -4081,6 +4093,39 @@
                                 "summary":  "Owner bare-install approval resolved only to the sole task-local hash-bound THE 7 JUMP After A. Current source, simfile, preview, game-closed, degraded backup, byte-exact installation, rollback, and installed-proof safeguards behaved as documented; no new reusable lesson or scheduled-behavior change was justified.",
                                 "songPath":  null,
                                 "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T21:14:13.3953517Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly selected the previously rejected raw outpaint with SHA-256 D7ED0804C609FE58112695A53509B28CDA079ED022C5CABD24CEB695F428E0CF. After byte-identical staging and exact rebinding, guarded normalization installed an opaque 1920 x 1080 PNG with SHA-256 EB9FB7592028502E10D1E65F86B848C4EA42EA28261FB1D9E7DEAF94F6195DB6 and verified rollback; this override is specific to PARANOIA EVOLUTION.",
+                                "songPath":  "PARANOIA EVOLUTION",
+                                "fingerprint":  "01A752FF787DCD593884A439F07FDB56043AA7CDD3B816FD0A0BB3586DCBF75B",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T21:14:29.9039445Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected a different generated PETIT LOVE file than the prior bound exact-center candidate. Corrected-path recovery, byte-identical workspace staging, preview-rejected history preservation, exact rebinding, guarded normalized installation, rollback proof, and installed-content migration succeeded. This override is source-specific and does not justify a reusable workflow or scheduled-behavior change.",
+                                "songPath":  "PETIT LOVE",
+                                "fingerprint":  "71CA6FA1E203B415367C98C56F87CB6B59AB9B6A537E211BDAF8CEACE468C980",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T21:24:54.4298569Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful side-extension attempt supplied usable continuation of the horizontal orange-red stripe field but repainted and enlarged the locked title and figures inside the source rectangle. Deterministic exact-center compositing restored the complete source-derived 1440 x 1080 center pixel-for-pixel, used only the generated side material with per-row seam matching, and produced the sole verified opaque 1920 x 1080 After A. Queue, hashes, formatter output, UTF-8/no-BOM, duplicate-path, and closed-game checks passed. No owner feedback or reusable workflow change was claimed.",
+                                "songPath":  "WALKIE TALKIE",
+                                "fingerprint":  "6265A87FE0D5218778C22C44766BE6F6EE4A814163A3661E5CB160BD65B817BB",
                                 "changedFiles":  {
 
                                                  },

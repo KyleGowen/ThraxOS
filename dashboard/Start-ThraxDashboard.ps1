@@ -155,7 +155,8 @@ function Get-Automations {
     $repoPattern = [regex]::Escape($RepoRoot)
     foreach ($file in Get-ChildItem -LiteralPath $automationRoot -Recurse -Filter automation.toml -File -ErrorAction SilentlyContinue) {
         $raw = Get-Content -Raw -LiteralPath $file.FullName
-        if ($raw -notmatch "(?im)^cwds\s*=\s*\[[^\]]*$repoPattern") { continue }
+        $scopeText = $raw -replace '\\\\','\'
+        if ($scopeText -notmatch "(?im)^cwds\s*=\s*\[[^\]]*$repoPattern") { continue }
         $name = if ($raw -match '(?m)^name\s*=\s*"([^"]+)"') { $Matches[1] } else { $file.Directory.Name }
         $status = if ($raw -match '(?m)^status\s*=\s*"([^"]+)"') { $Matches[1] } else { 'UNKNOWN' }
         $rrule = if ($raw -match '(?m)^rrule\s*=\s*"([^"]+)"') { $Matches[1] } else { '' }
