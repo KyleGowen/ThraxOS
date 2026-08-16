@@ -112,6 +112,7 @@ function Invoke-Capability($Capability, $Inputs, [string]$Source = 'manual') {
     $script = switch ($Capability.action) {
         'status' { Join-Path $RepoRoot '.agents\skills\thraxos\scripts\Get-ThraxStatus.ps1' }
         'backup-health' { Join-Path $RepoRoot '.agents\skills\thraxos\scripts\Test-BackupHealth.ps1' }
+        'inheritance-status' { Join-Path $RepoRoot '.agents\skills\thraxos\scripts\Get-AgentOSInheritanceStatus.ps1' }
         'player-levels' { Join-Path $RepoRoot '.agents\skills\get-player-skill-levels\scripts\Get-PlayerSkillLevels.ps1' }
         default { throw 'Capability action is not allowlisted.' }
     }
@@ -138,17 +139,29 @@ function Invoke-Capability($Capability, $Inputs, [string]$Source = 'manual') {
     return [ordered]@{ status=$status; output=$output.Trim() }
 }
 
+function Convert-RRuleToSchedule([string]$RRule) {
+    if ([string]::IsNullOrWhiteSpace($RRule)) { return 'Schedule unavailable' }
+    if ($RRule -match '^FREQ=HOURLY;INTERVAL=(\d+)$') { return "Every $($Matches[1]) hour$(if ($Matches[1] -eq '1') { '' } else { 's' })" }
+    if ($RRule -match '^FREQ=DAILY;BYHOUR=([0-9,]+);BYMINUTE=(\d+)$') {
+        $times = @($Matches[1].Split(',') | ForEach-Object { ('{0:D2}:{1:D2}' -f [int]$_, [int]$Matches[2]) })
+        return "Daily at $($times -join ', ') local time"
+    }
+    return $RRule
+}
+
 function Get-Automations {
     $items = @()
     $automationRoot = Join-Path $env:USERPROFILE '.codex\automations'
+    $repoPattern = [regex]::Escape($RepoRoot)
     foreach ($file in Get-ChildItem -LiteralPath $automationRoot -Recurse -Filter automation.toml -File -ErrorAction SilentlyContinue) {
         $raw = Get-Content -Raw -LiteralPath $file.FullName
+        if ($raw -notmatch "(?im)^cwds\s*=\s*\[[^\]]*$repoPattern") { continue }
         $name = if ($raw -match '(?m)^name\s*=\s*"([^"]+)"') { $Matches[1] } else { $file.Directory.Name }
         $status = if ($raw -match '(?m)^status\s*=\s*"([^"]+)"') { $Matches[1] } else { 'UNKNOWN' }
         $rrule = if ($raw -match '(?m)^rrule\s*=\s*"([^"]+)"') { $Matches[1] } else { '' }
-        $items += [ordered]@{ id=$file.Directory.Name; name=$name; scheduler='Codex'; status=$status; rrule=$rrule; source='live configuration' }
+        $items += [ordered]@{ id=$file.Directory.Name; name=$name; scheduler='Codex'; status=$status; rrule=$rrule; schedule=(Convert-RRuleToSchedule $rrule); source='live configuration' }
     }
-    $items += [ordered]@{ id='ITGManiaBackup'; name='ITGMania Backup'; scheduler='Windows'; status='visibility degraded'; rrule='Daily at 03:00 Pacific (runner polls every minute)'; source='documented schedule and backup logs' }
+    $items += [ordered]@{ id='ITGManiaBackup'; name='ITGMania Backup'; scheduler='Windows'; status='visibility degraded'; rrule='Daily at 03:00 Pacific (runner polls every minute)'; schedule='Daily at 03:00 Pacific; runner checks every minute'; source='documented schedule and backup logs' }
     return $items
 }
 
@@ -213,11 +226,13 @@ try {
                 $inputs = Test-Inputs $capability $body.inputs
                 if ($path -eq '/api/run') { Write-JsonResponse $context 200 (Invoke-Capability $capability $inputs); continue }
                 if ($path -eq '/api/schedules') {
+                    if ($body.acknowledged -ne $true) { throw 'Confirm the dashboard-schedule safety notice before creating a schedule.' }
                     if ($body.frequency -notin @('hourly','daily','weekly')) { throw 'Invalid schedule frequency.' }
                     $startAt = [datetime]$body.startAt
                     if ($startAt -lt (Get-Date).AddMinutes(-1)) { throw 'Start time must be in the future.' }
                     $schedules = @(Get-DashboardSchedules)
-                    $item = [ordered]@{ id=[guid]::NewGuid().ToString('n'); capabilityId=$capability.id; capabilityName=$capability.name; frequency=$body.frequency; nextRunAt=$startAt.ToString('o'); lastRunAt=$null; enabled=$true; inputs=$inputs }
+                    $runPolicy = if ($capability.action -eq 'request') { 'Creates a review request when due' } else { 'Runs the fixed read-only helper when due' }
+                    $item = [ordered]@{ id=[guid]::NewGuid().ToString('n'); capabilityId=$capability.id; capabilityName=$capability.name; frequency=$body.frequency; nextRunAt=$startAt.ToString('o'); lastRunAt=$null; enabled=$true; runPolicy=$runPolicy; inputs=$inputs }
                     @($schedules) + $item | ConvertTo-Json -Depth 10 | Set-Content $SchedulePath -Encoding utf8
                     Write-JsonResponse $context 201 $item; continue
                 }

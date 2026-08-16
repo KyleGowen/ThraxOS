@@ -195,3 +195,10 @@
 - **Decision:** Load the compact commit-pinned `memory/AGENTOS_INHERITANCE.md` cache for relevant tasks. Prefer the configured local AgentOS checkout, fetch metadata only, use committed `origin/main`, ignore uncommitted changes, and inspect only changed recorded source files when the SHA advances.
 - **Decision:** ThraxOS remains authoritative for every Thraximundar-specific rule and reports material conflicts. AgentOS remains authoritative for global governance and course state; writes require explicit approval, a local checkout, and the cache's narrow allowlist.
 - **Rationale:** Commit provenance and selective refresh make inheritance portable, reviewable, and token-efficient without leaking unrelated project context or weakening machine-specific safety.
+
+## 2026-08-16 Arcade Console capability and schedule board
+
+- **Owner-confirmed:** Provide a StepManiaX/DDR-themed, user-friendly web console that shows every ThraxOS skill and current recurring work, collects only predefined inputs, and can schedule allowlisted future work.
+- **Decision:** Reuse the localhost-first Arcade Console. It exposes fixed read-only helpers directly, turns agent-led and mutating work into review requests, discovers only ThraxOS-scoped Codex automations, and translates known recurring schedules into local-time descriptions.
+- **Decision:** Dashboard-created schedules require an explicit in-page acknowledgement, run only while the console is open, and either invoke a fixed read-only helper or create a review request. They never create arbitrary commands or alter Windows Task Scheduler/Codex automations.
+- **Rationale:** The console makes ThraxOS capabilities discoverable and approachable without weakening the host's approval, remote-access, or allowlist boundaries.

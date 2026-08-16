@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
-    "generatedAt":  "2026-08-16T21:08:51.1658079Z",
+    "generatedAt":  "2026-08-16T21:11:03.9899227Z",
     "songs":  [
                   {
                       "songPath":  ".59",
@@ -2333,13 +2333,19 @@
                       "eligible":  true,
                       "reason":  "Static background is not 16:9 and needs fit review.",
                       "status":  "pending",
-                      "processedAt":  "2026-08-16T09:14:41.4737530Z",
-                      "lastAttemptedAt":  "2026-08-16T09:14:41.4737530Z",
+                      "processedAt":  "2026-08-16T21:11:03.9899227Z",
+                      "lastAttemptedAt":  "2026-08-16T21:11:03.9899227Z",
                       "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PETIT LOVE\\B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2\\After-A-1920x1080-v3.png",
-                      "previewSha256":  "80AEAF388FA217474F660B8DEB08036CC67A78FA37B0651F83043105753B44EC",
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PETIT LOVE\\B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2\\Owner-Selected-7EBA82E45312.png",
+                      "previewSha256":  "7EBA82E45312A9F34CDEA541B69B3FAB8EACA7DDA704D4DB139B5B1DA5649B3F",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T21:11:01.2734446Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner explicitly selected a different generated PETIT LOVE file for installation, superseding the previously bound exact-center After A. The prior preview remains preserved in history; selected external SHA-256 is 7EBA82E45312A9F34CDEA541B69B3FAB8EACA7DDA704D4DB139B5B1DA5649B3F.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\PETIT LOVE\\B929237FCC7B82BF1283D34D5BE29DC73BF85EC234B921020BCC79BA423853E2\\After-A-1920x1080-v3.png",
+                                                 "discardedPreviewSha256":  "80AEAF388FA217474F660B8DEB08036CC67A78FA37B0651F83043105753B44EC"
+                                             }
                                          ],
                       "decisionHistory":  [
 
@@ -4064,6 +4070,17 @@
                                 "summary":  "Owner rejected After A because its peripheral geometry enclosed the source spiral within circular or concentric ring forms. For this fingerprint, preserve the red form as one continuous open-ended spiral: separated turns wind outward from the central curl, and the outer sweep continues through the side extension and exits the wide frame. The second and final AI attempt followed that topology; deterministic finishing restored the complete source-derived center and used only the generated peripheral spiral extension. After B is the sole bound candidate.",
                                 "songPath":  "TRIP MACHINE CLIMAX",
                                 "fingerprint":  "A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T21:10:00.0607802Z",
+                                "scope":  "none",
+                                "summary":  "Owner bare-install approval resolved only to the sole task-local hash-bound THE 7 JUMP After A. Current source, simfile, preview, game-closed, degraded backup, byte-exact installation, rollback, and installed-proof safeguards behaved as documented; no new reusable lesson or scheduled-behavior change was justified.",
+                                "songPath":  null,
+                                "fingerprint":  null,
                                 "changedFiles":  {
 
                                                  },

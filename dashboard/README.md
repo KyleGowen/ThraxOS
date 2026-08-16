@@ -28,20 +28,23 @@ local subnet. Never port-forward this service or expose it to the public interne
 ## Safety model
 
 - The browser can select only capability IDs defined in
-  `dashboard/config/capabilities.json`.
+  `dashboard/config/capabilities.json`; the catalog covers every project-local skill and a small set of fixed ThraxOS diagnostics.
 - Inputs are validated by type, allowed values, length, and path roots.
 - Read-only helper scripts run directly with fixed script paths and argument maps.
 - Agent-led and mutating skills create a review request under
   `dashboard/data/requests/`; they do not execute unattended.
-- New schedules use the same allowlist. They are dashboard schedules and run only
-  while the dashboard service is running. They do not modify Windows Task
-  Scheduler or Codex automation configuration.
+- New schedules use the same allowlist and require an in-page acknowledgement.
+  They are dashboard schedules that run only while the dashboard service is
+  running: fixed helpers remain read-only, while other due items create review
+  requests. They do not modify Windows Task Scheduler or Codex automation
+  configuration.
 - Responses omit credentials, profile IDs, serial numbers, and full USB instance
   identifiers.
 
-The dashboard reads the two installed Codex automation TOML files and the
-documented backup schedule. Windows Task Scheduler visibility may be degraded on
-this host because `Get-ScheduledTask` can be access denied.
+The dashboard reads only installed Codex automations scoped to the ThraxOS
+repository, plus the documented backup schedule. It translates known cron rules
+into local-time descriptions. Windows Task Scheduler visibility may be degraded
+on this host because `Get-ScheduledTask` can be access denied.
 
 ## Verify
 
