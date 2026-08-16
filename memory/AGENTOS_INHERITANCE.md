@@ -6,7 +6,7 @@ This compact cache is the only AgentOS content loaded by default in ThraxOS task
 
 - Durable repository: <https://github.com/KyleGowen/AgentOS>.
 - Upstream ref: committed `origin/main`.
-- Upstream commit: `e6389d563058e43cc871e7ecda3a632d43b8ee48`.
+- Upstream commit: `fa0b607c94d36bd69107cb0203b93946bc37f7bf`.
 - Built: 2026-08-16.
 - Configured local checkout: `config/paths.json` key `agentOSCheckout`.
 - Freshness check: `.agents/skills/thraxos/scripts/Get-AgentOSInheritanceStatus.ps1`.
