@@ -221,3 +221,10 @@
 - **Observed:** The installed theme's `ScreenSelectMusic` uses a full-width header, dense music-wheel rows, a singular high-contrast selected row, flat black/blue panels, compact status strips, and a small fixed accent palette. Focused public screenshots and the upstream theme describe the same compact, data-first music-select language.
 - **Decision:** Keep the zero-dependency, shadcn/ui-compatible interaction model, but express it through an original `SELECT MUSIC` screen layout: a top system strip, player/status header, compact information pane, dense cyan-selected jukebox wheel, and flat capability/task rows. Do not copy Simply Love assets, fonts, Lua, screenshots, or source code.
 - **Rationale:** This makes the relationship recognizable to the owner who uses Simply Love daily while preserving accessible browser controls, original implementation, and all local-only safety boundaries.
+
+## 2026-08-16 Start Dashboard skill
+
+- **Owner-confirmed:** Promote starting the LAN-accessible Arcade Console into the project-local `start-dashboard` skill.
+- **Decision:** Keep the existing dashboard server authoritative. The new skill adds a read-only binding/prerequisite preflight and an explicit-approval launcher for localhost or a narrowly constrained private-LAN mode; it does not introduce arbitrary controls, a scheduler, or a public listener.
+- **Decision:** LAN mode requires an owner-selected RFC1918 IPv4 address, a URL-safe local-secret token of at least 32 characters, existing matching URLACL/firewall scope, and a verified token-gated response. It refuses listener replacement and never creates or widens Windows networking rules without a separate approval.
+- **Rationale:** This makes the useful dashboard start procedure reproducible while preserving local-first operation, secret handling, and the owner’s control over network exposure.

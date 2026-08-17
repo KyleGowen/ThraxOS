@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-17T00:55:02.9213076Z",
+    "generatedAt":  "2026-08-17T03:29:51.0549161Z",
     "songs":  [
                   {
                       "songPath":  "[Prime Time] - Green Light (Chromeo Remix)",
@@ -7745,7 +7745,7 @@
                   },
                   {
                       "songPath":  "You Need To Calm Down",
-                      "fingerprint":  "20D9996FDA3FDD8719E0314BB2381F28231A69432CDB2DC03BE80DEC834F3986",
+                      "fingerprint":  "1F555B1695B023460F44354D929A1E6EE449018F77DDEC8CFD657F375BACFBB6",
                       "simfiles":  [
                                        {
                                            "path":  "You Need To Calm Down.ssc",
@@ -7754,19 +7754,41 @@
                                    ],
                       "bannerReference":  "bn.png",
                       "sourcePath":  "bn.png",
-                      "sourceSha256":  "DC97AFD7CC9523146E326A23877E3E2A025BE13866FC139016EEC2908286DF5C",
-                      "sourceWidth":  512,
-                      "sourceHeight":  160,
+                      "sourceSha256":  "8EE2C829E76A7E1C419E818CE2CB76EB2D17C64BB8873101BE6B76E236FC1FFD",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
                       "usedFallback":  false,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is below the 836 x 328 host convention.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-17T03:29:51.0549161Z",
+                      "assessedAt":  "2026-08-17T03:29:51.0549161Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T03:29:49.8852045Z",
+                      "lastAttemptedAt":  "2026-08-17T03:29:24.6372409Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\20D9996FDA3FDD8719E0314BB2381F28231A69432CDB2DC03BE80DEC834F3986-owner-selected-20260816\\You Need To Calm Down-owner-selected-after-836x328.png",
+                      "previewSha256":  "8EE2C829E76A7E1C419E818CE2CB76EB2D17C64BB8873101BE6B76E236FC1FFD",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-17T03:05:37.6601101Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restorations preserved exact once-only visible copy \"YOU NEED TO\" and \"Calm Down\" but failed the locked sparse identity. Attempt 1 repainted the fence/grid and right-edge figure and subtly changed the yellow letter silhouettes, kerning, spacing, and shadow geometry; raw SHA-256 D9972CFFFA2809D4D2A821D616FAE223D2F0343B6833B76DE438F20AB052CE2B, normalized SHA-256 880E36286A09D5848082D753D8062A404ACC46FF34480842CC0646B010C112D3. Attempt 2 used exact 836 x 328 layout reference SHA-256 28B5E41611E3AE8BEE88EF3DF5E99BD9ED50A8C1107EE58F8F6B0D0F0940EF3B but again redrew the Calm Down glyphs and shadows and changed the right-edge figure/grid; raw SHA-256 14F85C706EBDCCB4D5A6D2A7FDA03AB2F5473C774EE9571D3282FDF3093E8210, normalized SHA-256 8EE2C829E76A7E1C419E818CE2CB76EB2D17C64BB8873101BE6B76E236FC1FFD. Future retry must preserve the source letter silhouettes, kerning, arc, black-shadow geometry, fence/grid lines, and exact right-edge figure crop rather than merely reproducing correct words and dimensions.",
+                                                 "priorProcessedAt":  "2026-08-17T03:02:03.0176095Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-17T03:29:49.8852045Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected exact generated file exec-4d013a5e-4a95-4722-8a78-bd6434c6285f.png and requested install; exact-file selection overrides the earlier fidelity rejection only for this fingerprint. No additional reason was provided.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-owner\\20D9996FDA3FDD8719E0314BB2381F28231A69432CDB2DC03BE80DEC834F3986-owner-selected-20260816\\You Need To Calm Down-owner-selected-after-836x328.png",
+                                                  "previewSha256":  "8EE2C829E76A7E1C419E818CE2CB76EB2D17C64BB8873101BE6B76E236FC1FFD"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "8EE2C829E76A7E1C419E818CE2CB76EB2D17C64BB8873101BE6B76E236FC1FFD"
                   },
                   {
                       "songPath":  "You Spin Me Round",

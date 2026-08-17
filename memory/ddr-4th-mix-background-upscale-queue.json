@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
-    "generatedAt":  "2026-08-17T02:26:59.4320448Z",
+    "generatedAt":  "2026-08-17T03:23:50.5185047Z",
     "songs":  [
                   {
                       "songPath":  ".59",
@@ -882,7 +882,7 @@
                   },
                   {
                       "songPath":  "FURUHATA\u0027S THEME",
-                      "fingerprint":  "5FFDA554B58941B3917A1F0F895B088BEFE21D2CC20E560293405EFDC2F11AB5",
+                      "fingerprint":  "BE41F2209195E571BF444E49679F8E4069C1527C9335EE1B5507C64A48A19B77",
                       "simfiles":  [
                                        {
                                            "path":  "FURUHATA\u0027S THEME.sm",
@@ -895,26 +895,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "FURUHATA\u0027S THEME-bg.png",
                       "sourcePath":  "FURUHATA\u0027S THEME-bg.png",
-                      "sourceSha256":  "3A207379C306C643B0C02D9AA22C4F9ED965379D78EBC05AFEF034332821CC64",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "71C35EB451DBC96B0FC41AB55A3D022A2769DB93E771827EF5E5D8A7D7AE7E0E",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T05:53:07.3689650Z",
-                      "lastAttemptedAt":  "2026-08-15T05:53:07.3689650Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T02:36:51.2696347Z",
+                      "assessedAt":  "2026-08-17T02:36:51.2696347Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:36:50.2172183Z",
+                      "lastAttemptedAt":  "2026-08-17T02:36:24.8593844Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a003f6-ed0a-7a72-8129-2d9ac9cb5e0f\\Installed-Approved-71C35EB451DB.png",
+                      "previewSha256":  "71C35EB451DBC96B0FC41AB55A3D022A2769DB93E771827EF5E5D8A7D7AE7E0E",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T05:51:58.0067452Z",
@@ -932,12 +932,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:36:50.2172183Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected exec-12eea5a6-c594-4e89-9602-6f67602681e1.png and requested install; this exact-file choice overrides the prior fidelity rejection only for this fingerprint. Approved preview SHA-256 597C3B149CEBFC7A5C5B8876BEB67ECA4AFA7EBF446F57D95DE5A8AAE290E2A5. Installed SHA-256 71C35EB451DBC96B0FC41AB55A3D022A2769DB93E771827EF5E5D8A7D7AE7E0E using normalized-render; rollback FURUHATA\u0027S THEME-bg.png.pre-upscale-20260816-193642.bak preserves original SHA-256 3A207379C306C643B0C02D9AA22C4F9ED965379D78EBC05AFEF034332821CC64.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a003f6-ed0a-7a72-8129-2d9ac9cb5e0f\\Installed-Approved-71C35EB451DB.png",
+                                                  "previewSha256":  "71C35EB451DBC96B0FC41AB55A3D022A2769DB93E771827EF5E5D8A7D7AE7E0E"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Get me in your sight (AMD CANCUN MIX)",
-                      "fingerprint":  "EDE7A35DC8A5FA5BEFA6A0B78351D0EC5560E9A19171283D6AB049A3026D6F51",
+                      "fingerprint":  "0642F137820302844EC7D5614CFBF38FDB5EA9222D90B8F88FF9E6AA9CBECCE3",
                       "simfiles":  [
                                        {
                                            "path":  "Get me in your sight (AMD CANCUN MIX).sm",
@@ -950,26 +956,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "Get me in your sight (AMD CANCUN MIX)-bg.png",
                       "sourcePath":  "Get me in your sight (AMD CANCUN MIX)-bg.png",
-                      "sourceSha256":  "1F6CFD50CDB8997CCA37193BABCE6507780071CB67AD48C2ADC25505BC8D83FB",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "DFED9835D836D26E54130D473AB5266CED98BE6233F3FFA8AFE00D7AF719E60C",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T06:54:03.0170801Z",
-                      "lastAttemptedAt":  "2026-08-15T06:54:03.0170801Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T02:37:14.9869961Z",
+                      "assessedAt":  "2026-08-17T02:37:14.9869961Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:37:14.4903460Z",
+                      "lastAttemptedAt":  "2026-08-17T02:36:22.1178273Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-install\\get-me-in-your-sight\\Installed-Approved-DFED9835D836.png",
+                      "previewSha256":  "DFED9835D836D26E54130D473AB5266CED98BE6233F3FFA8AFE00D7AF719E60C",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T06:52:39.7496363Z",
@@ -987,12 +993,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:37:14.4903460Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected exact previously displayed exec-975faca5-03a2-4add-ae7c-1fc74ee14c9f.png and requested install, overriding the earlier fidelity rejection only for this fingerprint. Approved preview SHA-256 038F048AB97F5E0330BF11BCC75C66534EC2447F0117F11409A9079F56FA78DA. Installed SHA-256 DFED9835D836D26E54130D473AB5266CED98BE6233F3FFA8AFE00D7AF719E60C using normalized-render; rollback Get me in your sight (AMD CANCUN MIX)-bg.png.pre-upscale-20260816-193712.bak preserves original SHA-256 1F6CFD50CDB8997CCA37193BABCE6507780071CB67AD48C2ADC25505BC8D83FB.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-install\\get-me-in-your-sight\\Installed-Approved-DFED9835D836.png",
+                                                  "previewSha256":  "DFED9835D836D26E54130D473AB5266CED98BE6233F3FFA8AFE00D7AF719E60C"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH)",
-                      "fingerprint":  "2D5E3E7C966B7C6D02BF1934FD6E0403810E95707401EAAA2BF26C55B2A3B2A7",
+                      "fingerprint":  "6DFA78F9D8058A59CB2ECE1DE0D2F348C3D564349C7A8508F7AC418260EBC97E",
                       "simfiles":  [
                                        {
                                            "path":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH).sm",
@@ -1005,26 +1017,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH)-bg.png",
                       "sourcePath":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH)-bg.png",
-                      "sourceSha256":  "11B867DE142D6A20F20FF0EC7DFFFE895BB4DF7DE0329858F19F52A417FFAB9C",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "2A509C8B2375DCFA07EFC5EFDC1C53D26999863FE028A3C1E58917713523610D",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T07:53:55.8191074Z",
-                      "lastAttemptedAt":  "2026-08-15T07:53:55.8191074Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T02:36:06.0658345Z",
+                      "assessedAt":  "2026-08-17T02:36:06.0658345Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:36:05.5832376Z",
+                      "lastAttemptedAt":  "2026-08-17T02:35:04.8797367Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00464-d1b2-7760-96ba-c613e0664e07\\Installed-Approved-2A509C8B2375.png",
+                      "previewSha256":  "2A509C8B2375DCFA07EFC5EFDC1C53D26999863FE028A3C1E58917713523610D",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T07:52:38.7028732Z",
@@ -1042,12 +1054,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:36:05.5832376Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner named exec-317f479c-94e2-49d6-95bd-4ae4caeda5ab.png and requested install on 2026-08-16, explicitly overriding its prior fidelity rejection only for this fingerprint. Approved preview SHA-256 C52B2824EBEEB81927E5D273F44FB51717FF0E5D791B8AEE198366DF239B07EB. Installed SHA-256 2A509C8B2375DCFA07EFC5EFDC1C53D26999863FE028A3C1E58917713523610D using normalized-render; rollback GOTCHA (The Theme From STARSKY \u0026 HUTCH)-bg.png.pre-upscale-20260816-193603.bak preserves original SHA-256 11B867DE142D6A20F20FF0EC7DFFFE895BB4DF7DE0329858F19F52A417FFAB9C.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00464-d1b2-7760-96ba-c613e0664e07\\Installed-Approved-2A509C8B2375.png",
+                                                  "previewSha256":  "2A509C8B2375DCFA07EFC5EFDC1C53D26999863FE028A3C1E58917713523610D"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)",
-                      "fingerprint":  "7E813F9EFA6FACFD182F0B5C1BC9C24CB5BD9CCBCF4D3F04138E5814958096FB",
+                      "fingerprint":  "7BAC73B6A53D2FB4B29EC7BDA4F407AECA9186C94B4F1DB868D5832B9ED8F1D8",
                       "simfiles":  [
                                        {
                                            "path":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX).sm",
@@ -1060,26 +1078,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)-bg.png",
                       "sourcePath":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)-bg.png",
-                      "sourceSha256":  "A49438D2BC0CB574947CC27156CBF64104CE6F38495DC6A2AF9B488BC0BC3BE9",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "205A6DE2D03D3047677227005A0815C70A0B0625FB7E7AE6CA964118E262D82E",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T08:55:31.4570401Z",
-                      "lastAttemptedAt":  "2026-08-15T08:55:31.4570401Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T02:35:32.8328776Z",
+                      "assessedAt":  "2026-08-17T02:35:32.8328776Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:35:32.5957711Z",
+                      "lastAttemptedAt":  "2026-08-17T02:35:29.5658348Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a0049c-ade6-7d80-9bb3-18de7a3343a2\\Installed-Approved-205A6DE2D03D.png",
+                      "previewSha256":  "205A6DE2D03D3047677227005A0815C70A0B0625FB7E7AE6CA964118E262D82E",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T08:54:16.5644919Z",
@@ -1097,7 +1115,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:35:32.5957711Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected generated file exec-0d4fd9b5-25ab-4bde-a7b5-afa32011600c.png and said install, explicitly overriding the prior fidelity rejection for this exact fingerprint. Approved preview SHA-256 C3307023C3BC3730E3AB916954BA176680452772228740CF4262AF3F23704E66. Installed SHA-256 205A6DE2D03D3047677227005A0815C70A0B0625FB7E7AE6CA964118E262D82E using normalized-render; rollback HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)-bg.png.pre-upscale-20260816-193530.bak preserves original SHA-256 A49438D2BC0CB574947CC27156CBF64104CE6F38495DC6A2AF9B488BC0BC3BE9.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a0049c-ade6-7d80-9bb3-18de7a3343a2\\Installed-Approved-205A6DE2D03D.png",
+                                                  "previewSha256":  "205A6DE2D03D3047677227005A0815C70A0B0625FB7E7AE6CA964118E262D82E"
+                                              }
                                           ]
                   },
                   {
@@ -4702,6 +4726,61 @@
                                 "summary":  "Owner explicitly selected the previously rejected raw second output for this exact source. Exact-path correction, byte-identical staging proof, hash rebinding, normalized 1920 x 1080 installation, rollback verification, and installed-content fingerprint migration succeeded; this override is source-specific.",
                                 "songPath":  "IF YOU WERE HERE (B4 ZA BEAT MIX)",
                                 "fingerprint":  "2BCE9E096A28326522F6F2FE983E1D24F3C338C5449AA7A0F3632561504FB2E9",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:38:05.0518121Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected previously rejected raw Attempt 1; the exact-file override was deterministically normalized and installed with verified rollback only for this fingerprint.",
+                                "songPath":  "GOTCHA (The Theme From STARSKY \u0026 HUTCH)",
+                                "fingerprint":  "6DFA78F9D8058A59CB2ECE1DE0D2F348C3D564349C7A8508F7AC418260EBC97E",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:38:08.5130490Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected the previously rejected Attempt A by exact generated filename and approved installation; this overrides the earlier fidelity rejection only for this source fingerprint and does not generalize to other queue items.",
+                                "songPath":  "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)",
+                                "fingerprint":  "7BAC73B6A53D2FB4B29EC7BDA4F407AECA9186C94B4F1DB868D5832B9ED8F1D8",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:38:28.4483562Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected previously rejected raw Attempt A by exact filename and requested installation. Treat that exact-file choice as a source-specific override only; it does not generalize the invented-figure fidelity drift as acceptable for other backgrounds.",
+                                "songPath":  "FURUHATA\u0027S THEME",
+                                "fingerprint":  "BE41F2209195E571BF444E49679F8E4069C1527C9335EE1B5507C64A48A19B77",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:39:46.6251094Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly selected the previously rejected raw second output and requested installation. That exact-file choice overrides the automated fidelity rejection only for this fingerprint; guarded deterministic normalization and installation succeeded without establishing a reusable workflow change.",
+                                "songPath":  "Get me in your sight (AMD CANCUN MIX)",
+                                "fingerprint":  "0642F137820302844EC7D5614CFBF38FDB5EA9222D90B8F88FF9E6AA9CBECCE3",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T03:23:50.5185047Z",
+                                "scope":  "none",
+                                "summary":  "Scheduled refresh found no selectable explicit-static fingerprints after current live-state reassessment; two existing candidates remain pending for installation decisions, six active-BGCHANGES records remain excluded, and no source-specific or reusable lesson was established.",
+                                "songPath":  null,
+                                "fingerprint":  null,
                                 "changedFiles":  {
 
                                                  },

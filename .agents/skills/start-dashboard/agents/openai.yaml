@@ -1,0 +1,4 @@
+interface:
+  display_name: "Start Dashboard"
+  short_description: "Launch and verify the local arcade console"
+  default_prompt: "Use $start-dashboard to launch and verify the ThraxOS Arcade Console."
