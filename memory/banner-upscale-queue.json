@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\Misc. Collected",
-    "generatedAt":  "2026-08-16T20:56:45.1932288Z",
+    "generatedAt":  "2026-08-17T00:55:02.9213076Z",
     "songs":  [
                   {
                       "songPath":  "[Prime Time] - Green Light (Chromeo Remix)",
@@ -7644,7 +7644,7 @@
                   },
                   {
                       "songPath":  "World In Motion",
-                      "fingerprint":  "40DC12AD4C23D16467C9E96D89070FA5E3C5EBA278ED13FB00FB7C1637538F1C",
+                      "fingerprint":  "ADE0D2EC81FC3730F73C7F4CD85FBE8D8F520148C9AE553E14572158C9E16872",
                       "simfiles":  [
                                        {
                                            "path":  "World In Motion.sm",
@@ -7656,20 +7656,42 @@
                                        }
                                    ],
                       "bannerReference":  "banner.png",
-                      "sourcePath":  "World In Motion.png",
-                      "sourceSha256":  "470BABBAD64CC3CC7B19A708085578E0152D6CB77F7AFE3290E4765A969AA939",
-                      "sourceWidth":  256,
-                      "sourceHeight":  80,
-                      "usedFallback":  true,
-                      "observedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "assessedAt":  "2026-08-02T07:38:29.8360394Z",
-                      "eligible":  true,
-                      "reason":  "Referenced banner is missing; a decodable banner-shaped fallback is available.",
-                      "status":  "eligible",
-                      "processedAt":  null,
+                      "sourcePath":  "banner.png",
+                      "sourceSha256":  "7F14F91F405975BC1D8D2DBEE9144D78734CD12307314FFED3755703DB170233",
+                      "sourceWidth":  836,
+                      "sourceHeight":  328,
+                      "usedFallback":  false,
+                      "generationMode":  null,
+                      "observedAt":  "2026-08-17T00:55:02.9213076Z",
+                      "assessedAt":  "2026-08-17T00:55:02.9213076Z",
+                      "eligible":  false,
+                      "reason":  "The exact owner-approved preview is installed.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T00:55:01.3105037Z",
+                      "lastAttemptedAt":  "2026-08-17T00:53:55.5602879Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\40DC12AD4C23D16467C9E96D89070FA5E3C5EBA278ED13FB00FB7C1637538F1C\\World In Motion-attempt-1-836x328.png",
+                      "previewSha256":  "7F14F91F405975BC1D8D2DBEE9144D78734CD12307314FFED3755703DB170233",
+                      "attemptHistory":  [
+                                             {
+                                                 "recordedAt":  "2026-08-16T23:07:10.1425960Z",
+                                                 "outcome":  "generation-failed",
+                                                 "note":  "Both permitted GPT Image 2 restorations were recoverable and normalized opaque 836 x 328 but failed locked sparse-identity fidelity. Attempt 1 raw/normalized SHA-256 8F4A701C4F4A105B915B430DD0437F0C8344B0E95C2DF65470C4EA8100770A97 / 7F14F91F405975BC1D8D2DBEE9144D78734CD12307314FFED3755703DB170233 massively enlarged and recentered both text lines and the emblem, re-typeset the compact italic copy, changed the dark-blue angular stem and tiny cyan diamond into larger stacked shapes, and added a strong cyan-to-blue gradient. Attempt 2 used exact 836 x 328 layout reference SHA-256 A07D00342E13F0870F869A6E1EADA3A25B228EC854C3924EE60D81B2FD2372F6; raw/normalized SHA-256 2C5FFEF66F11BB6E5A51BCB334D8E7079B9B729D3EDC50BEB9297170155862E5 / 0E2CB7B4C6A215BC7F3B96013B31B8A18B185D0BD24DC6BE92A3B9336216F86E instead shrank and moved the entire source block toward the middle-left, changed the exact neworder and world in motion... letter silhouettes/kerning/footprints, replaced the angular stem/tiny cyan diamond with stacked blue polygon shapes, and retained a gradient/stronger texture. Future restoration must preserve the source-relative nearly full-width left-aligned block, exact once-only lowercase neworder and world in motion... copy with exactly three dots, original compact italic letterforms, exact small emblem geometry, flat turquoise field, and large negative space; do not enlarge, recenter, shrink, re-typeset, or add gradients.",
+                                                 "priorProcessedAt":  "2026-08-16T23:03:15.9562526Z",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             }
+                                         ],
+                      "decisionHistory":  [
+                                              {
+                                                  "recordedAt":  "2026-08-17T00:55:01.3105037Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected generated file exec-23bc54c6-8cab-4eb6-8af9-8590c99914fb.png and requested installation; no additional reason was provided. Exact-file selection overrides the prior automated fidelity rejection only for this fingerprint.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\banner-upscale-hourly\\40DC12AD4C23D16467C9E96D89070FA5E3C5EBA278ED13FB00FB7C1637538F1C\\World In Motion-attempt-1-836x328.png",
+                                                  "previewSha256":  "7F14F91F405975BC1D8D2DBEE9144D78734CD12307314FFED3755703DB170233"
+                                              }
+                                          ],
+                      "installedSourceSha256":  "7F14F91F405975BC1D8D2DBEE9144D78734CD12307314FFED3755703DB170233"
                   },
                   {
                       "songPath":  "Yakko\u0027s World",

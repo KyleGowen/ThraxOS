@@ -1,7 +1,7 @@
 {
     "schemaVersion":  2,
     "packPath":  "C:\\Games\\ITGmania\\Songs\\DDR 4th Mix",
-    "generatedAt":  "2026-08-16T21:24:54.4298569Z",
+    "generatedAt":  "2026-08-17T02:26:59.4320448Z",
     "songs":  [
                   {
                       "songPath":  ".59",
@@ -1102,7 +1102,7 @@
                   },
                   {
                       "songPath":  "HERO (HAPPY GRANDALE MIX)",
-                      "fingerprint":  "7B511DA81DD84CB62AA202C1594CB71553E26ABE3C271B8C8104E23F75A5A6C1",
+                      "fingerprint":  "3EA5AAC8426F43075218DF8695A0ABD6B63DD59EAA6B78128E59011D8F255EC8",
                       "simfiles":  [
                                        {
                                            "path":  "HERO (HAPPY GRANDALE MIX).sm",
@@ -1115,26 +1115,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "HERO (HAPPY GRANDALE MIX)-bg.png",
                       "sourcePath":  "HERO (HAPPY GRANDALE MIX)-bg.png",
-                      "sourceSha256":  "D8FCAB976B702F5659C6BBE2590A89CC211E1974BCBF25C3FD8E94CCBA9956F0",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "71C07F068365981C84EFA1EEDB99F79BF2EC6C16B89977D764FB06F4C411F066",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T09:54:20.5397719Z",
-                      "lastAttemptedAt":  "2026-08-15T09:54:20.5397719Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T02:24:19.5490162Z",
+                      "assessedAt":  "2026-08-17T02:24:19.5490162Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:24:18.7045887Z",
+                      "lastAttemptedAt":  "2026-08-17T02:23:42.0725216Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\hero-happy-grandale-mix\\Installed-Approved-71C07F068365.png",
+                      "previewSha256":  "71C07F068365981C84EFA1EEDB99F79BF2EC6C16B89977D764FB06F4C411F066",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T09:52:59.9211714Z",
@@ -1152,12 +1152,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:24:18.7045887Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner named exec-85312184-d508-4b7e-8c60-204de0bf9192.png and requested install, overriding the earlier fidelity rejection only for exact SHA-256 3A4D084B8A0748CEDD931A1B5CF0C6FDF2924026C7C5EA9E9BC8CB018DA21BAE. Approved preview SHA-256 3A4D084B8A0748CEDD931A1B5CF0C6FDF2924026C7C5EA9E9BC8CB018DA21BAE. Installed SHA-256 71C07F068365981C84EFA1EEDB99F79BF2EC6C16B89977D764FB06F4C411F066 using normalized-render; rollback HERO (HAPPY GRANDALE MIX)-bg.png.pre-upscale-20260816-192412.bak preserves original SHA-256 D8FCAB976B702F5659C6BBE2590A89CC211E1974BCBF25C3FD8E94CCBA9956F0.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\hero-happy-grandale-mix\\Installed-Approved-71C07F068365.png",
+                                                  "previewSha256":  "71C07F068365981C84EFA1EEDB99F79BF2EC6C16B89977D764FB06F4C411F066"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "HIGHER",
-                      "fingerprint":  "6D7FFB16B216DCDAF39AEB172D21B936A51F4D553CB7EA7C5D008C9E9C5E73FF",
+                      "fingerprint":  "64D45A364FB0F1513EFBF21141D159A2198BCD5B3C388C943A277304AD1643D4",
                       "simfiles":  [
                                        {
                                            "path":  "HIGHER.sm",
@@ -1170,26 +1176,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "HIGHER-bg.png",
                       "sourcePath":  "HIGHER-bg.png",
-                      "sourceSha256":  "D41F2DBA856172431D74CEED29BCB0131454ECC0D45D75829B35CCD2958CE630",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "A0163005C20A862F51BB0A5D74A2626EBC320DBCFCED81AA51A0B1DACA1ECD57",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T10:54:27.5324842Z",
-                      "lastAttemptedAt":  "2026-08-15T10:54:27.5324842Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T02:21:38.8787986Z",
+                      "assessedAt":  "2026-08-17T02:21:38.8787986Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:21:37.9934200Z",
+                      "lastAttemptedAt":  "2026-08-17T02:21:09.4625238Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\HIGHER\\6D7FFB16B216DCDAF39AEB172D21B936A51F4D553CB7EA7C5D008C9E9C5E73FF\\Installed-Approved-A0163005C20A.png",
+                      "previewSha256":  "A0163005C20A862F51BB0A5D74A2626EBC320DBCFCED81AA51A0B1DACA1ECD57",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T10:54:27.5324842Z",
@@ -1200,12 +1206,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:21:37.9934200Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected exact After B file exec-35bebcc7-9567-4919-abb0-4fe91c5a80e1.png and requested install; this exact-file choice overrides the prior fidelity rejection only for this fingerprint. Approved preview SHA-256 C75D23E0F3DBAC902BF6304D4D6EC003EF076D1039EBB15D849344ED2CE021FC. Installed SHA-256 A0163005C20A862F51BB0A5D74A2626EBC320DBCFCED81AA51A0B1DACA1ECD57 using normalized-render; rollback HIGHER-bg.png.pre-upscale-20260816-192135.bak preserves original SHA-256 D41F2DBA856172431D74CEED29BCB0131454ECC0D45D75829B35CCD2958CE630.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\HIGHER\\6D7FFB16B216DCDAF39AEB172D21B936A51F4D553CB7EA7C5D008C9E9C5E73FF\\Installed-Approved-A0163005C20A.png",
+                                                  "previewSha256":  "A0163005C20A862F51BB0A5D74A2626EBC320DBCFCED81AA51A0B1DACA1ECD57"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Holic",
-                      "fingerprint":  "716FE9F546A212CE188B640FB8A1FBD896CD38505469E9C7E0BD832A1B2BC4FF",
+                      "fingerprint":  "11EE38C56C92029C4DA24852E046BBC091D18EFC1AA3D7A6C2F0DD2DB9A52F3D",
                       "simfiles":  [
                                        {
                                            "path":  "Holic.sm",
@@ -1218,26 +1230,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "Holic-bg.png",
                       "sourcePath":  "Holic-bg.png",
-                      "sourceSha256":  "3B24C4A97CF302452AB8E502371BB82FFA39AC335EC6026366221E2B70223B0B",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "4EB3A8056DDB24B5FD41961961D7C01977D13F12AA1729FD9DD3836CC49F25AB",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T11:55:57.5403433Z",
-                      "lastAttemptedAt":  "2026-08-15T11:55:57.5403433Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T02:20:43.1751763Z",
+                      "assessedAt":  "2026-08-17T02:20:43.1751763Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:20:42.7327947Z",
+                      "lastAttemptedAt":  "2026-08-17T02:20:18.8875787Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00542-f6da-73c2-abb9-a9e68b2bff2c\\Installed-Approved-4EB3A8056DDB.png",
+                      "previewSha256":  "4EB3A8056DDB24B5FD41961961D7C01977D13F12AA1729FD9DD3836CC49F25AB",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T11:55:57.5403433Z",
@@ -1248,7 +1260,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:20:42.7327947Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected exact previously displayed Attempt B file exec-3e2173c5-67eb-4f9e-92dc-69925b3bb2e1.png and requested install; selected preview SHA-256 64D07C043AFFF14729E1A530D25A50DF5F0DDACE15848B5031C95F070EC570DF. Approved preview SHA-256 64D07C043AFFF14729E1A530D25A50DF5F0DDACE15848B5031C95F070EC570DF. Installed SHA-256 4EB3A8056DDB24B5FD41961961D7C01977D13F12AA1729FD9DD3836CC49F25AB using normalized-render; rollback Holic-bg.png.pre-upscale-20260816-192039.bak preserves original SHA-256 3B24C4A97CF302452AB8E502371BB82FFA39AC335EC6026366221E2B70223B0B.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00542-f6da-73c2-abb9-a9e68b2bff2c\\Installed-Approved-4EB3A8056DDB.png",
+                                                  "previewSha256":  "4EB3A8056DDB24B5FD41961961D7C01977D13F12AA1729FD9DD3836CC49F25AB"
+                                              }
                                           ]
                   },
                   {
@@ -1375,7 +1393,7 @@
                   },
                   {
                       "songPath":  "IF YOU WERE HERE (B4 ZA BEAT MIX)",
-                      "fingerprint":  "B5F3DE91949BB4A35614C2392585750C25BE0EB236EBE32DA039B5AC2A5D8D4D",
+                      "fingerprint":  "2BCE9E096A28326522F6F2FE983E1D24F3C338C5449AA7A0F3632561504FB2E9",
                       "simfiles":  [
                                        {
                                            "path":  "IF YOU WERE HERE (B4 ZA BEAT MIX).sm",
@@ -1388,26 +1406,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "IF YOU WERE HERE (B4 ZA BEAT MIX)-bg.png",
                       "sourcePath":  "IF YOU WERE HERE (B4 ZA BEAT MIX)-bg.png",
-                      "sourceSha256":  "26AFFF91FAC94F42BE0AF395D2A3266C31D82535FF7CB6CCA9C9A82F8E1CA565",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "941BAC95B0FF5EF0BD3C9FB549B80A4CE0BD07E9BE8F22FC56CBDCEF968F5FDC",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T14:58:21.7181630Z",
-                      "lastAttemptedAt":  "2026-08-15T14:58:21.7181630Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T02:22:32.3304679Z",
+                      "assessedAt":  "2026-08-17T02:22:32.3304679Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:22:31.5984362Z",
+                      "lastAttemptedAt":  "2026-08-17T02:20:52.4178311Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a005ea-1739-7ee0-9a63-cc949e1a9f20\\Installed-Approved-941BAC95B0FF.png",
+                      "previewSha256":  "941BAC95B0FF5EF0BD3C9FB549B80A4CE0BD07E9BE8F22FC56CBDCEF968F5FDC",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T14:58:21.7181630Z",
@@ -1418,7 +1436,13 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:22:31.5984362Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly named exec-4038b964-a909-4c0f-b635-4e1e28be84a4.png and said install, approving this exact hash despite the earlier fidelity rejection. Approved preview SHA-256 83AE67F5389CBFE82E2B9BC2765CF84AD38CBAA971AF5A54BDA5845D81B61B2E. Installed SHA-256 941BAC95B0FF5EF0BD3C9FB549B80A4CE0BD07E9BE8F22FC56CBDCEF968F5FDC using normalized-render; rollback IF YOU WERE HERE (B4 ZA BEAT MIX)-bg.png.pre-upscale-20260816-192226.bak preserves original SHA-256 26AFFF91FAC94F42BE0AF395D2A3266C31D82535FF7CB6CCA9C9A82F8E1CA565.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a005ea-1739-7ee0-9a63-cc949e1a9f20\\Installed-Approved-941BAC95B0FF.png",
+                                                  "previewSha256":  "941BAC95B0FF5EF0BD3C9FB549B80A4CE0BD07E9BE8F22FC56CBDCEF968F5FDC"
+                                              }
                                           ]
                   },
                   {
@@ -1465,7 +1489,7 @@
                   },
                   {
                       "songPath":  "KICK THE CAN",
-                      "fingerprint":  "DBE1819971C0DE8179CE2307B780B0634ABFDB8515CAE2209049C26FCE09BE74",
+                      "fingerprint":  "E197506A3234D73BAAECF918F83CDCC82D40CB5ABB198FB8F9FE5532A2A17077",
                       "simfiles":  [
                                        {
                                            "path":  "KICK THE CAN.sm",
@@ -1478,26 +1502,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "KICK THE CAN-bg.png",
                       "sourcePath":  "KICK THE CAN-bg.png",
-                      "sourceSha256":  "B05EFB16E4B39724241DCA2AE76733A68890C21708674B6A1078D7FCC78A2DFC",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "394DA26468D72F96C6563C201FFB212759E4B7C083AE75B3715BE85961702E2B",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T15:59:15.6194198Z",
-                      "lastAttemptedAt":  "2026-08-15T15:59:15.6194198Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:53:11.2075426Z",
+                      "assessedAt":  "2026-08-17T01:53:11.2075426Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:53:10.9689247Z",
+                      "lastAttemptedAt":  "2026-08-17T01:52:32.8266749Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00621-8c72-7e82-a61b-01c0589dbb6e\\Installed-Approved-394DA26468D7.png",
+                      "previewSha256":  "394DA26468D72F96C6563C201FFB212759E4B7C083AE75B3715BE85961702E2B",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T15:59:15.6194198Z",
@@ -1508,12 +1532,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:53:10.9689247Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner named exec-b3ea06b9-5123-4c25-9ae7-c6c9cf131745.png and requested install, explicitly overriding the prior fidelity rejection for BUS★STOP - KICK THE CAN only for this exact artifact. Approved preview SHA-256 6E15212E6ADD525272B4D493119339F219CDA49FFCC742D80FF5C8443E5FD664. Installed SHA-256 394DA26468D72F96C6563C201FFB212759E4B7C083AE75B3715BE85961702E2B using normalized-render; rollback KICK THE CAN-bg.png.pre-upscale-20260816-185310.bak preserves original SHA-256 B05EFB16E4B39724241DCA2AE76733A68890C21708674B6A1078D7FCC78A2DFC.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00621-8c72-7e82-a61b-01c0589dbb6e\\Installed-Approved-394DA26468D7.png",
+                                                  "previewSha256":  "394DA26468D72F96C6563C201FFB212759E4B7C083AE75B3715BE85961702E2B"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "LEADING CYBER",
-                      "fingerprint":  "3422A91B1631593C4E3BC4387331B21191AB163FBCB90800551B149481527844",
+                      "fingerprint":  "987EC6A0F214CFB1F73A626CFDC355251B6171320FE42D94DD44FF7EAA10703E",
                       "simfiles":  [
                                        {
                                            "path":  "LEADING CYBER.sm",
@@ -1526,26 +1556,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "LEADING CYBER-bg.png",
                       "sourcePath":  "LEADING CYBER-bg.png",
-                      "sourceSha256":  "2A1BFC2E1BDC7F35DB74E57FC3DD61BEDC0A065F4BC52B6A5EAD34D22EE2F8A6",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "4A20E49F719BBCC9DA1BE11AF1C692CA376D1396E595B5C2A613533F229EBB60",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T16:59:52.4013499Z",
-                      "lastAttemptedAt":  "2026-08-15T16:59:52.4013499Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:52:50.3785044Z",
+                      "assessedAt":  "2026-08-17T01:52:50.3785044Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:52:50.1624372Z",
+                      "lastAttemptedAt":  "2026-08-17T01:52:33.8968067Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\20260816-leading-cyber-owner-install\\Installed-Approved-4A20E49F719B.png",
+                      "previewSha256":  "4A20E49F719BBCC9DA1BE11AF1C692CA376D1396E595B5C2A613533F229EBB60",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T16:59:52.4013499Z",
@@ -1556,12 +1586,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:52:50.1624372Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected exec-c06dc76f-fb81-4cc0-9c46-ac6fcde822ae.png for installation, overriding the prior automated fidelity rejection for this exact fingerprint. Approved preview SHA-256 60C47E085D3571F55B9DC624D04A0129ACCE96583653A6A57C976E57C0414BB9. Installed SHA-256 4A20E49F719BBCC9DA1BE11AF1C692CA376D1396E595B5C2A613533F229EBB60 using normalized-render; rollback LEADING CYBER-bg.png.pre-upscale-20260816-185249.bak preserves original SHA-256 2A1BFC2E1BDC7F35DB74E57FC3DD61BEDC0A065F4BC52B6A5EAD34D22EE2F8A6.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\20260816-leading-cyber-owner-install\\Installed-Approved-4A20E49F719B.png",
+                                                  "previewSha256":  "4A20E49F719BBCC9DA1BE11AF1C692CA376D1396E595B5C2A613533F229EBB60"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Let the beat hit em!",
-                      "fingerprint":  "1C85669390309879E8098A58231A52FC40B125ECF07EF0C8DBB69CB575ECC6B2",
+                      "fingerprint":  "CB5EA593E1B0C624084082E16FE0FEC89117BA3FA11B3AC44BB0FE7C4E49E397",
                       "simfiles":  [
                                        {
                                            "path":  "Let the beat hit em!.sm",
@@ -1574,24 +1610,24 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "Let the beat hit em!-bg.png",
                       "sourcePath":  "Let the beat hit em!-bg.png",
-                      "sourceSha256":  "506F5F199C911B573EE55919631DB4ECB02617955A79BFE1F55357CDD936D2C1",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "1F00A34980612092AB6EBD69B6A34083D1BE550A5ED988140BB77D31C718FB80",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T18:03:07.5566130Z",
+                      "observedAt":  "2026-08-17T01:36:45.3808564Z",
+                      "assessedAt":  "2026-08-17T01:36:45.3808564Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:36:42.9772855Z",
                       "lastAttemptedAt":  "2026-08-15T18:03:07.5566130Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Let the beat hit em!\\1C85669390309879E8098A58231A52FC40B125ECF07EF0C8DBB69CB575ECC6B2\\After-A-1920x1080.png",
                       "previewSha256":  "1F00A34980612092AB6EBD69B6A34083D1BE550A5ED988140BB77D31C718FB80",
                       "attemptHistory":  [
@@ -1604,12 +1640,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:36:42.9772855Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied bare install, approving the sole displayed and exact hash-bound Stone Bros. - Let the beat hit em! After A, SHA-256 1F00A34980612092AB6EBD69B6A34083D1BE550A5ED988140BB77D31C718FB80. Approved preview SHA-256 1F00A34980612092AB6EBD69B6A34083D1BE550A5ED988140BB77D31C718FB80. Installed SHA-256 1F00A34980612092AB6EBD69B6A34083D1BE550A5ED988140BB77D31C718FB80 using byte-exact-copy; rollback Let the beat hit em!-bg.png.pre-upscale-20260816-183634.bak preserves original SHA-256 506F5F199C911B573EE55919631DB4ECB02617955A79BFE1F55357CDD936D2C1.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Let the beat hit em!\\1C85669390309879E8098A58231A52FC40B125ECF07EF0C8DBB69CB575ECC6B2\\After-A-1920x1080.png",
+                                                  "previewSha256":  "1F00A34980612092AB6EBD69B6A34083D1BE550A5ED988140BB77D31C718FB80"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Let\u0027s talk it over",
-                      "fingerprint":  "AE2A221D80574D9E9662460D6FE062CCC170A37B193737ACF9EA655013B44831",
+                      "fingerprint":  "BD3FE38A99E4B9B8F0EC3B188C3B4DB4FD7A0AB91D9C88D6DD835C6787C9ED46",
                       "simfiles":  [
                                        {
                                            "path":  "Let\u0027s talk it over.sm",
@@ -1622,36 +1664,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "Let\u0027s talk it over-bg.png",
                       "sourcePath":  "Let\u0027s talk it over-bg.png",
-                      "sourceSha256":  "75AF82DCD3E192360F36289C1718B9DF65ABD6AD094039576A0D98C0E99ADDC4",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "5C926DECF13200B3834F767559A4B0CBF8B36465B6B65D8E97793DF900EBAA32",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T19:03:45.7972493Z",
+                      "observedAt":  "2026-08-17T01:52:12.3686680Z",
+                      "assessedAt":  "2026-08-17T01:52:12.3686680Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:52:12.1130736Z",
                       "lastAttemptedAt":  "2026-08-15T19:03:45.7972493Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Let\u0027s talk it over\\AE2A221D80574D9E9662460D6FE062CCC170A37B193737ACF9EA655013B44831\\After-A-1920x1080.png",
                       "previewSha256":  "5C926DECF13200B3834F767559A4B0CBF8B36465B6B65D8E97793DF900EBAA32",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:52:12.1130736Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed After A by replying bare install on 2026-08-16. Approved preview SHA-256 5C926DECF13200B3834F767559A4B0CBF8B36465B6B65D8E97793DF900EBAA32. Installed SHA-256 5C926DECF13200B3834F767559A4B0CBF8B36465B6B65D8E97793DF900EBAA32 using byte-exact-copy; rollback Let\u0027s talk it over-bg.png.pre-upscale-20260816-185211.bak preserves original SHA-256 75AF82DCD3E192360F36289C1718B9DF65ABD6AD094039576A0D98C0E99ADDC4.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Let\u0027s talk it over\\AE2A221D80574D9E9662460D6FE062CCC170A37B193737ACF9EA655013B44831\\After-A-1920x1080.png",
+                                                  "previewSha256":  "5C926DECF13200B3834F767559A4B0CBF8B36465B6B65D8E97793DF900EBAA32"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "LIVIN\u0027 LA VIDA LOCA",
-                      "fingerprint":  "F9022AB5E663D7EF8E1F050A31111EBCC0ABBEABCDC56ABCD1D22E037BF4E318",
+                      "fingerprint":  "BF9284E4A8E0199C55EFA0E3A3ABCF5AF187B00D5ABC73F442A9C3A07A32AE74",
                       "simfiles":  [
                                        {
                                            "path":  "LIVIN\u0027 LA VIDA LOCA.sm",
@@ -1664,26 +1712,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "LIVIN\u0027 LA VIDA LOCA-bg.png",
                       "sourcePath":  "LIVIN\u0027 LA VIDA LOCA-bg.png",
-                      "sourceSha256":  "46D41C036F65C5BF9D5638D2485AE5B96958CCBD234B8C4FCC179CF92EC974C4",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "349301E6D042E8146F429AFC1957EC1649D837ED8941DBCAE335988552182042",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T20:02:29.5381493Z",
-                      "lastAttemptedAt":  "2026-08-15T20:02:29.5381493Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:43:28.5804708Z",
+                      "assessedAt":  "2026-08-17T01:43:28.5804708Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:43:27.4314993Z",
+                      "lastAttemptedAt":  "2026-08-17T01:40:55.9163680Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00700-8a84-7e90-a999-e9f75d4d3164\\Installed-Approved-349301E6D042.png",
+                      "previewSha256":  "349301E6D042E8146F429AFC1957EC1649D837ED8941DBCAE335988552182042",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T20:02:29.5381493Z",
@@ -1694,12 +1742,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:43:27.4314993Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly named exec-dd54e687-1153-429f-97b7-98417480d6e1.png and requested instal on 2026-08-16, overriding the earlier fidelity rejection for this exact candidate. Approved preview SHA-256 DFC44AB0AFC24F59EE48A9C52DE8B13FA0D82FD9A5E12A52C8E82873F0E03471. Installed SHA-256 349301E6D042E8146F429AFC1957EC1649D837ED8941DBCAE335988552182042 using normalized-render; rollback LIVIN\u0027 LA VIDA LOCA-bg.png.pre-upscale-20260816-184321.bak preserves original SHA-256 46D41C036F65C5BF9D5638D2485AE5B96958CCBD234B8C4FCC179CF92EC974C4.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00700-8a84-7e90-a999-e9f75d4d3164\\Installed-Approved-349301E6D042.png",
+                                                  "previewSha256":  "349301E6D042E8146F429AFC1957EC1649D837ED8941DBCAE335988552182042"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "LOVE AGAIN TONIGHT~For Melissa MIX~",
-                      "fingerprint":  "F34AB82283E23439DC1900C9BD8A236C944A44629BEE1AEDDF6D50553D207B45",
+                      "fingerprint":  "A09E946D1921891056CFEB1325CA75ED6BEC6F24E4180AA2302E767BE493158E",
                       "simfiles":  [
                                        {
                                            "path":  "LOVE AGAIN TONIGHT~For Melissa MIX~.sm",
@@ -1712,26 +1766,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "LOVE AGAIN TONIGHT~For Melissa MIX~-bg.png",
                       "sourcePath":  "LOVE AGAIN TONIGHT~For Melissa MIX~-bg.png",
-                      "sourceSha256":  "057F55FD3D56916498B764FE994F17948F1AFB32727F21641445D411515B85CA",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "CBC74F78AD324AF14FE1B42ACB0F386344CE44DF2F814EAD41F4BBF35933FF1F",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T21:02:13.0753835Z",
-                      "lastAttemptedAt":  "2026-08-15T21:02:13.0753835Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:41:21.9548235Z",
+                      "assessedAt":  "2026-08-17T01:41:21.9548235Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:41:20.2684127Z",
+                      "lastAttemptedAt":  "2026-08-17T01:40:17.0589951Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00737-6e20-72b0-a6a9-0a09d63eef5f\\Installed-Approved-CBC74F78AD32.png",
+                      "previewSha256":  "CBC74F78AD324AF14FE1B42ACB0F386344CE44DF2F814EAD41F4BBF35933FF1F",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T21:02:13.0753835Z",
@@ -1742,12 +1796,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:41:20.2684127Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly named exec-5b7e7fd5-375f-401c-8b3a-ec4a8e33e46a.png and said install, overriding the prior fidelity rejection for this exact candidate hash. Approved preview SHA-256 E048D27214A513181E44D2C6E4916526C3521FDC166E33EDEA270BA6E654C187. Installed SHA-256 CBC74F78AD324AF14FE1B42ACB0F386344CE44DF2F814EAD41F4BBF35933FF1F using normalized-render; rollback LOVE AGAIN TONIGHT~For Melissa MIX~-bg.png.pre-upscale-20260816-184113.bak preserves original SHA-256 057F55FD3D56916498B764FE994F17948F1AFB32727F21641445D411515B85CA.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a00737-6e20-72b0-a6a9-0a09d63eef5f\\Installed-Approved-CBC74F78AD32.png",
+                                                  "previewSha256":  "CBC74F78AD324AF14FE1B42ACB0F386344CE44DF2F814EAD41F4BBF35933FF1F"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Lupin the 3rd \u002778",
-                      "fingerprint":  "F93485F7BFEBD86CFE267BE4159B45E1F68644E25555C16945062EAB9A8A62D2",
+                      "fingerprint":  "F490A2924225162230E24A02236FDA5B478159D417112859D371C1E399A75B4E",
                       "simfiles":  [
                                        {
                                            "path":  "Lupin the 3rd \u002778.sm",
@@ -1760,26 +1820,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "Lupin the 3rd \u002778-bg.png",
                       "sourcePath":  "Lupin the 3rd \u002778-bg.png",
-                      "sourceSha256":  "3FA5E7BB444093AA66BD29CD928693693FD925D3B028513231B669A43CDA19D0",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "6A6BD4CE994326DB13A1801F86049545F0F492FF6111036D3D96DCB0B55A9F54",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T22:01:41.7463516Z",
-                      "lastAttemptedAt":  "2026-08-15T22:01:41.7463516Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:32:55.4326002Z",
+                      "assessedAt":  "2026-08-17T01:32:55.4326002Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:32:53.3371172Z",
+                      "lastAttemptedAt":  "2026-08-17T01:31:29.1055340Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a0076d-ead2-7a03-964b-af6abaafcba4\\Installed-Approved-6A6BD4CE9943.png",
+                      "previewSha256":  "6A6BD4CE994326DB13A1801F86049545F0F492FF6111036D3D96DCB0B55A9F54",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T22:01:41.7463516Z",
@@ -1790,12 +1850,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:32:53.3371172Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly named exec-40e80bba-a05f-4996-a80c-c432d157cd41.png and said install, overriding the prior fidelity rejection for this exact SHA-256. Approved preview SHA-256 7FD4A3D012425AB73D7EF33E764C09E55A92E92BAEAECCF312EFBBEEC74A2D8B. Installed SHA-256 6A6BD4CE994326DB13A1801F86049545F0F492FF6111036D3D96DCB0B55A9F54 using normalized-render; rollback Lupin the 3rd \u002778-bg.png.pre-upscale-20260816-183244.bak preserves original SHA-256 3FA5E7BB444093AA66BD29CD928693693FD925D3B028513231B669A43CDA19D0.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a0076d-ead2-7a03-964b-af6abaafcba4\\Installed-Approved-6A6BD4CE9943.png",
+                                                  "previewSha256":  "6A6BD4CE994326DB13A1801F86049545F0F492FF6111036D3D96DCB0B55A9F54"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Make Your Move",
-                      "fingerprint":  "3D8E66031B538707DA9FB1B65C6313B460217BA65B4F22312AFE8DADEF1EFD8B",
+                      "fingerprint":  "CF40379F1D6C1FD9B6907B5B93B04F81DA8EDCF7F9694794A2C7744175117C18",
                       "simfiles":  [
                                        {
                                            "path":  "Make Your Move.sm",
@@ -1808,26 +1874,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "Make Your Move-bg.png",
                       "sourcePath":  "Make Your Move-bg.png",
-                      "sourceSha256":  "E573BCB418397A5DACF859F366AEE2C280180F3A2A4EC0E138BAA73B40714C52",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "A7B85449C083C43F002514E705C39CBA0254743F5F92152F8BFC9BFD7AD525B4",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-15T23:01:25.1281241Z",
-                      "lastAttemptedAt":  "2026-08-15T23:01:25.1281241Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:33:38.5181446Z",
+                      "assessedAt":  "2026-08-17T01:33:38.5181446Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:33:37.2006920Z",
+                      "lastAttemptedAt":  "2026-08-17T01:30:08.0945813Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a007a4-dd6b-7180-9e13-7fd57a979bcd\\Installed-Approved-A7B85449C083.png",
+                      "previewSha256":  "A7B85449C083C43F002514E705C39CBA0254743F5F92152F8BFC9BFD7AD525B4",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-15T23:01:25.1281241Z",
@@ -1838,12 +1904,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:33:37.2006920Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly named and approved exec-2bf197ab-50ae-4f59-a491-5ea5acf69a44.png for installation, overriding its earlier fidelity rejection for this exact task-local hash. Approved preview SHA-256 1A6C9C339B859B9808307673777363718D0B4885ABA0C1077DC461AA71099AF4. Installed SHA-256 A7B85449C083C43F002514E705C39CBA0254743F5F92152F8BFC9BFD7AD525B4 using normalized-render; rollback Make Your Move-bg.png.pre-upscale-20260816-183329.bak preserves original SHA-256 E573BCB418397A5DACF859F366AEE2C280180F3A2A4EC0E138BAA73B40714C52.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\.codex\\generated_images\\01a007a4-dd6b-7180-9e13-7fd57a979bcd\\Installed-Approved-A7B85449C083.png",
+                                                  "previewSha256":  "A7B85449C083C43F002514E705C39CBA0254743F5F92152F8BFC9BFD7AD525B4"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "MUSIC",
-                      "fingerprint":  "413201B59CAFCE0E6A9DEAA28CA3521D368C86A2C216787F18E10C7635136EF1",
+                      "fingerprint":  "9F970E6B6C41022070691DD878ECA60D4E8C2885B2508670C34FED70126D8D9A",
                       "simfiles":  [
                                        {
                                            "path":  "MUSIC.sm",
@@ -1856,26 +1928,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "MUSIC-bg.png",
                       "sourcePath":  "MUSIC-bg.png",
-                      "sourceSha256":  "34AFEBF11F31D3FF6A08C3CA20F717FF2A3BD14E05220A8F4724874E5D9D9688",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "04EFBBC06E7038624FD380F34A71AB2A8BB12439BA7BED28622C6DF4FD5936C8",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T00:03:21.8322515Z",
-                      "lastAttemptedAt":  "2026-08-16T00:03:21.8322515Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:29:25.6593139Z",
+                      "assessedAt":  "2026-08-17T01:29:25.6593139Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:29:23.4266211Z",
+                      "lastAttemptedAt":  "2026-08-17T01:28:20.5831496Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\MUSIC-413201B5\\Installed-Approved-04EFBBC06E70.png",
+                      "previewSha256":  "04EFBBC06E7038624FD380F34A71AB2A8BB12439BA7BED28622C6DF4FD5936C8",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T00:03:21.8322515Z",
@@ -1886,12 +1958,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:29:23.4266211Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly named exec-5a5698c4-f1c7-43a4-ae3f-4ff27c8c6fd3.png and said install, overriding the earlier automated fidelity rejection for HABEGALE - MUSIC only. Approved preview SHA-256 D13F8EE8FAD29B6CB96162B43433988C71954E63EF11402C3D9B59346885E73A. Installed SHA-256 04EFBBC06E7038624FD380F34A71AB2A8BB12439BA7BED28622C6DF4FD5936C8 using normalized-render; rollback MUSIC-bg.png.pre-upscale-20260816-182911.bak preserves original SHA-256 34AFEBF11F31D3FF6A08C3CA20F717FF2A3BD14E05220A8F4724874E5D9D9688.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr-4th-mix\\MUSIC-413201B5\\Installed-Approved-04EFBBC06E70.png",
+                                                  "previewSha256":  "04EFBBC06E7038624FD380F34A71AB2A8BB12439BA7BED28622C6DF4FD5936C8"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "MY SUMMER LOVE",
-                      "fingerprint":  "8E781D32D0F0B64708702C9E03FC5B16B5E5D1123DA990C2C3486F6E0E39A603",
+                      "fingerprint":  "F89CA773C843BA89A93596BCB9E75A39F6C03B9B9114465214FB10A077E0F88A",
                       "simfiles":  [
                                        {
                                            "path":  "MY SUMMER LOVE.sm",
@@ -1904,26 +1982,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "MY SUMMER LOVE-bg.png",
                       "sourcePath":  "MY SUMMER LOVE-bg.png",
-                      "sourceSha256":  "B5114977ED748D7120894A70257EDBF616725DAE24ADB1B9F55533F047750148",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "801B1FB823CFD17FBB7ABD6B98CFFA0B47F35CB2C4BA65E5DE177B683BBE6062",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T01:03:23.8330298Z",
-                      "lastAttemptedAt":  "2026-08-16T01:03:23.8330298Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:34:11.6579598Z",
+                      "assessedAt":  "2026-08-17T01:34:11.6579598Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:34:10.7913879Z",
+                      "lastAttemptedAt":  "2026-08-17T01:33:53.6732880Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\MY SUMMER LOVE\\8E781D32D0F0B64708702C9E03FC5B16B5E5D1123DA990C2C3486F6E0E39A603\\Installed-Approved-801B1FB823CF.png",
+                      "previewSha256":  "801B1FB823CFD17FBB7ABD6B98CFFA0B47F35CB2C4BA65E5DE177B683BBE6062",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T01:03:23.8330298Z",
@@ -1934,12 +2012,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:34:10.7913879Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner named exec-69620343-7272-424e-8f29-bcd018d5123f.png and said install, explicitly overriding the prior fidelity rejection for this exact MY SUMMER LOVE fingerprint. Approved preview SHA-256 53252108FDDBAC2706C70744D9C0B4A209A664045AB4DE3C18E1FBD236F34186. Installed SHA-256 801B1FB823CFD17FBB7ABD6B98CFFA0B47F35CB2C4BA65E5DE177B683BBE6062 using normalized-render; rollback MY SUMMER LOVE-bg.png.pre-upscale-20260816-183402.bak preserves original SHA-256 B5114977ED748D7120894A70257EDBF616725DAE24ADB1B9F55533F047750148.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\MY SUMMER LOVE\\8E781D32D0F0B64708702C9E03FC5B16B5E5D1123DA990C2C3486F6E0E39A603\\Installed-Approved-801B1FB823CF.png",
+                                                  "previewSha256":  "801B1FB823CFD17FBB7ABD6B98CFFA0B47F35CB2C4BA65E5DE177B683BBE6062"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "NA-NA",
-                      "fingerprint":  "09EA347FC6FC3D5ADC05909CCDCBAE73E4713EC6E88561DDA560E10140509A0A",
+                      "fingerprint":  "F7B38950A49AE61B3DCC368FC6AD5D4941CC40970A309BFF710CC2D3BB4CC377",
                       "simfiles":  [
                                        {
                                            "path":  "NA-NA.sm",
@@ -1952,26 +2036,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "NA-NA-bg.png",
                       "sourcePath":  "NA-NA-bg.png",
-                      "sourceSha256":  "98D036EFB1E1078A5205AB7894F280D477BEEE46C2909605F475E19BE76AEAD2",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "37FADFBB2AF0598FA77721D724C661086F6E56E8837424177BD5A8D3BACF5612",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T02:03:39.5635694Z",
-                      "lastAttemptedAt":  "2026-08-16T02:03:39.5635694Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:39:42.2435198Z",
+                      "assessedAt":  "2026-08-17T01:39:42.2435198Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:39:41.4687219Z",
+                      "lastAttemptedAt":  "2026-08-17T01:39:32.0077084Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr4-na-na-09EA347F\\after-a-approved-normalized-1920x1080.png",
+                      "previewSha256":  "37FADFBB2AF0598FA77721D724C661086F6E56E8837424177BD5A8D3BACF5612",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T02:03:39.5635694Z",
@@ -1982,12 +2066,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:39:41.4687219Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected exec-fa580d8d-4961-4bde-bf10-32701ef5bc3c.png and requested installation despite the prior visual fidelity rejection. Approved preview SHA-256 37FADFBB2AF0598FA77721D724C661086F6E56E8837424177BD5A8D3BACF5612. Installed SHA-256 37FADFBB2AF0598FA77721D724C661086F6E56E8837424177BD5A8D3BACF5612 using byte-exact-copy; rollback NA-NA-bg.png.pre-upscale-20260816-183937.bak preserves original SHA-256 98D036EFB1E1078A5205AB7894F280D477BEEE46C2909605F475E19BE76AEAD2.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ddr4-na-na-09EA347F\\after-a-approved-normalized-1920x1080.png",
+                                                  "previewSha256":  "37FADFBB2AF0598FA77721D724C661086F6E56E8837424177BD5A8D3BACF5612"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)",
-                      "fingerprint":  "84D3ECDD74406B895787AF5E7A0B74D48500CF36BEBA7D0B5A1A20A22F0A988F",
+                      "fingerprint":  "08ABD9BF8CCF6FBD7FFDB55E0E9898A6CD83C5AA049660E23C85FEE79098AF06",
                       "simfiles":  [
                                        {
                                            "path":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX).sm",
@@ -2000,26 +2090,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)-bg.png",
                       "sourcePath":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)-bg.png",
-                      "sourceSha256":  "477D5B28A904F9F0FD0734541AA8320ED0D5B97FB7675F4473C74CCD54899B3E",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "39A2A81B6700A1BF45E8DCBF0FEAD49FEEF868478862DC8E1414D97BA49BC8C4",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T03:03:36.2374426Z",
-                      "lastAttemptedAt":  "2026-08-16T03:03:36.2374426Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:50:09.5447804Z",
+                      "assessedAt":  "2026-08-17T01:50:09.5447804Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:50:08.7842434Z",
+                      "lastAttemptedAt":  "2026-08-17T01:26:45.1312610Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-previews\\ddr-4th-mix\\84D3ECDD74406B895787AF5E7A0B74D48500CF36BEBA7D0B5A1A20A22F0A988F\\after-a-right-leg-corrected-1920x1080.png",
+                      "previewSha256":  "39A2A81B6700A1BF45E8DCBF0FEAD49FEEF868478862DC8E1414D97BA49BC8C4",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T03:03:36.2374426Z",
@@ -2030,12 +2120,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:50:08.7842434Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed After A by replying install on 2026-08-16. Approved preview SHA-256 39A2A81B6700A1BF45E8DCBF0FEAD49FEEF868478862DC8E1414D97BA49BC8C4. Installed SHA-256 39A2A81B6700A1BF45E8DCBF0FEAD49FEEF868478862DC8E1414D97BA49BC8C4 using byte-exact-copy; rollback NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)-bg.png.pre-upscale-20260816-185005.bak preserves original SHA-256 477D5B28A904F9F0FD0734541AA8320ED0D5B97FB7675F4473C74CCD54899B3E.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-previews\\ddr-4th-mix\\84D3ECDD74406B895787AF5E7A0B74D48500CF36BEBA7D0B5A1A20A22F0A988F\\after-a-right-leg-corrected-1920x1080.png",
+                                                  "previewSha256":  "39A2A81B6700A1BF45E8DCBF0FEAD49FEEF868478862DC8E1414D97BA49BC8C4"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "never let you down",
-                      "fingerprint":  "D54D592D5D9380414AD09930D2F153DF102EE0E631519352951A61898629D074",
+                      "fingerprint":  "7DE7CEA98F6DC594702685FA3BFE43597350D8A99CFDD8F1D66BEE731DFD9343",
                       "simfiles":  [
                                        {
                                            "path":  "never let you down.sm",
@@ -2048,26 +2144,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "never let you down-bg.png",
                       "sourcePath":  "never let you down-bg.png",
-                      "sourceSha256":  "6FD08E5A910664278354A6FF11C077608BAF1083C99AFD97703F0EF615208647",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "9551E96A8EE0066C44DBB0A69EF2DEF7BE05C175343812C4B00F776CF2EB582D",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T04:04:03.4784120Z",
-                      "lastAttemptedAt":  "2026-08-16T04:04:03.4784120Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:25:31.1456906Z",
+                      "assessedAt":  "2026-08-17T01:25:31.1456906Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:25:29.7273327Z",
+                      "lastAttemptedAt":  "2026-08-17T01:23:20.9120436Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\never-let-you-down\\D54D592D5D9380414AD09930D2F153DF102EE0E631519352951A61898629D074\\Installed-Approved-9551E96A8EE0.png",
+                      "previewSha256":  "9551E96A8EE0066C44DBB0A69EF2DEF7BE05C175343812C4B00F776CF2EB582D",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T04:04:03.4784120Z",
@@ -2078,12 +2174,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:25:29.7273327Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly requested install while attaching exec-90cb4d94-e4d9-4c7e-acbd-ed786717afd8.png, SHA-256 8E31F262B5BD0422328C12D3556E32573A48EA1713FEAA88D0C15F77AE86C785; this exact-file choice overrides the prior automated rejection for this fingerprint. Approved preview SHA-256 8E31F262B5BD0422328C12D3556E32573A48EA1713FEAA88D0C15F77AE86C785. Installed SHA-256 9551E96A8EE0066C44DBB0A69EF2DEF7BE05C175343812C4B00F776CF2EB582D using normalized-render; rollback never let you down-bg.png.pre-upscale-20260816-182522.bak preserves original SHA-256 6FD08E5A910664278354A6FF11C077608BAF1083C99AFD97703F0EF615208647.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\never-let-you-down\\D54D592D5D9380414AD09930D2F153DF102EE0E631519352951A61898629D074\\Installed-Approved-9551E96A8EE0.png",
+                                                  "previewSha256":  "9551E96A8EE0066C44DBB0A69EF2DEF7BE05C175343812C4B00F776CF2EB582D"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "NIGHT IN MOTION",
-                      "fingerprint":  "63A570FB76500A96C3D3E059370F7C7241F1BC931639710D1140C4E64E646BFF",
+                      "fingerprint":  "45FEDAABBDF9859A0C4CDD19638A7035820CD56B624A6AF2E2EDF7960A4F0F9B",
                       "simfiles":  [
                                        {
                                            "path":  "NIGHT IN MOTION.sm",
@@ -2096,26 +2198,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "NIGHT IN MOTION-bg.png",
                       "sourcePath":  "NIGHT IN MOTION-bg.png",
-                      "sourceSha256":  "07062B45E287E35C499173D6271A0F0A875281B975935B73EF86368134340888",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "3C604F8FCDF7AA05B5D1BE6381033F47CB9AE8A379F3D66D4765B7C8D1A8BF4D",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T05:05:40.1723741Z",
-                      "lastAttemptedAt":  "2026-08-16T05:05:40.1723741Z",
-                      "pendingAction":  "awaiting-fallback-approval",
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "observedAt":  "2026-08-17T01:17:00.9685431Z",
+                      "assessedAt":  "2026-08-17T01:17:00.9685431Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:17:00.7456582Z",
+                      "lastAttemptedAt":  "2026-08-17T01:16:28.8671451Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\NIGHT-IN-MOTION\\63A570FB\\Installed-Approved-3C604F8FCDF7.png",
+                      "previewSha256":  "3C604F8FCDF7AA05B5D1BE6381033F47CB9AE8A379F3D66D4765B7C8D1A8BF4D",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T05:05:40.1723741Z",
@@ -2126,12 +2228,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:17:00.7456582Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner attached the exact previously displayed After B file exec-89cdb75f-5459-4587-a6a9-55cc16c14764.png and requested install; this explicit file selection overrides the earlier fidelity rejection only for this fingerprint. Approved preview SHA-256 DFD2834F66C8FDF7B6898F0DC74A5054DD380C50613E48F858E3C09B5414C08D. Installed SHA-256 3C604F8FCDF7AA05B5D1BE6381033F47CB9AE8A379F3D66D4765B7C8D1A8BF4D using normalized-render; rollback NIGHT IN MOTION-bg.png.pre-upscale-20260816-181659.bak preserves original SHA-256 07062B45E287E35C499173D6271A0F0A875281B975935B73EF86368134340888.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\NIGHT-IN-MOTION\\63A570FB\\Installed-Approved-3C604F8FCDF7.png",
+                                                  "previewSha256":  "3C604F8FCDF7AA05B5D1BE6381033F47CB9AE8A379F3D66D4765B7C8D1A8BF4D"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "ONE TWO (LITTLE BITCH)",
-                      "fingerprint":  "46C221CBC457C93719A1551492EF43F2CCE0D36210048400EC2292A3D4A32AE8",
+                      "fingerprint":  "C7FAC0A36939E507484331D4FB2F8E56DABD1493F4160A353F7E4F959EB9E452",
                       "simfiles":  [
                                        {
                                            "path":  "ONE TWO (LITTLE BITCH).sm",
@@ -2144,31 +2252,37 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "ONE TWO (LITTLE BITCH)-bg.png",
                       "sourcePath":  "ONE TWO (LITTLE BITCH)-bg.png",
-                      "sourceSha256":  "ED96C7D2890D95278316741D57D6640741E506B7B8AB2E7F0A2AB0DF2C10BD28",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "5EEE620741AA7AB2BD5882EB01864453FFD54B12D847069D9B9C36A8296741D8",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T06:11:14.8644495Z",
+                      "observedAt":  "2026-08-17T01:15:29.6769021Z",
+                      "assessedAt":  "2026-08-17T01:15:29.6769021Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:15:28.6529249Z",
                       "lastAttemptedAt":  "2026-08-16T06:11:14.8644495Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ONE TWO (LITTLE BITCH)\\46C221CBC457C93719A1551492EF43F2CCE0D36210048400EC2292A3D4A32AE8\\After-A-1920x1080.png",
                       "previewSha256":  "5EEE620741AA7AB2BD5882EB01864453FFD54B12D847069D9B9C36A8296741D8",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:15:28.6529249Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner replied install, approving the sole displayed BUS★STOP - ONE TWO (LITTLE BITCH) After A in this task. Approved preview SHA-256 5EEE620741AA7AB2BD5882EB01864453FFD54B12D847069D9B9C36A8296741D8. Installed SHA-256 5EEE620741AA7AB2BD5882EB01864453FFD54B12D847069D9B9C36A8296741D8 using byte-exact-copy; rollback ONE TWO (LITTLE BITCH)-bg.png.pre-upscale-20260816-181521.bak preserves original SHA-256 ED96C7D2890D95278316741D57D6640741E506B7B8AB2E7F0A2AB0DF2C10BD28.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ONE TWO (LITTLE BITCH)\\46C221CBC457C93719A1551492EF43F2CCE0D36210048400EC2292A3D4A32AE8\\After-A-1920x1080.png",
+                                                  "previewSha256":  "5EEE620741AA7AB2BD5882EB01864453FFD54B12D847069D9B9C36A8296741D8"
+                                              }
                                           ]
                   },
                   {
@@ -2215,7 +2329,7 @@
                   },
                   {
                       "songPath":  "ORION.78(AMeuro-MIX)",
-                      "fingerprint":  "452063D00F68E137175E86F0960D717DE5C4E467B9A4690D374A256F2EB87E8E",
+                      "fingerprint":  "EA8E9D1A6CCFD1B441C345AA4EBC68F71D96613C5BA15BF0C18BC939AEEE75CF",
                       "simfiles":  [
                                        {
                                            "path":  "ORION.78(AMeuro-MIX).sm",
@@ -2228,31 +2342,37 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "ORION.78(AMeuro-MIX)-bg.png",
                       "sourcePath":  "ORION.78(AMeuro-MIX)-bg.png",
-                      "sourceSha256":  "76276396DE0BA2492D743025A3309252D9C316103E7D3635E20C56E17AEB925E",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "A62F1659A2E6E4024B17BA18414F94FBFE00A1B813058EB865D6FEE90DD99EF3",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T07:12:21.1299495Z",
+                      "observedAt":  "2026-08-17T01:11:04.3129182Z",
+                      "assessedAt":  "2026-08-17T01:11:04.3129182Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:11:04.0773956Z",
                       "lastAttemptedAt":  "2026-08-16T07:12:21.1299495Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ORION.78(AMeuro-MIX)\\452063D00F68E137175E86F0960D717DE5C4E467B9A4690D374A256F2EB87E8E\\After-A-1920x1080.png",
                       "previewSha256":  "A62F1659A2E6E4024B17BA18414F94FBFE00A1B813058EB865D6FEE90DD99EF3",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:11:04.0773956Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed and hash-bound After A with bare install in the same task on 2026-08-16. Approved preview SHA-256 A62F1659A2E6E4024B17BA18414F94FBFE00A1B813058EB865D6FEE90DD99EF3. Installed SHA-256 A62F1659A2E6E4024B17BA18414F94FBFE00A1B813058EB865D6FEE90DD99EF3 using byte-exact-copy; rollback ORION.78(AMeuro-MIX)-bg.png.pre-upscale-20260816-181103.bak preserves original SHA-256 76276396DE0BA2492D743025A3309252D9C316103E7D3635E20C56E17AEB925E.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\ORION.78(AMeuro-MIX)\\452063D00F68E137175E86F0960D717DE5C4E467B9A4690D374A256F2EB87E8E\\After-A-1920x1080.png",
+                                                  "previewSha256":  "A62F1659A2E6E4024B17BA18414F94FBFE00A1B813058EB865D6FEE90DD99EF3"
+                                              }
                                           ]
                   },
                   {
@@ -2893,7 +3013,7 @@
                   },
                   {
                       "songPath":  "TRIP MACHINE CLIMAX",
-                      "fingerprint":  "A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B",
+                      "fingerprint":  "8991A66867F4B42D951043BFF558C2DFB15EB7A46B21D473CE9280CF8D237A86",
                       "simfiles":  [
                                        {
                                            "path":  "TRIP MACHINE CLIMAX.sm",
@@ -2906,26 +3026,26 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "TRIP MACHINE CLIMAX-bg.png",
                       "sourcePath":  "TRIP MACHINE CLIMAX-bg.png",
-                      "sourceSha256":  "251D71323621909376C67C3BCB5CBA4F05905E2266F3A4E321FF99109E357C37",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "DD94F95FB7F904ECBAAE502E7A530CEB5CC8E392C5C64B3BDC0D28CB804C6E1C",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T21:05:10.0551127Z",
-                      "lastAttemptedAt":  "2026-08-16T21:05:10.0551127Z",
-                      "pendingAction":  "awaiting-install-decision",
-                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\TRIP MACHINE CLIMAX\\A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B\\After-B-1920x1080.png",
-                      "previewSha256":  "DF7380125E8A443C9674152289F0DA615063F3AB8C8436E91D7831E812234646",
+                      "observedAt":  "2026-08-17T01:00:39.8847545Z",
+                      "assessedAt":  "2026-08-17T01:00:39.8847545Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:00:39.6605644Z",
+                      "lastAttemptedAt":  "2026-08-17T01:00:26.0681726Z",
+                      "pendingAction":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\TRIP MACHINE CLIMAX\\A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B\\Installed-Approved-DD94F95FB7F9.png",
+                      "previewSha256":  "DD94F95FB7F904ECBAAE502E7A530CEB5CC8E392C5C64B3BDC0D28CB804C6E1C",
                       "attemptHistory":  [
                                              {
                                                  "recordedAt":  "2026-08-16T21:02:24.1319432Z",
@@ -2936,12 +3056,18 @@
                                              }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:00:39.6605644Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the specifically attached second model output exec-a84ddfba-f940-4c2a-ad69-01a7522b1925.png by saying install this. Approved preview SHA-256 91D91CF5F21C29E719F07AA4C07B60F6C0DD7C2E1BEE2AAA461A4FB9A8F002F1. Installed SHA-256 DD94F95FB7F904ECBAAE502E7A530CEB5CC8E392C5C64B3BDC0D28CB804C6E1C using normalized-render; rollback TRIP MACHINE CLIMAX-bg.png.pre-upscale-20260816-180038.bak preserves original SHA-256 251D71323621909376C67C3BCB5CBA4F05905E2266F3A4E321FF99109E357C37.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\TRIP MACHINE CLIMAX\\A7091FFC154636DF416626FDF7FFD00C12C77360A8628688DD0DD7663728D22B\\Installed-Approved-DD94F95FB7F9.png",
+                                                  "previewSha256":  "DD94F95FB7F904ECBAAE502E7A530CEB5CC8E392C5C64B3BDC0D28CB804C6E1C"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "WALKIE TALKIE",
-                      "fingerprint":  "6265A87FE0D5218778C22C44766BE6F6EE4A814163A3661E5CB160BD65B817BB",
+                      "fingerprint":  "B83D15B7827C047AFAF5E61DDA4D555AEB4C5FC13C0736C6A570476163737605",
                       "simfiles":  [
                                        {
                                            "path":  "WALKIE TALKIE.sm",
@@ -2954,36 +3080,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "WALKIE TALKIE-bg.png",
                       "sourcePath":  "WALKIE TALKIE-bg.png",
-                      "sourceSha256":  "76A81F4C0DD1B5DB183A121E30AF1271F07DEF9DB2A7D6DB313337E42BBA6712",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "4C2B451063137FC4B947AE0ECB1DC526DCEA6314F3C5B01B445C16820799AA40",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "pending",
-                      "processedAt":  "2026-08-16T21:23:41.4102042Z",
+                      "observedAt":  "2026-08-17T01:07:18.7748363Z",
+                      "assessedAt":  "2026-08-17T01:07:18.7748363Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:07:18.3845860Z",
                       "lastAttemptedAt":  "2026-08-16T21:23:41.4102042Z",
-                      "pendingAction":  "awaiting-install-decision",
+                      "pendingAction":  null,
                       "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WALKIE TALKIE\\6265A87FE0D5218778C22C44766BE6F6EE4A814163A3661E5CB160BD65B817BB\\After-A-1920x1080.png",
                       "previewSha256":  "4C2B451063137FC4B947AE0ECB1DC526DCEA6314F3C5B01B445C16820799AA40",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:07:18.3845860Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed WALKIE TALKIE After A via bare install. Approved preview SHA-256 4C2B451063137FC4B947AE0ECB1DC526DCEA6314F3C5B01B445C16820799AA40. Installed SHA-256 4C2B451063137FC4B947AE0ECB1DC526DCEA6314F3C5B01B445C16820799AA40 using byte-exact-copy; rollback WALKIE TALKIE-bg.png.pre-upscale-20260816-180717.bak preserves original SHA-256 76A81F4C0DD1B5DB183A121E30AF1271F07DEF9DB2A7D6DB313337E42BBA6712.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WALKIE TALKIE\\6265A87FE0D5218778C22C44766BE6F6EE4A814163A3661E5CB160BD65B817BB\\After-A-1920x1080.png",
+                                                  "previewSha256":  "4C2B451063137FC4B947AE0ECB1DC526DCEA6314F3C5B01B445C16820799AA40"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "WILD RUSH",
-                      "fingerprint":  "679182BC3F5E730DBE435AEF6A800A1AFFC69BBA3D82C8E802657BAE327826D0",
+                      "fingerprint":  "19DE2AC1D9E41B28968005BE29653FB865B19BA5B226170827973EF5768D3260",
                       "simfiles":  [
                                        {
                                            "path":  "WILD RUSH.sm",
@@ -2996,36 +3128,62 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "WILD RUSH-bg.png",
                       "sourcePath":  "WILD RUSH-bg.png",
-                      "sourceSha256":  "22D1610AEB2E4D0E12689DDCDE63233F1ED6C4C3F866D6E677DF25FBC5DB7050",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "55726F2C6B6ED7AF66CB233B819FED9C68F23F90370824C457D57DCDC879B4BE",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-17T01:05:15.7494267Z",
+                      "assessedAt":  "2026-08-17T01:05:15.7494267Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:05:14.1743707Z",
+                      "lastAttemptedAt":  "2026-08-17T01:03:44.7996518Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WILD RUSH\\679182BC3F5E730DBE435AEF6A800A1AFFC69BBA3D82C8E802657BAE327826D0\\Installed-Approved-55726F2C6B6E.png",
+                      "previewSha256":  "55726F2C6B6ED7AF66CB233B819FED9C68F23F90370824C457D57DCDC879B4BE",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T22:26:40.2079103Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "First genuine built-in image attempt returned no usable persisted artifact or task-local path; no preview could be assessed or bound.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-16T22:29:24.1692125Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "Initial exact-center composite was visually complete but final presentation validation found non-opaque alpha pixels; corrected deterministically without another model call or RGB-center change.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WILD RUSH\\679182BC3F5E730DBE435AEF6A800A1AFFC69BBA3D82C8E802657BAE327826D0\\After-A-1920x1080-v4.png",
+                                                 "discardedPreviewSha256":  "E62125538232C12DA9DE32C51793556DD3A45801C0783C4257B5D0344F44C261"
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-17T01:03:39.7066517Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner selected attached generated file exec-ed151db1-2808-43e4-92e3-971837375608.png, SHA-256 AA613CCE0B159BA871B227A4CDEF3CBD21AAFA009D557C73D6DB626B0BDBB14A, instead of the previously bound exact-center After A.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WILD RUSH\\679182BC3F5E730DBE435AEF6A800A1AFFC69BBA3D82C8E802657BAE327826D0\\After-A-1920x1080-v6.png",
+                                                 "discardedPreviewSha256":  "EB667D50A079EE692703B3B37F8BC44CB2B129716E171E3EA2E10AA159238DAD"
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:05:14.1743707Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner selected attached generated file exec-ed151db1-2808-43e4-92e3-971837375608.png and requested install; the native/staged selected bytes have SHA-256 AA613CCE0B159BA871B227A4CDEF3CBD21AAFA009D557C73D6DB626B0BDBB14A. Approved preview SHA-256 AA613CCE0B159BA871B227A4CDEF3CBD21AAFA009D557C73D6DB626B0BDBB14A. Installed SHA-256 55726F2C6B6ED7AF66CB233B819FED9C68F23F90370824C457D57DCDC879B4BE using normalized-render; rollback WILD RUSH-bg.png.pre-upscale-20260816-180509.bak preserves original SHA-256 22D1610AEB2E4D0E12689DDCDE63233F1ED6C4C3F866D6E677DF25FBC5DB7050.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WILD RUSH\\679182BC3F5E730DBE435AEF6A800A1AFFC69BBA3D82C8E802657BAE327826D0\\Installed-Approved-55726F2C6B6E.png",
+                                                  "previewSha256":  "55726F2C6B6ED7AF66CB233B819FED9C68F23F90370824C457D57DCDC879B4BE"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "WONDA (SPEED K MIX)",
-                      "fingerprint":  "C8CF01C858F3E32AA4C51AD702590F423E9B67F7E02098C2F36F3FC1F105FDC3",
+                      "fingerprint":  "2403D0D5266ED2011D8E04499C5C600C769D9F5DBF57397C2B813528A33FEE62",
                       "simfiles":  [
                                        {
                                            "path":  "WONDA (SPEED K MIX).sm",
@@ -3038,36 +3196,55 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "WONDA (SPEED K MIX)-bg.png",
                       "sourcePath":  "WONDA (SPEED K MIX)-bg.png",
-                      "sourceSha256":  "3C356789F9B2D2F3E4574DDF0ED6F2533C9E829A7DA3024267F704C8D327827F",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "9DD418EBA71E36B081E6AF026FD85AA6D435D822FAEA233999B7B8449F91225C",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-17T01:02:37.9285375Z",
+                      "assessedAt":  "2026-08-17T01:02:37.9285375Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:02:37.5176878Z",
+                      "lastAttemptedAt":  "2026-08-17T01:02:13.7836541Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WONDA (SPEED K MIX)\\C8CF01C858F3E32AA4C51AD702590F423E9B67F7E02098C2F36F3FC1F105FDC3\\Installed-Approved-9DD418EBA71E.png",
+                      "previewSha256":  "9DD418EBA71E36B081E6AF026FD85AA6D435D822FAEA233999B7B8449F91225C",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-16T23:24:54.9210365Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Genuine attempt one raw SHA-256 2B796C448EC25641D03E1A77F3C62E7F01A7A85F79AB411FE07D57A20B2A9E01 repainted and zoomed out locked center content. Side-only exact-center composites preserved the title and center, but visible vertical edge discontinuities made the wings unusable.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-17T01:02:09.4574199Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner explicitly selected attached generated file exec-b526a5bd-9566-4289-93cd-be004fffecf4.png for installation instead of the previously bound exact-center composite A15752AB8F8C1BF446DF4AA04E709111EE396D0802AD4C351DD6BAB44F5A1B5B.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WONDA (SPEED K MIX)\\C8CF01C858F3E32AA4C51AD702590F423E9B67F7E02098C2F36F3FC1F105FDC3\\After-A-1920x1080-v4.png",
+                                                 "discardedPreviewSha256":  "A15752AB8F8C1BF446DF4AA04E709111EE396D0802AD4C351DD6BAB44F5A1B5B"
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:02:37.5176878Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected attached generated file exec-b526a5bd-9566-4289-93cd-be004fffecf4.png and requested install; exact selected raw SHA-256 3A69F9338EB9FCB38CA02103F803B6AAEBAC17E2ED79ACAA8EE386AA290E112E. Approved preview SHA-256 3A69F9338EB9FCB38CA02103F803B6AAEBAC17E2ED79ACAA8EE386AA290E112E. Installed SHA-256 9DD418EBA71E36B081E6AF026FD85AA6D435D822FAEA233999B7B8449F91225C using normalized-render; rollback WONDA (SPEED K MIX)-bg.png.pre-upscale-20260816-180235.bak preserves original SHA-256 3C356789F9B2D2F3E4574DDF0ED6F2533C9E829A7DA3024267F704C8D327827F.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\WONDA (SPEED K MIX)\\C8CF01C858F3E32AA4C51AD702590F423E9B67F7E02098C2F36F3FC1F105FDC3\\Installed-Approved-9DD418EBA71E.png",
+                                                  "previewSha256":  "9DD418EBA71E36B081E6AF026FD85AA6D435D822FAEA233999B7B8449F91225C"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "Young Forever",
-                      "fingerprint":  "7803453474700CD531C2001A651C3B4D3A1E41E3967DD4A72A728F918FF3851D",
+                      "fingerprint":  "52D9E861C3B87BE8271EBE00D221D6A56E80775FF1BE95B1392AAF95C3B25656",
                       "simfiles":  [
                                        {
                                            "path":  "Young Forever.sm",
@@ -3080,36 +3257,42 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "Young Forever-bg.png",
                       "sourcePath":  "Young Forever-bg.png",
-                      "sourceSha256":  "9D6A9AF335A1B357928296E6A161770733D268ADA8F050ED015F4BAE0A0316E6",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "02338C6BD5B1B5201C08206B5BA18DF7FEBEED511C932A11DF95A75AF3E94BBC",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-17T01:02:55.2162235Z",
+                      "assessedAt":  "2026-08-17T01:02:55.2162235Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T01:02:54.8739365Z",
+                      "lastAttemptedAt":  "2026-08-17T00:28:54.6309555Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Young Forever\\7803453474700CD531C2001A651C3B4D3A1E41E3967DD4A72A728F918FF3851D\\After-A-1920x1080-v5.png",
+                      "previewSha256":  "02338C6BD5B1B5201C08206B5BA18DF7FEBEED511C932A11DF95A75AF3E94BBC",
                       "attemptHistory":  [
 
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T01:02:54.8739365Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner approved the sole displayed Rebecca - Young Forever After A by replying install. Approved preview SHA-256 02338C6BD5B1B5201C08206B5BA18DF7FEBEED511C932A11DF95A75AF3E94BBC. Installed SHA-256 02338C6BD5B1B5201C08206B5BA18DF7FEBEED511C932A11DF95A75AF3E94BBC using byte-exact-copy; rollback Young Forever-bg.png.pre-upscale-20260816-180252.bak preserves original SHA-256 9D6A9AF335A1B357928296E6A161770733D268ADA8F050ED015F4BAE0A0316E6.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\Young Forever\\7803453474700CD531C2001A651C3B4D3A1E41E3967DD4A72A728F918FF3851D\\After-A-1920x1080-v5.png",
+                                                  "previewSha256":  "02338C6BD5B1B5201C08206B5BA18DF7FEBEED511C932A11DF95A75AF3E94BBC"
+                                              }
                                           ]
                   },
                   {
                       "songPath":  "YOUR LOVE",
-                      "fingerprint":  "C6CB439A52CA4B1259D8769BA4343962EB37EFFDC67DC8F05D62EF281068631C",
+                      "fingerprint":  "EFB6B06E2FB61E71FF400705A50B1B16CC765EE5619E1B6B758DB9A58B49697F",
                       "simfiles":  [
                                        {
                                            "path":  "YOUR LOVE.sm",
@@ -3122,31 +3305,50 @@
                       "bgChangesState":  "none",
                       "backgroundReference":  "YOUR LOVE-bg.png",
                       "sourcePath":  "YOUR LOVE-bg.png",
-                      "sourceSha256":  "D00966B20B47E84FFA30CDE7EC9FE10B4C7AA97D0A0088576A7A2B3036B2DD73",
-                      "sourceWidth":  320,
-                      "sourceHeight":  240,
+                      "sourceSha256":  "DE82360DA4F901B1905765660EDC71D0321C9B78EA1ABE34D90C8D399798C64C",
+                      "sourceWidth":  1920,
+                      "sourceHeight":  1080,
                       "sourceFrames":  1,
-                      "qualityRank":  0,
-                      "qualityTier":  "broken-or-tiny",
+                      "qualityRank":  4,
+                      "qualityTier":  "soft-review",
                       "reviewCategory":  null,
                       "reviewCandidates":  [
 
                                            ],
-                      "observedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "assessedAt":  "2026-08-14T19:43:07.8016404Z",
-                      "eligible":  true,
-                      "reason":  "Static background is not 16:9 and needs fit review.",
-                      "status":  "eligible",
-                      "processedAt":  null,
-                      "lastAttemptedAt":  null,
+                      "observedAt":  "2026-08-17T02:21:57.5771359Z",
+                      "assessedAt":  "2026-08-17T02:21:57.5771359Z",
+                      "eligible":  false,
+                      "reason":  "Current source exactly matches the previously approved installed preview.",
+                      "status":  "installed",
+                      "processedAt":  "2026-08-17T02:21:57.0618613Z",
+                      "lastAttemptedAt":  "2026-08-17T02:20:58.4591563Z",
                       "pendingAction":  null,
-                      "previewPath":  null,
-                      "previewSha256":  null,
+                      "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\YOUR LOVE\\C6CB439A52CA4B1259D8769BA4343962EB37EFFDC67DC8F05D62EF281068631C\\Installed-Approved-DE82360DA4F9.png",
+                      "previewSha256":  "DE82360DA4F901B1905765660EDC71D0321C9B78EA1ABE34D90C8D399798C64C",
                       "attemptHistory":  [
-
+                                             {
+                                                 "recordedAt":  "2026-08-17T01:26:13.9447095Z",
+                                                 "outcome":  "output-handling-error",
+                                                 "note":  "First model call completed but returned no accessible image artifact or generated-image path; no candidate could be inspected or staged.",
+                                                 "discardedPreviewPath":  null,
+                                                 "discardedPreviewSha256":  null
+                                             },
+                                             {
+                                                 "recordedAt":  "2026-08-17T02:20:51.3905609Z",
+                                                 "outcome":  "preview-rejected",
+                                                 "note":  "Owner explicitly selected attached raw generated file exec-a91c1006-83fd-4fc3-a76a-87ba0523a9a6.png for installation, superseding the previously bound exact-center composite for this fingerprint.",
+                                                 "discardedPreviewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\YOUR LOVE\\C6CB439A52CA4B1259D8769BA4343962EB37EFFDC67DC8F05D62EF281068631C\\After-A-1920x1080-v6.png",
+                                                 "discardedPreviewSha256":  "F0F6C227E9E097AEE7E466F0C01EB76A18239BA6EF0DE097B381E5637BE36A70"
+                                             }
                                          ],
                       "decisionHistory":  [
-
+                                              {
+                                                  "recordedAt":  "2026-08-17T02:21:57.0618613Z",
+                                                  "outcome":  "installed",
+                                                  "note":  "Owner explicitly selected attached exec-a91c1006-83fd-4fc3-a76a-87ba0523a9a6.png and replied install. Approved preview SHA-256 3045C33E8FD595921079D1E131FFADB41885847DB9BCCE0F6F769AAC7204282E. Installed SHA-256 DE82360DA4F901B1905765660EDC71D0321C9B78EA1ABE34D90C8D399798C64C using normalized-render; rollback YOUR LOVE-bg.png.pre-upscale-20260816-192155.bak preserves original SHA-256 D00966B20B47E84FFA30CDE7EC9FE10B4C7AA97D0A0088576A7A2B3036B2DD73.",
+                                                  "previewPath":  "C:\\Users\\Player.NUCBOXG3_PLUS\\Documents\\ThraxOS\\.tmp\\background-upscale\\YOUR LOVE\\C6CB439A52CA4B1259D8769BA4343962EB37EFFDC67DC8F05D62EF281068631C\\Installed-Approved-DE82360DA4F9.png",
+                                                  "previewSha256":  "DE82360DA4F901B1905765660EDC71D0321C9B78EA1ABE34D90C8D399798C64C"
+                                              }
                                           ]
                   }
               ],
@@ -4126,6 +4328,380 @@
                                 "summary":  "One faithful side-extension attempt supplied usable continuation of the horizontal orange-red stripe field but repainted and enlarged the locked title and figures inside the source rectangle. Deterministic exact-center compositing restored the complete source-derived 1440 x 1080 center pixel-for-pixel, used only the generated side material with per-row seam matching, and produced the sole verified opaque 1920 x 1080 After A. Queue, hashes, formatter output, UTF-8/no-BOM, duplicate-path, and closed-game checks passed. No owner feedback or reusable workflow change was claimed.",
                                 "songPath":  "WALKIE TALKIE",
                                 "fingerprint":  "6265A87FE0D5218778C22C44766BE6F6EE4A814163A3661E5CB160BD65B817BB",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T22:30:20.6360521Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For WILD RUSH, the first genuine image call yielded no usable artifact. The second repainted locked center content but supplied usable checkerboard side material; an opaque side-only composite preserved all 1,555,200 source-derived center RGB pixels exactly. Initial composite alpha defects were caught and corrected before binding. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "WILD RUSH",
+                                "fingerprint":  "679182BC3F5E730DBE435AEF6A800A1AFFC69BBA3D82C8E802657BAE327826D0",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-16T23:29:19.9492097Z",
+                                "scope":  "fingerprint",
+                                "summary":  "For WONDA (SPEED K MIX), attempt one zoomed out and repainted the locked center; its side-only composite showed visible vertical discontinuities and was rejected. Attempt two raw SHA-256 3A69F9338EB9FCB38CA02103F803B6AAEBAC17E2ED79ACAA8EE386AA290E112E supplied better edge material. A reflected-edge side blend confined generated contribution to the two 240-pixel wings while the nearest-neighbor 1440 x 1080 center matched all 1,555,200 source-derived RGB pixels exactly. Final opaque candidate SHA-256 A15752AB8F8C1BF446DF4AA04E709111EE396D0802AD4C351DD6BAB44F5A1B5B. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "WONDA (SPEED K MIX)",
+                                "fingerprint":  "C8CF01C858F3E32AA4C51AD702590F423E9B67F7E02098C2F36F3FC1F105FDC3",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T00:30:23.6236648Z",
+                                "scope":  "fingerprint",
+                                "summary":  "One faithful outpaint produced useful repeating heart-wall side material but repainted locked center content. After A preserves the complete source-derived 1440 x 1080 center exactly and confines generated or blended contribution to two 240-pixel wings; raw SHA-256 02C8AE294B7A9FECB0616991703E1CC59FC1CCBBE6AC212F3A3466681D82F480, bound preview SHA-256 02338C6BD5B1B5201C08206B5BA18DF7FEBEED511C932A11DF95A75AF3E94BBC.",
+                                "songPath":  "Young Forever",
+                                "fingerprint":  "7803453474700CD531C2001A651C3B4D3A1E41E3967DD4A72A728F918FF3851D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:01:45.2711384Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly approved the specifically attached raw second model output exec-a84ddfba-f940-4c2a-ad69-01a7522b1925.png rather than the separately composited After B. The attached generated file and staged model-attempt-2.png were byte-identical at SHA-256 91D91CF5F21C29E719F07AA4C07B60F6C0DD7C2E1BEE2AAA461A4FB9A8F002F1. The guarded installer normalized that exact approved preview to opaque 1920 x 1080 PNG SHA-256 DD94F95FB7F904ECBAAE502E7A530CEB5CC8E392C5C64B3BDC0D28CB804C6E1C and preserved the original rollback. This exact-file choice is fingerprint-specific and does not justify a reusable workflow or owner-wide preference change.",
+                                "songPath":  "TRIP MACHINE CLIMAX",
+                                "fingerprint":  "8991A66867F4B42D951043BFF558C2DFB15EB7A46B21D473CE9280CF8D237A86",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:04:34.6439081Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected exact raw generated file exec-b526a5bd-9566-4289-93cd-be004fffecf4.png, SHA-256 3A69F9338EB9FCB38CA02103F803B6AAEBAC17E2ED79ACAA8EE386AA290E112E, superseding the previously displayed exact-center composite only for WONDA (SPEED K MIX). The guarded workflow normalized the selected raw bytes to opaque 1920 x 1080 installed SHA-256 9DD418EBA71E36B081E6AF026FD85AA6D435D822FAEA233999B7B8449F91225C with verified original rollback. No reusable workflow, scheduled-behavior, or owner-wide preference change was justified.",
+                                "songPath":  "WONDA (SPEED K MIX)",
+                                "fingerprint":  "2403D0D5266ED2011D8E04499C5C600C769D9F5DBF57397C2B813528A33FEE62",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:06:41.6491154Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected attached raw generated file exec-ed151db1-2808-43e4-92e3-971837375608.png, overriding the bound exact-center preview only for WILD RUSH. The malformed /C:/ attachment path was corrected, native and staged bytes matched SHA-256 AA613CCE0B159BA871B227A4CDEF3CBD21AAFA009D557C73D6DB626B0BDBB14A, and proof-gated normalization installed opaque 1920 x 1080 content with verified rollback. No reusable workflow, scheduled-behavior, or owner-wide preference change was justified.",
+                                "songPath":  "WILD RUSH",
+                                "fingerprint":  "19DE2AC1D9E41B28968005BE29653FB865B19BA5B226170827973EF5768D3260",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:09:03.3240550Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed WALKIE TALKIE After A via bare install. Fresh preflight verified healthy backup evidence, closed ITGMania, and exact pending preview, source, and simfile hashes. The proof-gated installer used byte-exact copy, preserved the original in one verified sibling rollback, migrated the queue to installed-content fingerprint B83D15B7827C047AFAF5E61DDA4D555AEB4C5FC13C0736C6A570476163737605, left the simfile unchanged, and did not restart ITGMania. Post-install presentation, live/preview equality, rollback, queue, UTF-8/no-BOM, record uniqueness, and queue tests passed. This approval is fingerprint-specific; no reusable workflow or scheduled-behavior change was claimed.",
+                                "songPath":  "WALKIE TALKIE",
+                                "fingerprint":  "B83D15B7827C047AFAF5E61DDA4D555AEB4C5FC13C0736C6A570476163737605",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:13:09.1594604Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed After A. Exact preview, source, simfile, backup-log, closed-game, byte-exact install, rollback, and installed-content queue migration checks passed; this is fingerprint-specific and creates no reusable workflow change.",
+                                "songPath":  "ORION.78(AMeuro-MIX)",
+                                "fingerprint":  "EA8E9D1A6CCFD1B441C345AA4EBC68F71D96613C5BA15BF0C18BC939AEEE75CF",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:18:04.1301124Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed BUS★STOP - ONE TWO (LITTLE BITCH) After A via bare install. Fresh preflight verified current backup-log evidence, closed ITGMania, AgentOS freshness, and exact pending preview, source, and simfile hashes. The proof-gated installer used byte-exact copy, preserved the original in one verified sibling rollback, migrated the queue to installed-content fingerprint C7FAC0A36939E507484331D4FB2F8E56DABD1493F4160A353F7E4F959EB9E452, left the simfile unchanged, and did not restart ITGMania. Post-install presentation, live/preview equality, rollback, queue, UTF-8/no-BOM, record uniqueness, temporary cleanup, and queue tests passed. This approval is fingerprint-specific; no reusable workflow or scheduled-behavior change was claimed.",
+                                "songPath":  "ONE TWO (LITTLE BITCH)",
+                                "fingerprint":  "C7FAC0A36939E507484331D4FB2F8E56DABD1493F4160A353F7E4F959EB9E452",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:18:54.1110454Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly selected previously rejected After B by attached filename and requested installation. The byte-identical 1672 x 941 raw PNG was rebound and normalized to an opaque 1920 x 1080 installed proof; this preference overrides the earlier fidelity rejection only for NIGHT IN MOTION.",
+                                "songPath":  "NIGHT IN MOTION",
+                                "fingerprint":  "45FEDAABBDF9859A0C4CDD19638A7035820CD56B624A6AF2E2EDF7960A4F0F9B",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:31:44.7045857Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner preferred the first wide restoration but identified its silhouette anatomical right leg on the viewer-left as too large; a targeted edit slimmed only that leg, and the corrected opaque 1920 x 1080 candidate is bound as SHA-256 39A2A81B6700A1BF45E8DCBF0FEAD49FEEF868478862DC8E1414D97BA49BC8C4.",
+                                "songPath":  "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)",
+                                "fingerprint":  "84D3ECDD74406B895787AF5E7A0B74D48500CF36BEBA7D0B5A1A20A22F0A988F",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:31:48.0095939Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected the previously rejected exec-90cb4d94-e4d9-4c7e-acbd-ed786717afd8.png by exact filename and requested install. The raw opaque 1672 x 941 SHA-256 8E31F262B5BD0422328C12D3556E32573A48EA1713FEAA88D0C15F77AE86C785 was rebound and normalized to installed opaque 1920 x 1080 SHA-256 9551E96A8EE0066C44DBB0A69EF2DEF7BE05C175343812C4B00F776CF2EB582D with verified rollback; this override applies only to never let you down.",
+                                "songPath":  "never let you down",
+                                "fingerprint":  "7DE7CEA98F6DC594702685FA3BFE43597350D8A99CFDD8F1D66BEE731DFD9343",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:36:20.2835213Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly selected the previously rejected raw After A file for this source. Corrected-path recovery, exact-hash rebinding, deterministic 1920 x 1080 normalization, installed-proof migration, and rollback verification succeeded; this overrides fidelity rejection only for this fingerprint and creates no reusable preference.",
+                                "songPath":  "Lupin the 3rd \u002778",
+                                "fingerprint":  "F490A2924225162230E24A02236FDA5B478159D417112859D371C1E399A75B4E",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:37:18.1774862Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected previously rejected raw file exec-5a5698c4-f1c7-43a4-ae3f-4ff27c8c6fd3.png for HABEGALE - MUSIC. Exact-file override was verified byte-identical, normalized to opaque 1920 x 1080, installed with rollback, and retained as fingerprint-specific evidence only; no reusable workflow change was justified.",
+                                "songPath":  "MUSIC",
+                                "fingerprint":  "9F970E6B6C41022070691DD878ECA60D4E8C2885B2508670C34FED70126D8D9A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:39:37.6643906Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly selected a previously rejected raw model output by exact filename and approved installation; rebinding that exact hash and deterministic normalization were valid only for this Make Your Move fingerprint, with no reusable workflow change.",
+                                "songPath":  "Make Your Move",
+                                "fingerprint":  "CF40379F1D6C1FD9B6907B5B93B04F81DA8EDCF7F9694794A2C7744175117C18",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:40:27.4221664Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly named rejected raw Attempt B exec-69620343-7272-424e-8f29-bcd018d5123f.png and said install, overriding the earlier fidelity rejection only for MY SUMMER LOVE. The exact 1672 x 941 SHA-256 53252108FDDBAC2706C70744D9C0B4A209A664045AB4DE3C18E1FBD236F34186 was rebound, normalized, and installed as opaque 1920 x 1080 SHA-256 801B1FB823CFD17FBB7ABD6B98CFFA0B47F35CB2C4BA65E5DE177B683BBE6062 with verified rollback; no reusable workflow or owner-wide preference change is supported.",
+                                "songPath":  "MY SUMMER LOVE",
+                                "fingerprint":  "F89CA773C843BA89A93596BCB9E75A39F6C03B9B9114465214FB10A077E0F88A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:44:52.7334466Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly selected and installed the previously rejected After A for NA-NA; this overrides the visual rejection only for this fingerprint and does not relax faithful-restoration guidance for other artwork.",
+                                "songPath":  "NA-NA",
+                                "fingerprint":  "09EA347FC6FC3D5ADC05909CCDCBAE73E4713EC6E88561DDA560E10140509A0A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:45:11.3639679Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly selected and installed the previously rejected After A for NA-NA; this overrides the visual rejection only for this fingerprint and does not relax faithful-restoration guidance for other artwork.",
+                                "songPath":  "NA-NA",
+                                "fingerprint":  "09EA347FC6FC3D5ADC05909CCDCBAE73E4713EC6E88561DDA560E10140509A0A",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:45:54.4227061Z",
+                                "scope":  "fingerprint",
+                                "summary":  "The owner explicitly selected the previously rejected raw attempt E048D27214A513181E44D2C6E4916526C3521FDC166E33EDEA270BA6E654C187 for installation. Exact-file rebinding, deterministic normalization, rollback proof, and installed-content fingerprint migration succeeded; this override is source-specific and does not justify reusable workflow or aesthetic guidance.",
+                                "songPath":  "LOVE AGAIN TONIGHT~For Melissa MIX~",
+                                "fingerprint":  "A09E946D1921891056CFEB1325CA75ED6BEC6F24E4180AA2302E767BE493158E",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:47:13.1758747Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approval of the sole exact hash-bound After A was proof-gated successfully for this fingerprint: byte-exact installation, verified original rollback, unchanged simfile, installed-content fingerprint migration, and no ITGMania restart. No reusable workflow or scheduled-behavior change was justified.",
+                                "songPath":  "Let the beat hit em!",
+                                "fingerprint":  "CB5EA593E1B0C624084082E16FE0FEC89117BA3FA11B3AC44BB0FE7C4E49E397",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:47:25.5253157Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected the previously rejected raw second output for LIVIN\u0027 LA VIDA LOCA; exact hash rebinding plus the proof-gated normalized installer produced verified 1920 x 1080 live/proof equality and a matching rollback. The override applies only to this installed fingerprint.",
+                                "songPath":  "LIVIN\u0027 LA VIDA LOCA",
+                                "fingerprint":  "BF9284E4A8E0199C55EFA0E3A3ABCF5AF187B00D5ABC73F442A9C3A07A32AE74",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:48:03.7727717Z",
+                                "scope":  "fingerprint",
+                                "summary":  "A repeated install request for exact file exec-90cb4d94-e4d9-4c7e-acbd-ed786717afd8.png was safely treated as a no-op because never let you down is already terminal installed: live, queue source, queue proof, and installed-proof SHA-256 all equal 9551E96A8EE0066C44DBB0A69EF2DEF7BE05C175343812C4B00F776CF2EB582D, with one verified rollback. No second live write or rollback was created.",
+                                "songPath":  "never let you down",
+                                "fingerprint":  "7DE7CEA98F6DC594702685FA3BFE43597350D8A99CFDD8F1D66BEE731DFD9343",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:51:30.3663395Z",
+                                "scope":  "none",
+                                "summary":  "The owner approved the sole corrected After A; the guarded byte-exact installation, refreshed installed-state proof, unchanged simfile, and hash-matching rollback all succeeded. No new reusable lesson was identified.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:55:11.6435080Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner approved the sole displayed After A with bare install. The proof-gated workflow revalidated the exact preview, live-source, and simfile hashes, installed the opaque 1920 x 1080 PNG by byte-exact copy, preserved the original 320 x 240 source in one verified sibling rollback, migrated the decision to the installed-content fingerprint, and left ITGMania closed. This confirms only the exact fingerprint and adds no reusable workflow or aesthetic guidance.",
+                                "songPath":  "Let\u0027s talk it over",
+                                "fingerprint":  "BD3FE38A99E4B9B8F0EC3B188C3B4DB4FD7A0AB91D9C88D6DD835C6787C9ED46",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:55:38.4096500Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected exec-c06dc76f-fb81-4cc0-9c46-ac6fcde822ae.png, overriding the earlier automated fidelity rejection only for LEADING CYBER source fingerprint 3422A91B1631593C4E3BC4387331B21191AB163FBCB90800551B149481527844. Exact raw SHA-256 60C47E085D3571F55B9DC624D04A0129ACCE96583653A6A57C976E57C0414BB9 was normalized and installed as opaque 1920 x 1080 SHA-256 4A20E49F719BBCC9DA1BE11AF1C692CA376D1396E595B5C2A613533F229EBB60 with verified rollback; no reusable workflow or owner-wide preference was inferred.",
+                                "songPath":  "LEADING CYBER",
+                                "fingerprint":  "987EC6A0F214CFB1F73A626CFDC355251B6171320FE42D94DD44FF7EAA10703E",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:56:14.3020217Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected rejected raw file exec-b3ea06b9-5123-4c25-9ae7-c6c9cf131745.png for BUS★STOP - KICK THE CAN, overriding the prior fidelity rejection only for this fingerprint. Exact-path recovery, hash rebinding, normalized installation, rollback proof, and terminal installed-content migration succeeded; no reusable workflow change is justified.",
+                                "songPath":  "KICK THE CAN",
+                                "fingerprint":  "E197506A3234D73BAAECF918F83CDCC82D40CB5ABB198FB8F9FE5532A2A17077",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:56:24.0109450Z",
+                                "scope":  "fingerprint",
+                                "summary":  "First model call returned no accessible artifact. The second raw outpaint repainted the locked face and YOUR LOVE wordmark but supplied usable side material; a deterministic exact-center composite confined generated content to two 240-pixel wings, preserved all 1,555,200 source-derived center pixels, and produced the sole bound opaque 1920 x 1080 candidate.",
+                                "songPath":  "YOUR LOVE",
+                                "fingerprint":  "C6CB439A52CA4B1259D8769BA4343962EB37EFFDC67DC8F05D62EF281068631C",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T01:58:15.9497690Z",
+                                "scope":  "none",
+                                "summary":  "Repeated install request named the same raw KICK THE CAN artifact after its successful installation. Live and queue-proof SHA-256 remain 394DA26468D72F96C6563C201FFB212759E4B7C083AE75B3715BE85961702E2B with one verified rollback and unchanged simfile; no rewrite, second rollback, or reusable lesson was needed.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:24:53.4851252Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected the attached raw 1672 x 941 outpaint over the previously bound exact-center composite for YOUR LOVE. The exact-file override was rebound, normalized to opaque 1920 x 1080, installed with verified rollback, and retained as fingerprint-specific evidence only.",
+                                "songPath":  "YOUR LOVE",
+                                "fingerprint":  "EFB6B06E2FB61E71FF400705A50B1B16CC765EE5619E1B6B758DB9A58B49697F",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:24:55.5807296Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected previously rejected Holic Attempt B by exact filename and requested installation; the exact-file choice overrides the earlier fidelity rejection only for this source, and guarded normalized installation preserved the original rollback and exact installed proof.",
+                                "songPath":  "Holic",
+                                "fingerprint":  "11EE38C56C92029C4DA24852E046BBC091D18EFC1AA3D7A6C2F0DD2DB9A52F3D",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:25:56.6467434Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected the previously rejected Attempt A file for installation; the exact-file choice overrides the automated fidelity rejection only for this HERO source and does not generalize to other artwork.",
+                                "songPath":  "HERO (HAPPY GRANDALE MIX)",
+                                "fingerprint":  "3EA5AAC8426F43075218DF8695A0ABD6B63DD59EAA6B78128E59011D8F255EC8",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:26:01.7778869Z",
+                                "scope":  "none",
+                                "summary":  "Scheduled refresh found no selectable explicit-static fingerprints after current live-state reassessment; no source-specific or reusable lesson was established.",
+                                "songPath":  null,
+                                "fingerprint":  null,
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:26:50.9093001Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected previously rejected After B for NM feat. SUNNY - HIGHER and requested installation; the exact-file selection overrides the automated fidelity rejection only for this fingerprint. Guarded normalized installation, rollback, hash proof, and closed-game verification passed; no reusable workflow change was justified.",
+                                "songPath":  "HIGHER",
+                                "fingerprint":  "64D45A364FB0F1513EFBF21141D159A2198BCD5B3C388C943A277304AD1643D4",
+                                "changedFiles":  {
+
+                                                 },
+                                "validationResult":  null
+                            },
+                            {
+                                "recordedAt":  "2026-08-17T02:26:59.4320448Z",
+                                "scope":  "fingerprint",
+                                "summary":  "Owner explicitly selected the previously rejected raw second output for this exact source. Exact-path correction, byte-identical staging proof, hash rebinding, normalized 1920 x 1080 installation, rollback verification, and installed-content fingerprint migration succeeded; this override is source-specific.",
+                                "songPath":  "IF YOU WERE HERE (B4 ZA BEAT MIX)",
+                                "fingerprint":  "2BCE9E096A28326522F6F2FE983E1D24F3C338C5449AA7A0F3632561504FB2E9",
                                 "changedFiles":  {
 
                                                  },

@@ -2,35 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <title>ThraxOS Arcade Console</title>
+  <title>ThraxOS Control Room</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div class="scanlines" aria-hidden="true"></div>
-  <header class="hero">
-    <div class="brand-mark" aria-hidden="true"><span>&#x25B2;</span><span>&#x25C0;</span><span>&#x25BC;</span><span>&#x25B6;</span></div>
-    <div><p class="eyebrow">THRAXIMUNDAR // LOCAL CONTROL</p><h1>Arcade Console</h1><p class="lede">Every move, clearly mapped. Every dangerous step, approval-gated.</p></div>
-    <div class="local-pill"><i></i> PRIVATE CONTROL PLANE</div>
-  </header>
-  <main>
-    <section class="stats" aria-label="System overview">
-      <div><b id="skillCount">—</b><span>Capabilities</span></div><div><b id="taskCount">—</b><span>Recurring tasks</span></div><div><b>0</b><span>Arbitrary commands</span></div>
-    </section>
-    <nav class="tabs" aria-label="Dashboard sections"><button class="active" data-tab="skills">Skills</button><button data-tab="tasks">Scheduled tasks</button><button data-tab="activity">Activity</button></nav>
-    <section id="skills" class="panel active">
-      <div class="section-head"><div><p class="eyebrow">SELECT YOUR SONG</p><h2>Capability library</h2></div><label class="search"><span>Search</span><input id="search" type="search" placeholder="Search skills, uses, categories…"></label></div>
-      <div id="filters" class="filters"></div><div id="skillGrid" class="skill-grid"></div>
-    </section>
-    <section id="tasks" class="panel">
-      <div class="section-head"><div><p class="eyebrow">KEEP THE BEAT</p><h2>Scheduled tasks</h2></div><button id="newSchedule" class="primary">＋ Schedule task</button></div>
-      <p class="notice">Dashboard schedules run only while this local service is open. They run fixed safe helpers or create review requests; they never alter Windows Task Scheduler or Codex automations.</p>
-      <div id="taskList" class="task-list"></div><h3 class="subhead">Dashboard schedules</h3><div id="scheduleList" class="task-list"></div>
-    </section>
-    <section id="activity" class="panel"><div class="section-head"><div><p class="eyebrow">STAGE RESULTS</p><h2>Recent activity</h2></div></div><div id="history" class="history"></div></section>
-  </main>
-  <dialog id="actionDialog"><form method="dialog"><button class="close" value="cancel" aria-label="Close">×</button></form><div id="dialogBody"></div></dialog>
+  <div class="heart-field" aria-hidden="true">
+    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+  </div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand">
+        <div class="brand-arrows" aria-label="Step chart arrows">
+          <span class="arrow-up">▲</span><span class="arrow-left">◀</span>
+          <span class="arrow-down">▼</span><span class="arrow-right">▶</span>
+        </div>
+        <div><strong>THRAXOS</strong><span>local system</span></div>
+      </div>
+
+      <nav class="nav-list" aria-label="Console sections">
+        <button class="nav-item active" data-tab="skills"><span aria-hidden="true">⌘</span>Capability library</button>
+        <button class="nav-item" data-tab="sessions"><span aria-hidden="true">★</span>Play sessions</button>
+        <button class="nav-item" data-tab="tasks"><span aria-hidden="true">◷</span>Scheduled tasks</button>
+        <button class="nav-item" data-tab="activity"><span aria-hidden="true">≡</span>Activity log</button>
+      </nav>
+
+      <section class="safety-card">
+        <p class="eyebrow">Safe by design</p>
+        <strong>0 arbitrary commands</strong>
+        <p>Actions are allowlisted. Changes that need judgment become review requests.</p>
+      </section>
+
+      <div class="sidebar-footer"><span class="status-dot"></span> Local control plane</div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="screen-player"><span class="player-badge">P1</span><span>THRAXIMUNDAR</span></div>
+        <div class="screen-heading"><p class="eyebrow">SIMPLY LOVE-INSPIRED LOCAL CONSOLE</p><h1 id="pageTitle">Capability Select</h1></div>
+        <div class="connection"><span class="status-dot"></span><span>ITG</span><span class="pad-grid" aria-hidden="true"></span></div>
+      </header>
+
+      <section class="jukebox" aria-labelledby="jukeboxTitle">
+        <div class="sl-titlebar"><span>SELECT MUSIC</span><h2 id="jukeboxTitle">Sleep Jukebox</h2><span id="jukeboxCount">Indexing tracks…</span></div>
+        <div class="jukebox-body">
+          <div class="jukebox-now">
+            <div class="jukebox-leds" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <p class="eyebrow">Now listening</p>
+            <strong id="nowPlaying">Choose a track</strong>
+            <span id="nowPlayingMeta">Search the installed library, then press play.</span>
+            <div class="song-facts" aria-label="Selected track details">
+              <span>GROUP<strong id="jukeboxPack">—</strong></span>
+              <span>RATE<strong>1.00×</strong></span>
+              <span>FORMAT<strong id="jukeboxFormat">LOCAL</strong></span>
+            </div>
+            <canvas id="waveform" width="760" height="114" aria-label="Animated audio waveform"></canvas>
+            <div class="playback-row">
+              <button id="previousTrack" class="jukebox-control" aria-label="Previous track">|◀</button>
+              <button id="togglePlayback" class="jukebox-play" aria-label="Play selected track">▶</button>
+              <button id="nextTrack" class="jukebox-control" aria-label="Next track">▶|</button>
+              <label class="timeline"><span class="sr-only">Track position</span><input id="trackPosition" type="range" min="0" max="100" value="0"></label>
+              <span id="trackTime" class="track-time">0:00 / 0:00</span>
+              <label class="volume"><span aria-hidden="true">◖</span><span class="sr-only">Volume</span><input id="volume" type="range" min="0" max="100" value="80"></label>
+            </div>
+          </div>
+          <div class="jukebox-wheel">
+            <div class="jukebox-tools">
+              <label class="search-field"><span aria-hidden="true">⌕</span><input id="jukeboxSearch" type="search" placeholder="Search installed tracks"></label>
+              <select id="jukeboxFolder" aria-label="Filter by pack"><option value="">All packs</option></select>
+              <button id="shuffleAll" class="button button-secondary">Shuffle all</button>
+              <button id="shuffleFolder" class="button button-secondary">Shuffle folder</button>
+            </div>
+            <div class="wheel-caption"><span>Song wheel</span><span id="jukeboxResults"></span></div>
+            <div id="jukeboxTracks" class="track-wheel" aria-live="polite"><p>Loading installed tracks…</p></div>
+          </div>
+        </div>
+        <audio id="jukeboxAudio" preload="metadata"></audio>
+      </section>
+
+      <section class="overview" aria-label="Console overview">
+        <div class="overview-copy"><p class="eyebrow">System menu</p><h2>Keep the machine moving.</h2><p>Choose a safe route, check the rhythm, and stage the next move.</p></div>
+        <div class="overview-stats">
+          <div class="stat"><strong id="skillCount">—</strong><span>Capabilities</span></div>
+          <div class="stat"><strong id="taskCount">—</strong><span>Recurring tasks</span></div>
+          <div class="stat stat-safe"><strong>Guarded</strong><span>Live changes</span></div>
+        </div>
+      </section>
+
+      <section id="skills" class="view active" aria-labelledby="skillsHeading">
+        <div class="view-header">
+          <div><p class="eyebrow">Choose a route</p><h2 id="skillsHeading">What do you need to do?</h2><p class="muted">Start with a capability. Each one explains its boundaries before you run it.</p></div>
+          <label class="search-field"><span class="sr-only">Search capabilities</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search capabilities"></label>
+        </div>
+        <div class="filter-row" id="filters" aria-label="Filter capabilities"></div>
+        <div id="skillGrid" class="capability-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="sessions" class="view" aria-labelledby="sessionsHeading">
+        <div class="view-header"><div><p class="eyebrow">Recent score evidence</p><h2 id="sessionsHeading">Family play sessions</h2><p class="muted">Kyle, Sam, and Eliza’s last two recorded sessions, with each session’s three highest PercentDP scores.</p></div><div id="sessionsObserved" class="session-observed">Loading…</div></div>
+        <div id="sessionGrid" class="session-grid" aria-live="polite"><p>Reading local score exports…</p></div>
+        <p class="session-method">Sessions are separated by a two-hour gap. Duration is the wall-clock span from the first recorded score start through the final song’s recorded end.</p>
+      </section>
+
+      <section id="tasks" class="view" aria-labelledby="tasksHeading">
+        <div class="view-header">
+          <div><p class="eyebrow">Keep the beat</p><h2 id="tasksHeading">Scheduled tasks</h2><p class="muted">See the runners that already exist, or make a dashboard-only schedule for an allowlisted capability.</p></div>
+          <button id="newSchedule" class="button button-primary"><span aria-hidden="true">＋</span>New schedule</button>
+        </div>
+        <div class="callout"><span aria-hidden="true">i</span><p>Dashboard schedules work only while this local service is open. They use fixed read-only helpers or create review requests; they never change Windows Task Scheduler or Codex automations.</p></div>
+        <div class="list-label"><span>Existing recurring work</span><span id="existingTaskTotal"></span></div>
+        <div id="taskList" class="task-list"></div>
+        <div class="list-label schedule-label"><span>Your dashboard schedules</span><span>Local only</span></div>
+        <div id="scheduleList" class="task-list"></div>
+      </section>
+
+      <section id="activity" class="view" aria-labelledby="activityHeading">
+        <div class="view-header"><div><p class="eyebrow">Stage results</p><h2 id="activityHeading">Recent activity</h2><p class="muted">A compact record of capability runs and review requests from this console.</p></div></div>
+        <div id="history" class="history" aria-live="polite"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="actionDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-top"><div class="dialog-mark" aria-hidden="true">◆</div><form method="dialog"><button class="icon-button" value="cancel" aria-label="Close dialog">×</button></form></div>
+    <div id="dialogBody"></div>
+  </dialog>
   <div id="toast" role="status" aria-live="polite"></div>
   <script src="/app.js"></script>
 </body>

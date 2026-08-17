@@ -206,6 +206,18 @@
 ## 2026-08-16 Arcade Console capability and schedule board
 
 - **Owner-confirmed:** Provide a StepManiaX/DDR-themed, user-friendly web console that shows every ThraxOS skill and current recurring work, collects only predefined inputs, and can schedule allowlisted future work.
+- **Owner-confirmed:** Regenerate the console interface from a clean slate while retaining the same safety boundaries and inherited visual-system preference.
 - **Decision:** Reuse the localhost-first Arcade Console. It exposes fixed read-only helpers directly, turns agent-led and mutating work into review requests, discovers only ThraxOS-scoped Codex automations, and translates known recurring schedules into local-time descriptions.
 - **Decision:** Dashboard-created schedules require an explicit in-page acknowledgement, run only while the console is open, and either invoke a fixed read-only helper or create a review request. They never create arbitrary commands or alter Windows Task Scheduler/Codex automations.
+- **Decision:** Keep the zero-dependency PowerShell host, and use a shadcn/ui-compatible application shell, cards, controls, dialogs, empty states, spacing, and interaction states. StepManiaX directional arrows and restrained neon accents convey the machine theme without replacing the component system.
+- **Owner-confirmed:** Restyle the console to resemble the installed Simply Love interface and add a jukebox for the approved Songs root.
+- **Decision:** Use local Simply Love music-wheel layout and color evidence as visual inspiration while keeping an original, accessible, shadcn/ui-compatible implementation. The Sleep Jukebox indexes only browser-playable audio under `C:\Games\ITGmania\Songs`, exposes opaque catalog IDs rather than paths, supports search plus global/folder shuffle, and streams range-validated audio locally.
 - **Rationale:** The console makes ThraxOS capabilities discoverable and approachable without weakening the host's approval, remote-access, or allowlist boundaries.
+
+## 2026-08-16 Simply Love screen-language refinement
+
+- **Owner-confirmed:** The Arcade Console should be an intentional homage to the installed Simply Love interface, rather than a generic dark DDR dashboard.
+- **Owner-confirmed:** The layered title-screen background should use a dense, fading field of hearts rather than circles; avoid the unrelated bright-red frame treatment.
+- **Observed:** The installed theme's `ScreenSelectMusic` uses a full-width header, dense music-wheel rows, a singular high-contrast selected row, flat black/blue panels, compact status strips, and a small fixed accent palette. Focused public screenshots and the upstream theme describe the same compact, data-first music-select language.
+- **Decision:** Keep the zero-dependency, shadcn/ui-compatible interaction model, but express it through an original `SELECT MUSIC` screen layout: a top system strip, player/status header, compact information pane, dense cyan-selected jukebox wheel, and flat capability/task rows. Do not copy Simply Love assets, fonts, Lua, screenshots, or source code.
+- **Rationale:** This makes the relationship recognizable to the owner who uses Simply Love daily while preserving accessible browser controls, original implementation, and all local-only safety boundaries.

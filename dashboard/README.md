@@ -40,6 +40,21 @@ local subnet. Never port-forward this service or expose it to the public interne
   configuration.
 - Responses omit credentials, profile IDs, serial numbers, and full USB instance
   identifiers.
+- The Sleep Jukebox indexes browser-playable `.mp3`, `.ogg`, `.opus`, and `.wav`
+  files only from `C:\Games\ITGmania\Songs`. It returns display metadata and
+  opaque catalog IDs, never absolute paths; audio requests are revalidated
+  against that root and support byte ranges for normal browser playback. The
+  player uses the browser's native audio output; its animated waveform is
+  decorative and cannot prevent a track from starting.
+- The Play Sessions page reads local `Save\Upload` score exports and profile
+  display-name mappings in memory. It returns only Kyle, Sam, and Eliza's
+  display labels, session aggregates, canonical simfile title/artist, and the
+  top three PercentDP scores. Profile directories and GUIDs never reach the
+  browser. A gap longer than two hours starts a new recorded session; duration
+  is the wall-clock span from the first score timestamp through the final
+  song's recorded end, not active song time. Each ranked result also joins its
+  recorded steps type and difficulty to the current `.ssc` or `.sm` chart and
+  shows both the named difficulty and numeric meter.
 
 ## UI inheritance preflight
 
@@ -50,6 +65,16 @@ is the inherited default; this no-build host may instead preserve its accessible
 component and interaction language when importing the library is not reasonable.
 A StepManiaX/DDR treatment complements that default and is not, by itself, an
 override.
+
+The current implementation is a clean, zero-dependency application shell: a
+responsive navigation rail, capability cards, semantic dialogs, accessible form
+states, task rows, activity history, and small StepManiaX arrow accents. Keep
+that component language consistent when extending the console.
+
+The current visual treatment takes direct local inspiration from the installed
+Simply Love music wheel: flat dark blue-gray panels, compact header strips,
+wheel rows, and its cyan/gold/green/pink status palette. It remains an original
+dashboard implementation rather than copying theme assets or code.
 
 The dashboard reads only installed Codex automations scoped to the ThraxOS
 repository, plus the documented backup schedule. It translates known cron rules
